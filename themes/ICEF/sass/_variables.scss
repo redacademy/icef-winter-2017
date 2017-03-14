@@ -21,8 +21,19 @@ $color__link-hover: midnightblue;
 
 // Typography
 
-$font__main: sans-serif;
-$font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
-$font__pre: "Courier 10 Pitch", Courier, monospace;
+$font__main: "Fira Sans", sans-serif;
+$font__accent: "Oswald", sans-serif;
 $font__line-height-body: 1.5;
 $font__line-height-pre: 1.6;
+
+//ICEF color scheme
+$brand_colour_lightpurple: #852762;
+$brand_colour_darkpurple: #631747;
+$brand_colour_lightgold: #FFEABA;
+$brand_colour_mediumgold: #F2CA6E;
+$brand_colour_darkgold: #B5852F;
+$brand_colour_lightgrey: #898989;
+$brand_colour_darkgrey: #433E3E;
+
+
+
