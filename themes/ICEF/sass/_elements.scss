@@ -4,6 +4,7 @@
 
 html {
 	box-sizing: border-box;
+	height: 100%;
 	@include font-size(1);
 }
 
@@ -14,6 +15,7 @@ html {
 }
 
 body {
+	body: 100%;
 	background: $color__background-body; /* Fallback for when there is no custom background color defined. */
 }
 
@@ -67,4 +69,12 @@ img {
 table {
 	margin: 0 0 $base__space-unit;
 	width: 100%;
+}
+
+p {
+	color: $brand_colour_lightgrey;
+}
+
+h2 {
+	font-family: 'Fira', sans-serif;
 }
