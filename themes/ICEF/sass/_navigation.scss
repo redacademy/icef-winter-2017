@@ -130,3 +130,33 @@ a {
 		width: 50%;
 	}
 }
+
+//NEW CODE//
+
+.screen-reader-text {
+	visibility: hidden;
+}
+
+.main-navigation {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	background-color: white;
+	height: 10vh;
+	border-bottom: 1px solid black;
+
+	.black-logo {
+		margin: 20px;
+	}
+
+	.nav-title {
+		display: inline;
+		text-align: center;
+	}
+
+	.fa-bars{
+		margin: 15px 20px;
+		font-size: 34px;
+	}
+
+}

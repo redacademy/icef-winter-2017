@@ -484,6 +484,27 @@ a {
   text-align: right;
   width: 50%; }
 
+.screen-reader-text {
+  visibility: hidden; }
+
+.main-navigation {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  width: 100%;
+  background-color: white;
+  height: 10vh;
+  border-bottom: 1px solid black; }
+  .main-navigation .black-logo {
+    margin: 20px; }
+  .main-navigation .nav-title {
+    display: inline;
+    text-align: center; }
+  .main-navigation .fa-bars {
+    margin: 15px 20px;
+    font-size: 34px; }
+
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
