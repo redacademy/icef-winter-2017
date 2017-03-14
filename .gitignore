@@ -44,3 +44,4 @@ themes/ICEF/node_modules/*
 # ================== #
 themes/ICEF/gulpfile.js
 themes/ICEF/build/*
+themes/ICEF/style.css
