@@ -137,12 +137,20 @@ a {
 	visibility: hidden;
 }
 
+.logged-in .main-navigation{
+	top: 32px;
+}
+
+.site-header {
+	position: fixed;
+	top: 0; 
+	width: 100%;
+}
+
 .main-navigation {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	position: fixed;
-	top: 0; //Change after...
 	width: 100%;
 	background-color: white;
 	height: 12.5vh;
@@ -199,7 +207,7 @@ a {
 	display: none;
 	width: 100%;
 	height: 100px;
-	background: url(../../images/yellow-dots.svg);
+	background: url(../../images/svg/yellow-dots.svg);
 }
 
 .show-menu {

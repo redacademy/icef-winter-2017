@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="105px" height="105px" viewBox="0 0 105 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Asset_ScrollDown</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Asset_ScrollDown">
+            <circle id="Oval-2" fill="#333030" cx="52.5" cy="52.5" r="52.5"></circle>
+            <g id="ICONS_Arrow" transform="translate(14.000000, 36.000000)">
+                <polygon id="Rectangle-11" fill="#F2CA6E" points="0 0 38.6181641 22.4519998 77 0 77 17.5480002 38.6181641 40 0 17.5480002"></polygon>
+                <polygon id="Rectangle-11" fill="#B5852F" points="38.6181641 22.4519998 77 0 77 17.5480002 38.6181641 40"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="63px" height="63px" viewBox="0 0 63 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>ASSET_Cross</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ASSET_Cross">
+            <path d="M43.1434034,19.1434034 L43.1434034,0 L19.1434034,0 L19.1434034,19.1434034 L-1.70530257e-13,19.1434034 L-1.70530257e-13,43.1434034 L19.1434034,43.1434034 L19.1434034,62.2868069 L43.1434034,62.2868069 L43.1434034,43.1434034 L62.2868069,43.1434034 L62.2868069,19.1434034 L43.1434034,19.1434034 Z" id="Combined-Shape" fill="#852762"></path>
+            <path d="M31,0 L43,0 L43,62.2868069 L31,62.2868069 L31,0 Z M63,18.7566087 L63,43.7566087 L43,43.7566087 L43,18.7566087 L63,18.7566087 Z" id="Combined-Shape" fill="#631747"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="71px" viewBox="0 0 40 71" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>ICONS_Arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TEAM_Legend" transform="translate(0.000000, -6.000000)">
+            <g id="ICONS_Arrow" transform="translate(20.000000, 41.500000) scale(-1, 1) rotate(-90.000000) translate(-20.000000, -41.500000) translate(-15.500000, 21.500000)">
+                <polygon id="Rectangle-11" fill="#F2CA6E" points="0 0 35.6089565 22.4519998 71 0 71 17.5480002 35.6089565 40 0 17.5480002"></polygon>
+                <polygon id="Rectangle-11" fill="#B5852F" points="35.6089565 22.4519998 71 0 71 17.5480002 35.6089565 40"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
