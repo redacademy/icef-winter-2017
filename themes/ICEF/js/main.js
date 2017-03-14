@@ -2,7 +2,7 @@
 
     $('.fa-bars').on('click', function(event){
         event.preventDefault();
-        $('.mobile-menu').toggleClass('hide-menu')
+        $('.menu, .yellow-dot-filler').toggleClass('show-menu')
 
     })
 
