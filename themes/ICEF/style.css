@@ -699,3 +699,9 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+footer .site-info {
+  position: absolute;
+  bottom: 0;
+  font-family: "Fira Sans", sans-serif;
+  color: #FFFFFF;
+  background-color: #333030; }
