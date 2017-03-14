@@ -32,6 +32,15 @@
 					<h2 class="nav-title"> filler title </h2>
 					<i class="fa fa-bars" aria-hidden="true"></i>
 				</nav><!-- #site-navigation -->
+				<ul class="mobile-menu">
+					<li>Home</li>
+					<li>Our Approach</li>
+					<li>Our Work</li>
+					<li>Our Team</li>
+					<li>Updates</li>
+					<li>Internship</li>
+					<li>Donate</li>
+				</ul>
 			</header><!-- #masthead -->
 
 			<div id="content" class="site-content">
