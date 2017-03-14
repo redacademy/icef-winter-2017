@@ -222,6 +222,41 @@ th {
 /*--------------------------------------------------------------
 # Embedded Fonts
 --------------------------------------------------------------*/
+@font-face {
+  font-family: 'Fira';
+  src: url("firasans-bold.eot");
+  src: url("firasans-bold.eot?#iefix") format("embedded-opentype"), url("firasans-bold.woff2") format("woff2"), url("firasans-bold.ttf") format("truetype"), url("firasans-bold.svg#fira_sansbold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Fira';
+  src: url("firasans-regular.eot");
+  src: url("firasans-regular.eot?#iefix") format("embedded-opentype"), url("firasans-regular.woff2") format("woff2"), url("firasans-regular.ttf") format("truetype"), url("firasans-regular.svg#fira_sansregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Oswald';
+  src: url("oswald-bold.eot");
+  src: url("oswald-bold.eot?#iefix") format("embedded-opentype"), url("oswald-bold.woff2") format("woff2"), url("oswald-bold.ttf") format("truetype"), url("oswald-bold.svg#oswaldbold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Oswald';
+  src: url("oswald-medium.eot");
+  src: url("oswald-medium.eot?#iefix") format("embedded-opentype"), url("oswald-medium.woff2") format("woff2"), url("oswald-medium.ttf") format("truetype"), url("oswald-medium.svg#oswaldmedium") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Oswald';
+  src: url("oswald-regular.eot");
+  src: url("oswald-regular.eot?#iefix") format("embedded-opentype"), url("oswald-regular.woff2") format("woff2"), url("oswald-regular.ttf") format("truetype"), url("oswald-regular.svg#oswaldregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -485,6 +520,14 @@ a {
 .screen-reader-text {
   visibility: hidden; }
 
+.logged-in .main-navigation {
+  top: 32px; }
+
+.site-header {
+  position: fixed;
+  top: 0;
+  width: 100%; }
+
 .main-navigation {
   display: -ms-flexbox;
   display: flex;
@@ -537,7 +580,8 @@ a {
   display: none;
   width: 100%;
   height: 100px;
-  background: url(../../images/yellow-dots.svg); }
+  background: url(../../images/svg/yellow-dots.svg); 
+}
 
 .show-menu {
   display: block; }
