@@ -151,6 +151,8 @@ a {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	position: fixed;
+	top: 0; //Change after...
 	width: 100%;
 	background-color: white;
 	height: 12.5vh;
