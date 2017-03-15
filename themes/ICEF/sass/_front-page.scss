@@ -32,14 +32,15 @@
     
     .key-words {
         text-transform: uppercase;
-        padding:  0 25%;
 
         p {
             color: $brand_colour_darkgrey;
             display: inline-block;
             font-weight: bold;
+            padding:  0 25%;
             
             span {
+                padding: 0;
                 width: 100%;
                 display: inline-block;
                 background-color: $brand_colour_lightgold;
