@@ -11,7 +11,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 			<?php the_content(); ?>
-			<p> hello world </p>
+			<img src="<?php echo get_template_directory_uri();?>/images/svg/canada-footer.svg">
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
