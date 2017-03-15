@@ -56,10 +56,10 @@ get_header(); ?>
                 <p>Some of the services and infrastructures available at the TRC:</p>
             </div>
             <div class="icon-block">
-                <img src='' alt='' >
-                <img src='' alt='' >
-                <img src='' alt='' >
-                <img src='' alt='' >
+                <img src='<?php echo get_template_directory_uri();?>/images/svg/health-care-icon.svg' alt='' >
+                <img src='<?php echo get_template_directory_uri();?>/images/svg/coop-farming-icon.svg' alt='' >
+                <img src='<?php echo get_template_directory_uri();?>/images/svg/schooling-icon.svg' alt='' >
+                <img src='<?php echo get_template_directory_uri();?>/images/svg/local-business-icon.svg' alt='' >
             </div>
         </div>
     </section>
