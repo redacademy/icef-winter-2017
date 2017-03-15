@@ -10,3 +10,20 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+
+
+@mixin purple-button {
+	button {
+		height: 50px;
+		width: 150px;
+		border-radius: 8px;
+		display: inline-block;
+		background-color:$brand_colour_lightpurple;
+		color: white;
+		font-family: $font__main;
+		text-transform: uppercase;
+		font-size: 1.5rem;
+		border: none;
+		
+	}
+}
