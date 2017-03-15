@@ -17,7 +17,11 @@ get_header(); ?>
 
 <section class="who-we-are">
     <h3>Who We Are</h3>
+    <img class='cow-farmer' src='<?php echo get_template_directory_uri();?>/images/jpegs/home-who-we-are.jpg' alt='cow-farmer' />
+    <div class="key-words"><p>International <span>Community Empowerment</span> Foundation</p></div>
 </section>
+</div>
+</div>
 
 
 
