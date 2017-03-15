@@ -38,14 +38,17 @@ get_header(); ?>
 
         <div class="research-flex">
             <img src="<?php echo get_template_directory_uri();?>/images/jpegs/home-tekera.jpg" alt="smiling girl">
-            <p>Our efforts are currently focused on the Tekera Resource Centre. The TRC was 
+            <div class='purple-block'>
+                <p>Our efforts are currently focused on the Tekera Resource Centre. The TRC was 
                 founded in January 2006 near Tekera Village, Masaka District, in Southwestern Uganda. 
-            </p>
+                </p>
+            </div>
+
             <div class="gold-block">
                 <p class="front-numbers">100%</p>
                 <p>of the Tekera Resource Centre staff are from Masaka district.</p>
             </div class="white-block">
-            <div>
+            <div class="white-block">
                 <span>
                     <p class="front-numbers">10,000</p>
                     <p>and counting people in the surrounding area have been affected by these services.</p>
@@ -53,16 +56,16 @@ get_header(); ?>
                 <p>Some of the services and infrastructures available at the TRC:</p>
             </div>
             <div class="icon-block">
-                <img src='' alt='' >
-                <img src='' alt='' >
-                <img src='' alt='' >
-                <img src='' alt='' >
+                <img src='<?php echo get_template_directory_uri();?>/images/svg/health-care-icon.svg' alt='' >
+                <img src='<?php echo get_template_directory_uri();?>/images/svg/coop-farming-icon.svg' alt='' >
+                <img src='<?php echo get_template_directory_uri();?>/images/svg/schooling-icon.svg' alt='' >
+                <img src='<?php echo get_template_directory_uri();?>/images/svg/local-business-icon.svg' alt='' >
             </div>
         </div>
     </section>
 
     <section class="our-values">
-        <img src='' alt='' >
+        <img src='<?php echo get_template_directory_uri();?>/images/jpegs/home-our-values.jpg' alt='building-values' >
         <h3>Our Values</h3>
         <p>ICEF Canada is entirely volunteer driven. Since 2008 our administration
             fees have amounted to less than 1% annually and every dollar donated 
@@ -76,32 +79,33 @@ get_header(); ?>
     <div class="yellow-dot-filler"></div>
 
     <section class="key-cornerstones">
-        <h3>Our Key Cornerstones</h3>
+        <h2>Our Key Cornerstones</h2>
 
         <div class="cornerstone-flex">
             <div class='cornerstone-text'>
-                <h2>Eduction</h2>
-                <h4>Tekera Primary School</h4>
+                <h3>Eduction</h3>
+                <p><b>Tekera Primary School</b></p>
                 <p>Is one of the top schools in Masaka.
-                <h4>Vocational School</h4>
+                <p><b>Vocational School</b></p>
                 <p>Allows students the opportunity to learn skills and contribute to the local community</p>
             </div>
 
             <img src='<?php echo get_template_directory_uri();?>/images/jpegs/home-cornerstone-education.jpg' alt='school-pic'>
 
             <div class='cornerstone-text'>
-                <h2>Story</h2>
-                <p>Empowering the citizens to access the markets of Masaka town and even
-                    international markets through a women’s craft entreprenuership
-                    as an example, has been a fundamental part of our work. Poverty
-                    reduction comes from within. 
+                <h3>Local Business</h3>
+                <p> A community is only as healthy as its citizens, 
+                    which is why ICEF Canada and Tekera Resource Centre 
+                    put such value on public health. The Tekera Health Clinc 
+                    Level II has been open for 8 years providing accessible healthcare 
+                    to Tekera Village and an out reach program to the nearby communities.
                 </p>
             </div>
 
             <img src='<?php echo get_template_directory_uri();?>/images/jpegs/our-work-tekera-primary-story.jpg' alt='smiling-kids'>
 
             <div class='cornerstone-text'>
-                <h2>Impact</h2>
+                <h3>Health</h3>
                 <p> A community is only as healthy as its citizens, which is why ICEF Canada
                      and Tekera Resource Centre put such value on public health. 
                      The Tekera Health Clinc Level II has been open for 8 years 

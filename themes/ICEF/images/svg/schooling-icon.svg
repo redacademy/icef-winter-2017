@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="151px" height="150px" viewBox="0 0 151 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Schooling</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="7.58762887" width="59.0642002" height="84.4123711" rx="12"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-3" y="-3" width="65.0642002" height="90.4123711">
+            <rect x="-3" y="4.58762887" width="65.0642002" height="90.4123711" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+        <rect id="path-3" x="4.00435256" y="54.0618557" width="50.054407" height="33.1958763" rx="8"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="50.054407" height="33.1958763" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="12.0130577" y="18.9690722" width="35.0380849" height="15.0309278"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="35.0380849" height="15.0309278" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <rect id="path-7" x="8.00870511" y="0" width="14.0152339" height="6.63917526"></rect>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="14.0152339" height="6.63917526" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <rect id="path-9" x="36.039173" y="0" width="14.0152339" height="6.63917526"></rect>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="14.0152339" height="6.63917526" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+    </defs>
+    <g id="01.-Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.1_DESKTOP_Main" transform="translate(-765.000000, -2936.000000)">
+            <g id="Tekera-Research-Centre-" transform="translate(253.000000, 2310.000000)">
+                <g id="4/8-Programs" transform="translate(0.000000, 626.000000)">
+                    <g id="Schooling" transform="translate(512.000000, 0.000000)">
+                        <g id="ASSET_YCircleFill" transform="translate(0.775968, 0.000000)" fill="#FFEABA">
+                            <ellipse id="Oval-Copy" cx="75.0816104" cy="75" rx="75.0816104" ry="75"></ellipse>
+                        </g>
+                        <g id="Backpack" transform="translate(48.000000, 30.000000)" stroke="#000000">
+                            <use id="Rectangle-2" mask="url(#mask-2)" stroke-width="6" xlink:href="#path-1"></use>
+                            <use id="Rectangle-3" mask="url(#mask-4)" stroke-width="4" xlink:href="#path-3"></use>
+                            <use id="Rectangle-4" mask="url(#mask-6)" stroke-width="4" xlink:href="#path-5"></use>
+                            <path d="M5.85662631,63.5463918 L52.2298907,63.5463918" id="Path-13" stroke-width="2"></path>
+                            <path d="M46.0500544,64.1502899 L46.0500544,70.185567" id="Path-14" stroke-width="2"></path>
+                            <use id="Rectangle-6" mask="url(#mask-8)" stroke-width="4" xlink:href="#path-7"></use>
+                            <use id="Rectangle-6-Copy" mask="url(#mask-10)" stroke-width="4" xlink:href="#path-9"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
