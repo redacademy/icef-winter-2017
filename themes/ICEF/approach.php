@@ -16,11 +16,13 @@ get_header(); ?>
 
 			<?php endwhile; // End of the loop. ?>
 			<!--<?php the_content();?>-->
-			<?php echo CFS()->get('approach_hero');?>
+			<!--<?php echo CFS()->get('approach_hero');?>-->
+			<img src="<?php echo get_template_directory_uri();?>/images/jpegs/our-approach-title2x.jpg" alt="top image">
 			<?php echo CFS()->get('below_hero_text');?>
 			<?php echo CFS()->get('below_self_sustainability');?>
 			<?php echo CFS()->get('below_quote');?>
-			<?php echo CFS()->get('last_picture');?>
+			<!--<?php echo CFS()->get('last_picture');?>-->
+			<img src="<?php echo get_template_directory_uri();?>/images/jpegs/our-approach-bottom-mobile2x.jpg" alt="bottom image">
 			<?php echo CFS()->get('below_last_picture_text');?>
 
 		</main><!-- #main -->
