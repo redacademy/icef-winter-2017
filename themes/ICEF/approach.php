@@ -19,6 +19,8 @@ get_header(); ?>
 			<!--<?php echo CFS()->get('approach_hero');?>-->
 			<img src="<?php echo get_template_directory_uri();?>/images/jpegs/our-approach-title2x.jpg" alt="top image">
 			<?php echo CFS()->get('below_hero_text');?>
+			<img src="<?php echo get_template_directory_uri();?>/images/svg/mobile-swirl.svg" alt="swirly image">
+			<img src="<?php echo get_template_directory_uri();?>/images/svg/our-approach-mobile.svg" alt="swirly image">
 			<?php echo CFS()->get('below_self_sustainability');?>
 			<?php echo CFS()->get('below_quote');?>
 			<!--<?php echo CFS()->get('last_picture');?>-->
