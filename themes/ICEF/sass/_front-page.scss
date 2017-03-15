@@ -175,6 +175,18 @@
                 margin: 0;
                 align-self: center;
             }
+
+            .icon-block {
+                display: flex;
+                flex-wrap: wrap;
+
+                img {
+                    flex-basis: 50%;
+                    height: 130px;
+                    width: auto;
+                    padding: 10px;
+                }
+            }
         }
     }
 
