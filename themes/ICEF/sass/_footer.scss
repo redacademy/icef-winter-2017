@@ -1,7 +1,51 @@
 footer .site-info {
+    display: flex;
+    width: 100%;
     position: absolute;
     bottom: 0;
-    font-family: "Fira Sans", sans-serif;
+    font-family: $font__main;
     color: #FFFFFF;
     background-color: #333030;
+}
+
+.footer-wrapper {
+    display: flex;
+    padding: 20px 275px;
+}
+
+.canada-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.canada-info p, .uganda-info p {
+    // display: flex;
+    line-height: 0;
+    color: #fff;
+    width: 275px;
+}
+
+.uganda-image {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px 0 163px;
+    text-align: center;
+}
+
+// .uganda-info {
+    // display: flex;
+    // width: 275px;
+// }
+
+.footer-text {
+    font-weight: bold;
+    text-transform: uppercase; 
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
 }
