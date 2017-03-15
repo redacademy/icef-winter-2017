@@ -10,7 +10,7 @@
 			</div><!-- #content -->
 
 			<footer id="colophon" class="site-footer" role="contentinfo">
-				<div class="site-info">
+				<div class="site-info icef-footer">
 					<div class = "footer-wrapper">
 						<div class = "canada-image">
 							<img src="<?php echo get_template_directory_uri();?>/images/svg/canada-footer.svg" alt="Image of Canada"><span class = "footer-text">Canada</span>

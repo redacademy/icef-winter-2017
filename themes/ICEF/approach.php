@@ -9,9 +9,19 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+<?php while ( have_posts() ) : the_post(); ?>
 
-			<?php the_content(); ?>
-			<img src="<?php echo get_template_directory_uri();?>/images/svg/canada-footer.svg">
+				<?php get_template_part( 'template-parts/content', 'approach' ); ?>
+						
+
+			<?php endwhile; // End of the loop. ?>
+			<!--<?php the_content();?>-->
+			<?php echo CFS()->get('approach_hero');?>
+			<?php echo CFS()->get('below_hero_text');?>
+			<?php echo CFS()->get('below_self_sustainability');?>
+			<?php echo CFS()->get('below_quote');?>
+			<?php echo CFS()->get('last_picture');?>
+			<?php echo CFS()->get('below_last_picture_text');?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
