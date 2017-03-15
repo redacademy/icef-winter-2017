@@ -28,18 +28,26 @@
 
 .who-we-are {
     text-align: center;
-    text-transform: uppercase;
+    
     
     .key-words {
+        width: 100%;
         text-transform: uppercase;
         position: relative;
-
-        p {
-            color: $brand_colour_darkgrey;
-            display: inline-block;
-            font-weight: bold;
-        }
+        margin: 0;
+        color: $brand_colour_darkgrey;
+        display: inline-block;
+        font-weight: bold;
         
+        span{
+            background-color: $brand_colour_lightgold;
+            // display: block;
+            width: 100%;
+        }   
+    }
+
+    .who-we-are-text{
+
     }
 
 }
