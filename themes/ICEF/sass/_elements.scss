@@ -75,6 +75,7 @@ p {
 	color: $brand_colour_lightgrey;
 }
 
-h2 {
-	font-family: 'Fira', sans-serif;
+h1,h2,h3,h4 {
+	// font-family: 'Fira', sans-serif;
+	text-transform: uppercase;
 }

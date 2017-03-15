@@ -6,27 +6,121 @@
  */
 
 get_header(); ?>
+<div class="front-page-container">
+    <header class="front-page-head">
+        <div class='home-hero'></div>
+        <h2>One Community At a Time</h2>
+        <p>Our vision is a community that can survive holistically 
+            and self-sustainably.</p>
+        <img class="scroll-down" src='<?php echo get_template_directory_uri();?>/images/svg/scroll-down.svg' alt='scroll-down' />
+    </header>
 
-<header class="front-page-head">
-    <div class='home-hero'></div>
-    <h2>One Community At a Time</h2>
-    <p>Our vision is a community that can survive holistically 
-        and self-sustainably.</p>
-    <img class="scroll-down" src='<?php echo get_template_directory_uri();?>/images/svg/scroll-down.svg' alt='scroll-down' />
-</header>
 
-<section class="who-we-are">
-    <h3>Who We Are</h3>
-    <img class='cow-farmer' src='<?php echo get_template_directory_uri();?>/images/jpegs/home-who-we-are.jpg' alt='cow-farmer' />
-    <div class="key-words"><p>International<br><span>Community<br>Empowerment</span><br>Foundation</p></div>
-    <p class="who-we-are-text">We work with communities in Uganda to support their well being and sustainable growth. Our focus is on holistic development,
-        knowing that the only way to truly support a community is through offering 
-        multiple interconnected programs. We stay with the community for as long as 
-        it takes for them to achieve self-sustainability. The community drives this
-        progressive change, as key stakeholders in all planning, implementation, monitoring and evaluation of our work. 
-        No decisions are made without the input of our community. 
-    </p>
-</section>
+    <section class="who-we-are">
+        <h3>Who We Are</h3>
+        <img class='cow-farmer' src='<?php echo get_template_directory_uri();?>/images/jpegs/home-who-we-are.jpg' alt='cow-farmer' />
+        <div class="key-words"><p>International<br><span>Community<br>Empowerment</span><br>Foundation</p></div>
+        <p class="who-we-are-text">We work with communities in Uganda to support their well being and sustainable growth. Our focus is on holistic development,
+            knowing that the only way to truly support a community is through offering 
+            multiple interconnected programs. We stay with the community for as long as 
+            it takes for them to achieve self-sustainability.<br> The community drives this
+            progressive change, as key stakeholders in all planning, implementation, monitoring and evaluation of our work. 
+            No decisions are made without the input of our community. 
+        </p>
+    </section>
+
+
+    <div class="yellow-dot-filler"></div>
+
+
+    <section class='front-tekera-research'>
+        <h3>Tekera research Centre</h3>
+
+        <div class="research-flex">
+            <img src="<?php echo get_template_directory_uri();?>/images/jpegs/home-tekera.jpg" alt="smiling girl">
+            <p>Our efforts are currently focused on the Tekera Resource Centre. The TRC was 
+                founded in January 2006 near Tekera Village, Masaka District, in Southwestern Uganda. 
+            </p>
+            <div class="gold-block">
+                <p class="front-numbers">100%</p>
+                <p>of the Tekera Resource Centre staff are from Masaka district.</p>
+            </div class="white-block">
+            <div>
+                <span>
+                    <p class="front-numbers">10,000</p>
+                    <p>and counting people in the surrounding area have been affected by these services.</p>
+                </span>
+                <p>Some of the services and infrastructures available at the TRC:</p>
+            </div>
+            <div class="icon-block">
+                <img src='' alt='' >
+                <img src='' alt='' >
+                <img src='' alt='' >
+                <img src='' alt='' >
+            </div>
+        </div>
+    </section>
+
+    <section class="our-values">
+        <img src='' alt='' >
+        <h3>Our Values</h3>
+        <p>ICEF Canada is entirely volunteer driven. Since 2008 our administration
+            fees have amounted to less than 1% annually and every dollar donated 
+            goes to the Tekera Resource Centre. We believe that big chances come 
+            when money is spent efficiently and towards the projects that need it the most.
+            As a small but impactful organization we pride ourselves on 100% transparency and direct impact. 
+        </p>
+        <button class="purple-btn">Donate</button>
+    </section>
+
+    <div class="yellow-dot-filler"></div>
+
+    <section class="key-cornerstones">
+        <h3>Our Key Cornerstones</h3>
+
+        <div class="cornerstone-flex">
+            <div class='cornerstone-text'>
+                <h2>Eduction</h2>
+                <h4>Tekera Primary School</h4>
+                <p>Is one of the top schools in Masaka.
+                <h4>Vocational School</h4>
+                <p>Allows students the opportunity to learn skills and contribute to the local community</p>
+            </div>
+
+            <img src='<?php echo get_template_directory_uri();?>/images/jpegs/home-cornerstone-education.jpg' alt='school-pic'>
+
+            <div class='cornerstone-text'>
+                <h2>Story</h2>
+                <p>Empowering the citizens to access the markets of Masaka town and even
+                    international markets through a women’s craft entreprenuership
+                    as an example, has been a fundamental part of our work. Poverty
+                    reduction comes from within. 
+                </p>
+            </div>
+
+            <img src='<?php echo get_template_directory_uri();?>/images/jpegs/our-work-tekera-primary-story.jpg' alt='smiling-kids'>
+
+            <div class='cornerstone-text'>
+                <h2>Impact</h2>
+                <p> A community is only as healthy as its citizens, which is why ICEF Canada
+                     and Tekera Resource Centre put such value on public health. 
+                     The Tekera Health Clinc Level II has been open for 8 years 
+                     providing accessible healthcare to Tekera Village and an out 
+                     reach program to the nearby communities.
+                </p>
+            </div>
+
+            <img src='<?php echo get_template_directory_uri();?>/images/jpegs/our-work-tekera-primary-story.jpg' alt='smiling-kids'>
+
+        </div>
+
+    </section>
+
+    <section class='front-bottom'>
+        <h4>Interested in learning more about the TRC or want to help Tekera?</h4>
+        <button class='purple-btn'>Explore</button>
+        <button class='purple-btn'>Donate</button>
+    </section>
 </div>
 </div>
 
