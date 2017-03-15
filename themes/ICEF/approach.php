@@ -11,7 +11,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 			<?php the_content(); ?>
-			<p> hello world </p>
+			<p> hello world  </p> 
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
