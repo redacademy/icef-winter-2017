@@ -22,9 +22,11 @@ footer .site-info {
     text-align: center;
 }
 
-.canada-info {
-    display: flex;
-    width: 200px;
+.canada-info p, .uganda-info p {
+    // display: flex;
+    line-height: 0;
+    color: #fff;
+    width: 275px;
 }
 
 .uganda-image {
@@ -34,7 +36,17 @@ footer .site-info {
     text-align: center;
 }
 
-.uganda-info {
+// .uganda-info {
+    // display: flex;
+    // width: 275px;
+// }
+
+.footer-text {
+    font-weight: bold;
+    text-transform: uppercase; 
+}
+
+.address {
     display: flex;
-    width: 200px;
+    flex-direction: column;
 }
