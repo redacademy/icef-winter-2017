@@ -11,4 +11,24 @@
   .mobile-swirl{
     padding-bottom:2.5rem;
   }
+  ul{
+    display:flex;
+    flex-direction: column;
+    li{
+      img{
+        width: 50px;
+        margin-right:.5rem;
+      }
+      display: inline-flex;
+      font-family: $font__accent;
+      text-transform: uppercase;
+      font-size:1.25rem;
+      p{
+        color:black;
+      }
+      .tableNumbers{
+        color:$brand_colour_darkgold;
+      }
+    }
+  }
 }
