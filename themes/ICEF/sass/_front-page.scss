@@ -2,12 +2,14 @@
     width: 100%;
     height: 400px;
     text-align: center;
+    margin-top: 12.5vh;
     
     .home-hero {
         width: 100%;
         height: 70%;
-        background: url(../../images/jpegs/home-hero-mobile.png) no-repeat;
-        background-size: cover
+        background: url(../../images/jpegs/home-hero.jpg) no-repeat;
+        background-size: cover;
+        background-position: -100px;
     }
 
     h2 {
@@ -17,5 +19,9 @@
         font-size: 1.25rem;
         color: white;
         text-transform: uppercase;
+    }
+
+    .scroll-down {
+        width: 35px;
     }
 }
