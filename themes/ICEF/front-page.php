@@ -15,8 +15,11 @@ get_header(); ?>
     <img class="scroll-down" src='<?php echo get_template_directory_uri();?>/images/svg/scroll-down.svg' alt='scroll-down' />
 </header>
 
-<section class="whoWeAre">
+<section class="who-we-are">
+    <h3>Who We Are</h3>
 </section>
 
 
-<?php get_footer(); ?>
+
+
+
