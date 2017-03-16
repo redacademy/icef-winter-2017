@@ -561,53 +561,6 @@ a {
       -ms-flex-pack: center;
           justify-content: center;
       position: absolute;
-      top: 0;
-      margin-top: 50px; } }
-  .menu ul {
-    list-style: none;
-    margin: 0;
-    padding-left: 0; }
-    .menu ul li {
-      background-color: #433E3E;
-      border-bottom: 1px solid white;
-      width: 100%;
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-pack: center;
-          justify-content: center;
-      -ms-flex-align: center;
-          align-items: center;
-      height: 12.5vh;
-      text-transform: uppercase; }
-      @media (min-width: 1024px) {
-        .menu ul li {
-          display: inline-block;
-          background-color: transparent;
-          border: none;
-          width: auto;
-          padding: 0 30px; } }
-      .menu ul li a {
-        font-family: "Oswald", sans-serif;
-        color: white;
-        text-decoration: none; }
-  .menu li:last-child a {
-    padding-top: 10px;
-    text-align: center;
-    height: 50px;
-    width: 150px;
-    border-radius: 8px;
-    display: inline-block;
-    background-color: #852762;
-    color: white;
-    font-family: "Fira", sans-serif;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    border: none; }
-  .menu li:last-child a {
-    font-size: 1rem;
-    padding: 3px;
-    width: 100px;
-    height: 30px; }
       top: 0; } }
   .menu li {
     background-color: #433E3E;
@@ -1053,6 +1006,9 @@ li:last-child a {
     .page-template-approach ul li .tableNumbers {
       color: #B5852F; }
 
+.page-template-internship .content-area p {
+  margin: 1.5rem; }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
@@ -1132,7 +1088,7 @@ footer .icef-footer {
   display: flex; }
 
 .canada-wrapper {
-  padding: 0 50px; }
+  padding: 10px 50px 30px 50px; }
 
 .canada-image {
   display: -ms-flexbox;
@@ -1157,12 +1113,17 @@ footer .icef-footer {
       -ms-flex-direction: row;
           flex-direction: row; } }
 
-.canada-info, .uganda-info {
+.canada-info {
   font-size: 14px; }
+
+.uganda-info {
+  padding-left: 8px; }
 
 .canada-info p, .uganda-info p {
   line-height: 0;
-  color: #fff; }
+  color: #fff;
+  margin-bottom: 0;
+  margin-top: 0.25; }
 
 .uganda-image {
   display: -ms-flexbox;
@@ -1172,6 +1133,7 @@ footer .icef-footer {
   -ms-flex-pack: center;
       justify-content: center;
   padding-right: 30px;
+  padding-left: 17px;
   text-align: center; }
 
 .footer-text {
@@ -1185,7 +1147,8 @@ footer .icef-footer {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -ms-flex-direction: column;
-      flex-direction: column; }
+      flex-direction: column;
+  padding-left: 5px; }
 
 .address-line2 {
-  padding-left: 19px; }
+  padding-left: 23px; }

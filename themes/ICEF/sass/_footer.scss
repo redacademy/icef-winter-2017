@@ -7,22 +7,15 @@ footer .icef-footer {
     justify-content: center;
 }
 
-// .footer-wrapper {  // for desktop
-//     display: flex;
-//     flex-wrap: wrap;
-//     justify-content: center;
-//     width: 100%;
-// }
-
 .canada-wrapper, .uganda-wrapper {
     display: flex;
 }
 
 .canada-wrapper {
-    padding: 0 50px;
+    padding: 10px 50px 30px 50px;
 }
 
-.canada-image {  // for desktop
+.canada-image {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,29 +33,29 @@ footer .icef-footer {
     }
 }
 
-.canada-info, .uganda-info {
+.canada-info {
     font-size: 14px;
 }
 
-.canada-info p, .uganda-info p {
-    // display: flex;
-    line-height: 0;
-    color: #fff;
-    // width: 275px; // for desktop
+.uganda-info {
+    padding-left: 8px;
 }
 
-.uganda-image {   // for desktop
+.canada-info p, .uganda-info p {
+    line-height: 0;
+    color: #fff;
+    margin-bottom: 0;
+    margin-top: 0.25;
+}
+
+.uganda-image {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-right: 30px;
+    padding-left: 17px;
     text-align: center;
 }
-
-// .uganda-info { // to remove
-    // display: flex;
-    // width: 275px; 
-// }
 
 .footer-text {
     font-weight: bold;
@@ -76,8 +69,9 @@ footer .icef-footer {
 .address-line {
     display: inline-flex;
     flex-direction: column;
+    padding-left: 5px;
 }
 
 .address-line2 {
-    padding-left: 19px;
+    padding-left: 23px;
 }
