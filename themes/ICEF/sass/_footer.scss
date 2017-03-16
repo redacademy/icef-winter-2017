@@ -4,32 +4,54 @@ footer .icef-footer {
     font-family: $font__main;
     color: #FFFFFF;
     background-color: #333030;
-}
-
-.footer-wrapper {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
-    // padding: 20px 275px;
 }
 
-.canada-image {
+// .footer-wrapper {  // for desktop
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: center;
+//     width: 100%;
+// }
+
+.canada-wrapper, .uganda-wrapper {
+    display: flex;
+}
+
+.canada-wrapper {
+    padding: 0 50px;
+}
+
+.canada-image {  // for desktop
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-right: 30px;
     text-align: center;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    @include desktop {
+        flex-direction: row;
+    }
+}
+
+.canada-info, .uganda-info {
+    font-size: 14px;
 }
 
 .canada-info p, .uganda-info p {
     // display: flex;
     line-height: 0;
     color: #fff;
-    width: 275px;
+    // width: 275px; // for desktop
 }
 
-.uganda-image {
+.uganda-image {   // for desktop
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,9 +59,9 @@ footer .icef-footer {
     text-align: center;
 }
 
-// .uganda-info {
+// .uganda-info { // to remove
     // display: flex;
-    // width: 275px;
+    // width: 275px; 
 // }
 
 .footer-text {
