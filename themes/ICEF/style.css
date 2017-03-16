@@ -634,6 +634,10 @@ li:last-child a {
 .show-menu {
   display: block; }
 
+.front-page-container .front-content-container {
+  width: 80%;
+  margin: 0 auto; }
+
 .front-page-container .front-page-head {
   position: relative;
   width: 100%;
@@ -711,10 +715,15 @@ li:last-child a {
   text-align: center; }
   @media (min-width: 1024px) {
     .front-page-container .who-we-are {
-      border: 1px solid black;
-      border-radius: 30px;
-      width: 80%;
-      margin: 0 auto; } }
+      margin: 0 auto; }
+      .front-page-container .who-we-are .who-purple-border {
+        padding-top: 50px;
+        border: 2px solid #852762;
+        border-bottom: none;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px; }
+      .front-page-container .who-we-are p {
+        width: 100%; } }
   .front-page-container .who-we-are h3 {
     text-transform: uppercase; }
   .front-page-container .who-we-are p {
@@ -725,6 +734,9 @@ li:last-child a {
     position: relative;
     margin: 0;
     display: inline-block; }
+    @media (min-width: 1024px) {
+      .front-page-container .who-we-are .key-words {
+        width: 80%; } }
     .front-page-container .who-we-are .key-words p {
       font-weight: bold; }
     .front-page-container .who-we-are .key-words span {
@@ -738,14 +750,31 @@ li:last-child a {
     padding: 0 15px; }
     @media (min-width: 1024px) {
       .front-page-container .who-we-are .who-we-are-text {
-        border: 1px solid transparent; } }
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 60px; } }
 
 .front-page-container .yellow-dot-filler {
   display: block;
   width: 100%;
-  height: 50px;
+  height: 80px;
   background: url(../../images/svg/yellow-dots.svg);
-  background-size: 500px; }
+  background-size: 700px;
+  border-bottom: 2px solid #852762; }
+  @media (min-width: 1024px) {
+    .front-page-container .yellow-dot-filler {
+      width: 60%;
+      margin: 0 auto; } }
+
+.front-page-container .front-cross {
+  position: relative;
+  left: 47%;
+  bottom: 30px; }
+
+.front-page-container .front-heart {
+  position: relative;
+  left: 48%;
+  bottom: 30px; }
 
 .front-page-container .front-tekera-research h3 {
   text-align: center;

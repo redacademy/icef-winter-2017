@@ -1,5 +1,11 @@
 .front-page-container {
     
+    .front-content-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
     .front-page-head {
         position: relative;
         width: 100%;
@@ -97,10 +103,20 @@
         text-align: center;
 
         @include desktop {
-            border: 1px solid black;
-            border-radius: 30px;
-            width: 80%;
             margin: 0 auto;
+
+            .who-purple-border{
+                padding-top: 50px;
+                border: 2px solid $brand_colour_lightpurple;
+                border-bottom: none;
+                border-top-left-radius: 30px;
+                border-top-right-radius: 30px;
+
+            }
+            
+            p {
+                width: 100%;
+            }
         }
 
         h3{
@@ -118,6 +134,10 @@
             position: relative;
             margin: 0;
             display: inline-block;
+
+            @include desktop {
+                width: 80%;
+            }
 
             p {
                 font-weight: bold;
@@ -137,7 +157,9 @@
             padding: 0 15px;
 
             @include desktop {
-                border: 1px solid rgba(0, 0, 0, 0);
+                width: 80%;
+                margin: 0 auto;
+                margin-bottom: 60px;
             }
         }
     }
@@ -145,9 +167,27 @@
     .yellow-dot-filler {
         display: block;
         width: 100%;
-        height: 50px;
+        height: 80px;
         background: url(../../images/svg/yellow-dots.svg);
-        background-size: 500px;
+        background-size: 700px;
+        border-bottom: 2px solid $brand_colour_lightpurple;
+
+        @include desktop {
+            width: 60%;
+            margin: 0 auto;
+        }
+    }
+
+    .front-cross {
+        position: relative;
+        left: 47%;
+        bottom: 30px;
+    }
+
+    .front-heart {
+        position: relative;
+        left: 48%;
+        bottom: 30px;
     }
 
     .front-tekera-research {
