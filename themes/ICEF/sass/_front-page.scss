@@ -9,7 +9,8 @@
 
         @include desktop {
             margin-top: 0;
-            height: 1000px;
+            margin-bottom: 100px;
+            height: 620px;
         }
 
         .desktop-square {
@@ -35,6 +36,7 @@
             background-position: -100px;
 
             @include desktop {
+                height: 100%;
                 background: url(../../images/jpegs/home-hero2x.jpg) no-repeat;
                 background-size: 100%;
                 background-position: center;
@@ -86,13 +88,20 @@
             @include desktop {
                 width: 105px;
                 position: relative;
-                bottom: 50px;
+                bottom: 60px;
             }
         }
     }
 
     .who-we-are {
         text-align: center;
+
+        @include desktop {
+            border: 1px solid black;
+            border-radius: 30px;
+            width: 80%;
+            margin: 0 auto;
+        }
 
         h3{
             text-transform: uppercase;
@@ -126,6 +135,10 @@
             text-align: left;
             margin-top: 0;
             padding: 0 15px;
+
+            @include desktop {
+                border: 1px solid rgba(0, 0, 0, 0);
+            }
         }
     }
 

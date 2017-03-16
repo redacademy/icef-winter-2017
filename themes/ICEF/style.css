@@ -643,7 +643,8 @@ li:last-child a {
   @media (min-width: 1024px) {
     .front-page-container .front-page-head {
       margin-top: 0;
-      height: 1000px; } }
+      margin-bottom: 100px;
+      height: 620px; } }
   .front-page-container .front-page-head .desktop-square {
     display: none;
     position: absolute;
@@ -664,6 +665,7 @@ li:last-child a {
     background-position: -100px; }
     @media (min-width: 1024px) {
       .front-page-container .front-page-head .home-hero {
+        height: 100%;
         background: url(../../images/jpegs/home-hero2x.jpg) no-repeat;
         background-size: 100%;
         background-position: center; } }
@@ -703,10 +705,16 @@ li:last-child a {
       .front-page-container .front-page-head .scroll-down {
         width: 105px;
         position: relative;
-        bottom: 50px; } }
+        bottom: 60px; } }
 
 .front-page-container .who-we-are {
   text-align: center; }
+  @media (min-width: 1024px) {
+    .front-page-container .who-we-are {
+      border: 1px solid black;
+      border-radius: 30px;
+      width: 80%;
+      margin: 0 auto; } }
   .front-page-container .who-we-are h3 {
     text-transform: uppercase; }
   .front-page-container .who-we-are p {
@@ -728,6 +736,9 @@ li:last-child a {
     text-align: left;
     margin-top: 0;
     padding: 0 15px; }
+    @media (min-width: 1024px) {
+      .front-page-container .who-we-are .who-we-are-text {
+        border: 1px solid transparent; } }
 
 .front-page-container .yellow-dot-filler {
   display: block;
@@ -1012,6 +1023,12 @@ li:last-child a {
 
 .bypostauthor {
   display: block; }
+
+.site-content {
+  margin-top: 12.5vh; }
+  @media (min-width: 1024px) {
+    .site-content {
+      margin-top: 0; } }
 
 .page-template-approach p {
   margin: 1.5rem; }
