@@ -1084,16 +1084,16 @@ footer .icef-footer {
   width: 100%;
   font-family: "Fira", sans-serif;
   color: #FFFFFF;
-  background-color: #333030; }
-
-.footer-wrapper {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  background-color: #333030;
   -ms-flex-pack: center;
-      justify-content: center;
-  width: 100%; }
+      justify-content: center; }
+
+.canada-wrapper, .uganda-wrapper {
+  display: -ms-flexbox;
+  display: flex; }
+
+.canada-wrapper {
+  padding: 0 50px; }
 
 .canada-image {
   display: -ms-flexbox;
@@ -1105,10 +1105,25 @@ footer .icef-footer {
   padding-right: 30px;
   text-align: center; }
 
+.footer-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  padding: 10px 0; }
+  @media (min-width: 1024px) {
+    .footer-wrapper {
+      -ms-flex-direction: row;
+          flex-direction: row; } }
+
+.canada-info, .uganda-info {
+  font-size: 14px; }
+
 .canada-info p, .uganda-info p {
   line-height: 0;
-  color: #fff;
-  width: 275px; }
+  color: #fff; }
 
 .uganda-image {
   display: -ms-flexbox;
