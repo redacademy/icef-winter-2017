@@ -28,6 +28,7 @@
 				<nav id="site-navigation" class="main-navigation" role="navigation">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" class="home-link">
 					<img class="black-logo" src="<?php echo get_template_directory_uri();?>/images/svg/logo-black-medium.svg" rel="logo">
+					<img class="desktop-banner" src="<?php echo get_template_directory_uri();?>/images/svg/banner.svg" alt="banner">
 					</a>
 					<h2 class="nav-title"><?php wp_title('') ?></h2>
 					<i class="fa fa-bars" aria-hidden="true"></i>
