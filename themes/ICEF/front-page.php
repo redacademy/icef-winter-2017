@@ -37,8 +37,9 @@ get_header(); ?>
         </section>
 
 
-        <div class="yellow-dot-filler"></div>
-        <img class="front-cross" src='<?php echo get_template_directory_uri();?>/images/svg/cross.svg' alt='cross' />
+        <div class="yellow-dot-filler">
+            <img class="front-cross" src='<?php echo get_template_directory_uri();?>/images/svg/cross.svg' alt='cross' />
+        </div>
 
 
         <section class='front-tekera-research'>
@@ -96,8 +97,10 @@ get_header(); ?>
             <a class="purple-btn">Donate</a>
         </section>
 
-        <div class="yellow-dot-filler"></div>
-        <img class="front-heart" src='<?php echo get_template_directory_uri();?>/images/svg/heart.svg' alt='heart' />
+        <div class="yellow-dot-filler">
+            <img class="front-heart" src='<?php echo get_template_directory_uri();?>/images/svg/heart.svg' alt='heart' />
+        </div>
+        
 
         <section class="key-cornerstones">
             <h2>Our Key Cornerstones</h2>

@@ -1,9 +1,12 @@
 .front-page-container {
     
-    .front-content-container {
-        width: 80%;
-        margin: 0 auto;
+    @include desktop {
+        .front-content-container {
+            width: 80%;
+            margin: 0 auto;
+        }
     }
+    
 
 
     .front-page-head {
@@ -168,7 +171,7 @@
         display: block;
         width: 100%;
         height: 80px;
-        background: url(../../images/svg/yellow-dots.svg);
+        background: url(../../images/svg/yellow-dots.svg) no-repeat;
         background-size: 700px;
         border-bottom: 2px solid $brand_colour_lightpurple;
 
@@ -181,13 +184,13 @@
     .front-cross {
         position: relative;
         left: 47%;
-        bottom: 30px;
+        top: 50px;
     }
 
     .front-heart {
         position: relative;
         left: 48%;
-        bottom: 30px;
+        top: 50px;
     }
 
     .front-tekera-research {
