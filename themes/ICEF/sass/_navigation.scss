@@ -146,6 +146,17 @@ a {
 	position: fixed;
 	top: 0; 
 	width: 100%;
+
+	@include desktop {
+		position: static;
+	}
+
+	.desktop-banner {
+		position: absolute;
+		top: 0;
+		left: 100px;
+
+	}
 }
 
 .main-navigation {
@@ -159,8 +170,16 @@ a {
 	height: 12.5vh;
 	border-bottom: 1px solid $brand_colour_lightpurple;
 
+	@include desktop {
+		display: none;
+	}
+
 	.black-logo {
 		margin: 0 20px;
+
+		@include desktop {
+			display: none;	
+		}
 	}
 
 	.nav-title {
@@ -172,14 +191,25 @@ a {
 	.fa-bars{
 		margin: 0 20px;
 		font-size: 34px;
-	}
 
+		@include desktop {
+			display: none;	
+		}
+	}
 }
 
 .menu {
 	width: 100%;
 	margin-top: 12.5vh;
 	display: none;
+
+	@include desktop {
+		display: flex;
+		justify-content: center;
+		position: absolute;
+		top: 0;
+		margin-top: 50px;
+	}
 
 	ul {
 		list-style: none;
@@ -196,12 +226,30 @@ a {
 			height: 12.5vh;
 			text-transform: uppercase;
 
+			@include desktop {
+				display: inline-block;
+				background-color: rgba(0, 0, 0, 0);
+				border: none;
+				width: auto;
+				padding: 0 30px;
+			}
+
 			a {
 				font-family: $font__accent;
 				color: white;
 				text-decoration: none;
 			}
 		}
+	}
+
+	li:last-child {
+		@include purple-button;
+		 a {
+			 font-size: 1rem;
+			 padding: 3px;
+			 width: 100px;
+			 height: 30px;
+		 }
 	}
 
 	

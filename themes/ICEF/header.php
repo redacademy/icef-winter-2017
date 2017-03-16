@@ -32,6 +32,7 @@
 					<h2 class="nav-title"><?php wp_title('') ?></h2>
 					<i class="fa fa-bars" aria-hidden="true"></i>
 				</nav><!-- #site-navigation -->
+				<img class="desktop-banner" src="<?php echo get_template_directory_uri();?>/images/svg/banner.svg" alt="banner">
 				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 				<div class="yellow-dot-filler"></div>
 			</header><!-- #masthead -->

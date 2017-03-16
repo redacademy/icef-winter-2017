@@ -19,7 +19,7 @@ get_header(); ?>
     <section class="who-we-are">
         <h3>Who We Are</h3>
         <img class='cow-farmer' src='<?php echo get_template_directory_uri();?>/images/jpegs/home-who-we-are.jpg' alt='cow-farmer' />
-        <div class="key-words"><p>International<br><span>Community<br>Empowerment</span><br>Foundation</p></div>
+        <div class="key-words"><p>International<br><span>Community<br>Empowerment</span>Foundation</p></div>
         <p class="who-we-are-text">We work with communities in Uganda to support their well being and sustainable growth. Our focus is on holistic development,
             knowing that the only way to truly support a community is through offering 
             multiple interconnected programs. We stay with the community for as long as 
@@ -56,10 +56,22 @@ get_header(); ?>
                 <p>Some of the services and infrastructures available at the TRC:</p>
             </div>
             <div class="icon-block">
-                <img src='<?php echo get_template_directory_uri();?>/images/svg/health-care-icon.svg' alt='' >
-                <img src='<?php echo get_template_directory_uri();?>/images/svg/coop-farming-icon.svg' alt='' >
-                <img src='<?php echo get_template_directory_uri();?>/images/svg/schooling-icon.svg' alt='' >
-                <img src='<?php echo get_template_directory_uri();?>/images/svg/local-business-icon.svg' alt='' >
+                <div>
+                    <img src='<?php echo get_template_directory_uri();?>/images/svg/health-care-icon.svg' alt='' >
+                    <p>Health Care</p>
+                </div>
+                <div>                    
+                    <img src='<?php echo get_template_directory_uri();?>/images/svg/coop-farming-icon.svg' alt='' >
+                    <p>Coop Farming</p>
+                </div>
+                <div>                    
+                    <img src='<?php echo get_template_directory_uri();?>/images/svg/schooling-icon.svg' alt='' >
+                    <p>Schooling</p>
+                </div>
+                <div>            
+                    <img src='<?php echo get_template_directory_uri();?>/images/svg/local-business-icon.svg' alt='' >
+                    <p>Local Business</p>
+                </div>
             </div>
         </div>
     </section>
@@ -73,7 +85,7 @@ get_header(); ?>
             when money is spent efficiently and towards the projects that need it the most.
             As a small but impactful organization we pride ourselves on 100% transparency and direct impact. 
         </p>
-        <button class="purple-btn">Donate</button>
+        <a class="purple-btn">Donate</a>
     </section>
 
     <div class="yellow-dot-filler"></div>
@@ -122,8 +134,8 @@ get_header(); ?>
 
     <section class='front-bottom'>
         <h4>Interested in learning more about the TRC or want to help Tekera?</h4>
-        <button class='purple-btn'>Explore</button>
-        <button class='purple-btn'>Donate</button>
+        <a class='purple-btn'>Explore</a>
+        <a class='purple-btn'>Donate</a>
     </section>
 </div>
 </div>

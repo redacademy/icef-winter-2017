@@ -11,9 +11,26 @@
 	margin-right: auto;
 }
 
+//Media Query
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+//Button 
 
 @mixin purple-button {
-	button {
+	a {
+		padding-top: 10px;
+		text-align: center;
 		height: 50px;
 		width: 150px;
 		border-radius: 8px;
