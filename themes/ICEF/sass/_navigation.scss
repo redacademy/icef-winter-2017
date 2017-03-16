@@ -150,6 +150,13 @@ a {
 	@include desktop {
 		position: static;
 	}
+
+	.desktop-banner {
+		position: absolute;
+		top: 0;
+		left: 100px;
+
+	}
 }
 
 .main-navigation {

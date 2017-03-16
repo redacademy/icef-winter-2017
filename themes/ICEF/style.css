@@ -507,6 +507,10 @@ a {
   @media (min-width: 1024px) {
     .site-header {
       position: static; } }
+  .site-header .desktop-banner {
+    position: absolute;
+    top: 0;
+    left: 100px; }
 
 .main-navigation {
   display: -ms-flexbox;
