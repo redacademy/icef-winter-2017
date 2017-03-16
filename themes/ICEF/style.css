@@ -1007,12 +1007,13 @@ li:last-child a {
       color: #B5852F; }
 
 .page-template-internship .content-area {
-  margin-top: 4rem; }
+  margin-top: 5rem; }
   .page-template-internship .content-area p {
     margin: 1.5rem; }
 
 .page-template-internship .yellowBackground {
-  background: #FFEABA; }
+  background: #FFEABA;
+  padding: 1rem 0; }
 
 /*--------------------------------------------------------------
 # Media
