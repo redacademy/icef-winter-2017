@@ -1006,6 +1006,9 @@ li:last-child a {
     .page-template-approach ul li .tableNumbers {
       color: #B5852F; }
 
+.page-template-internship .content-area p {
+  margin: 1.5rem; }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
