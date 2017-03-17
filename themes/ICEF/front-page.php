@@ -9,6 +9,11 @@ get_header(); ?>
 <div class="front-page-container">
     <header class="front-page-head">
         <div class='home-hero'></div>
+        <div class="hero-text">
+            <h2>One Community At a Time</h2>
+            <p>Our vision is a community that can survive holistically 
+                and self-sustainably.</p>
+        </div>
         <img class="scroll-down" src='<?php echo get_template_directory_uri();?>/images/svg/scroll-down.svg' alt='scroll-down' />
     </header>
 
