@@ -12,6 +12,7 @@ get_header(); ?>
 			<div class="yellow-dots-banner">
 				<!--<img src="<?php echo get_template_directory_uri();?>/images/svg/yellow-dots.svg" alt="image of yellow dots on white background">-->
 			</div>
+			<?php echo CFS()->get('donation_description');?>	
 			<?php while ( have_posts() ) : the_post(); ?>
 
 				<?php get_template_part( 'template-parts/content', 'page' ); ?>

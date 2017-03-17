@@ -154,6 +154,10 @@ get_header(); ?>
 
         </section>
 
+        <div class='bottom-arrow'>
+            <img src='<?php echo get_template_directory_uri();?>/images/svg/arrow-icon.svg' alt='down-arrow' >
+        </div>
+
         <section class='front-bottom'>
             <h4>Interested in learning more about the TRC or want to help Tekera?</h4>
             <a class='purple-btn'>Explore</a>
