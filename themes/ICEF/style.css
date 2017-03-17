@@ -619,9 +619,10 @@ li:last-child a {
   border: none; }
 
 li:last-child a {
+  font-family: "Oswald", sans-serif;
   font-size: 1.25rem;
   margin: 0;
-  padding: 6px 0;
+  padding: 10px 0;
   width: 125px;
   height: 45px; }
 
@@ -650,20 +651,8 @@ li:last-child a {
   @media (min-width: 1024px) {
     .front-page-container .front-page-head {
       margin-top: 0;
-      margin-bottom: 100px;
+      margin-bottom: 70px;
       height: 620px; } }
-  .front-page-container .front-page-head .desktop-square {
-    display: none;
-    position: absolute;
-    top: 100px;
-    left: 41%;
-    width: 400px;
-    height: 400px;
-    border: 2px solid #FFFFFF;
-    border-radius: 10px; }
-    @media (min-width: 1024px) {
-      .front-page-container .front-page-head .desktop-square {
-        display: inline-block; } }
   .front-page-container .front-page-head .home-hero {
     width: 100%;
     height: 60%;
@@ -676,43 +665,13 @@ li:last-child a {
         background: url(../../images/jpegs/homepage-hero.png) no-repeat;
         background-size: 100%;
         background-position: center; } }
-  .front-page-container .front-page-head .hero-text {
-    height: 30%; }
-    @media (min-width: 1024px) {
-      .front-page-container .front-page-head .hero-text {
-        position: absolute;
-        top: 250px;
-        left: 200px; }
-        .front-page-container .front-page-head .hero-text p {
-          color: #433E3E;
-          width: 55%;
-          border-top: 1px solid white;
-          text-align: left;
-          padding: 10px 30px 10px 10px; } }
-    .front-page-container .front-page-head .hero-text h2 {
-      font-weight: normal;
-      background-color: #852762;
-      margin: 0;
-      padding: 10px;
-      font-size: 1.25rem;
-      color: white;
-      text-transform: uppercase; }
-      @media (min-width: 1024px) {
-        .front-page-container .front-page-head .hero-text h2 {
-          text-align: left;
-          background-color: transparent;
-          font-size: 3rem;
-          width: 420px;
-          height: 120px;
-          margin-left: 0;
-          line-height: 60px; } }
   .front-page-container .front-page-head .scroll-down {
     width: 35px; }
     @media (min-width: 1024px) {
       .front-page-container .front-page-head .scroll-down {
         width: 105px;
         position: relative;
-        bottom: 60px; } }
+        bottom: 55px; } }
 
 .front-page-container .who-we-are {
   text-align: center; }
@@ -720,11 +679,11 @@ li:last-child a {
     .front-page-container .who-we-are {
       margin: 0 auto; }
       .front-page-container .who-we-are .who-purple-border {
-        padding-top: 50px;
+        padding-top: 70px;
         border: 2px solid #852762;
         border-bottom: none;
-        border-top-left-radius: 30px;
-        border-top-right-radius: 30px; }
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px; }
       .front-page-container .who-we-are p {
         width: 100%; } }
   .front-page-container .who-we-are h3 {
@@ -748,11 +707,15 @@ li:last-child a {
     display: inline-block; }
     @media (min-width: 1024px) {
       .front-page-container .who-we-are .key-words {
-        width: 80%;
+        width: 70%;
         font-size: 2.25rem; } }
     .front-page-container .who-we-are .key-words p {
-      font-weight: bold; }
+      font-weight: bold;
+      margin: 0;
+      padding: 6px;
+      line-height: 36px; }
     .front-page-container .who-we-are .key-words span {
+      padding-top: 0px;
       background-color: #FFEABA;
       display: block;
       margin: 0;
@@ -1034,17 +997,20 @@ li:last-child a {
         -ms-flex-direction: row;
             flex-direction: row; }
         .front-page-container .key-cornerstones .cornerstone-flex img {
-          -ms-flex-preferred-size: 45%;
-              flex-basis: 45%; } }
-    .front-page-container .key-cornerstones .cornerstone-flex .corner-one {
-      -ms-flex-order: 1;
-          order: 1; }
-    .front-page-container .key-cornerstones .cornerstone-flex .corner-two {
-      -ms-flex-order: 4;
-          order: 4; }
-    .front-page-container .key-cornerstones .cornerstone-flex .corner-three {
-      -ms-flex-order: 5;
-          order: 5; }
+          -ms-flex-preferred-size: 60%;
+              flex-basis: 60%; }
+        .front-page-container .key-cornerstones .cornerstone-flex .education, .front-page-container .key-cornerstones .cornerstone-flex .health {
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-preferred-size: 100%;
+              flex-basis: 100%; }
+        .front-page-container .key-cornerstones .cornerstone-flex .local-business {
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-preferred-size: 100%;
+              flex-basis: 100%;
+          -ms-flex-direction: row-reverse;
+              flex-direction: row-reverse; } }
     .front-page-container .key-cornerstones .cornerstone-flex .cornerstone-text {
       -ms-flex-preferred-size: 100%;
           flex-basis: 100%;
@@ -1053,8 +1019,8 @@ li:last-child a {
       padding: 5%; }
       @media (min-width: 1024px) {
         .front-page-container .key-cornerstones .cornerstone-flex .cornerstone-text {
-          -ms-flex-preferred-size: 35%;
-              flex-basis: 35%; } }
+          -ms-flex-preferred-size: 40%;
+              flex-basis: 40%; } }
       .front-page-container .key-cornerstones .cornerstone-flex .cornerstone-text h3 {
         font-size: 2.25rem;
         margin: 0; }
@@ -1269,7 +1235,9 @@ li:last-child a {
   font-family: "Oswald", sans-serif; }
 
 .page-template-internship .rightColumn {
-  width: 70%; }
+  width: 70%; 
+  margin: 1.5rem; }
+
 
 /*--------------------------------------------------------------
 # Media
