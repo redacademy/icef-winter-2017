@@ -9,12 +9,6 @@ get_header(); ?>
 <div class="front-page-container">
     <header class="front-page-head">
         <div class='home-hero'></div>
-        <div class="hero-text">
-            <h2>One Community At a Time</h2>
-            <p>Our vision is a community that can survive holistically 
-                and self-sustainably.</p>
-        </div>
-        <div class='desktop-square'></div>
         <img class="scroll-down" src='<?php echo get_template_directory_uri();?>/images/svg/scroll-down.svg' alt='scroll-down' />
     </header>
 
@@ -47,23 +41,30 @@ get_header(); ?>
 
             <div class="research-flex">
                 <img src="<?php echo get_template_directory_uri();?>/images/jpegs/home-tekera.jpg" alt="smiling girl">
-                <div class='purple-block'>
-                    <p>Our efforts are currently focused on the Tekera Resource Centre. The TRC was 
-                    founded in January 2006 near Tekera Village, Masaka District, in Southwestern Uganda. 
-                    </p>
+
+                <div class='color-block-flex'>
+
+                    <div class='purple-block'>
+                        <p>Our efforts are currently focused on the Tekera Resource Centre. The TRC was 
+                        founded in January 2006 near Tekera Village, Masaka District, in Southwestern Uganda. 
+                        </p>
+                    </div>
+                
+                    <div class="gold-block">
+                        <p class="front-numbers">100%</p>
+                        <p>of the Tekera Resource Centre staff are from Masaka district.</p>
+                    </div>
+
+                    <div class="white-block">
+                        <span>
+                            <p class="front-numbers">10,000</p>
+                            <p>and counting people in the surrounding area have been affected by these services.</p>
+                        </span>
+                        <p>Some of the services and infrastructures available at the TRC:</p>
+                    </div>
+                
                 </div>
 
-                <div class="gold-block">
-                    <p class="front-numbers">100%</p>
-                    <p>of the Tekera Resource Centre staff are from Masaka district.</p>
-                </div class="white-block">
-                <div class="white-block">
-                    <span>
-                        <p class="front-numbers">10,000</p>
-                        <p>and counting people in the surrounding area have been affected by these services.</p>
-                    </span>
-                    <p>Some of the services and infrastructures available at the TRC:</p>
-                </div>
                 <div class="icon-block">
                     <div>
                         <img src='<?php echo get_template_directory_uri();?>/images/svg/health-care-icon.svg' alt='' >
@@ -105,7 +106,7 @@ get_header(); ?>
         <section class="key-cornerstones">
             <h2>Our Key Cornerstones</h2>
 
-            <div class="cornerstone-flex">
+            <div class="cornerstone-flex corner-one">
                 <div class='cornerstone-text'>
                     <h3>Eduction</h3>
                     <p><b>Tekera Primary School</b></p>
@@ -116,7 +117,7 @@ get_header(); ?>
 
                 <img src='<?php echo get_template_directory_uri();?>/images/jpegs/home-cornerstone-education.jpg' alt='school-pic'>
 
-                <div class='cornerstone-text'>
+                <div class='cornerstone-text corner-two'>
                     <h3>Local Business</h3>
                     <p> A community is only as healthy as its citizens, 
                         which is why ICEF Canada and Tekera Resource Centre 
@@ -128,7 +129,7 @@ get_header(); ?>
 
                 <img src='<?php echo get_template_directory_uri();?>/images/jpegs/our-work-tekera-primary-story.jpg' alt='smiling-kids'>
 
-                <div class='cornerstone-text'>
+                <div class='cornerstone-text corner-three'>
                     <h3>Health</h3>
                     <p> A community is only as healthy as its citizens, which is why ICEF Canada
                         and Tekera Resource Centre put such value on public health. 
