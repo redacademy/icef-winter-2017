@@ -656,7 +656,7 @@ li:last-child a {
   .front-page-container .front-page-head .home-hero {
     width: 100%;
     height: 60%;
-    background: url(../../images/jpegs/homepage-hero.jpg) no-repeat;
+    background: url(../../images/jpegs/home-hero.jpg) no-repeat;
     background-size: cover;
     background-position: -100px; }
     @media (min-width: 1024px) {
@@ -665,12 +665,32 @@ li:last-child a {
         background: url(../../images/jpegs/homepage-hero.png) no-repeat;
         background-size: 100%;
         background-position: center; } }
+  .front-page-container .front-page-head .hero-text {
+    height: 30%; }
+    @media (min-width: 1024px) {
+      .front-page-container .front-page-head .hero-text {
+        display: none; }
+        .front-page-container .front-page-head .hero-text p {
+          color: #433E3E;
+          width: 55%;
+          border-top: 1px solid white;
+          text-align: left;
+          padding: 10px 30px 10px 10px; } }
+    .front-page-container .front-page-head .hero-text h2 {
+      font-weight: normal;
+      background-color: #852762;
+      margin: 0;
+      padding: 10px;
+      font-size: 1.25rem;
+      color: white;
+      text-transform: uppercase; }
   .front-page-container .front-page-head .scroll-down {
-    width: 35px; }
+    width: 23px;
+    position: relative;
+    bottom: 5px; }
     @media (min-width: 1024px) {
       .front-page-container .front-page-head .scroll-down {
         width: 105px;
-        position: relative;
         bottom: 55px; } }
 
 .front-page-container .who-we-are {
@@ -687,7 +707,8 @@ li:last-child a {
       .front-page-container .who-we-are p {
         width: 100%; } }
   .front-page-container .who-we-are h3 {
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    margin-top: 0; }
     @media (min-width: 1024px) {
       .front-page-container .who-we-are h3 {
         position: relative;
@@ -704,16 +725,17 @@ li:last-child a {
     text-transform: uppercase;
     position: relative;
     margin: 0;
-    display: inline-block; }
+    display: inline-block;
+    line-height: 8px; }
     @media (min-width: 1024px) {
       .front-page-container .who-we-are .key-words {
         width: 70%;
-        font-size: 2.25rem; } }
+        font-size: 2.25rem;
+        line-height: 36px; } }
     .front-page-container .who-we-are .key-words p {
       font-weight: bold;
       margin: 0;
-      padding: 6px;
-      line-height: 36px; }
+      padding: 6px; }
     .front-page-container .who-we-are .key-words span {
       padding-top: 0px;
       background-color: #FFEABA;
@@ -722,35 +744,32 @@ li:last-child a {
       width: 100%; }
   .front-page-container .who-we-are .who-we-are-text {
     text-align: left;
-    margin-top: 0;
     padding: 0 15px; }
     @media (min-width: 1024px) {
       .front-page-container .who-we-are .who-we-are-text {
-        width: 80%;
-        margin: 0 auto;
+        width: 70%;
+        margin: 30px auto;
         margin-bottom: 60px; } }
 
 .front-page-container .yellow-dot-filler {
   display: block;
   width: 100%;
   height: 80px;
-  background: url(../../images/svg/yellow-dots.svg) no-repeat;
+  background: url(../../images/svg/yellow-dots.svg);
   background-size: 700px;
   border-bottom: 2px solid #852762; }
   @media (min-width: 1024px) {
     .front-page-container .yellow-dot-filler {
-      width: 60%;
+      width: 90%;
       margin: 0 auto; } }
 
-.front-page-container .front-cross {
+.front-page-container .front-cross, .front-page-container .front-heart {
   position: relative;
-  left: 42.5%;
+  left: 42%;
   top: 50px; }
-
-.front-page-container .front-heart {
-  position: relative;
-  left: 42.5%;
-  top: 50px; }
+  @media (min-width: 1024px) {
+    .front-page-container .front-cross, .front-page-container .front-heart {
+      left: 45%; } }
 
 @media (min-width: 1024px) {
   .front-page-container .front-tekera-research {
@@ -934,14 +953,13 @@ li:last-child a {
 
 @media (min-width: 1024px) {
   .front-page-container .our-values {
-    padding: 0 3% 5% 2%; } }
-
-.front-page-container .our-values img {
-  margin: 0 auto;
-  padding: 30px 0 30px 30px;
-  border-top: 2px solid #852762;
-  border-left: 2px solid #852762;
-  border-top-left-radius: 30px; }
+    padding: 0 3% 5% 2%; }
+    .front-page-container .our-values img {
+      margin: 0 auto;
+      padding: 30px 0 30px 30px;
+      border-top: 2px solid #852762;
+      border-left: 2px solid #852762;
+      border-top-left-radius: 30px; } }
 
 .front-page-container .our-values h3 {
   text-align: center; }
@@ -1235,9 +1253,7 @@ li:last-child a {
   font-family: "Oswald", sans-serif; }
 
 .page-template-internship .rightColumn {
-  width: 70%; 
-  margin: 1.5rem; }
-
+  width: 70%; }
 
 /*--------------------------------------------------------------
 # Media
