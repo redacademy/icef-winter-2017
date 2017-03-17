@@ -1,7 +1,47 @@
 .page-template-internship{
   .content-area{
     p{
-      margin:1.5rem;
+      margin:0 1.5rem;
     }
+    // margin-top:5rem;
+  }
+  .yellowBackground{
+    background:$brand_colour_lightgold;
+    // padding: 1rem 0 ;
+    padding-bottom:.25rem;
+    padding-top:.75rem;
+  }
+  .belowSecondImageTitle{
+    font-size:2.25rem;
+    font-family: $font__main;
+    width:80%;
+    font-weight:bold;
+  }
+  .positionText{
+    text-align: center;
+    font-family:$font__accent;
+    font-weight:bold;
+    font-size:1.25rem;
+    // padding: 4rem 0rem;
+    text-transform:uppercase;
+  }
+  .positionAvailability{
+    margin-top:1.75rem;
+    margin-bottom:1.25rem;
+  }
+  .positionTerm, .positionDescription, .positionRequirement{
+    display: flex;
+  }
+  .positionName{
+      font-family:$font__accent;
+      text-transform:uppercase;
+      font-size:1.25rem;
+  }
+  .leftColumn{
+    width:30%;
+    font-family:$font__accent;
+  }
+  .rightColumn{
+    width:70%;
   }
 }
