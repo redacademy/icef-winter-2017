@@ -1,20 +1,34 @@
 .page-template-internship{
   .content-area{
     p{
-      margin:0 1.5rem;
+      margin:1rem 1.5rem;
     }
     // margin-top:5rem;
   }
+  p{
+      color:$brand_colour_darkgrey;
+    }
   .yellowBackground{
     background:$brand_colour_lightgold;
     // padding: 1rem 0 ;
     padding-bottom:.25rem;
     padding-top:.75rem;
   }
+  .secondImage{
+    height:204px;
+    img{
+      height:100%;
+    }
+    
+  }
   .belowSecondImageTitle{
     font-size:2.25rem;
     font-family: $font__main;
     width:80%;
+    p{
+      color:$brand_colour_mediumgold;
+    }
+    line-height:1.2;
     font-weight:bold;
   }
   .positionText{
@@ -31,17 +45,35 @@
   }
   .positionTerm, .positionDescription, .positionRequirement{
     display: flex;
+    padding: 1rem 0rem;
+  }
+  .positionTerm, .positionDescription{
+     border-bottom:solid 1px grey;
   }
   .positionName{
       font-family:$font__accent;
       text-transform:uppercase;
       font-size:1.25rem;
+      p{
+        color:$brand_colour_darkgold;
+      }
   }
   .leftColumn{
     width:30%;
     font-family:$font__accent;
+    text-transform: uppercase;
+    font-weight: bold;
+    // color:black;
   }
   .rightColumn{
     width:70%;
+  }
+  .applyButton{
+    @include purple-button;
+    text-align: center;
+    a{
+      font-family: $font__accent;
+      margin: 4rem;
+    }
   }
 }

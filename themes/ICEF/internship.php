@@ -11,7 +11,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 			<img src="<?php echo CFS()->get('internship_first_image');?>" alt="top image">
 			<?php echo CFS()->get('internship_below_top_image');?>
-			<div>
+			<div class = "secondImage">
 				<img src="<?php echo CFS()->get('internship_second_image');?>" alt="top image">
 			</div>
 			<div class = "yellowBackground">
@@ -30,7 +30,7 @@ get_header(); ?>
 			</div>
 			<div class = "positionTerm">
 				<div class = "leftColumn">
-					<p> Term: </p>
+					<p> Term </p>
 				</div>
 				<div class = "rightColumn">
 					<?php echo CFS()->get('internship_position_term');?>
@@ -38,7 +38,7 @@ get_header(); ?>
 			</div>
 			<div class = "positionDescription">
 				<div class = "leftColumn">
-					<p> Description: </p>
+					<p> Description </p>
 				</div>
 				<div class = "rightColumn">
 					<?php echo CFS()->get('internship_position_description');?>
@@ -46,11 +46,14 @@ get_header(); ?>
 			</div>
 			<div class = "positionRequirement">
 				<div class = "leftColumn">
-					<p> Requirements: </p>
+					<p> Requirements </p>
 				</div>
 				<div class = "rightColumn">
 					<?php echo CFS()->get('internship_position_requirements');?>
 				</div>
+			</div>
+			<div class = "applyButton">
+				<a  href ="">Apply Now</a>
 			</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
