@@ -1113,7 +1113,7 @@ footer .icef-footer {
       -ms-flex-direction: row;
           flex-direction: row; } }
 
-.canada-info {
+.canada-info, .uganda-info {
   font-size: 14px; }
 
 .uganda-info {
