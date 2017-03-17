@@ -1093,14 +1093,46 @@ li:last-child a {
     .page-template-approach ul li .tableNumbers {
       color: #B5852F; }
 
-.page-template-internship .content-area {
-  margin-top: 5rem; }
-  .page-template-internship .content-area p {
-    margin: 1.5rem; }
+.page-template-internship .content-area p {
+  margin: 0 1.5rem; }
 
 .page-template-internship .yellowBackground {
   background: #FFEABA;
-  padding: 1rem 0; }
+  padding-bottom: .25rem;
+  padding-top: .75rem; }
+
+.page-template-internship .belowSecondImageTitle {
+  font-size: 2.25rem;
+  font-family: "Fira", sans-serif;
+  width: 80%;
+  font-weight: bold; }
+
+.page-template-internship .positionText {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+  text-transform: uppercase; }
+
+.page-template-internship .positionAvailability {
+  margin-top: 1.75rem;
+  margin-bottom: 1.25rem; }
+
+.page-template-internship .positionTerm, .page-template-internship .positionDescription, .page-template-internship .positionRequirement {
+  display: -ms-flexbox;
+  display: flex; }
+
+.page-template-internship .positionName {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.25rem; }
+
+.page-template-internship .leftColumn {
+  width: 30%;
+  font-family: "Oswald", sans-serif; }
+
+.page-template-internship .rightColumn {
+  width: 70%; }
 
 /*--------------------------------------------------------------
 # Media

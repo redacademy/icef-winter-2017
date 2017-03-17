@@ -11,20 +11,48 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 			<img src="<?php echo CFS()->get('internship_first_image');?>" alt="top image">
 			<?php echo CFS()->get('internship_below_top_image');?>
-			<img src="<?php echo CFS()->get('internship_second_image');?>" alt="top image">
+			<div>
+				<img src="<?php echo CFS()->get('internship_second_image');?>" alt="top image">
+			</div>
 			<div class = "yellowBackground">
-				<?php echo CFS()->get('internship_below_second_image_title_text');?>
+				<div class = "belowSecondImageTitle">
+					<?php echo CFS()->get('internship_below_second_image_title_text');?>
+				</div>
 				<?php echo CFS()->get('internship_below_second_image_text');?>
 			</div>
-			<?php echo CFS()->get('internship_position_availability');?>
-			<div class = "yellowBackground">
-				<?php echo CFS()->get('internship_position_name');?>
+			<div class = "positionText">
+				<div class = "positionAvailability">
+					<?php echo CFS()->get('internship_position_availability');?>
+				</div>
+				<div class = "positionName yellowBackground">
+					<?php echo CFS()->get('internship_position_name');?>
+				</div>
 			</div>
-			<?php echo CFS()->get('internship_position_term');?>
-			<?php echo CFS()->get('internship_position_description');?>
-			<?php echo CFS()->get('internship_position_requirements');?>
+			<div class = "positionTerm">
+				<div class = "leftColumn">
+					<p> Term: </p>
+				</div>
+				<div class = "rightColumn">
+					<?php echo CFS()->get('internship_position_term');?>
+				</div>
+			</div>
+			<div class = "positionDescription">
+				<div class = "leftColumn">
+					<p> Description: </p>
+				</div>
+				<div class = "rightColumn">
+					<?php echo CFS()->get('internship_position_description');?>
+				</div>
+			</div>
+			<div class = "positionRequirement">
+				<div class = "leftColumn">
+					<p> Requirements: </p>
+				</div>
+				<div class = "rightColumn">
+					<?php echo CFS()->get('internship_position_requirements');?>
+				</div>
+			</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
