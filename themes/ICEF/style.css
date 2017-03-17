@@ -1218,7 +1218,7 @@ li:last-child a {
       margin-top: 0; } }
 
 .page-template-approach p {
-  margin: 1.5rem; }
+  margin: 1rem 1.5rem; }
 
 .page-template-approach .site-main {
   display: -ms-flexbox;
@@ -1226,44 +1226,54 @@ li:last-child a {
   -ms-flex-direction: column;
       flex-direction: column;
   -ms-flex-align: center;
-      align-items: center;
-  padding-top: 5rem; }
+      align-items: center; }
 
 .page-template-approach .mobile-swirl {
   padding-bottom: 2.5rem; }
 
-.page-template-approach ul {
+.page-template-approach .mobile-approach-table {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column; }
-  .page-template-approach ul li {
+  .page-template-approach .mobile-approach-table li {
     display: -ms-inline-flexbox;
     display: inline-flex;
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
     font-size: 1.25rem; }
-    .page-template-approach ul li img {
+    .page-template-approach .mobile-approach-table li img {
       width: 50px;
       margin-right: .5rem; }
-    .page-template-approach ul li p {
+    .page-template-approach .mobile-approach-table li p {
       color: black; }
-    .page-template-approach ul li .tableNumbers {
+    .page-template-approach .mobile-approach-table li .tableNumbers {
       color: #B5852F; }
 
 .page-template-internship .content-area p {
-  margin: 0 1.5rem; }
+  margin: 1rem 1.5rem; }
+
+.page-template-internship p {
+  color: #433E3E; }
 
 .page-template-internship .yellowBackground {
   background: #FFEABA;
   padding-bottom: .25rem;
   padding-top: .75rem; }
 
+.page-template-internship .secondImage {
+  height: 204px; }
+  .page-template-internship .secondImage img {
+    height: 100%; }
+
 .page-template-internship .belowSecondImageTitle {
   font-size: 2.25rem;
   font-family: "Fira", sans-serif;
   width: 80%;
+  line-height: 1.2;
   font-weight: bold; }
+  .page-template-internship .belowSecondImageTitle p {
+    color: #F2CA6E; }
 
 .page-template-internship .positionText {
   text-align: center;
@@ -1278,19 +1288,53 @@ li:last-child a {
 
 .page-template-internship .positionTerm, .page-template-internship .positionDescription, .page-template-internship .positionRequirement {
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  padding: 1rem 0rem; }
+
+.page-template-internship .positionTerm, .page-template-internship .positionDescription {
+  border-bottom: solid 1px grey; }
 
 .page-template-internship .positionName {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-size: 1.25rem; }
+  .page-template-internship .positionName p {
+    color: #B5852F; }
 
 .page-template-internship .leftColumn {
   width: 30%;
-  font-family: "Oswald", sans-serif; }
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold; }
 
 .page-template-internship .rightColumn {
   width: 70%; }
+
+.page-template-internship .applyButton {
+  text-align: center; }
+  .page-template-internship .applyButton a {
+    padding-top: 10px;
+    text-align: center;
+    height: 50px;
+    width: 150px;
+    border-radius: 8px;
+    display: inline-block;
+    background-color: #852762;
+    color: white;
+    font-family: "Fira", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    border: none; }
+  .page-template-internship .applyButton a {
+    font-family: "Oswald", sans-serif;
+    margin: 4rem; }
+
+.page-template-donate .yellow-dots-banner {
+  margin-top: 155px;
+  width: 100%;
+  height: 170px;
+  background: url(../../images/svg/yellow-dots.svg) no-repeat;
+  background-position: center; }
 
 /*--------------------------------------------------------------
 # Media
