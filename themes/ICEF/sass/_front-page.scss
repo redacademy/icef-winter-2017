@@ -5,6 +5,10 @@
             width: 80%;
             margin: 0 auto;
         }
+
+        h3 {
+            font-size: 1.5rem;
+        }
     }
     
 
@@ -40,13 +44,13 @@
         .home-hero {
             width: 100%;
             height: 60%;
-            background: url(../../images/jpegs/home-hero.jpg) no-repeat;
+            background: url(../../images/jpegs/homepage-hero.jpg) no-repeat;
             background-size: cover;
             background-position: -100px;
 
             @include desktop {
                 height: 100%;
-                background: url(../../images/jpegs/home-hero2x.jpg) no-repeat;
+                background: url(../../images/jpegs/homepage-hero.png) no-repeat;
                 background-size: 100%;
                 background-position: center;
             }
@@ -124,6 +128,15 @@
 
         h3{
             text-transform: uppercase;
+
+            @include desktop {
+                position: relative;
+                top: 45px;
+                background-color: white;
+                display: inline-block;
+                padding: 0 20px;
+                font-size: 1.5rem;
+            }
         }
 
         p{
@@ -132,6 +145,7 @@
 
 
         .key-words {
+            font-family: $font__accent;
             width: 100%;
             text-transform: uppercase;
             position: relative;
@@ -140,6 +154,7 @@
 
             @include desktop {
                 width: 80%;
+                font-size: 2.25rem;
             }
 
             p {
@@ -183,17 +198,21 @@
 
     .front-cross {
         position: relative;
-        left: 47%;
+        left: 42.5%;
         top: 50px;
     }
 
     .front-heart {
         position: relative;
-        left: 48%;
+        left: 42.5%;
         top: 50px;
     }
 
     .front-tekera-research {
+
+        @include desktop {
+            margin-top: 80px;
+        }
         
         h3 {
             text-align: center;
@@ -211,84 +230,147 @@
         .research-flex{
             display: flex;
             flex-direction: column;
+            flex-wrap: wrap;
             width: 100%;
-            height: 100%;
+
+            @include desktop {
+                flex-direction: row;
+                height: 700px;
+            }
 
             img {
                 flex-basis: 100%;
-                width: 100%;
-            }
+                object-fit: cover;
 
-            .purple-block {
-                flex-basis: 100%;
-                background-color: $brand_colour_lightpurple;
-                padding: 30px;
-
-                p {
-                    margin:0;
-                    color: white;
-                    text-align: center;
+                @include desktop {
+                    flex-basis: 30%;
+                    height: 70%;
                 }
             }
 
-            .gold-block {
-                flex-basis: 100%;
-                height: 80px;
-                background-color: $brand_colour_darkgold;
+            .color-block-flex {
+                flex-basis: 65%;
                 display: flex;
-                align-items: center;
-                justify-content: center;
-                
-                p {
-                    padding: 0 15px;
-                    color: white;
-                    margin: 0;
-                    display: inline-block;
+                flex-direction: column;
+
+                @include desktop {
+                    height: 70%;
                 }
 
-                .front-numbers{
-                    line-height: 1.5;
-                }
-                
-            }
+                .purple-block {
+                    flex-basis: 100%;
+                    background-color: $brand_colour_lightpurple;
+                    padding: 30px;
 
-            .white-block {
-                flex-basis: 100%;
-                height: 150px;
-                // align-items: center;
-                justify-content: center;
-                flex-wrap: wrap;
+                    @include desktop {
+                        height: 40%;
+                    }
 
-                span {
-                    display: flex;
-
-                    p{
-                        flex-basis: 50%;
-                        text-transform: uppercase;
+                    p {
+                        margin:0;
+                        color: white;
                         text-align: center;
-                        font-size: .56rem;
-                        line-height: 1;
-                        padding: 20px 20px 0 20px;
-                    }
 
-                    .front-numbers {
-                        font-size: 3rem;
+                        @include desktop {
+                            font-size: 1.125rem;
+                            line-height: 30px;
+                            padding: 30px 40px;   
+                            text-align: left;
+                        }
                     }
-                }
-                
-                p {
-                    padding: 0 19%;
-                    text-align: center;
-                    color: #433E3E;
-                    margin: 0;
-                    display: inline-block;
-                    line-height: 23px;
                 }
 
-                .front-numbers{
-                    padding-left: 15px;
+                .gold-block {
+                    flex-basis: 100%;
+                    height: 80px;
+                    background-color: $brand_colour_darkgold;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    @include desktop {
+                        height: 20%;
+                    }
+                    
+                    p {
+                        padding: 0 15px;
+                        color: white;
+                        margin: 0;
+                        display: inline-block;
+
+                        @include desktop {
+                            line-height: 22px;
+                            font-size: 1.125rem;
+                        }
+                    }
+
+                    .front-numbers{
+                        line-height: 1.5;
+
+                        @include desktop {
+                            font-size: 3rem;
+                            padding-left: 40px;
+                        }
+                    }
+                    
                 }
-                
+
+                .white-block {
+                    flex-basis: 100%;
+                    height: 150px;
+                    // align-items: center;
+                    justify-content: center;
+                    flex-wrap: wrap;
+
+                    @include desktop {
+                        height: 40%;
+
+                        p {
+                            font-size: 1rem;
+                        }
+                    }
+
+                    span {
+                        display: flex;
+
+                        p{
+                            flex-basis: 50%;
+                            text-transform: uppercase;
+                            text-align: center;
+                            font-size: .56rem;
+                            line-height: 1;
+                            padding: 20px 20px 0 20px;
+
+                            @include desktop {
+                                font-size: 1.125rem;
+                                padding-left: 0;
+                                font-weight: 600;
+                            }
+                        }
+
+                        .front-numbers {
+                            font-size: 3rem;
+
+                            @include desktop {
+                                font-size: 6.25rem;
+                            }
+                        }
+                    }
+                    
+                    p {
+                        padding: 0 19%;
+                        text-align: center;
+                        color: #433E3E;
+                        margin: 0;
+                        display: inline-block;
+                        line-height: 23px;
+                    }
+
+                    .front-numbers{
+                        padding-left: 15px;
+                    }
+                    
+                }
             }
 
             .front-numbers{
@@ -296,13 +378,21 @@
                 font-weight: bold;
                 margin: 0;
                 align-self: center;
+                font-family: $font__accent;
             }
 
             .icon-block {
+                text-transform: uppercase;
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;
                 padding-bottom: 30px;
+
+                @include desktop {
+                    width: 95%;
+                    padding: 30px 0 0 50px;
+                    margin-left: 20px;
+                }
 
                 div {
                     display: flex;
@@ -310,8 +400,13 @@
                     align-items: center;
                     flex-basis: 40%;
 
+                    @include desktop {
+                        flex-basis: 23%;
+                    }
+
                     p {
                         margin: 0;
+                        color: $brand_colour_darkgrey;
                     }
 
                     img {                        
@@ -327,7 +422,19 @@
     }
 
     .our-values {
-        
+
+        @include desktop {
+            padding: 0 3% 5% 2%;
+        }
+
+        img {
+            margin: 0 auto;
+            padding: 30px 0 30px 30px;
+            border-top: 2px solid $brand_colour_lightpurple;
+            border-left: 2px solid $brand_colour_lightpurple;
+            border-top-left-radius: 30px;
+        }
+
         h3 {
             text-align: center;
         }
@@ -336,8 +443,15 @@
             padding: 0 10%;
         }
 
+        @include purple-button;
         .purple-btn {
             display: none;
+            
+
+            @include desktop {
+                display: block;
+                margin: 0 auto;
+            }
         }
 
         .desktop-only {
@@ -349,6 +463,10 @@
         display: flex;
         flex-wrap: wrap;
 
+        @include desktop {
+            margin: 50px 0;
+        }
+
         h2 {
             text-align: center;
             flex-basis: 100%;
@@ -357,12 +475,37 @@
         .cornerstone-flex {
             display: flex;
             flex-direction: column;
+            flex-wrap: wrap;
+
+            @include desktop {
+                flex-direction: row;
+
+                img {
+                    flex-basis: 45%;
+                }
+            }
+
+            .corner-one {
+                order: 1;
+            }
             
+            .corner-two {
+                order: 4;
+            }
+
+            .corner-three {
+                order: 5;
+            }
+
             .cornerstone-text {
                 flex-basis: 100%;
                 background-color: $brand_colour_lightgold;
                 color: $brand_colour_mediumgold;
                 padding: 5%;
+
+                @include desktop{
+                    flex-basis: 35%;
+                }
 
                 h3 {
                     font-size: 2.25rem;
