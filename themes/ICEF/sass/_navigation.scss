@@ -131,7 +131,10 @@ a {
 	}
 }
 
-//NEW CODE//
+
+
+
+//NEW CODE/////////////////////////////////////////////////
 
 .screen-reader-text {
 	visibility: hidden;
@@ -256,6 +259,7 @@ li:first-child{
 			 display: inline-block;
 			 width: 100%;
 			 height: 100%;
+			 color: transparent;
 		 }
 	}
 }
@@ -267,7 +271,6 @@ li:last-child {
 
 	@include purple-button;
 		a {
-			font-family: $font__accent;
 			font-size: 1.25rem;
 			margin: 0;
 			padding: 10px 0;
