@@ -267,9 +267,10 @@ li:last-child {
 
 	@include purple-button;
 		a {
+			font-family: $font__accent;
 			font-size: 1.25rem;
 			margin: 0;
-			padding: 6px 0;
+			padding: 10px 0;
 			width: 125px;
 			height: 45px;
 		}

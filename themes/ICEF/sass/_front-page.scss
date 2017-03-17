@@ -22,29 +22,15 @@
 
         @include desktop {
             margin-top: 0;
-            margin-bottom: 100px;
+            margin-bottom: 70px;
             height: 620px;
         }
 
-        .desktop-square {
-            display: none;
-            position: absolute;
-            top: 100px;
-            left: 41%;
-            width: 400px;
-            height: 400px;
-            border: 2px solid #FFFFFF;
-            border-radius: 10px;
-
-            @include desktop {
-                display: inline-block;
-            }
-        }
 
         .home-hero {
             width: 100%;
             height: 60%;
-            background: url(../../images/jpegs/homepage-hero.jpg) no-repeat;
+            background: url(../../images/jpegs/home-hero.jpg) no-repeat;
             background-size: cover;
             background-position: -100px;
 
@@ -60,9 +46,7 @@
             height: 30%;
              
             @include desktop {
-                position: absolute;
-                top: 250px;
-                left: 200px;
+                display: none;
 
                 p{
                     color: $brand_colour_darkgrey;
@@ -81,27 +65,17 @@
                 font-size: 1.25rem;
                 color: white;
                 text-transform: uppercase;
-
-                @include desktop {
-                    text-align: left;
-                    background-color: rgba(0, 0, 0, 0);
-                    font-size: 3rem;
-                    width: 420px;
-                    height: 120px;
-                    margin-left: 0;
-                    line-height: 60px;
-                }
             }
-        }
-
+        }        
 
         .scroll-down {
-            width: 35px;
+            width: 23px;
+            position: relative;
+            bottom: 5px;
 
             @include desktop {
                 width: 105px;
-                position: relative;
-                bottom: 60px;
+                bottom: 55px;
             }
         }
     }
@@ -113,11 +87,11 @@
             margin: 0 auto;
 
             .who-purple-border{
-                padding-top: 50px;
+                padding-top: 70px;
                 border: 2px solid $brand_colour_lightpurple;
                 border-bottom: none;
-                border-top-left-radius: 30px;
-                border-top-right-radius: 30px;
+                border-top-left-radius: 50px;
+                border-top-right-radius: 50px;
 
             }
             
@@ -128,6 +102,7 @@
 
         h3{
             text-transform: uppercase;
+            margin-top: 0;
 
             @include desktop {
                 position: relative;
@@ -151,17 +126,22 @@
             position: relative;
             margin: 0;
             display: inline-block;
+            line-height: 8px;
 
             @include desktop {
-                width: 80%;
+                width: 70%;
                 font-size: 2.25rem;
+                line-height: 36px;
             }
 
             p {
                 font-weight: bold;
+                margin: 0;
+                padding: 6px;
             }
             
             span{
+                padding-top: 0px;
                 background-color: $brand_colour_lightgold;
                 display: block;
                 margin: 0;
@@ -171,12 +151,12 @@
 
         .who-we-are-text{
             text-align: left;
-            margin-top: 0;
+            // margin-top: 0;
             padding: 0 15px;
 
             @include desktop {
-                width: 80%;
-                margin: 0 auto;
+                width: 70%;
+                margin: 30px auto;
                 margin-bottom: 60px;
             }
         }
@@ -186,26 +166,24 @@
         display: block;
         width: 100%;
         height: 80px;
-        background: url(../../images/svg/yellow-dots.svg) no-repeat;
+        background: url(../../images/svg/yellow-dots.svg);
         background-size: 700px;
         border-bottom: 2px solid $brand_colour_lightpurple;
 
         @include desktop {
-            width: 60%;
+            width: 90%;
             margin: 0 auto;
         }
     }
 
-    .front-cross {
+    .front-cross, .front-heart {
         position: relative;
-        left: 42.5%;
+        left: 42%;
         top: 50px;
-    }
 
-    .front-heart {
-        position: relative;
-        left: 42.5%;
-        top: 50px;
+        @include desktop {
+            left: 45%;
+        }
     }
 
     .front-tekera-research {
@@ -425,14 +403,14 @@
 
         @include desktop {
             padding: 0 3% 5% 2%;
-        }
-
-        img {
-            margin: 0 auto;
-            padding: 30px 0 30px 30px;
-            border-top: 2px solid $brand_colour_lightpurple;
-            border-left: 2px solid $brand_colour_lightpurple;
-            border-top-left-radius: 30px;
+        
+            img {
+                margin: 0 auto;
+                padding: 30px 0 30px 30px;
+                border-top: 2px solid $brand_colour_lightpurple;
+                border-left: 2px solid $brand_colour_lightpurple;
+                border-top-left-radius: 30px;
+            }
         }
 
         h3 {
@@ -481,20 +459,19 @@
                 flex-direction: row;
 
                 img {
-                    flex-basis: 45%;
-                }
-            }
-
-            .corner-one {
-                order: 1;
-            }
+                        flex-basis: 60%;
+                    }
             
-            .corner-two {
-                order: 4;
-            }
+                .education, .health {
+                    display: flex;
+                    flex-basis: 100%;
+                }
 
-            .corner-three {
-                order: 5;
+                .local-business {
+                    display: flex;
+                    flex-basis: 100%;
+                    flex-direction: row-reverse;
+                }
             }
 
             .cornerstone-text {
@@ -504,7 +481,7 @@
                 padding: 5%;
 
                 @include desktop{
-                    flex-basis: 35%;
+                    flex-basis: 40%;
                 }
 
                 h3 {
