@@ -22,24 +22,10 @@
 
         @include desktop {
             margin-top: 0;
-            margin-bottom: 100px;
+            margin-bottom: 70px;
             height: 620px;
         }
 
-        .desktop-square {
-            display: none;
-            position: absolute;
-            top: 100px;
-            left: 41%;
-            width: 400px;
-            height: 400px;
-            border: 2px solid #FFFFFF;
-            border-radius: 10px;
-
-            @include desktop {
-                display: inline-block;
-            }
-        }
 
         .home-hero {
             width: 100%;
@@ -56,52 +42,13 @@
             }
         }
 
-        .hero-text{
-            height: 30%;
-             
-            @include desktop {
-                position: absolute;
-                top: 250px;
-                left: 200px;
-
-                p{
-                    color: $brand_colour_darkgrey;
-                    width: 55%;
-                    border-top: 1px solid white;
-                    text-align: left;
-                    padding: 10px 30px 10px 10px;
-                }
-            }
-
-            h2 {
-                font-weight: normal;
-                background-color: $brand_colour_lightpurple;
-                margin: 0;
-                padding: 10px;
-                font-size: 1.25rem;
-                color: white;
-                text-transform: uppercase;
-
-                @include desktop {
-                    text-align: left;
-                    background-color: rgba(0, 0, 0, 0);
-                    font-size: 3rem;
-                    width: 420px;
-                    height: 120px;
-                    margin-left: 0;
-                    line-height: 60px;
-                }
-            }
-        }
-
-
         .scroll-down {
             width: 35px;
 
             @include desktop {
                 width: 105px;
                 position: relative;
-                bottom: 60px;
+                bottom: 55px;
             }
         }
     }
@@ -113,11 +60,11 @@
             margin: 0 auto;
 
             .who-purple-border{
-                padding-top: 50px;
+                padding-top: 70px;
                 border: 2px solid $brand_colour_lightpurple;
                 border-bottom: none;
-                border-top-left-radius: 30px;
-                border-top-right-radius: 30px;
+                border-top-left-radius: 50px;
+                border-top-right-radius: 50px;
 
             }
             
@@ -153,15 +100,19 @@
             display: inline-block;
 
             @include desktop {
-                width: 80%;
+                width: 70%;
                 font-size: 2.25rem;
             }
 
             p {
                 font-weight: bold;
+                margin: 0;
+                padding: 6px;
+                line-height: 36px;
             }
             
             span{
+                padding-top: 0px;
                 background-color: $brand_colour_lightgold;
                 display: block;
                 margin: 0;
@@ -481,20 +432,19 @@
                 flex-direction: row;
 
                 img {
-                    flex-basis: 45%;
-                }
-            }
-
-            .corner-one {
-                order: 1;
-            }
+                        flex-basis: 60%;
+                    }
             
-            .corner-two {
-                order: 4;
-            }
+                .education, .health {
+                    display: flex;
+                    flex-basis: 100%;
+                }
 
-            .corner-three {
-                order: 5;
+                .local-business {
+                    display: flex;
+                    flex-basis: 100%;
+                    flex-direction: row-reverse;
+                }
             }
 
             .cornerstone-text {
@@ -504,7 +454,7 @@
                 padding: 5%;
 
                 @include desktop{
-                    flex-basis: 35%;
+                    flex-basis: 40%;
                 }
 
                 h3 {

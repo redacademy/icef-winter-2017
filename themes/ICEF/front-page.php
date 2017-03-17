@@ -17,7 +17,7 @@ get_header(); ?>
             <h3>Who We Are</h3>
             <div class='who-purple-border'>
                 <img class='cow-farmer' src='<?php echo get_template_directory_uri();?>/images/jpegs/home-who-we-are.jpg' alt='cow-farmer' />
-                <div class="key-words"><p>International<br><span>Community<br>Empowerment</span>Foundation</p></div>
+                <div class="key-words"><p>International</p><span><p>Community</p><p>Empowerment</p></span><p>Foundation</p></div>
             </div>
             <div class='who-no-border'>
                 <p class="who-we-are-text">We work with communities in Uganda to support their well being and sustainable growth. Our focus is on holistic development,
@@ -106,40 +106,44 @@ get_header(); ?>
         <section class="key-cornerstones">
             <h2>Our Key Cornerstones</h2>
 
-            <div class="cornerstone-flex corner-one">
-                <div class='cornerstone-text'>
-                    <h3>Eduction</h3>
-                    <p><b>Tekera Primary School</b></p>
-                    <p>Is one of the top schools in Masaka.
-                    <p><b>Vocational School</b></p>
-                    <p>Allows students the opportunity to learn skills and contribute to the local community</p>
+            <div class="cornerstone-flex">
+
+                <div class="education">
+                    <div class='cornerstone-text'>
+                        <h3>Eduction</h3>
+                        <p><b>Tekera Primary School</b></p>
+                        <p>Is one of the top schools in Masaka.
+                        <p><b>Vocational School</b></p>
+                        <p>Allows students the opportunity to learn skills and contribute to the local community</p>
+                    </div>
+                    <img src='<?php echo get_template_directory_uri();?>/images/jpegs/home-cornerstone-education.jpg' alt='school-pic'>
                 </div>
 
-                <img src='<?php echo get_template_directory_uri();?>/images/jpegs/home-cornerstone-education.jpg' alt='school-pic'>
-
-                <div class='cornerstone-text corner-two'>
-                    <h3>Local Business</h3>
-                    <p> A community is only as healthy as its citizens, 
-                        which is why ICEF Canada and Tekera Resource Centre 
-                        put such value on public health. The Tekera Health Clinc 
-                        Level II has been open for 8 years providing accessible healthcare 
-                        to Tekera Village and an out reach program to the nearby communities.
-                    </p>
+                <div class="local-business">
+                    <div class='cornerstone-text'>
+                        <h3>Local Business</h3>
+                        <p> A community is only as healthy as its citizens, 
+                            which is why ICEF Canada and Tekera Resource Centre 
+                            put such value on public health. The Tekera Health Clinc 
+                            Level II has been open for 8 years providing accessible healthcare 
+                            to Tekera Village and an out reach program to the nearby communities.
+                        </p>
+                    </div>
+                    <img src='<?php echo get_template_directory_uri();?>/images/jpegs/our-work-tekera-primary-story.jpg' alt='smiling-kids'>
                 </div>
 
-                <img src='<?php echo get_template_directory_uri();?>/images/jpegs/our-work-tekera-primary-story.jpg' alt='smiling-kids'>
-
-                <div class='cornerstone-text corner-three'>
-                    <h3>Health</h3>
-                    <p> A community is only as healthy as its citizens, which is why ICEF Canada
-                        and Tekera Resource Centre put such value on public health. 
-                        The Tekera Health Clinc Level II has been open for 8 years 
-                        providing accessible healthcare to Tekera Village and an out 
-                        reach program to the nearby communities.
-                    </p>
+                <div class="health">
+                    <div class='cornerstone-text'>
+                        <h3>Health</h3>
+                        <p> A community is only as healthy as its citizens, which is why ICEF Canada
+                            and Tekera Resource Centre put such value on public health. 
+                            The Tekera Health Clinc Level II has been open for 8 years 
+                            providing accessible healthcare to Tekera Village and an out 
+                            reach program to the nearby communities.
+                        </p>
+                    </div>
+                    <img src='<?php echo get_template_directory_uri();?>/images/jpegs/homepage-health.png' alt='health investigators'>
                 </div>
-
-                <img src='<?php echo get_template_directory_uri();?>/images/jpegs/our-work-tekera-primary-story.jpg' alt='smiling-kids'>
 
             </div>
 
