@@ -1312,7 +1312,7 @@ footer .icef-footer {
   display: flex; }
 
 .canada-wrapper {
-  padding: 0 50px; }
+  padding: 10px 50px 30px 50px; }
 
 .canada-image {
   display: -ms-flexbox;
@@ -1340,9 +1340,14 @@ footer .icef-footer {
 .canada-info, .uganda-info {
   font-size: 14px; }
 
+.uganda-info {
+  padding-left: 8px; }
+
 .canada-info p, .uganda-info p {
   line-height: 0;
-  color: #fff; }
+  color: #fff;
+  margin-bottom: 0;
+  margin-top: 0.25; }
 
 .uganda-image {
   display: -ms-flexbox;
@@ -1352,6 +1357,7 @@ footer .icef-footer {
   -ms-flex-pack: center;
       justify-content: center;
   padding-right: 30px;
+  padding-left: 17px;
   text-align: center; }
 
 .footer-text {
@@ -1359,13 +1365,26 @@ footer .icef-footer {
   text-transform: uppercase; }
 
 .fa {
-  padding-right: 11px; }
+  padding-right: 12px; }
+
+.fa-facebook {
+  width: 25px; }
 
 .address-line {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -ms-flex-direction: column;
-      flex-direction: column; }
+      flex-direction: column;
+  padding-left: 5px; }
+  .address-line .address-line-uganda {
+    padding-left: 0px; }
 
 .address-line2 {
-  padding-left: 19px; }
+  padding-left: 23px; }
+
+a:link {
+  color: #fff;
+  text-decoration: none; }
+  a:link:hover, a:link:active, a:link:visited {
+    color: #fff;
+    text-decoration: underline; }
