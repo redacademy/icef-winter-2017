@@ -1,0 +1,18 @@
+.team-type-archive {
+
+    .team-flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .team-member{
+            flex-basis: 20%;
+            height: 400px;
+
+            img {
+                max-height: 100%;
+            }
+        }
+    }
+
+}

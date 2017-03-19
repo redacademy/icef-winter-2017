@@ -20,3 +20,14 @@ function red_starter_body_classes( $classes ) {
 	return $classes;
 }
 add_filter( 'body_class', 'red_starter_body_classes' );
+
+
+function post_list( $query ){
+	if ( is_post_type_archive( 'team_type' ) ){
+        $query->set( 'posts_per_page', 16);
+        $query->set('order', 'ASC');
+        return;
+    }
+}
+add_action( 'pre_get_posts', 'post_list', 1);
+add_action( '', 'post_list', 1);
