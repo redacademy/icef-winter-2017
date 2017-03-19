@@ -14,16 +14,20 @@ get_header(); ?>
 				<?php while ( have_posts() ) : the_post(); ?>
 
 				<div class='team-member'>
-
 					<?php
 					$job = CFS()->get( 'job' );
-					$country = get_the_category();
+					?><p><?php $country ?></p><?php
+
+					$terms = get_the_category();
+					foreach ($terms as $term) :              
+						$country = $term->slug; 
+    				endforeach; 
 
 					if($job == 'President'){?>
 						<img src='<?php echo get_template_directory_uri();?>/images/svg/deco-president.svg' class='job-border' />
 					<?php } else if($job == 'Executive Director'){ ?>
 						<img src='<?php echo get_template_directory_uri();?>/images/svg/deco-exec-director.svg' class='job-border' />
-					<?php } else if($country == 'Uganda'){ ?>
+					<?php } else if($country == 'uganda'){ ?>
 						<img src='<?php echo get_template_directory_uri();?>/images/svg/deco-uganda.svg' class='job-border' />
 					<?php } else { ?>
 						<img src='<?php echo get_template_directory_uri();?>/images/svg/deco-director.svg' class='job-border' />

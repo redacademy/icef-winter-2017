@@ -4,6 +4,8 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        background: url(../../images/svg/our-team-tree.svg) no-repeat;
+        background-position: center;
 
         .team-member{
             flex-basis: 40%;
