@@ -49,7 +49,7 @@ function icef_cpt_team() {
 		'label'                 => __( 'Team Type', 'text_domain' ),
 		'description'           => __( 'Team Type Description', 'text_domain' ),
 		'labels'                => $labels,
-		'supports'              => array( 'custom-fields', ),
+		'supports'              => array( 'custom-fields','title','revisions' ),
 		'taxonomies'            => array( 'category', 'team_tag' ),
 		'hierarchical'          => false,
 		'public'                => true,
