@@ -6,11 +6,55 @@
         justify-content: center;
 
         .team-member{
-            flex-basis: 20%;
-            height: 400px;
+            flex-basis: 40%;
+            height: 325px;
+            margin: 0 5%;
+            text-align: center;
+            text-transform: uppercase;
+            overflow: hidden;
 
-            img {
-                max-height: 100%;
+            @include desktop {
+                flex-basis: 15%;
+                margin: 0 3%;
+                overflow: hidden;
+                height: 350px;
+            }
+
+            p {
+                margin: 0px;
+                
+            }
+
+            .name {
+                font-weight: 600;
+                color: $brand_colour_darkgrey;
+            }
+
+            .job-border {
+                width: 100%;
+                position: relative;
+                top: 35px;
+                z-index: 1;
+            }
+            
+
+            .profile-pic {
+                border: 5px solid $brand_colour_mediumgold;
+                height: 65%;
+                overflow: hidden;
+                margin-bottom: 5px;
+
+                img {
+                    max-width: none;
+                    height: 100%;
+                    position: relative;
+                    right: 10px;
+
+                    @include desktop {
+                        right: 0;
+                        min-width: 100%;
+                    }
+                }
             }
         }
     }
