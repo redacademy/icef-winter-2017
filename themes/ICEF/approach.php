@@ -16,9 +16,35 @@ get_header(); ?>
 				<img src="<?php echo CFS()->get('approach_hero');?>" alt=:"top image">
 			</section>
 			<?php echo CFS()->get('below_hero_text');?>
-			<div class = "desktopSwirl">
+
+			<!--<div class = "desktopSwirl">
 				<img class ="desktop-swirl" src="<?php echo get_template_directory_uri();?>/images/svg/our-approach-wheel.svg" alt="our-approach-wheel">
-			</div>
+			</div>-->
+
+			<section class ="desktopSwirl">
+				<img class ="desktopKoruSwirl" src="<?php echo get_template_directory_uri();?>/images/svg/our-approach-desktop/koru-swirl-des.svg" alt="our-approach-wheel">
+				<div class="wheelText">
+					<p>Self-Sustainability</p>
+				</div>
+				<div class="wheelIcons">
+					<ul class = "swirlIcons">
+						<li> <img src="<?php echo get_template_directory_uri();?>/images/svg/our-approach-desktop/hand-heart-des.svg" alt="Hand-Heart-Icon"><p>Support</p>
+						</li>
+						<li> <img src="<?php echo get_template_directory_uri();?>/images/svg/our-approach-desktop/tractor-des.svg" alt="Tractor-Icon"><p>Economic</p>
+						</li>
+						<li> <img src="<?php echo get_template_directory_uri();?>/images/svg/our-approach-desktop/cap-des.svg" alt="Cap-mob-Icon"><p>Education</p>
+						</li>
+						<li> <img src="<?php echo get_template_directory_uri();?>/images/svg/our-approach-desktop/infrastructure-des.svg" alt="Infrastructure-Icon"><p>Infrastructure</p>
+						</li>
+						<li> <img src="<?php echo get_template_directory_uri();?>/images/svg/our-approach-desktop/social-des.svg" alt="Social-mob-Icon"><p> Social</p>
+						</li>
+						<li> <img src="<?php echo get_template_directory_uri();?>/images/svg/our-approach-desktop/health-des.svg" alt="Health-mob-Icon"><p>Health</p>
+						</li>
+						<li> <img src="<?php echo get_template_directory_uri();?>/images/svg/our-approach-desktop/well-being-des.svg" alt="Well-being-Icon"><p>Well-being</p>
+						</li>
+					</ul>
+				</div>
+			</section>
 			<section class ="swirlAndText">
 				<div class = "mobileSwirl">
 					<img class ="mobile-swirl" src="<?php echo get_template_directory_uri();?>/images/svg/koru-swirl.svg" alt="swirly-image">
