@@ -165,24 +165,30 @@
     .yellow-dot-filler {
         display: block;
         width: 100%;
-        height: 80px;
+        height: 45px;
         background: url(../../images/svg/yellow-dots.svg);
-        background-size: 700px;
+        background-size: 500px;
         border-bottom: 2px solid $brand_colour_lightpurple;
 
         @include desktop {
             width: 90%;
             margin: 0 auto;
+            height: 80px;
+            background-size: 700px;
         }
-    }
+    
 
-    .front-cross, .front-heart {
-        position: relative;
-        left: 42%;
-        top: 50px;
+        .front-cross, .front-heart {
+            position: relative;
+            left: 47%;
+            top: 33px;
+            width: 20px;
 
-        @include desktop {
-            left: 45%;
+            @include desktop {
+                left: 45%;
+                top: 38px;
+                width: 80px;
+            }
         }
     }
 
@@ -318,6 +324,8 @@
                             font-size: .56rem;
                             line-height: 1;
                             padding: 20px 20px 0 20px;
+                            font-weight: 600;
+                            font-size: .7rem;
 
                             @include desktop {
                                 font-size: 1.125rem;
@@ -344,8 +352,8 @@
                         line-height: 23px;
                     }
 
-                    .front-numbers{
                         padding-left: 15px;
+                    .front-numbers{
                     }
                     
                 }
@@ -367,8 +375,8 @@
                 padding-bottom: 30px;
 
                 @include desktop {
-                    width: 95%;
-                    padding: 30px 0 0 50px;
+                    width: 100%;
+                    // padding: 30px 0 0 50px;
                     margin-left: 20px;
                 }
 
@@ -384,6 +392,7 @@
 
                     p {
                         margin: 0;
+                        font-weight: 600;
                         color: $brand_colour_darkgrey;
                     }
 
@@ -418,7 +427,11 @@
         }
         
         p{
-            padding: 0 10%;
+            padding: 10px;
+
+            @include desktop {
+                padding: 0 15%;
+            }
         }
 
         @include purple-button;
@@ -454,22 +467,38 @@
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
-
-            @include desktop {
-                flex-direction: row;
-
-                img {
-                        flex-basis: 60%;
-                    }
+            width: 100%;
             
-                .education, .health {
-                    display: flex;
+
+            .education, .health, .local-business {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+
+                img{
                     flex-basis: 100%;
                 }
 
-                .local-business {
-                    display: flex;
+                .cornerstone-text {
                     flex-basis: 100%;
+                }
+
+                @include desktop {
+                    flex-direction: row;
+                            
+                    img {
+                        flex-basis: 60%;
+                    }
+
+                    .cornerstone-text {
+                        flex-basis: 35%;
+                    }
+                }
+            }
+
+            @include desktop {
+                .local-business{
                     flex-direction: row-reverse;
                 }
             }
@@ -497,16 +526,40 @@
         
     }
 
+    .bottom-arrow {
+        display: none;
+        width: 100%;
+        margin-bottom: 50px;
+
+        @include desktop {
+            display: block;
+        }
+        
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+
     .front-bottom {
         text-align: center;
         padding: 0 15%;
         line-height: 29px;
         margin-bottom: 50px;
 
+        h4 {
+            font-weight: 600;
+            font-size: 1.25rem;
+            line-height: 29px;
+        }
+
         @include purple-button;
 
         a {
             margin: 5px;
+            font-weight: bold;
+            line-height: 36px;
+            font-size: 1.5rem;
         }
     }
 }
