@@ -22,7 +22,15 @@ get_header(); ?>
 					<div class="sponsor-wrapper">
 						<h2 class="sponsor-title"><?php echo CFS()->get('sponsor_title');?></h2>
 						<p class="sponsor-desc"><?php echo CFS()->get('sponsor_description');?></p>
-						<img class="sponsor-image" src="<?php echo get_template_directory_uri();?>/images/svg/gift.svg" alt="Image of a gift">
+						<img src="<?php echo get_template_directory_uri();?>/images/svg/gift.svg" alt="Image of a gift">
+						<div class="sponsor-button-wrapper">
+							<div class="primary-school-button">
+								<a href="">Primary School</a>
+							</div>
+							<div class="vocational-school-button">
+								<a href="">Vocational School</a>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="project-wrapper">

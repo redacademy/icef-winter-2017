@@ -50,8 +50,26 @@
         color: #fff;
     }
 
-    .sponsor-image {
-        fill: #fff;
+    .sponsor-button-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .primary-school-button {
+        
+        @include purple-button;   
+        text-align: center;
+        a {
+            height: 88px;
+        }    
+    }
+
+    .vocational-school-button {
+        @include purple-button;   
+        text-align: center;
+        a {
+            height: 88px;
+        }
     }
 
     .project-wrapper {
