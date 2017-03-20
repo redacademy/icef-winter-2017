@@ -9,13 +9,16 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+			<section class = "pageTitle">
+				<h1>Skilled Interships</h1>
+			</section>
 			<img src="<?php echo CFS()->get('internship_first_image');?>" alt="top image">
 			<?php echo CFS()->get('internship_below_top_image');?>
 			<div class = "desktopFlex">
 				<div class = "secondImage">
 					<img src="<?php echo CFS()->get('internship_second_image');?>" alt="top image">
 				</div>
-				<div class = "yellowBackground">
+				<div class = "yellowBackground yellowBackgroundContent">
 					<div class = "belowSecondImageTitle">
 						<?php echo CFS()->get('internship_below_second_image_title_text');?>
 					</div>

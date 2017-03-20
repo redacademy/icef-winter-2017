@@ -1298,7 +1298,9 @@ li:last-child a {
       color: #B5852F; }
 
 .page-template-internship .content-area {
-  margin: 0 auto; }
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 10rem; }
   .page-template-internship .content-area p {
     margin: 1rem 1.5rem; }
 
@@ -1308,18 +1310,29 @@ li:last-child a {
     display: inline-flex;
     width: 100%; } }
 
+.page-template-internship .pageTitle {
+  display: none; }
+  @media (min-width: 1024px) {
+    .page-template-internship .pageTitle {
+      display: block;
+      border-bottom: solid 2px #852762;
+      margin-bottom: 2rem; }
+      .page-template-internship .pageTitle h1 {
+        margin: 0; } }
+
 .page-template-internship p {
   color: #433E3E; }
+
+.page-template-internship .yellowBackgroundContent {
+  width: 40%; }
 
 .page-template-internship .yellowBackground {
   background: #FFEABA;
   padding-bottom: .25rem;
   padding-top: .75rem; }
 
-.page-template-internship .secondImage {
-  height: 204px; }
-  .page-template-internship .secondImage img {
-    height: 100%; }
+.page-template-internship .secondImage img {
+  height: 100%; }
 
 .page-template-internship .belowSecondImageTitle {
   font-size: 2.25rem;
