@@ -1386,6 +1386,26 @@ li:last-child a {
   -ms-flex-align: center;
       align-items: center; }
 
+.page-template-donate .donate-wrapper {
+  display: -ms-flexbox;
+  display: flex; }
+
+.page-template-donate .donate-trc-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+
+.page-template-donate .sponsor-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+
+.page-template-donate .project-wrapper {
+  display: -ms-flexbox;
+  display: flex; }
+
 .page-template-donate .yellow-dots-banner {
   margin-top: 155px;
   width: 100%;
