@@ -1575,7 +1575,9 @@ a {
     text-transform: none; }
   .page-template-donate .donate-wrapper {
     display: -ms-flexbox;
-    display: flex; }
+    display: flex;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap; }
   .page-template-donate .donate-trc-wrapper {
     display: -ms-flexbox;
     display: flex;
@@ -1611,20 +1613,64 @@ a {
       color: #B5852F; }
   .page-template-donate .sponsor-desc {
     color: #fff; }
-  .page-template-donate .sponsor-image {
-    fill: #fff; }
+  .page-template-donate .sponsor-button-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center; }
+  .page-template-donate .primary-school-button {
+    text-align: center; }
+    .page-template-donate .primary-school-button a {
+      padding-top: 10px;
+      text-align: center;
+      height: 50px;
+      width: 150px;
+      border-radius: 8px;
+      display: inline-block;
+      background-color: #852762;
+      color: white;
+      font-family: "Oswald", sans-serif;
+      text-transform: uppercase;
+      font-size: 1.5rem;
+      border: none; }
+    .page-template-donate .primary-school-button a {
+      height: 88px; }
+  .page-template-donate .vocational-school-button {
+    text-align: center; }
+    .page-template-donate .vocational-school-button a {
+      padding-top: 10px;
+      text-align: center;
+      height: 50px;
+      width: 150px;
+      border-radius: 8px;
+      display: inline-block;
+      background-color: #852762;
+      color: white;
+      font-family: "Oswald", sans-serif;
+      text-transform: uppercase;
+      font-size: 1.5rem;
+      border: none; }
+    .page-template-donate .vocational-school-button a {
+      height: 88px; }
   .page-template-donate .project-wrapper {
     display: -ms-flexbox;
-    display: flex; }
+    display: flex;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap; }
   .page-template-donate .project-wrapper img {
-    width: 60%;
+    width: 100%;
     height: 60%; }
   .page-template-donate .yellow-dots-banner {
-    margin-top: 155px;
     width: 100%;
-    height: 170px;
+    height: 80px;
     background: url(../../images/svg/yellow-dots.svg) no-repeat;
     background-position: center; }
+  .page-template-donate .icef-donor {
+    font-size: 2rem;
+    color: #000; }
+  .page-template-donate .donor-number {
+    font-size: 5rem;
+    color: #631747; }
 
 /*--------------------------------------------------------------
 # Media
