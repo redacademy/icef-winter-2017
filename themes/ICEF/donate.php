@@ -22,6 +22,7 @@ get_header(); ?>
 					<div class="sponsor-wrapper">
 						<h2 class="sponsor-title"><?php echo CFS()->get('sponsor_title');?></h2>
 						<p class="sponsor-desc"><?php echo CFS()->get('sponsor_description');?></p>
+						<img class="sponsor-image" src="<?php echo get_template_directory_uri();?>/images/svg/gift.svg" alt="Image of a gift">
 					</div>
 				</div>
 				<div class="project-wrapper">

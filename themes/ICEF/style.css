@@ -1586,7 +1586,14 @@ a {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
-        flex-direction: column; }
+        flex-direction: column;
+    background-color: #F2CA6E; }
+    .page-template-donate .sponsor-wrapper .sponsor-title {
+      color: #B5852F; }
+  .page-template-donate .sponsor-desc {
+    color: #fff; }
+  .page-template-donate .sponsor-image {
+    fill: #fff; }
   .page-template-donate .project-wrapper {
     display: -ms-flexbox;
     display: flex; }
