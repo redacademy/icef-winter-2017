@@ -1580,9 +1580,8 @@ a {
     width: 60%;
     height: 60%; }
   .page-template-donate .yellow-dots-banner {
-    margin-top: 155px;
     width: 100%;
-    height: 170px;
+    height: 80px;
     background: url(../../images/svg/yellow-dots.svg) no-repeat;
     background-position: center; }
 
