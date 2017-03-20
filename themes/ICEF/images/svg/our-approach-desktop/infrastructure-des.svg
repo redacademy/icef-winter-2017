@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="121px" height="112px" viewBox="0 0 121 112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Infrastructure</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="02.-Handoff-Folder-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ICEF_Assets" transform="translate(-526.000000, -2645.000000)" stroke="#433E3E" stroke-width="7">
+            <g id="Our-Approach" transform="translate(57.000000, 2374.000000)">
+                <g id="Infrastructure" transform="translate(473.000000, 275.000000)">
+                    <ellipse id="Oval" cx="58.5323741" cy="16.25" rx="16.2589928" ry="16.25"></ellipse>
+                    <ellipse id="Oval-Copy-2" cx="96.7410072" cy="87.75" rx="16.2589928" ry="16.25"></ellipse>
+                    <ellipse id="Oval-Copy" cx="16.2589928" cy="87.75" rx="16.2589928" ry="16.25"></ellipse>
+                    <path d="M30.0791367,88.5625 L82.9208633,88.5625" id="Path-2"></path>
+                    <path d="M23.2103473,75.8354492 L47.3935572,28.8782424" id="Path-2"></path>
+                    <path d="M67.4748201,74.5822068 L91.65803,27.625" id="Path-2" transform="translate(79.566425, 51.103603) scale(-1, 1) translate(-79.566425, -51.103603) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

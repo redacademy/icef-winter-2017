@@ -11,7 +11,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 			<section class = "pageHeader">
 				<div class="pageTitle">
-					<h1>Skilled Interships</h1>
+					<h1>Skilled Internships</h1>
 				</div>
 			</section>
 			<img src="<?php echo CFS()->get('internship_first_image');?>" alt="top image">
