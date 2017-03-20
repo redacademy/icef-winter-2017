@@ -29,9 +29,14 @@
         padding: 10px;
         .donate-trc-desc {
             color: #fff;
-        }
+        } 
     }
 
+    
+    .donate-button {
+        @include purple-button;   
+        text-align: center;
+    }
 
     .sponsor-wrapper {
         display: flex;

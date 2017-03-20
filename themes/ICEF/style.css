@@ -1475,6 +1475,21 @@ li:last-child a {
     padding: 10px; }
     .page-template-donate .donate-trc-wrapper .donate-trc-desc {
       color: #fff; }
+  .page-template-donate .donate-button {
+    text-align: center; }
+    .page-template-donate .donate-button a {
+      padding-top: 10px;
+      text-align: center;
+      height: 50px;
+      width: 150px;
+      border-radius: 8px;
+      display: inline-block;
+      background-color: #852762;
+      color: white;
+      font-family: "Oswald", sans-serif;
+      text-transform: uppercase;
+      font-size: 1.5rem;
+      border: none; }
   .page-template-donate .sponsor-wrapper {
     display: -ms-flexbox;
     display: flex;

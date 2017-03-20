@@ -15,6 +15,9 @@ get_header(); ?>
 					<div class="donate-trc-wrapper">
 						<h2><?php echo CFS()->get('donate_to_trc_title');?></h2>
 						<p class="donate-trc-desc"><?php echo CFS()->get('donate_to_trc_description');?></p>
+						<div class="donate-button">
+						<a href="https://www.paypal.com/ca/cgi-bin/webscr?cmd=_flow&SESSION=BBw3VEgXEBX6tnBdh_bsHSqjV3hmNlWXYjk9xlDYv36kell-12te6Y3ptAu&dispatch=5885d80a13c0db1f8e263663d3faee8d94717bd303200c3af9aadd01a5f55080">Donate</a>
+						</div>
 					</div>
 					<div class="sponsor-wrapper">
 						<h2 class="sponsor-title"><?php echo CFS()->get('sponsor_title');?></h2>
