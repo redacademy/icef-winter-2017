@@ -247,7 +247,7 @@ a {
 	}
 }
 
-li:first-child{
+#masthead li:first-child{
 	@include desktop {
 		background: url(../../images/svg/banner.svg) no-repeat;
 		background-size: 100%;
@@ -264,7 +264,7 @@ li:first-child{
 	}
 }
 
-li:last-child {
+#masthead li:last-child {
 	@include desktop {
 		padding-top: 40px;
 	}

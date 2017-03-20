@@ -9,22 +9,20 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main team-type-archive" role="main">
-			
-			<div class='team-flex'>
-				<?php while ( have_posts() ) : the_post(); ?>
 
-					<?php
+			<div class=' canada-team'>
+				<h2>Canada</h2>
+				<?php while ( have_posts() ) : the_post(); 
+
 					$job = CFS()->get( 'job' );
-					?><p><?php $country ?></p><?php
-
 					$terms = get_the_category();
 					foreach ($terms as $term) :              
 						$country = $term->slug; 
-    				endforeach; 
+					endforeach; 
 
 					if($country == 'canada'){ ?>
 
-						<div class='canada-team'>
+						<div class='team-member'>
 
 							<?php if($job == 'President'){?>
 								<img src='<?php echo get_template_directory_uri();?>/images/svg/deco-president.svg' class='job-border' />
@@ -34,32 +32,44 @@ get_header(); ?>
 								<img src='<?php echo get_template_directory_uri();?>/images/svg/deco-director.svg' class='job-border' />
 							<?php } ?>
 							<div class='profile-pic'>
-							<img  src='<?php echo CFS()->get( 'profile_picture' ); ?>'  />
+								<img  src='<?php echo CFS()->get( 'profile_picture' ); ?>'  />
 							</div>
 							<p class='name' ><?php echo CFS()->get( 'name' ); ?></p>
 							<p class='job' ><?php echo $job; ?></p>
 					
 						</div>
 
-					<?php }else {?>
+					<?php }
+					endwhile; // End of the loop. ?>
+			</div>
 
-						<div class='uganda-team'>
+			<div class='uganda-team'>
+				<h2>Uganda</h2>
+				<?php while ( have_posts() ) : the_post(); 
+
+					$job = CFS()->get( 'job' );
+					$terms = get_the_category();
+					foreach ($terms as $term) :              
+						$country = $term->slug; 
+					endforeach; 
+
+
+					if($country == 'uganda'){ ?>
+
+						<div class='team-member'>
 
 							<img src='<?php echo get_template_directory_uri();?>/images/svg/deco-uganda.svg' class='job-border' />
 							<div class='profile-pic'>
-							<img  src='<?php echo CFS()->get( 'profile_picture' ); ?>'  />
+								<img  src='<?php echo CFS()->get( 'profile_picture' ); ?>'  />
 							</div>
 							<p class='name' ><?php echo CFS()->get( 'name' ); ?></p>
 							<p class='job' ><?php echo $job; ?></p>
 						
 						</div>
-
-					<?php } ?>
+					<?php } 
 				
-
-				<?php endwhile; // End of the loop. ?>
+				endwhile; // End of the loop. ?>
 			</div>
-
 		</main><!-- #main -->
 	</div><!-- #primary -->
 <?php get_footer(); ?>

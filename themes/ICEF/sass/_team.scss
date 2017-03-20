@@ -1,6 +1,6 @@
 .team-type-archive {
 
-    .team-flex {
+    .canada-team, .uganda-team {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -10,74 +10,70 @@
 
         @include desktop{
             background: url(../../images/svg/our-team-tree.svg) no-repeat;
-
-            .uganda-team {
-                flex-basis: 15%;
-            }
-
-            .canada-team {
-                flex-basis: 15%;
-                // display: flex;
-                
-            }
         }
 
-        // .team-member{
-        //     flex-basis: 40%;
-        //     height: 325px;
-        //     margin: 0 5%;
-        //     text-align: center;
-        //     text-transform: uppercase;
-        //     overflow: hidden;
+        h2 {
+            width: 100%;
+            text-align: center;
+            
+        }
 
-        //     @include desktop {
-        //         flex-basis: 15%;
-        //         margin: 0 3%;
-        //         overflow: hidden;
-        //         height: 350px;
-        //     }
+        .team-member{
+            flex-basis: 40%;
+            height: 325px;
+            margin: 0 5%;
+            text-align: center;
+            text-transform: uppercase;
+            overflow: hidden;
 
-        //     p {
-        //         margin: 0px;
+            @include desktop {
+                flex-basis: 15%;
+                margin: 0 3%;
+                overflow: hidden;
+                height: 350px;
+            }
+
+            p {
+                margin: 0px;
                 
-        //     }
+            }
 
-        //     .name {
-        //         font-weight: 600;
-        //         color: $brand_colour_darkgrey;
-        //     }
+            .name {
+                font-weight: 600;
+                color: $brand_colour_darkgrey;
+            }
 
-        //     .job-border {
-        //         width: 100%;
-        //         position: relative;
-        //         top: 30px;
-        //         z-index: 1;
-        //     }
+            .job-border {
+                width: 100%;
+                position: relative;
+                top: 37px;
+                z-index: 1;
+            }
             
 
-        //     .profile-pic {
-        //         border: 5px solid $brand_colour_mediumgold;
-        //         height: 55%;
-        //         overflow: hidden;
-        //         margin-bottom: 5px;
+            .profile-pic {
+                border: 5px solid $brand_colour_mediumgold;
+                height: 55%;
+                overflow: hidden;
+                margin-bottom: 5px;
 
-        //         @include desktop {
-        //             height: 65%;
-        //         }
+                @include desktop {
+                    height: 65%;
+                }
 
-        //         img {
-        //             max-width: none;
-        //             height: 100%;
-        //             position: relative;
-        //             // right: 20px;
+                img {
+                    max-width: none;
+                    height: 100%;
+                    position: relative;
+                    // right: 20px;
 
-        //             @include desktop {
-        //                 // right: 0;
-        //                 min-width: 100%;
-        //             }
-        //         }
-        //     }
-        // }
+                    @include desktop {
+                        // right: 0;
+                        min-width: 100%;
+                    }
+                }
+            }
+        }
     }
 
 }

@@ -589,23 +589,23 @@ a {
       font-size: 1.25rem; }
 
 @media (min-width: 1024px) {
-  li:first-child {
+  #masthead li:first-child {
     background: url(../../images/svg/banner.svg) no-repeat;
     background-size: 100%;
     width: 100px;
     height: 150px;
     margin: 0 30px; }
-    li:first-child a {
+    #masthead li:first-child a {
       display: inline-block;
       width: 100%;
       height: 100%;
       color: transparent; } }
 
 @media (min-width: 1024px) {
-  li:last-child {
+  #masthead li:last-child {
     padding-top: 40px; } }
 
-li:last-child a {
+#masthead li:last-child a {
   padding-top: 10px;
   text-align: center;
   height: 50px;
@@ -619,7 +619,7 @@ li:last-child a {
   font-size: 1.5rem;
   border: none; }
 
-li:last-child a {
+#masthead li:last-child a {
   font-size: 1.25rem;
   margin: 0;
   padding: 10px 0;
@@ -1398,7 +1398,7 @@ li:last-child a {
     font-family: "Oswald", sans-serif;
     margin: 4rem; }
 
-.team-type-archive .team-flex {
+.team-type-archive .canada-team, .team-type-archive .uganda-team {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -1409,14 +1409,51 @@ li:last-child a {
   background-position: center;
   margin: 5% 10%; }
   @media (min-width: 1024px) {
-    .team-type-archive .team-flex {
-      background: url(../../images/svg/our-team-tree.svg) no-repeat; }
-      .team-type-archive .team-flex .uganda-team {
+    .team-type-archive .canada-team, .team-type-archive .uganda-team {
+      background: url(../../images/svg/our-team-tree.svg) no-repeat; } }
+  .team-type-archive .canada-team h2, .team-type-archive .uganda-team h2 {
+    width: 100%;
+    text-align: center; }
+  .team-type-archive .canada-team .team-member, .team-type-archive .uganda-team .team-member {
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
+    height: 325px;
+    margin: 0 5%;
+    text-align: center;
+    text-transform: uppercase;
+    overflow: hidden; }
+    @media (min-width: 1024px) {
+      .team-type-archive .canada-team .team-member, .team-type-archive .uganda-team .team-member {
         -ms-flex-preferred-size: 15%;
-            flex-basis: 15%; }
-      .team-type-archive .team-flex .canada-team {
-        -ms-flex-preferred-size: 15%;
-            flex-basis: 15%; } }
+            flex-basis: 15%;
+        margin: 0 3%;
+        overflow: hidden;
+        height: 350px; } }
+    .team-type-archive .canada-team .team-member p, .team-type-archive .uganda-team .team-member p {
+      margin: 0px; }
+    .team-type-archive .canada-team .team-member .name, .team-type-archive .uganda-team .team-member .name {
+      font-weight: 600;
+      color: #433E3E; }
+    .team-type-archive .canada-team .team-member .job-border, .team-type-archive .uganda-team .team-member .job-border {
+      width: 100%;
+      position: relative;
+      top: 37px;
+      z-index: 1; }
+    .team-type-archive .canada-team .team-member .profile-pic, .team-type-archive .uganda-team .team-member .profile-pic {
+      border: 5px solid #F2CA6E;
+      height: 55%;
+      overflow: hidden;
+      margin-bottom: 5px; }
+      @media (min-width: 1024px) {
+        .team-type-archive .canada-team .team-member .profile-pic, .team-type-archive .uganda-team .team-member .profile-pic {
+          height: 65%; } }
+      .team-type-archive .canada-team .team-member .profile-pic img, .team-type-archive .uganda-team .team-member .profile-pic img {
+        max-width: none;
+        height: 100%;
+        position: relative; }
+        @media (min-width: 1024px) {
+          .team-type-archive .canada-team .team-member .profile-pic img, .team-type-archive .uganda-team .team-member .profile-pic img {
+            min-width: 100%; } }
 
 .page-template-donate .yellow-dots-banner {
   margin-top: 155px;
