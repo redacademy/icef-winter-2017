@@ -46,6 +46,10 @@ get_header(); ?>
 				<div class="recycling-wrapper">
 					<h2 class="recycling-prog-title"><?php echo CFS()->get('return_it_recycling_program_title');?></h2>
 					<p class="recycling-prog-desc"><?php echo CFS()->get('return_it_recycling_program_description');?></p>
+					<p class="icef-donor">
+						ICEF’s Donor ID Number is
+						<span class="donor-number">#395</span>
+					</p>
 				</div>
 			</div>
 		</main><!-- #main -->
