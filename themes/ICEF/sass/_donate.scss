@@ -31,7 +31,6 @@
             color: #fff;
         } 
     }
-
     
     .donate-button {
         @include purple-button;   
@@ -41,6 +40,18 @@
     .sponsor-wrapper {
         display: flex;
         flex-direction: column;
+        background-color: $brand_colour_mediumgold;
+        .sponsor-title {
+            color: $brand_colour_darkgold;            
+        }
+    }
+
+    .sponsor-desc {
+        color: #fff;
+    }
+
+    .sponsor-image {
+        fill: #fff;
     }
 
     .project-wrapper {
