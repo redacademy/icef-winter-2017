@@ -1,5 +1,10 @@
 .page-template-donate {
-
+    .site-main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
     .yellow-dots-banner {
         margin-top: 155px;
         width: 100%;

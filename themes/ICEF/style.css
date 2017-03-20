@@ -1378,6 +1378,14 @@ li:last-child a {
             right: 0;
             min-width: 100%; } }
 
+.page-template-donate .site-main {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center; }
+
 .page-template-donate .yellow-dots-banner {
   margin-top: 155px;
   width: 100%;
