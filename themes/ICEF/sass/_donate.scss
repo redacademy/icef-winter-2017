@@ -83,6 +83,20 @@
         height: 60%; 
     }
 
+    .fund-project-wrapper {
+        background-color: #FFEABA;
+        a {
+            color: #000;
+            &:hover {
+                color: #000;
+            }
+        }
+    }
+
+    .project-title {
+        color: $brand_colour_lightpurple;
+    }
+
     .yellow-dots-banner {
         width: 100%;
         height: 80px;
