@@ -1483,62 +1483,81 @@ a {
     font-family: "Oswald", sans-serif;
     margin: 4rem; }
 
-.team-type-archive .canada-team, .team-type-archive .uganda-team {
+.team-type-archive {
+  margin-top: 12.5vh;
+  width: 100%;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -ms-flex-pack: center;
-      justify-content: center;
-  background: none;
-  background-position: center;
-  margin: 5% 10%; }
+      justify-content: center; }
   @media (min-width: 1024px) {
-    .team-type-archive .canada-team, .team-type-archive .uganda-team {
-      background: url(../../images/svg/our-team-tree.svg) no-repeat; } }
-  .team-type-archive .canada-team h2, .team-type-archive .uganda-team h2 {
-    width: 100%;
-    text-align: center; }
-  .team-type-archive .canada-team .team-member, .team-type-archive .uganda-team .team-member {
-    -ms-flex-preferred-size: 40%;
-        flex-basis: 40%;
-    height: 325px;
-    margin: 0 5%;
-    text-align: center;
-    text-transform: uppercase;
-    overflow: hidden; }
+    .team-type-archive {
+      background: url(../../images/svg/our-team-tree.svg) no-repeat;
+      background-position: center; } }
+  .team-type-archive .canada-team, .team-type-archive .uganda-team {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: start;
+        align-items: flex-start;
+    background: none; }
     @media (min-width: 1024px) {
-      .team-type-archive .canada-team .team-member, .team-type-archive .uganda-team .team-member {
-        -ms-flex-preferred-size: 15%;
-            flex-basis: 15%;
-        margin: 0 3%;
-        overflow: hidden;
-        height: 350px; } }
-    .team-type-archive .canada-team .team-member p, .team-type-archive .uganda-team .team-member p {
-      margin: 0px; }
-    .team-type-archive .canada-team .team-member .name, .team-type-archive .uganda-team .team-member .name {
-      font-weight: 600;
-      color: #433E3E; }
-    .team-type-archive .canada-team .team-member .job-border, .team-type-archive .uganda-team .team-member .job-border {
-      width: 100%;
-      position: relative;
-      top: 37px;
-      z-index: 1; }
-    .team-type-archive .canada-team .team-member .profile-pic, .team-type-archive .uganda-team .team-member .profile-pic {
-      border: 5px solid #F2CA6E;
-      height: 55%;
-      overflow: hidden;
-      margin-bottom: 5px; }
+      .team-type-archive .canada-team, .team-type-archive .uganda-team {
+        -ms-flex-preferred-size: 45%;
+            flex-basis: 45%; } }
+    .team-type-archive .canada-team h2, .team-type-archive .uganda-team h2 {
+      display: inline-block;
+      -ms-flex-preferred-size: 100%;
+          flex-basis: 100%;
+      text-align: center;
+      height: 30px;
+      font-weight: 500; }
+    .team-type-archive .canada-team .team-member, .team-type-archive .uganda-team .team-member {
+      -ms-flex-preferred-size: 40%;
+          flex-basis: 40%;
+      height: 305px;
+      margin: 0 5%;
+      text-align: center;
+      text-transform: uppercase;
+      overflow: hidden; }
       @media (min-width: 1024px) {
-        .team-type-archive .canada-team .team-member .profile-pic, .team-type-archive .uganda-team .team-member .profile-pic {
-          height: 65%; } }
-      .team-type-archive .canada-team .team-member .profile-pic img, .team-type-archive .uganda-team .team-member .profile-pic img {
-        max-width: none;
-        height: 100%;
-        position: relative; }
+        .team-type-archive .canada-team .team-member, .team-type-archive .uganda-team .team-member {
+          margin: 0 3%;
+          overflow: hidden;
+          height: 350px; } }
+      .team-type-archive .canada-team .team-member p, .team-type-archive .uganda-team .team-member p {
+        margin: 0px;
+        font-size: .8rem; }
+      .team-type-archive .canada-team .team-member .name, .team-type-archive .uganda-team .team-member .name {
+        font-weight: 600;
+        color: #433E3E; }
+      .team-type-archive .canada-team .team-member .job-border, .team-type-archive .uganda-team .team-member .job-border {
+        width: 100%;
+        position: relative;
+        top: 37px;
+        z-index: 1; }
+      .team-type-archive .canada-team .team-member .profile-pic, .team-type-archive .uganda-team .team-member .profile-pic {
+        border: 5px solid #F2CA6E;
+        height: 60%;
+        overflow: hidden;
+        margin-bottom: 5px; }
         @media (min-width: 1024px) {
-          .team-type-archive .canada-team .team-member .profile-pic img, .team-type-archive .uganda-team .team-member .profile-pic img {
-            min-width: 100%; } }
+          .team-type-archive .canada-team .team-member .profile-pic, .team-type-archive .uganda-team .team-member .profile-pic {
+            height: 65%; } }
+        .team-type-archive .canada-team .team-member .profile-pic img, .team-type-archive .uganda-team .team-member .profile-pic img {
+          margin: 0 auto;
+          max-width: none;
+          height: 100%; }
+          @media (min-width: 1024px) {
+            .team-type-archive .canada-team .team-member .profile-pic img, .team-type-archive .uganda-team .team-member .profile-pic img {
+              min-width: 100%; } }
 
 .page-template-donate {
   margin: 0 auto; }
