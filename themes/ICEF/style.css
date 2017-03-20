@@ -1233,15 +1233,32 @@ a {
       margin: 0 auto; } }
 
 .page-template-approach .approachTitle {
-  margin-top: 15rem;
-  width: 100%;
-  border-bottom: solid 2px #852762;
-  color: black;
-  font-weight: bold; }
+  display: none; }
+  @media (min-width: 1024px) {
+    .page-template-approach .approachTitle {
+      display: block;
+      margin-top: 12rem;
+      width: 100%;
+      border-bottom: solid 2px #852762;
+      color: black;
+      font-weight: bold; } }
 
-@media (min-width: 1024px) {
-  .page-template-approach .swirlAndText {
-    display: none; } }
+.page-template-approach .swirlAndText {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center; }
+  @media (min-width: 1024px) {
+    .page-template-approach .swirlAndText {
+      display: none; } }
+
+.page-template-approach .desktopSwirl {
+  display: none; }
+  @media (min-width: 1024px) {
+    .page-template-approach .desktopSwirl {
+      display: block; } }
 
 @media (min-width: 1024px) {
   .page-template-approach .lastPictureMobile {
@@ -1269,7 +1286,8 @@ a {
     text-transform: uppercase;
     position: absolute;
     top: 34%;
-    left: 16%; }
+    left: 16%;
+    width: 40%; }
     .page-template-approach .mobileSwirl .swirlText p {
       color: black; }
 
@@ -1297,12 +1315,14 @@ a {
     .page-template-approach .mobile-approach-table li .tableNumbers {
       color: #B5852F; }
 
-.page-template-internship .content-area {
-  width: 1000px;
-  margin: 0 auto;
-  margin-top: 10rem; }
-  .page-template-internship .content-area p {
-    margin: 1rem 1.5rem; }
+.page-template-internship .content-area p {
+  margin: 1rem 1.5rem; }
+
+@media (min-width: 1024px) {
+  .page-template-internship .content-area {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 10rem; } }
 
 @media (min-width: 1024px) {
   .page-template-internship .desktopFlex {
@@ -1310,29 +1330,36 @@ a {
     display: inline-flex;
     width: 100%; } }
 
-.page-template-internship .pageTitle {
+.page-template-internship .pageHeader {
   display: none; }
   @media (min-width: 1024px) {
-    .page-template-internship .pageTitle {
+    .page-template-internship .pageHeader {
       display: block;
       border-bottom: solid 2px #852762;
       margin-bottom: 2rem; }
-      .page-template-internship .pageTitle h1 {
+      .page-template-internship .pageHeader h1 {
         margin: 0; } }
 
 .page-template-internship p {
   color: #433E3E; }
 
-.page-template-internship .yellowBackgroundContent {
-  width: 40%; }
+@media (min-width: 1024px) {
+  .page-template-internship .yellowBackgroundContent {
+    width: 40%; } }
 
 .page-template-internship .yellowBackground {
   background: #FFEABA;
   padding-bottom: .25rem;
   padding-top: .75rem; }
 
-.page-template-internship .secondImage img {
-  height: 100%; }
+.page-template-internship .secondImage {
+  height: 204px; }
+  @media (min-width: 1024px) {
+    .page-template-internship .secondImage {
+      height: auto; } }
+  .page-template-internship .secondImage img {
+    height: 100%;
+    object-fit: cover; }
 
 .page-template-internship .belowSecondImageTitle {
   font-size: 2.25rem;
