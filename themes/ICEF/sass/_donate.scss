@@ -1,8 +1,20 @@
 .page-template-donate {
-    .site-main{
+    margin: 0 auto;
+
+    .site-main {
         display:flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .container {
+        @include desktop {
+        width: 82%;
+        }
+    }
+
+    h2 {
+        text-transform: none;
     }
 
     .donate-wrapper {
@@ -12,7 +24,14 @@
     .donate-trc-wrapper {
         display: flex;
         flex-direction: column;
+        color: #fff;
+        background-color: $brand_colour_darkgrey;
+        padding: 10px;
+        .donate-trc-desc {
+            color: #fff;
+        }
     }
+
 
     .sponsor-wrapper {
         display: flex;
@@ -21,6 +40,11 @@
 
     .project-wrapper {
         display: flex;
+    }
+
+    .project-wrapper img {
+        width: 60%;
+        height: 60%; 
     }
 
     .yellow-dots-banner {

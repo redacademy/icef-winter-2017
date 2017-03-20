@@ -9,7 +9,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			
+			<div class="container">
 			<img src="<?php echo CFS()->get('donate_landing_title_image');?>">
 			<div class="donate-wrapper">
 				<div class="donate-trc-wrapper">
@@ -23,13 +23,19 @@ get_header(); ?>
 			</div>
 			<div class="project-wrapper">
 				<img src="<?php echo CFS()->get('project_image');?>">
-				<h2 class="project-title"><?php echo CFS()->get('project_title');?></h2>
-				<p class="project-desc"><?php echo CFS()->get('project_description');?></p>
-			<div class="yellow-dots-banner">
+				<div class="fund-project-wrapper">
+					<h2 class="project-title"><?php echo CFS()->get('project_title');?></h2>
+					<p class="project-desc"><?php echo CFS()->get('project_description');?></p>
+				</div>
+			</div>
+			<div class="yellow-dots-banner"> 
 				<!--<img src="<?php echo get_template_directory_uri();?>/images/svg/yellow-dots.svg" alt="image of yellow dots on white background">-->
 			</div>
-			
-
+			<div class="recycling-wrapper">
+				<h2 class="recycling-prog-title"><?php echo CFS()->get('return_it_recycling_program_title');?></h2>
+				<p class="recycling-prog-desc"><?php echo CFS()->get('return_it_recycling_program_description');?></p>
+			</div>
+			</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
