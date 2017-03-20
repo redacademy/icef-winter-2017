@@ -3,9 +3,11 @@
     p{
       margin:1rem 1.5rem;
     }
-    width:1000px;
-    margin: 0 auto; 
-    margin-top:10rem;
+    @include desktop{
+      width:1000px;
+      margin: 0 auto; 
+      margin-top:10rem;
+    }
   }
   .desktopFlex{
     @include desktop{
@@ -14,15 +16,14 @@
       // flex-direction:column;
     }
   }
-  .pageTitle{
+  .pageHeader{
     display:none;
     @include desktop{
       display: block;
       h1{
-          margin:0 ;
-        }
+        margin:0 ;
+      }
       border-bottom: solid 2px $brand_colour_lightpurple;
-      // padding-bottom: .5rem;
       margin-bottom: 2rem;
     }
   }
@@ -30,7 +31,9 @@
       color:$brand_colour_darkgrey;
   }
   .yellowBackgroundContent{
-    width:40%;
+    @include desktop{
+      width:40%;
+    }
   }
   .yellowBackground{
     background:$brand_colour_lightgold;
@@ -41,11 +44,14 @@
     padding-top:.75rem;
   }
   .secondImage{
-    // height:204px;
+    height:204px;
+    @include desktop{
+      height:auto;
+    }
     img{
       height:100%;
+      object-fit: cover;
     }
-    
   }
   .belowSecondImageTitle{
     font-size:2.25rem;

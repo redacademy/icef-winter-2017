@@ -584,7 +584,7 @@ a {
         padding: 50px 30px; } }
     .menu li a {
       font-family: "Oswald", sans-serif;
-      color: white;
+      color: #433E3E;
       text-decoration: none;
       font-size: 1.25rem; }
 
@@ -1233,15 +1233,32 @@ li:last-child a {
       margin: 0 auto; } }
 
 .page-template-approach .approachTitle {
-  margin-top: 15rem;
-  width: 100%;
-  border-bottom: solid 2px #852762;
-  color: black;
-  font-weight: bold; }
+  display: none; }
+  @media (min-width: 1024px) {
+    .page-template-approach .approachTitle {
+      display: block;
+      margin-top: 12rem;
+      width: 100%;
+      border-bottom: solid 2px #852762;
+      color: black;
+      font-weight: bold; } }
 
-@media (min-width: 1024px) {
-  .page-template-approach .swirlAndText {
-    display: none; } }
+.page-template-approach .swirlAndText {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center; }
+  @media (min-width: 1024px) {
+    .page-template-approach .swirlAndText {
+      display: none; } }
+
+.page-template-approach .desktopSwirl {
+  display: none; }
+  @media (min-width: 1024px) {
+    .page-template-approach .desktopSwirl {
+      display: block; } }
 
 @media (min-width: 1024px) {
   .page-template-approach .lastPictureMobile {
@@ -1269,7 +1286,8 @@ li:last-child a {
     text-transform: uppercase;
     position: absolute;
     top: 34%;
-    left: 16%; }
+    left: 16%;
+    width: 40%; }
     .page-template-approach .mobileSwirl .swirlText p {
       color: black; }
 
@@ -1297,12 +1315,14 @@ li:last-child a {
     .page-template-approach .mobile-approach-table li .tableNumbers {
       color: #B5852F; }
 
-.page-template-internship .content-area {
-  width: 1000px;
-  margin: 0 auto;
-  margin-top: 10rem; }
-  .page-template-internship .content-area p {
-    margin: 1rem 1.5rem; }
+.page-template-internship .content-area p {
+  margin: 1rem 1.5rem; }
+
+@media (min-width: 1024px) {
+  .page-template-internship .content-area {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 10rem; } }
 
 @media (min-width: 1024px) {
   .page-template-internship .desktopFlex {
@@ -1310,29 +1330,36 @@ li:last-child a {
     display: inline-flex;
     width: 100%; } }
 
-.page-template-internship .pageTitle {
+.page-template-internship .pageHeader {
   display: none; }
   @media (min-width: 1024px) {
-    .page-template-internship .pageTitle {
+    .page-template-internship .pageHeader {
       display: block;
       border-bottom: solid 2px #852762;
       margin-bottom: 2rem; }
-      .page-template-internship .pageTitle h1 {
+      .page-template-internship .pageHeader h1 {
         margin: 0; } }
 
 .page-template-internship p {
   color: #433E3E; }
 
-.page-template-internship .yellowBackgroundContent {
-  width: 40%; }
+@media (min-width: 1024px) {
+  .page-template-internship .yellowBackgroundContent {
+    width: 40%; } }
 
 .page-template-internship .yellowBackground {
   background: #FFEABA;
   padding-bottom: .25rem;
   padding-top: .75rem; }
 
-.page-template-internship .secondImage img {
-  height: 100%; }
+.page-template-internship .secondImage {
+  height: 204px; }
+  @media (min-width: 1024px) {
+    .page-template-internship .secondImage {
+      height: auto; } }
+  .page-template-internship .secondImage img {
+    height: 100%;
+    object-fit: cover; }
 
 .page-template-internship .belowSecondImageTitle {
   font-size: 2.25rem;
@@ -1405,48 +1432,18 @@ li:last-child a {
       flex-wrap: wrap;
   -ms-flex-pack: center;
       justify-content: center;
-  background: url(../../images/svg/our-team-tree.svg) no-repeat;
+  background: none;
   background-position: center;
   margin: 5% 10%; }
-  .team-type-archive .team-flex .team-member {
-    -ms-flex-preferred-size: 40%;
-        flex-basis: 40%;
-    height: 325px;
-    margin: 0 5%;
-    text-align: center;
-    text-transform: uppercase;
-    overflow: hidden; }
-    @media (min-width: 1024px) {
-      .team-type-archive .team-flex .team-member {
+  @media (min-width: 1024px) {
+    .team-type-archive .team-flex {
+      background: url(../../images/svg/our-team-tree.svg) no-repeat; }
+      .team-type-archive .team-flex .uganda-team {
         -ms-flex-preferred-size: 15%;
-            flex-basis: 15%;
-        margin: 0 3%;
-        overflow: hidden;
-        height: 350px; } }
-    .team-type-archive .team-flex .team-member p {
-      margin: 0px; }
-    .team-type-archive .team-flex .team-member .name {
-      font-weight: 600;
-      color: #433E3E; }
-    .team-type-archive .team-flex .team-member .job-border {
-      width: 100%;
-      position: relative;
-      top: 35px;
-      z-index: 1; }
-    .team-type-archive .team-flex .team-member .profile-pic {
-      border: 5px solid #F2CA6E;
-      height: 65%;
-      overflow: hidden;
-      margin-bottom: 5px; }
-      .team-type-archive .team-flex .team-member .profile-pic img {
-        max-width: none;
-        height: 100%;
-        position: relative;
-        right: 10px; }
-        @media (min-width: 1024px) {
-          .team-type-archive .team-flex .team-member .profile-pic img {
-            right: 0;
-            min-width: 100%; } }
+            flex-basis: 15%; }
+      .team-type-archive .team-flex .canada-team {
+        -ms-flex-preferred-size: 15%;
+            flex-basis: 15%; } }
 
 .page-template-donate {
   margin: 0 auto; }
