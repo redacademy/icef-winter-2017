@@ -1,33 +1,46 @@
 .team-type-archive {
+    margin-top: 12.5vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    @include desktop{
+        background: url(../../images/svg/our-team-tree.svg) no-repeat;
+        background-position: center;
+    }
 
     .canada-team, .uganda-team {
+        flex-basis: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        align-items: flex-start;
         background: none;
-        background-position: center;
-        margin: 5% 10%;
 
-        @include desktop{
-            background: url(../../images/svg/our-team-tree.svg) no-repeat;
+        @include desktop {
+            flex-basis: 45%;
         }
 
+
         h2 {
-            width: 100%;
+            display: inline-block;
+            flex-basis: 100%;
             text-align: center;
-            
+            height: 30px;
+            font-weight: 500;
         }
 
         .team-member{
             flex-basis: 40%;
-            height: 325px;
+            height: 305px;
             margin: 0 5%;
             text-align: center;
             text-transform: uppercase;
             overflow: hidden;
 
             @include desktop {
-                flex-basis: 15%;
+                // flex-basis: 15%;
                 margin: 0 3%;
                 overflow: hidden;
                 height: 350px;
@@ -35,7 +48,7 @@
 
             p {
                 margin: 0px;
-                
+                font-size: .8rem;
             }
 
             .name {
@@ -53,7 +66,7 @@
 
             .profile-pic {
                 border: 5px solid $brand_colour_mediumgold;
-                height: 55%;
+                height: 60%;
                 overflow: hidden;
                 margin-bottom: 5px;
 
@@ -62,10 +75,11 @@
                 }
 
                 img {
+                    margin: 0 auto;
                     max-width: none;
                     height: 100%;
-                    position: relative;
-                    // right: 20px;
+                    // position: relative;
+                    // // right: 20px;
 
                     @include desktop {
                         // right: 0;
