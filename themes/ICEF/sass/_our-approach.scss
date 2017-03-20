@@ -12,15 +12,28 @@
     }
   }
   .approachTitle{
-    margin-top:15rem;
-    width:100%;
-    border-bottom:solid 2px $brand_colour_lightpurple;
-    color:black;
-    font-weight:bold;
+    display:none;
+    @include desktop{
+      display: block;
+      margin-top:12rem;
+      width:100%;
+      border-bottom:solid 2px $brand_colour_lightpurple;
+      color:black;
+      font-weight:bold;
+    }
   }
   .swirlAndText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     @include desktop{
       display:none;
+    }
+  }
+  .desktopSwirl{
+    display:none;
+    @include desktop{
+      display:block;
     }
   }
   .lastPictureMobile{
@@ -52,6 +65,7 @@
       position:absolute;
       top:34%;
       left:16%;
+      width:40%;
       p{
         color:black;
       }
