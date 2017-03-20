@@ -584,7 +584,7 @@ a {
         padding: 50px 30px; } }
     .menu li a {
       font-family: "Oswald", sans-serif;
-      color: white;
+      color: #433E3E;
       text-decoration: none;
       font-size: 1.25rem; }
 
@@ -1432,47 +1432,18 @@ li:last-child a {
       flex-wrap: wrap;
   -ms-flex-pack: center;
       justify-content: center;
-  background: url(../../images/svg/our-team-tree.svg) no-repeat;
-  background-position: center; }
-  .team-type-archive .team-flex .team-member {
-    -ms-flex-preferred-size: 40%;
-        flex-basis: 40%;
-    height: 325px;
-    margin: 0 5%;
-    text-align: center;
-    text-transform: uppercase;
-    overflow: hidden; }
-    @media (min-width: 1024px) {
-      .team-type-archive .team-flex .team-member {
+  background: none;
+  background-position: center;
+  margin: 5% 10%; }
+  @media (min-width: 1024px) {
+    .team-type-archive .team-flex {
+      background: url(../../images/svg/our-team-tree.svg) no-repeat; }
+      .team-type-archive .team-flex .uganda-team {
         -ms-flex-preferred-size: 15%;
-            flex-basis: 15%;
-        margin: 0 3%;
-        overflow: hidden;
-        height: 350px; } }
-    .team-type-archive .team-flex .team-member p {
-      margin: 0px; }
-    .team-type-archive .team-flex .team-member .name {
-      font-weight: 600;
-      color: #433E3E; }
-    .team-type-archive .team-flex .team-member .job-border {
-      width: 100%;
-      position: relative;
-      top: 35px;
-      z-index: 1; }
-    .team-type-archive .team-flex .team-member .profile-pic {
-      border: 5px solid #F2CA6E;
-      height: 65%;
-      overflow: hidden;
-      margin-bottom: 5px; }
-      .team-type-archive .team-flex .team-member .profile-pic img {
-        max-width: none;
-        height: 100%;
-        position: relative;
-        right: 10px; }
-        @media (min-width: 1024px) {
-          .team-type-archive .team-flex .team-member .profile-pic img {
-            right: 0;
-            min-width: 100%; } }
+            flex-basis: 15%; }
+      .team-type-archive .team-flex .canada-team {
+        -ms-flex-preferred-size: 15%;
+            flex-basis: 15%; } }
 
 .page-template-donate .yellow-dots-banner {
   margin-top: 155px;

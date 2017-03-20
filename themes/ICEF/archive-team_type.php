@@ -13,7 +13,6 @@ get_header(); ?>
 			<div class='team-flex'>
 				<?php while ( have_posts() ) : the_post(); ?>
 
-				<div class='team-member'>
 					<?php
 					$job = CFS()->get( 'job' );
 					?><p><?php $country ?></p><?php
@@ -23,23 +22,40 @@ get_header(); ?>
 						$country = $term->slug; 
     				endforeach; 
 
-					if($job == 'President'){?>
-						<img src='<?php echo get_template_directory_uri();?>/images/svg/deco-president.svg' class='job-border' />
-					<?php } else if($job == 'Executive Director'){ ?>
-						<img src='<?php echo get_template_directory_uri();?>/images/svg/deco-exec-director.svg' class='job-border' />
-					<?php } else if($country == 'uganda'){ ?>
-						<img src='<?php echo get_template_directory_uri();?>/images/svg/deco-uganda.svg' class='job-border' />
-					<?php } else { ?>
-						<img src='<?php echo get_template_directory_uri();?>/images/svg/deco-director.svg' class='job-border' />
-					<?php } ?>
+					if($country == 'canada'){ ?>
+
+						<div class='canada-team'>
+
+							<?php if($job == 'President'){?>
+								<img src='<?php echo get_template_directory_uri();?>/images/svg/deco-president.svg' class='job-border' />
+							<?php } else if($job == 'Executive Director'){ ?>
+								<img src='<?php echo get_template_directory_uri();?>/images/svg/deco-exec-director.svg' class='job-border' />
+							<?php } else { ?>
+								<img src='<?php echo get_template_directory_uri();?>/images/svg/deco-director.svg' class='job-border' />
+							<?php } ?>
+							<div class='profile-pic'>
+							<img  src='<?php echo CFS()->get( 'profile_picture' ); ?>'  />
+							</div>
+							<p class='name' ><?php echo CFS()->get( 'name' ); ?></p>
+							<p class='job' ><?php echo $job; ?></p>
 					
-					<!--//-->
-					<div class='profile-pic'>
-						<img  src='<?php echo CFS()->get( 'profile_picture' ); ?>'  />
-					</div>
-					<p class='name' ><?php echo CFS()->get( 'name' ); ?></p>
-					<p class='job' ><?php echo $job; ?></p>
-				</div>
+						</div>
+
+					<?php }else {?>
+
+						<div class='uganda-team'>
+
+							<img src='<?php echo get_template_directory_uri();?>/images/svg/deco-uganda.svg' class='job-border' />
+							<div class='profile-pic'>
+							<img  src='<?php echo CFS()->get( 'profile_picture' ); ?>'  />
+							</div>
+							<p class='name' ><?php echo CFS()->get( 'name' ); ?></p>
+							<p class='job' ><?php echo $job; ?></p>
+						
+						</div>
+
+					<?php } ?>
+				
 
 				<?php endwhile; // End of the loop. ?>
 			</div>
