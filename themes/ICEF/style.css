@@ -1337,7 +1337,8 @@ li:last-child a {
   -ms-flex-pack: center;
       justify-content: center;
   background: url(../../images/svg/our-team-tree.svg) no-repeat;
-  background-position: center; }
+  background-position: center;
+  margin: 5% 10%; }
   .team-type-archive .team-flex .team-member {
     -ms-flex-preferred-size: 40%;
         flex-basis: 40%;
