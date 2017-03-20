@@ -1190,9 +1190,56 @@ li:last-child a {
       flex-direction: column;
   -ms-flex-align: center;
       align-items: center; }
+  @media (min-width: 1024px) {
+    .page-template-approach .site-main {
+      width: 1000px;
+      margin: 0 auto; } }
 
-.page-template-approach .mobile-swirl {
+.page-template-approach .approachTitle {
+  margin-top: 15rem;
+  width: 100%;
+  border-bottom: solid 2px #852762;
+  color: black;
+  font-weight: bold; }
+
+@media (min-width: 1024px) {
+  .page-template-approach .swirlAndText {
+    display: none; } }
+
+@media (min-width: 1024px) {
+  .page-template-approach .lastPictureMobile {
+    display: none; } }
+
+.page-template-approach .lastPictureDesktop {
+  display: none; }
+  @media (min-width: 1024px) {
+    .page-template-approach .lastPictureDesktop {
+      display: block; } }
+
+@media (min-width: 1024px) {
+  .page-template-approach .hero {
+    display: none; } }
+
+.page-template-approach .desktopSwirl {
+  margin-top: 2rem;
+  margin-bottom: 3rem; }
+
+.page-template-approach .mobileSwirl {
+  position: relative;
   padding-bottom: 2.5rem; }
+  .page-template-approach .mobileSwirl .swirlText {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    position: absolute;
+    top: 34%;
+    left: 16%; }
+    .page-template-approach .mobileSwirl .swirlText p {
+      color: black; }
+
+.page-template-approach .quoteBackground {
+  background: #FFEABA;
+  padding-bottom: .25rem;
+  padding-top: .75rem; }
 
 .page-template-approach .mobile-approach-table {
   display: -ms-flexbox;
@@ -1213,8 +1260,16 @@ li:last-child a {
     .page-template-approach .mobile-approach-table li .tableNumbers {
       color: #B5852F; }
 
-.page-template-internship .content-area p {
-  margin: 1rem 1.5rem; }
+.page-template-internship .content-area {
+  margin: 0 auto; }
+  .page-template-internship .content-area p {
+    margin: 1rem 1.5rem; }
+
+@media (min-width: 1024px) {
+  .page-template-internship .desktopFlex {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 100%; } }
 
 .page-template-internship p {
   color: #433E3E; }
@@ -1262,10 +1317,11 @@ li:last-child a {
   text-transform: uppercase;
   font-size: 1.25rem; }
   .page-template-internship .positionName p {
-    color: #B5852F; }
+    color: #B5852F;
+    margin: 0 0; }
 
 .page-template-internship .leftColumn {
-  width: 30%;
+  width: 35%;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-weight: bold; }
@@ -1291,6 +1347,7 @@ li:last-child a {
   .page-template-internship .applyButton a {
     font-family: "Oswald", sans-serif;
     margin: 4rem; }
+
 .page-template-donate .yellow-dots-banner {
   margin-top: 155px;
   width: 100%;
