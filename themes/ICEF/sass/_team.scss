@@ -1,6 +1,18 @@
+.our-team {
+    display: none;
+    width: 80%;
+    margin: 25vh auto 0 auto;
+    border-bottom: 2px solid $brand_colour_darkgrey;
+
+    @include desktop {
+        display: block;
+    }
+}
+
 .team-type-archive {
-    margin-top: 12.5vh;
-    width: 100%;
+    width: 85%;
+    margin: 0 auto;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -8,27 +20,39 @@
     @include desktop{
         background: url(../../images/svg/our-team-tree.svg) no-repeat;
         background-position: center;
+        margin: 0 auto;
+        padding: 0 10%;
     }
 
     .canada-team, .uganda-team {
         flex-basis: 100%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
         align-items: flex-start;
         background: none;
+        height: 70%;
 
         @include desktop {
-            flex-basis: 45%;
+            padding: 20px;
+            flex-basis: 49%;
+            justify-content: center;
+            align-items: flex-start;
         }
 
 
         h2 {
+            font-family: $font__accent;
             display: inline-block;
             flex-basis: 100%;
             text-align: center;
             height: 30px;
-            font-weight: 500;
+            font-weight: 300;
+            
+
+            @include desktop {
+                color: $brand_colour_mediumgold;
+                margin: 40px;
+            }
         }
 
         .team-member{
@@ -38,48 +62,64 @@
             text-align: center;
             text-transform: uppercase;
             overflow: hidden;
+            position: relative;
 
             @include desktop {
-                // flex-basis: 15%;
-                margin: 0 3%;
+                flex-basis: 40%;
+                margin: 0 5%;
                 overflow: hidden;
-                height: 350px;
+                height: 400px;
             }
 
             p {
                 margin: 0px;
-                font-size: .8rem;
+
+                @include desktop {
+                    font-size: 1.2rem;
+                }
             }
 
             .name {
+                // height: 20%;
                 font-weight: 600;
                 color: $brand_colour_darkgrey;
             }
 
+            .job {
+                height: 20%;
+            }
+
             .job-border {
                 width: 100%;
-                position: relative;
-                top: 37px;
+                position: absolute;
+                left: 0px;
+                top: 0px;
                 z-index: 1;
+
+                @include desktop {
+                    top: 10px;
+                }
             }
             
 
             .profile-pic {
+                margin-top: 20px;
                 border: 5px solid $brand_colour_mediumgold;
-                height: 60%;
+                height: 50%;
                 overflow: hidden;
                 margin-bottom: 5px;
 
                 @include desktop {
-                    height: 65%;
+                    height: 60%;
+                    margin-top: 35px;
                 }
 
                 img {
+                    object-fit: cover;
                     margin: 0 auto;
                     max-width: none;
                     height: 100%;
-                    // position: relative;
-                    // // right: 20px;
+                    min-width: 100%;
 
                     @include desktop {
                         // right: 0;
@@ -90,4 +130,85 @@
         }
     }
 
+    .member-description {
+        display: none;
+    }
+
+    .popup {
+        display: none;
+        width: 100vw;
+        flex-wrap: wrap;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: $brand_colour_darkgrey;
+        z-index: 2;
+        overflow: scroll; 
+
+        @include desktop {
+            padding: 10% 25% 0 25%;
+        }
+
+        .x-close {
+            transform: rotate(45deg);
+            width: 30px;
+            position: fixed;
+            top: 20px;
+            right: 20px;
+
+            @include desktop {
+                right: 25%;
+                top: 5%;
+                width: 50px;
+            }
+        }
+
+        .team-member {
+            width: 50%;
+            height: 50%;
+            margin: 5% auto;
+            border-bottom: 1px solid $brand_colour_mediumgold;
+
+            @include desktop {
+                width: 200px;
+                margin: 20px;
+                height: 100%;
+                display: inline-block;
+                border: none;
+            }
+            
+            p {
+                color: $brand_colour_mediumgold;
+                font-family: $font__accent;
+                font-weight: 500;
+            }
+
+            .name {
+                color: white;
+                font-size: 1.3rem;
+            }
+
+            .profile-pic {
+                height: 250px;
+            }
+        }
+
+        .description {
+            color: white;
+            margin: 0 5%;
+
+            @include desktop {
+                display: inline-block;
+                float: right;
+                width: 55%;
+                height: 500px;
+                overflow: scroll;
+                border: 1px solid $brand_colour_mediumgold;
+                // margin: 5% 0;
+                padding: 20px;
+            }
+        }
+    }
 }
+

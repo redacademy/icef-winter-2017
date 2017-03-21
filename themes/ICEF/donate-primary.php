@@ -21,7 +21,6 @@ get_header(); ?>
 				</div>
 			</div>
 
-
 			<table>
 				<thead>
 				<tr>
@@ -41,6 +40,7 @@ get_header(); ?>
 				<?php endforeach; ?>
 				</tbody>
 			</table>
+
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
