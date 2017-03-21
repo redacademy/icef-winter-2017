@@ -1780,6 +1780,12 @@ a {
     font-size: 5rem;
     color: #631747; }
 
+.updates {
+  margin: 10% auto;
+  width: 70%; }
+  .updates .updates-flex a .update-text .entry-content {
+    display: none; }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
