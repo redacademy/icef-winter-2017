@@ -504,7 +504,7 @@ a {
   position: fixed;
   top: 0;
   width: 100%; }
-  @media (min-width: 1024px) {
+  @media (min-width: 720px) {
     .site-header {
       position: static; } }
   .site-header .desktop-banner {
@@ -512,7 +512,7 @@ a {
     position: absolute;
     top: 0;
     left: 150px; }
-    @media (min-width: 1024px) {
+    @media (min-width: 720px) {
       .site-header .desktop-banner {
         display: inline-block; } }
 
@@ -529,12 +529,12 @@ a {
   background-color: white;
   height: 12.5vh;
   border-bottom: 1px solid #852762; }
-  @media (min-width: 1024px) {
+  @media (min-width: 720px) {
     .main-navigation {
       display: none; } }
   .main-navigation .black-logo {
     margin: 0 20px; }
-    @media (min-width: 1024px) {
+    @media (min-width: 720px) {
       .main-navigation .black-logo {
         display: none; } }
   .main-navigation .nav-title {
@@ -544,7 +544,7 @@ a {
   .main-navigation .fa-bars {
     margin: 0 20px;
     font-size: 34px; }
-    @media (min-width: 1024px) {
+    @media (min-width: 720px) {
       .main-navigation .fa-bars {
         display: none; } }
 
@@ -555,7 +555,7 @@ a {
   margin: 0;
   padding: 0;
   z-index: 2; }
-  @media (min-width: 1024px) {
+  @media (min-width: 720px) {
     .menu {
       display: -ms-flexbox;
       display: flex;
@@ -575,7 +575,7 @@ a {
         align-items: center;
     height: 12.5vh;
     text-transform: uppercase; }
-    @media (min-width: 1024px) {
+    @media (min-width: 720px) {
       .menu li {
         display: inline-block;
         background-color: transparent;
@@ -584,11 +584,14 @@ a {
         padding: 50px 30px; } }
     .menu li a {
       font-family: "Oswald", sans-serif;
-      color: #433E3E;
+      color: white;
       text-decoration: none;
       font-size: 1.25rem; }
+      @media (min-width: 720px) {
+        .menu li a {
+          color: #433E3E; } }
 
-@media (min-width: 1024px) {
+@media (min-width: 720px) {
   #masthead li:first-child {
     background: url(../../images/svg/banner.svg) no-repeat;
     background-size: 100%;
@@ -601,7 +604,7 @@ a {
       height: 100%;
       color: transparent; } }
 
-@media (min-width: 1024px) {
+@media (min-width: 720px) {
   #masthead li:last-child {
     padding-top: 40px; } }
 
@@ -635,7 +638,7 @@ a {
 .show-menu {
   display: block; }
 
-@media (min-width: 1024px) {
+@media (min-width: 720px) {
   .front-page-container .front-content-container {
     width: 80%;
     margin: 0 auto; }
@@ -648,7 +651,7 @@ a {
   height: 450px;
   text-align: center;
   margin-top: 12.5vh; }
-  @media (min-width: 1024px) {
+  @media (min-width: 720px) {
     .front-page-container .front-page-head {
       margin-top: 0;
       margin-bottom: 70px;
@@ -659,7 +662,7 @@ a {
     background: url(../../images/jpegs/home-hero.jpg) no-repeat;
     background-size: cover;
     background-position: -100px; }
-    @media (min-width: 1024px) {
+    @media (min-width: 720px) {
       .front-page-container .front-page-head .home-hero {
         height: 100%;
         background: url(../../images/jpegs/homepage-hero.png) no-repeat;
@@ -667,7 +670,7 @@ a {
         background-position: center; } }
   .front-page-container .front-page-head .hero-text {
     height: 30%; }
-    @media (min-width: 1024px) {
+    @media (min-width: 720px) {
       .front-page-container .front-page-head .hero-text {
         display: none; }
         .front-page-container .front-page-head .hero-text p {
@@ -688,14 +691,14 @@ a {
     width: 23px;
     position: relative;
     bottom: 5px; }
-    @media (min-width: 1024px) {
+    @media (min-width: 720px) {
       .front-page-container .front-page-head .scroll-down {
         width: 105px;
         bottom: 55px; } }
 
 .front-page-container .who-we-are {
   text-align: center; }
-  @media (min-width: 1024px) {
+  @media (min-width: 720px) {
     .front-page-container .who-we-are {
       margin: 0 auto; }
       .front-page-container .who-we-are .who-purple-border {
@@ -709,7 +712,7 @@ a {
   .front-page-container .who-we-are h3 {
     text-transform: uppercase;
     margin-top: 0; }
-    @media (min-width: 1024px) {
+    @media (min-width: 720px) {
       .front-page-container .who-we-are h3 {
         position: relative;
         top: 45px;
@@ -727,7 +730,7 @@ a {
     margin: 0;
     display: inline-block;
     line-height: 8px; }
-    @media (min-width: 1024px) {
+    @media (min-width: 720px) {
       .front-page-container .who-we-are .key-words {
         width: 70%;
         font-size: 2.25rem;
@@ -745,7 +748,7 @@ a {
   .front-page-container .who-we-are .who-we-are-text {
     text-align: left;
     padding: 0 15px; }
-    @media (min-width: 1024px) {
+    @media (min-width: 720px) {
       .front-page-container .who-we-are .who-we-are-text {
         width: 70%;
         margin: 30px auto;
@@ -758,7 +761,7 @@ a {
   background: url(../../images/svg/yellow-dots.svg);
   background-size: 500px;
   border-bottom: 2px solid #852762; }
-  @media (min-width: 1024px) {
+  @media (min-width: 720px) {
     .front-page-container .yellow-dot-filler {
       width: 90%;
       margin: 0 auto;
@@ -769,13 +772,13 @@ a {
     left: 47%;
     top: 33px;
     width: 20px; }
-    @media (min-width: 1024px) {
+    @media (min-width: 720px) {
       .front-page-container .yellow-dot-filler .front-cross, .front-page-container .yellow-dot-filler .front-heart {
         left: 45%;
         top: 38px;
         width: 80px; } }
 
-@media (min-width: 1024px) {
+@media (min-width: 720px) {
   .front-page-container .front-tekera-research {
     margin-top: 80px; } }
 
@@ -798,7 +801,7 @@ a {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 100%; }
-  @media (min-width: 1024px) {
+  @media (min-width: 720px) {
     .front-page-container .front-tekera-research .research-flex {
       -ms-flex-direction: row;
           flex-direction: row;
@@ -807,7 +810,7 @@ a {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     object-fit: cover; }
-    @media (min-width: 1024px) {
+    @media (min-width: 720px) {
       .front-page-container .front-tekera-research .research-flex img {
         -ms-flex-preferred-size: 30%;
             flex-basis: 30%;
@@ -819,7 +822,7 @@ a {
     display: flex;
     -ms-flex-direction: column;
         flex-direction: column; }
-    @media (min-width: 1024px) {
+    @media (min-width: 720px) {
       .front-page-container .front-tekera-research .research-flex .color-block-flex {
         height: 70%; } }
     .front-page-container .front-tekera-research .research-flex .color-block-flex .purple-block {
@@ -827,14 +830,14 @@ a {
           flex-basis: 100%;
       background-color: #852762;
       padding: 30px; }
-      @media (min-width: 1024px) {
+      @media (min-width: 720px) {
         .front-page-container .front-tekera-research .research-flex .color-block-flex .purple-block {
           height: 40%; } }
       .front-page-container .front-tekera-research .research-flex .color-block-flex .purple-block p {
         margin: 0;
         color: white;
         text-align: center; }
-        @media (min-width: 1024px) {
+        @media (min-width: 720px) {
           .front-page-container .front-tekera-research .research-flex .color-block-flex .purple-block p {
             font-size: 1.125rem;
             line-height: 30px;
@@ -851,7 +854,7 @@ a {
           align-items: center;
       -ms-flex-pack: center;
           justify-content: center; }
-      @media (min-width: 1024px) {
+      @media (min-width: 720px) {
         .front-page-container .front-tekera-research .research-flex .color-block-flex .gold-block {
           height: 20%; } }
       .front-page-container .front-tekera-research .research-flex .color-block-flex .gold-block p {
@@ -859,13 +862,13 @@ a {
         color: white;
         margin: 0;
         display: inline-block; }
-        @media (min-width: 1024px) {
+        @media (min-width: 720px) {
           .front-page-container .front-tekera-research .research-flex .color-block-flex .gold-block p {
             line-height: 22px;
             font-size: 1.125rem; } }
       .front-page-container .front-tekera-research .research-flex .color-block-flex .gold-block .front-numbers {
         line-height: 1.5; }
-        @media (min-width: 1024px) {
+        @media (min-width: 720px) {
           .front-page-container .front-tekera-research .research-flex .color-block-flex .gold-block .front-numbers {
             font-size: 3rem;
             padding-left: 40px; } }
@@ -878,7 +881,7 @@ a {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
       padding-left: 15px; }
-      @media (min-width: 1024px) {
+      @media (min-width: 720px) {
         .front-page-container .front-tekera-research .research-flex .color-block-flex .white-block {
           height: 40%; }
           .front-page-container .front-tekera-research .research-flex .color-block-flex .white-block p {
@@ -896,14 +899,14 @@ a {
           padding: 20px 20px 0 20px;
           font-weight: 600;
           font-size: .7rem; }
-          @media (min-width: 1024px) {
+          @media (min-width: 720px) {
             .front-page-container .front-tekera-research .research-flex .color-block-flex .white-block span p {
               font-size: 1.125rem;
               padding-left: 0;
               font-weight: 600; } }
         .front-page-container .front-tekera-research .research-flex .color-block-flex .white-block span .front-numbers {
           font-size: 3rem; }
-          @media (min-width: 1024px) {
+          @media (min-width: 720px) {
             .front-page-container .front-tekera-research .research-flex .color-block-flex .white-block span .front-numbers {
               font-size: 6.25rem; } }
       .front-page-container .front-tekera-research .research-flex .color-block-flex .white-block p {
@@ -930,7 +933,7 @@ a {
     -ms-flex-pack: center;
         justify-content: center;
     padding-bottom: 30px; }
-    @media (min-width: 1024px) {
+    @media (min-width: 720px) {
       .front-page-container .front-tekera-research .research-flex .icon-block {
         width: 100%;
         margin-left: 20px; } }
@@ -943,7 +946,7 @@ a {
           align-items: center;
       -ms-flex-preferred-size: 40%;
           flex-basis: 40%; }
-      @media (min-width: 1024px) {
+      @media (min-width: 720px) {
         .front-page-container .front-tekera-research .research-flex .icon-block div {
           -ms-flex-preferred-size: 23%;
               flex-basis: 23%; } }
@@ -956,7 +959,7 @@ a {
         width: 130px;
         padding: 10px; }
 
-@media (min-width: 1024px) {
+@media (min-width: 720px) {
   .front-page-container .our-values {
     padding: 0 3% 5% 2%; }
     .front-page-container .our-values img {
@@ -971,7 +974,7 @@ a {
 
 .front-page-container .our-values p {
   padding: 10px; }
-  @media (min-width: 1024px) {
+  @media (min-width: 720px) {
     .front-page-container .our-values p {
       padding: 0 15%; } }
 
@@ -991,7 +994,7 @@ a {
 
 .front-page-container .our-values .purple-btn {
   display: none; }
-  @media (min-width: 1024px) {
+  @media (min-width: 720px) {
     .front-page-container .our-values .purple-btn {
       display: block;
       margin: 0 auto; } }
@@ -1004,7 +1007,7 @@ a {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
-  @media (min-width: 1024px) {
+  @media (min-width: 720px) {
     .front-page-container .key-cornerstones {
       margin: 50px 0; } }
   .front-page-container .key-cornerstones h2 {
@@ -1034,7 +1037,7 @@ a {
       .front-page-container .key-cornerstones .cornerstone-flex .education .cornerstone-text, .front-page-container .key-cornerstones .cornerstone-flex .health .cornerstone-text, .front-page-container .key-cornerstones .cornerstone-flex .local-business .cornerstone-text {
         -ms-flex-preferred-size: 100%;
             flex-basis: 100%; }
-      @media (min-width: 1024px) {
+      @media (min-width: 720px) {
         .front-page-container .key-cornerstones .cornerstone-flex .education, .front-page-container .key-cornerstones .cornerstone-flex .health, .front-page-container .key-cornerstones .cornerstone-flex .local-business {
           -ms-flex-direction: row;
               flex-direction: row; }
@@ -1044,7 +1047,7 @@ a {
           .front-page-container .key-cornerstones .cornerstone-flex .education .cornerstone-text, .front-page-container .key-cornerstones .cornerstone-flex .health .cornerstone-text, .front-page-container .key-cornerstones .cornerstone-flex .local-business .cornerstone-text {
             -ms-flex-preferred-size: 35%;
                 flex-basis: 35%; } }
-    @media (min-width: 1024px) {
+    @media (min-width: 720px) {
       .front-page-container .key-cornerstones .cornerstone-flex .local-business {
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse; } }
@@ -1054,7 +1057,7 @@ a {
       background-color: #FFEABA;
       color: #F2CA6E;
       padding: 5%; }
-      @media (min-width: 1024px) {
+      @media (min-width: 720px) {
         .front-page-container .key-cornerstones .cornerstone-flex .cornerstone-text {
           -ms-flex-preferred-size: 40%;
               flex-basis: 40%; } }
@@ -1068,7 +1071,7 @@ a {
   display: none;
   width: 100%;
   margin-bottom: 50px; }
-  @media (min-width: 1024px) {
+  @media (min-width: 720px) {
     .front-page-container .bottom-arrow {
       display: block; } }
   .front-page-container .bottom-arrow img {
@@ -1213,7 +1216,7 @@ a {
 
 .site-content {
   margin-top: 12.5vh; }
-  @media (min-width: 1024px) {
+  @media (min-width: 720px) {
     .site-content {
       margin-top: 0; } }
 
@@ -1227,14 +1230,14 @@ a {
       flex-direction: column;
   -ms-flex-align: center;
       align-items: center; }
-  @media (min-width: 1024px) {
+  @media (min-width: 720px) {
     .page-template-approach .site-main {
       width: 1000px;
       margin: 0 auto; } }
 
 .page-template-approach .approachTitle {
   display: none; }
-  @media (min-width: 1024px) {
+  @media (min-width: 720px) {
     .page-template-approach .approachTitle {
       display: block;
       margin-top: 12rem;
@@ -1248,7 +1251,7 @@ a {
   position: relative;
   margin-top: 8rem;
   margin-bottom: 11rem; }
-  @media (min-width: 1024px) {
+  @media (min-width: 720px) {
     .page-template-approach .desktopSwirl {
       display: block; } }
   .page-template-approach .desktopSwirl .wheelIcons {
@@ -1312,27 +1315,27 @@ a {
       flex-direction: column;
   -ms-flex-align: center;
       align-items: center; }
-  @media (min-width: 1024px) {
+  @media (min-width: 720px) {
     .page-template-approach .swirlAndText {
       display: none; } }
 
 .page-template-approach .desktopSwirl {
   display: none; }
-  @media (min-width: 1024px) {
+  @media (min-width: 720px) {
     .page-template-approach .desktopSwirl {
       display: block; } }
 
-@media (min-width: 1024px) {
+@media (min-width: 720px) {
   .page-template-approach .lastPictureMobile {
     display: none; } }
 
 .page-template-approach .lastPictureDesktop {
   display: none; }
-  @media (min-width: 1024px) {
+  @media (min-width: 720px) {
     .page-template-approach .lastPictureDesktop {
       display: block; } }
 
-@media (min-width: 1024px) {
+@media (min-width: 720px) {
   .page-template-approach .hero {
     display: none; } }
 
@@ -1376,13 +1379,13 @@ a {
 .page-template-internship .content-area p {
   margin: 1rem 1.5rem; }
 
-@media (min-width: 1024px) {
+@media (min-width: 720px) {
   .page-template-internship .content-area {
     width: 1000px;
     margin: 0 auto;
     margin-top: 10rem; } }
 
-@media (min-width: 1024px) {
+@media (min-width: 720px) {
   .page-template-internship .desktopFlex {
     display: -ms-inline-flexbox;
     display: inline-flex;
@@ -1390,7 +1393,7 @@ a {
 
 .page-template-internship .pageHeader {
   display: none; }
-  @media (min-width: 1024px) {
+  @media (min-width: 720px) {
     .page-template-internship .pageHeader {
       display: block;
       border-bottom: solid 2px #852762;
@@ -1401,7 +1404,7 @@ a {
 .page-template-internship p {
   color: #433E3E; }
 
-@media (min-width: 1024px) {
+@media (min-width: 720px) {
   .page-template-internship .yellowBackgroundContent {
     width: 40%; } }
 
@@ -1412,7 +1415,7 @@ a {
 
 .page-template-internship .secondImage {
   height: 204px; }
-  @media (min-width: 1024px) {
+  @media (min-width: 720px) {
     .page-template-internship .secondImage {
       height: auto; } }
   .page-template-internship .secondImage img {
@@ -1483,16 +1486,26 @@ a {
     font-family: "Oswald", sans-serif;
     margin: 4rem; }
 
+.our-team {
+  display: none;
+  width: 80%;
+  margin: 25vh auto 0 auto;
+  border-bottom: 2px solid #433E3E; }
+  @media (min-width: 720px) {
+    .our-team {
+      display: block; } }
+
 .team-type-archive {
-  margin-top: 12.5vh;
-  width: 100%;
+  width: 85%;
+  margin: 0 auto;
+  height: 100%;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -ms-flex-pack: center;
       justify-content: center; }
-  @media (min-width: 1024px) {
+  @media (min-width: 720px) {
     .team-type-archive {
       background: url(../../images/svg/our-team-tree.svg) no-repeat;
       background-position: center; } }
@@ -1503,22 +1516,31 @@ a {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -ms-flex-pack: center;
-        justify-content: center;
+    -ms-flex-pack: start;
+        justify-content: flex-start;
     -ms-flex-align: start;
         align-items: flex-start;
-    background: none; }
-    @media (min-width: 1024px) {
+    background: none;
+    height: 70%; }
+    @media (min-width: 720px) {
       .team-type-archive .canada-team, .team-type-archive .uganda-team {
         -ms-flex-preferred-size: 45%;
-            flex-basis: 45%; } }
+            flex-basis: 45%;
+        -ms-flex-pack: center;
+            justify-content: center;
+        -ms-flex-align: start;
+            align-items: flex-start; } }
     .team-type-archive .canada-team h2, .team-type-archive .uganda-team h2 {
+      font-family: "Oswald", sans-serif;
       display: inline-block;
       -ms-flex-preferred-size: 100%;
           flex-basis: 100%;
       text-align: center;
       height: 30px;
-      font-weight: 500; }
+      font-weight: 300; }
+      @media (min-width: 720px) {
+        .team-type-archive .canada-team h2, .team-type-archive .uganda-team h2 {
+          color: #F2CA6E; } }
     .team-type-archive .canada-team .team-member, .team-type-archive .uganda-team .team-member {
       -ms-flex-preferred-size: 40%;
           flex-basis: 40%;
@@ -1526,38 +1548,65 @@ a {
       margin: 0 5%;
       text-align: center;
       text-transform: uppercase;
-      overflow: hidden; }
-      @media (min-width: 1024px) {
+      overflow: hidden;
+      position: relative; }
+      @media (min-width: 720px) {
         .team-type-archive .canada-team .team-member, .team-type-archive .uganda-team .team-member {
+          -ms-flex-preferred-size: 35%;
+              flex-basis: 35%;
           margin: 0 3%;
           overflow: hidden;
-          height: 350px; } }
+          height: 450px; } }
       .team-type-archive .canada-team .team-member p, .team-type-archive .uganda-team .team-member p {
-        margin: 0px;
-        font-size: .8rem; }
+        margin: 0px; }
+        @media (min-width: 720px) {
+          .team-type-archive .canada-team .team-member p, .team-type-archive .uganda-team .team-member p {
+            font-size: 1.2rem; } }
       .team-type-archive .canada-team .team-member .name, .team-type-archive .uganda-team .team-member .name {
         font-weight: 600;
         color: #433E3E; }
+      .team-type-archive .canada-team .team-member .job, .team-type-archive .uganda-team .team-member .job {
+        height: 20%; }
       .team-type-archive .canada-team .team-member .job-border, .team-type-archive .uganda-team .team-member .job-border {
         width: 100%;
-        position: relative;
-        top: 37px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
         z-index: 1; }
+        @media (min-width: 720px) {
+          .team-type-archive .canada-team .team-member .job-border, .team-type-archive .uganda-team .team-member .job-border {
+            top: 0px; } }
       .team-type-archive .canada-team .team-member .profile-pic, .team-type-archive .uganda-team .team-member .profile-pic {
+        margin-top: 20px;
         border: 5px solid #F2CA6E;
-        height: 60%;
+        height: 50%;
         overflow: hidden;
         margin-bottom: 5px; }
-        @media (min-width: 1024px) {
+        @media (min-width: 720px) {
           .team-type-archive .canada-team .team-member .profile-pic, .team-type-archive .uganda-team .team-member .profile-pic {
-            height: 65%; } }
+            height: 60%;
+            margin-top: 35px; } }
         .team-type-archive .canada-team .team-member .profile-pic img, .team-type-archive .uganda-team .team-member .profile-pic img {
+          object-fit: cover;
           margin: 0 auto;
           max-width: none;
-          height: 100%; }
-          @media (min-width: 1024px) {
+          height: 100%;
+          min-width: 100%; }
+          @media (min-width: 720px) {
             .team-type-archive .canada-team .team-member .profile-pic img, .team-type-archive .uganda-team .team-member .profile-pic img {
               min-width: 100%; } }
+  .team-type-archive .member-description {
+    display: none; }
+
+section {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #433E3E;
+  z-index: 2; }
 
 .page-template-donate {
   margin: 0 auto; }
@@ -1568,7 +1617,7 @@ a {
         flex-direction: column;
     -ms-flex-align: center;
         align-items: center; }
-  @media (min-width: 1024px) {
+  @media (min-width: 720px) {
     .page-template-donate .container {
       width: 82%; } }
   .page-template-donate h2 {
@@ -1725,7 +1774,7 @@ footer .icef-footer {
   -ms-flex-align: center;
       align-items: center;
   padding: 10px 0; }
-  @media (min-width: 1024px) {
+  @media (min-width: 720px) {
     .footer-wrapper {
       -ms-flex-direction: row;
           flex-direction: row; } }
