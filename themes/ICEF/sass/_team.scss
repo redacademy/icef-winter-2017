@@ -130,15 +130,13 @@
     .member-description {
         display: none;
     }
+
+    section {
+        display: none;
+        width: 100vw;
+        height: 100vh;
+        background-color: $brand_colour_darkgrey;
+        z-index: 2;
+    }
 }
 
-section {
-    display: none;
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    top:0;
-    left:0;
-    background-color: $brand_colour_darkgrey;
-    z-index: 2;
-}

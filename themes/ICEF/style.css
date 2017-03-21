@@ -1597,16 +1597,12 @@ a {
               min-width: 100%; } }
   .team-type-archive .member-description {
     display: none; }
-
-section {
-  display: none;
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #433E3E;
-  z-index: 2; }
+  .team-type-archive section {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    background-color: #433E3E;
+    z-index: 2; }
 
 .page-template-donate {
   margin: 0 auto; }
