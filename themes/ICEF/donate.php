@@ -22,7 +22,15 @@ get_header(); ?>
 					<div class="sponsor-wrapper">
 						<h2 class="sponsor-title"><?php echo CFS()->get('sponsor_title');?></h2>
 						<p class="sponsor-desc"><?php echo CFS()->get('sponsor_description');?></p>
-						<img class="sponsor-image" src="<?php echo get_template_directory_uri();?>/images/svg/gift.svg" alt="Image of a gift">
+						<img src="<?php echo get_template_directory_uri();?>/images/svg/gift.svg" alt="Image of a gift">
+						<div class="sponsor-button-wrapper">
+							<div class="primary-school-button">
+								<a href="./donate-primary.php">Primary School</a>
+							</div>
+							<div class="vocational-school-button">
+								<a href="./donate-vocational.php">Vocational School</a>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="project-wrapper">
@@ -38,6 +46,10 @@ get_header(); ?>
 				<div class="recycling-wrapper">
 					<h2 class="recycling-prog-title"><?php echo CFS()->get('return_it_recycling_program_title');?></h2>
 					<p class="recycling-prog-desc"><?php echo CFS()->get('return_it_recycling_program_description');?></p>
+					<p class="icef-donor">
+						ICEF’s Donor ID Number is
+						<span class="donor-number">#395</span>
+					</p>
 				</div>
 			</div>
 		</main><!-- #main -->

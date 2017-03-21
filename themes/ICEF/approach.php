@@ -69,6 +69,7 @@ get_header(); ?>
 					</li>
 				</ul>
 			</section>
+			<div>
 			<?php echo CFS()->get('below_self_sustainability');?>
 			<div class = "quoteBackground">
 				<?php echo CFS()->get('approach_quote');?>
