@@ -12,7 +12,13 @@
         $className = $classNameArray[1];
         console.log($className);
 
-        $('.' + $className).css('display', 'flex');
+        $('.' + $className).css('display', 'block');
+
+        $('.x-close').on('click', function(){
+            $('.' + $className).css('display', 'none');
+        })
     })
+
+    
 
 })(jQuery);

@@ -1601,8 +1601,15 @@ a {
     display: none;
     width: 100vw;
     height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
     background-color: #433E3E;
     z-index: 2; }
+    .team-type-archive section .team-member {
+      width: 50%;
+      height: 300px;
+      margin: 5% auto; }
 
 .page-template-donate {
   margin: 0 auto; }
