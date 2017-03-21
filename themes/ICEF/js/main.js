@@ -12,7 +12,7 @@
         $className = $classNameArray[1];
         console.log($className);
 
-        $('.' + $className).css('display', 'block');
+        $('.' + $className).css('display', 'flex');
 
         $('.x-close').on('click', function(){
             $('.popup').css('display', 'none');
