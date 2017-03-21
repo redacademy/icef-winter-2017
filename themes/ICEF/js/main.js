@@ -15,7 +15,7 @@
         $('.' + $className).css('display', 'block');
 
         $('.x-close').on('click', function(){
-            $('.' + $className).css('display', 'none');
+            $('.popup').css('display', 'none');
         })
     })
 
