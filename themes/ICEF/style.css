@@ -1873,8 +1873,20 @@ a {
 .updates {
   margin: 10% auto;
   width: 70%; }
-  .updates .updates-flex a .update-text .entry-content {
-    display: none; }
+  .updates .updates-flex {
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: start;
+        justify-content: flex-start; }
+    .updates .updates-flex .update-article {
+      -ms-flex-preferred-size: 30%;
+          flex-basis: 30%;
+      padding: 10px; }
+      .updates .updates-flex .update-article a .update-text {
+        display: none; }
 
 /*--------------------------------------------------------------
 # Media

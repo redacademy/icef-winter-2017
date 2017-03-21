@@ -3,18 +3,25 @@
     width: 70%;
 
     .updates-flex{
-        
-        
-        a {
+        display: flex;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        justify-content: flex-start;
 
-            .update-text {
+        .update-article {
+            flex-basis: 30%;
+            padding: 10px;
 
-                .entry-content{
+            a {
+
+                .update-text {
                     display: none;
-                }
-            }
-                
+                    
+                }    
+            }   
+
         }
+        
 
     }
 
