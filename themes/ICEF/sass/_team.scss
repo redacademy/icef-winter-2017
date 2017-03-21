@@ -20,19 +20,21 @@
     @include desktop{
         background: url(../../images/svg/our-team-tree.svg) no-repeat;
         background-position: center;
+        margin: 0 auto;
+        padding: 0 10%;
     }
 
     .canada-team, .uganda-team {
         flex-basis: 100%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: flex-start;
         align-items: flex-start;
         background: none;
         height: 70%;
 
         @include desktop {
-            flex-basis: 45%;
+            padding: 20px;
+            flex-basis: 49%;
             justify-content: center;
             align-items: flex-start;
         }
@@ -49,6 +51,7 @@
 
             @include desktop {
                 color: $brand_colour_mediumgold;
+                margin: 40px;
             }
         }
 
@@ -62,10 +65,10 @@
             position: relative;
 
             @include desktop {
-                flex-basis: 35%;
-                margin: 0 3%;
+                flex-basis: 40%;
+                margin: 0 5%;
                 overflow: hidden;
-                height: 450px;
+                height: 400px;
             }
 
             p {
@@ -94,7 +97,7 @@
                 z-index: 1;
 
                 @include desktop {
-                    top: 0px;
+                    top: 10px;
                 }
             }
             
@@ -144,7 +147,7 @@
         overflow: scroll; 
 
         @include desktop {
-            padding: 0 25%;
+            padding: 10% 25% 0 25%;
         }
 
         .x-close {
@@ -153,6 +156,12 @@
             position: fixed;
             top: 20px;
             right: 20px;
+
+            @include desktop {
+                right: 25%;
+                top: 5%;
+                width: 50px;
+            }
         }
 
         .team-member {
@@ -162,10 +171,11 @@
             border-bottom: 1px solid $brand_colour_mediumgold;
 
             @include desktop {
-                width: 300px;
+                width: 200px;
                 margin: 20px;
                 height: 100%;
                 display: inline-block;
+                border: none;
             }
             
             p {
@@ -190,12 +200,13 @@
 
             @include desktop {
                 display: inline-block;
-                width: 50%;
-                height: 600px;
+                float: right;
+                width: 55%;
+                height: 500px;
                 overflow: scroll;
                 border: 1px solid $brand_colour_mediumgold;
-                margin: 5% 0;
-                padding: 10px;
+                // margin: 5% 0;
+                padding: 20px;
             }
         }
     }
