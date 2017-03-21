@@ -14,13 +14,15 @@ get_header(); ?>
 				<?php while ( have_posts() ) : the_post(); ?>
 
 					<div class="update-article">
-						<a class="read-more" href="<?php the_permalink(); ?> ">
+						<a class="update-box" href="<?php the_permalink(); ?>">
 							<?php the_post_thumbnail('large'); ?>
-							<div class="update-text">
-								<p><?php the_title(); ?></p>
-								<?php the_content(); ?>
-							</div>
+							<p class='update-date'><?php echo get_the_date(); ?></p>
+							<p class='update-title'><?php the_title(); ?></p>
 						</a>
+						<div class="update-text">	
+							<?php echo get_the_excerpt(); ?>
+						</div>
+						<a class ='read' href="<?php the_permalink(); ?>">Read</a>
 					</div>
 
 				<?php endwhile; // End of the loop. ?>
