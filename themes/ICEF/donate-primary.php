@@ -20,6 +20,27 @@ get_header(); ?>
 					<img src="<?php echo CFS()->get('primary_school_image');?>">
 				</div>
 			</div>
+
+
+			<table>
+				<thead>
+				<tr>
+					<th>Scholarship</th>
+					<th>Amount</th>
+					<th>Donation Amount(CAD)</th>
+				</tr> 
+				</thead>
+				<tbody>
+				<?php $fields = CFS()->get( 'primary_school_scholarship_loop'); ?>
+				<?php foreach( $fields as $field ): ?>
+					<tr>
+						<td> <?php echo $field['scholarship_category']; ?> </td>
+						<td> <?php echo $field['scholarship_amount']; ?> </td>
+						<td> <?php echo $field['donation_amount']; ?> </td>
+					</tr>
+				<?php endforeach; ?>
+				</tbody>
+			</table>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
