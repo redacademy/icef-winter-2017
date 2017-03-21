@@ -15,7 +15,7 @@ get_header(); ?>
 
 					<div class="update-article">
 						<a class="update-box" href="<?php the_permalink(); ?>">
-							<?php the_post_thumbnail('large'); ?>
+							<div class='update-image'><?php the_post_thumbnail('large'); ?></div>
 							<p class='update-date'><?php echo get_the_date(); ?></p>
 							<p class='update-title'><?php the_title(); ?></p>
 						</a>
