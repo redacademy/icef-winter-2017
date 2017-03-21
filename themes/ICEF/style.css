@@ -1779,20 +1779,23 @@ a {
     .page-template-donate .donate-trc-wrapper .donate-trc-desc {
       color: #fff; }
   .page-template-donate .donate-button {
-    text-align: center; }
-    .page-template-donate .donate-button a {
-      padding-top: 10px;
-      text-align: center;
-      height: 50px;
-      width: 150px;
-      border-radius: 8px;
-      display: inline-block;
-      background-color: #852762;
-      color: white;
-      font-family: "Oswald", sans-serif;
-      text-transform: uppercase;
-      font-size: 1.5rem;
-      border: none; }
+    display: inline-block;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    height: 50px;
+    width: 150px;
+    padding: 10px 14px;
+    margin: 0;
+    background: #852762;
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+    outline: none; }
+  .page-template-donate .donate-button:hover {
+    text-decoration: underline; }
   .page-template-donate .sponsor-wrapper {
     display: -ms-flexbox;
     display: flex;
