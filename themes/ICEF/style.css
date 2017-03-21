@@ -1905,12 +1905,14 @@ a {
         -ms-flex-preferred-size: 70%;
             flex-basis: 70%;
         position: relative; }
-        .updates .updates-flex .update-article .update-box img {
+        .updates .updates-flex .update-article .update-box .update-image {
           -ms-flex-preferred-size: 100%;
               flex-basis: 100%;
-          object-fit: cover;
-          height: 75%;
-          margin: 0; }
+          height: 75%; }
+          .updates .updates-flex .update-article .update-box .update-image img {
+            display: block;
+            object-fit: cover;
+            height: 100%; }
         .updates .updates-flex .update-article .update-box .update-date {
           position: absolute;
           color: white;
@@ -1951,8 +1953,11 @@ a {
       height: 700px;
       border-bottom: 1px solid #852762;
       margin-bottom: 50px; }
-      .updates .update-article:first-child img {
-        height: 100%; } }
+      .updates .update-article:first-child .update-image {
+        background-color: #433E3E; }
+        .updates .update-article:first-child .update-image img {
+          height: 100%;
+          margin: 0 auto; } }
 
 /*--------------------------------------------------------------
 # Media

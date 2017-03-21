@@ -29,12 +29,17 @@
                 flex-basis: 70%;
                 position: relative;
 
-                img {
+                .update-image {
                     flex-basis: 100%;
-                    object-fit: cover;
                     height: 75%;
-                    margin: 0;
+
+                    img {    
+                        display: block;
+                        object-fit: cover;
+                        height: 100%;
+                    }
                 }
+                
 
                 .update-date {
                     position: absolute;
@@ -87,10 +92,15 @@
             border-bottom: 1px solid $brand_colour_lightpurple;
             margin-bottom: 50px;
             
-            img {
-                height: 100%;
-                // flex-basis: 20%;
+            .update-image {
+                background-color: $brand_colour_darkgrey;    
+
+                img {
+                    height: 100%;
+                    margin: 0 auto;   
+                }
             }
+            
         }
     }
 
