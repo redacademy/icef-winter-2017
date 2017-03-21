@@ -32,10 +32,26 @@
             color: #fff;
         } 
     }
-    
-    .donate-button {
-        @include purple-button;   
+
+    .donate-button{
+        display: inline-block;
+        font-family: $font__accent;
+        font-size: 1.5rem;
+        color: #fff;
         text-align: center;
+        text-transform: uppercase;
+        height: 50px;
+        width: 150px;
+        padding: 10px 14px;
+        margin: 0;
+        background: $brand_colour_lightpurple;
+        border-radius: 8px;
+        border: 0;
+        cursor: pointer;
+        outline: none;
+        &:hover {
+            text-decoration: underline;
+        }
     }
 
     .sponsor-wrapper {
