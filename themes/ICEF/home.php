@@ -9,7 +9,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main updates" role="main">
-
+			<h2>Updates</h2>
 			<div class='updates-flex'>
 				<?php while ( have_posts() ) : the_post(); ?>
 
@@ -22,7 +22,12 @@ get_header(); ?>
 						<div class="update-text">	
 							<?php echo get_the_excerpt(); ?>
 						</div>
-						<a class ='read' href="<?php the_permalink(); ?>">Read</a>
+						<div class ='read'>
+							<a  href="<?php the_permalink(); ?>">
+								<p>Read</p>
+								<img src='<?php echo get_template_directory_uri();?>/images/svg/arrow-right.svg' alt='arrow-left'>
+							</a>
+						</div>
 					</div>
 
 				<?php endwhile; // End of the loop. ?>
