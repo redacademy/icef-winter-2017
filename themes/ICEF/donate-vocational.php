@@ -37,7 +37,7 @@ get_header(); ?>
 				</tr> 
 				</thead>
 				<tbody>
-					<?php $fields = CFS()->get( 'vocational_scholarship_loop'); ?>
+					<?php $fields = CFS()->get( 'vocational_school_scholarship_loop'); ?>
 					<?php foreach( $fields as $field ): ?>
 						<tr>
 							<td> <?php echo $field['scholarship_category']; ?> </td>
