@@ -26,19 +26,21 @@ get_header(); ?>
 				</div>
 				
 				<div class="vocational-school-wrapper">
-					<img src="<?php echo get_template_directory_uri();?>/images/svg/craft.svg" alt="Image of a spool of thread">
-					<h2><?php echo CFS()->get('vocational_school_scholarship_title');?><h2>
+					<div class="vocational-scholarship-heading">
+						<img src="<?php echo get_template_directory_uri();?>/images/svg/craft.svg" alt="Image of a spool of thread">
+						<h2 class="scholarship-title"><?php echo CFS()->get('vocational_school_scholarship_title');?><h2>
+					</div>
 					<p><?php echo CFS()->get('vocational_school_scholarship_description');?></p>
 			</div>
 
 			<table>
-				<thead>
+				<!--<thead>
 				<tr>
 					<th>Scholarship</th>
 					<th>Amount</th>
 					<th>Donation Amount(CAD)</th>
 				</tr> 
-				</thead>
+				</thead>-->
 				<tbody>
 					<?php $fields = CFS()->get( 'vocational_school_scholarship_loop'); ?>
 					<?php foreach( $fields as $field ): ?>
@@ -48,9 +50,9 @@ get_header(); ?>
 							<td> <?php echo $field['donation_amount']; ?> </td>
 						</tr>
 					<?php endforeach; ?>
-				</tbody>
-				<tfooter>* Price in yellow are in Canadian (CAD)</tfooter>
+				</tbody>				
 			</table>
+			<p>* Price in yellow are in Canadian (CAD)</p>
 			<p><?php echo CFS()->get('vocational_school_student_fees');?></p>
 			<h2><?php echo CFS()->get('vocational_school_sponsor_title');?></h2>
 			<p><?php echo CFS()->get('vocational_school_sponsor_package');?></p>

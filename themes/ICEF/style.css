@@ -2162,6 +2162,13 @@ a {
     color: #F2CA6E; }
   .page-template-donate-vocational .vocational-school-process-desc {
     color: #433E3E; }
+  .page-template-donate-vocational .vocational-scholarship-heading {
+    display: -ms-flexbox;
+    display: flex;
+    height: 80px; }
+  .page-template-donate-vocational .scholarship-title {
+    color: #F2CA6E;
+    margin-top: 0; }
 
 .updates {
   margin: 10% auto;
