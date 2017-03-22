@@ -13,9 +13,11 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 			<div class="container">
-					<img src="<?php echo CFS()->get('vocational_school_image');?>">
-					<h2 class="vocational-school-title"><?php echo CFS()->get('vocational_school_title');?></h2>
-					<p class="donate-trc-desc"><?php echo CFS()->get('vocational_school_description');?></p>
+					<div class="vocational-wrapper">
+						<img src="<?php echo CFS()->get('vocational_school_image');?>">
+						<h2 class="vocational-school-title"><?php echo CFS()->get('vocational_school_title');?></h2>
+						<p class="vocational-school-desc"><?php echo CFS()->get('vocational_school_description');?></p>
+					</div>
 				</div>
 				<div class="process-wrapper">
 					<h2><?php echo CFS()->get('vocational_school_process_title');?></p>

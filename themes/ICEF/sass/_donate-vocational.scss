@@ -20,7 +20,19 @@
         text-transform: none;
     }
 
+    .vocational-wrapper {
+        display: flex;
+        flex-flow: row wrap;
+        color: #fff;
+        background-color: $brand_colour_mediumgold;
+        padding: 10px 50px 40px 50px;
+    }
+
     .vocational-school-title {
+        color: #fff;
+    }
+
+    .vocational-school-desc {
         color: #fff;
     }
 }

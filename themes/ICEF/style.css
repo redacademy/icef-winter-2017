@@ -2144,7 +2144,17 @@ a {
     line-height: 1;
     margin-bottom: 0;
     text-transform: none; }
+  .page-template-donate-vocational .vocational-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    color: #fff;
+    background-color: #F2CA6E;
+    padding: 10px 50px 40px 50px; }
   .page-template-donate-vocational .vocational-school-title {
+    color: #fff; }
+  .page-template-donate-vocational .vocational-school-desc {
     color: #fff; }
 
 .updates {
