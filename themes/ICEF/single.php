@@ -43,6 +43,6 @@ get_header(); ?>
 				</div>
 			</section>
 		</main><!-- #main -->
-	</div><!-- #primary -->
+	</div>
 
 <?php get_footer(); ?>
