@@ -2046,8 +2046,13 @@ a {
   @media (min-width: 720px) {
     .single-update {
       width: 70%;
-      margin: 10% 10%; } }
+      margin: 10% auto; } }
+  .single-update h2 {
+    border-bottom: 3px solid #852762;
+    width: 70%;
+    margin: 20px auto; }
   .single-update .update-box {
+    margin: 0 auto;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -2088,7 +2093,7 @@ a {
       background-color: #852762; }
       @media (min-width: 720px) {
         .single-update .update-box .update-date {
-          bottom: 10px;
+          bottom: 45px;
           right: 5px; } }
     .single-update .update-box .update-title {
       -ms-flex-preferred-size: 100%;
@@ -2112,7 +2117,8 @@ a {
       text-decoration: none; }
   .single-update .update-content {
     padding: 5%;
-    line-height: 30px; }
+    line-height: 30px;
+    margin: 0 auto; }
     @media (min-width: 720px) {
       .single-update .update-content {
         padding-left: 0;

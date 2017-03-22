@@ -209,10 +209,17 @@
 
     @include desktop {
         width: 70%;
-        margin: 10% 10%;
+        margin: 10% auto;
+    }
+
+    h2 {
+        border-bottom: 3px solid $brand_colour_lightpurple;
+        width: 70%;
+        margin: 20px auto;
     }
 
     .update-box {
+        margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
         width: 100%;
@@ -257,7 +264,7 @@
             background-color:$brand_colour_lightpurple;
 
             @include desktop {
-                bottom: 10px;
+                bottom: 45px;
                 right: 5px;
             }
         }
@@ -290,6 +297,7 @@
     .update-content {
         padding: 5%;
         line-height: 30px;
+        margin: 0 auto;
 
         @include desktop {
             padding-left: 0;
