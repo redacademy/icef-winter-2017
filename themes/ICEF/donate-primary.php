@@ -54,8 +54,10 @@ get_header(); ?>
 					<p><?php echo CFS()->get('primary_school_student_fees');?></p>
 				</div> <!-- .primary-scholarship-wrapper -->
 				<div class="sponsor-wrapper">
-					<h2><?php echo CFS()->get('primary_school_sponsor_title');?></h2>
-					<p><?php echo CFS()->get('primary_school_sponsor_package');?></p>
+					<div class="sponsor-section">
+						<h2><?php echo CFS()->get('primary_school_sponsor_title');?></h2>
+						<p><?php echo CFS()->get('primary_school_sponsor_package');?></p>
+					</div>
 				</div> <!-- .sponsor-wrapper -->
 			</div> <!-- .container -->
 		</main><!-- #main -->
