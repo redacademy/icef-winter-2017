@@ -1509,6 +1509,14 @@ a {
     margin-bottom: 34px;
     font-size: 3rem; }
 
+.page-template-work .yellowBackground {
+  background: #F2CA6E; }
+  .page-template-work .yellowBackground h1 {
+    color: white;
+    padding-left: 1rem;
+    padding-top: .5rem;
+    font-size: 3rem; }
+
 .page-template-work .purpleCircleTitle {
   text-align: center;
   font-size: 1.5rem; }
