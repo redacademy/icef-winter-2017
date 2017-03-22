@@ -240,9 +240,13 @@ a {
 
 		a {
 			font-family: $font__accent;
-			color: #433E3E;
+			color: white;
 			text-decoration: none;
 			font-size: 1.25rem;
+
+			@include desktop {
+				color: #433E3E;
+			}
 		}
 	}
 }
