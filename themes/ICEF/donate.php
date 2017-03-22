@@ -10,7 +10,9 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 			<div class="container">
-				<img src="<?php echo CFS()->get('donate_landing_title_image');?>">
+				<div class="img-wrapper">
+					<img src="<?php echo CFS()->get('donate_landing_title_image');?>">
+				</div>
 				<div class="donate-wrapper">
 					<div class="donate-trc-wrapper">
 						<h2><?php echo CFS()->get('donate_to_trc_title');?></h2>
@@ -48,10 +50,8 @@ get_header(); ?>
 				<div class="recycling-wrapper">
 					<h2 class="recycling-prog-title"><?php echo CFS()->get('return_it_recycling_program_title');?></h2>
 					<p class="recycling-prog-desc"><?php echo CFS()->get('return_it_recycling_program_description');?></p>
-					<p class="icef-donor">
-						ICEF’s Donor ID Number is
-						<span class="donor-number">#395</span>
-					</p>
+					<p class="icef-donor">ICEF’s Donor ID Number is</p>
+					<p class="donor-number">#395</p>
 				</div>
 			</div>
 		</main><!-- #main -->

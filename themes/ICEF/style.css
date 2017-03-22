@@ -1488,7 +1488,8 @@ a {
 
 .page-template-work .content-area {
   width: 1000px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-top: 10rem; }
 
 .page-template-work .handMade {
   display: -ms-flexbox;
@@ -1508,10 +1509,16 @@ a {
     margin-bottom: 34px;
     font-size: 3rem; }
 
+.page-template-work .purpleCircleTitle {
+  text-align: center;
+  font-size: 1.5rem; }
+
 .page-template-work .purpleCircleGrid {
   display: -ms-flexbox;
   display: flex;
   width: 1000px;
+  margin: 0;
+  padding: 0;
   -ms-flex-pack: center;
       justify-content: center;
   list-style: none;
@@ -1574,7 +1581,13 @@ a {
             backface-visibility: hidden; }
   .page-template-work .purpleCircleGrid .ch-info .ch-info-back {
     transform: rotate3d(0, 1, 0, 180deg);
-    background: #000; }
+    background: #631747;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center; }
   .page-template-work .purpleCircleGrid .ch-info h4 {
     color: #fff;
     text-transform: uppercase;
@@ -1588,7 +1601,7 @@ a {
   .page-template-work .purpleCircleGrid .ch-info-back p {
     color: #fff;
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 2rem;
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
     font-size: 12px; }
@@ -1887,6 +1900,8 @@ a {
     line-height: 1;
     margin-bottom: 0;
     text-transform: none; }
+  .page-template-donate .img-wrapper {
+    height: 183px; }
   .page-template-donate .donate-wrapper {
     display: -ms-flexbox;
     display: flex;
@@ -2000,11 +2015,17 @@ a {
   .page-template-donate .recycling-wrapper {
     padding: 10px 50px 20px 50px; }
   .page-template-donate .icef-donor {
-    font-size: 2rem;
-    color: #000; }
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #000;
+    margin-bottom: 0; }
   .page-template-donate .donor-number {
     font-size: 5rem;
-    color: #631747; }
+    font-weight: bold;
+    color: #631747;
+    text-align: center;
+    margin-top: 0; }
 
 .updates {
   margin: 10% auto;
@@ -2255,7 +2276,7 @@ a {
     @media (min-width: 720px) {
       .single-update .update-content {
         padding-left: 0;
-        width: 70%; } }
+        width: 80%; } }
 
 /*--------------------------------------------------------------
 # Media
