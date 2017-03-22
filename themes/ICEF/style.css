@@ -2075,6 +2075,13 @@ a {
     color: #F2CA6E; }
   .page-template-donate-primary .primary_school_process_desc {
     color: #433E3E; }
+  .page-template-donate-primary .primary-scholarship-heading {
+    display: -ms-flexbox;
+    display: flex;
+    height: 80px; }
+  .page-template-donate-primary .scholarship-title {
+    color: #F2CA6E;
+    margin-top: 0; }
 
 .updates {
   margin: 10% auto;

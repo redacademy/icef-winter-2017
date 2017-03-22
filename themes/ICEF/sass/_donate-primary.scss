@@ -54,4 +54,14 @@
     .primary_school_process_desc {
         color: $brand_colour_darkgrey;
     }
+
+    .primary-scholarship-heading {
+        display: flex;
+        height: 80px;
+    }
+
+    .scholarship-title {
+        color: $brand_colour_mediumgold;
+        margin-top: 0;
+    }
 }

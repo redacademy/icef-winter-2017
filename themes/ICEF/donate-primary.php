@@ -26,10 +26,13 @@ get_header(); ?>
 					<img src="<?php echo get_template_directory_uri();?>/images/svg/line.svg" alt="Image of a line">
 				</div>
 				
-				<div class="primary-school-wrapper">
-					<img src="<?php echo get_template_directory_uri();?>/images/svg/page.svg" alt="Image of an open book">
-					<h2><?php echo CFS()->get('primary_school_scholarship_title');?><h2>
+				<div class="primary-scholarship-wrapper">
+					<div class="primary-scholarship-heading">
+						<img src="<?php echo get_template_directory_uri();?>/images/svg/page.svg" alt="Image of an open book">
+						<h2 class="scholarship-title"><?php echo CFS()->get('primary_school_scholarship_title');?><h2>
+					</div>
 					<p><?php echo CFS()->get('primary_school_scholarship_description');?></p>
+				</div>
 			</div>
 
 			<table>
