@@ -10,6 +10,11 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 			<section class ="workHero">
+				<div class="yellowBackground">
+					<h1>Explore Tekera Resource Centre</h1>
+				</div>
+				<div class = "openMap">
+				</div>
 			</section>
 			<section class="purpleCircles">
 				<div class = "purpleCircleTitle">
