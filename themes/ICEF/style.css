@@ -2082,6 +2082,12 @@ a {
   .page-template-donate-primary .scholarship-title {
     color: #F2CA6E;
     margin-top: 0; }
+  .page-template-donate-primary .scholarship-amount {
+    color: #898989; }
+  .page-template-donate-primary .donation-amount {
+    color: #F2CA6E; }
+  .page-template-donate-primary .grey-text {
+    color: #898989; }
 
 .updates {
   margin: 10% auto;
