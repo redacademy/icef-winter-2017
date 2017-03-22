@@ -2156,6 +2156,12 @@ a {
     color: #fff; }
   .page-template-donate-vocational .vocational-school-desc {
     color: #fff; }
+  .page-template-donate-vocational .process-wrapper {
+    padding: 10px 50px 40px 50px; }
+  .page-template-donate-vocational .vocational-school-process-title {
+    color: #F2CA6E; }
+  .page-template-donate-vocational .vocational-school-process-desc {
+    color: #433E3E; }
 
 .updates {
   margin: 10% auto;
