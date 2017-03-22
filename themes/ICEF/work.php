@@ -9,10 +9,11 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-
+			<section class ="workHero">
+			</section>
 			<section class="purpleCircles">
 				<div class = "purpleCircleTitle">
-					<p>Explore More of The TRC's Programs:</p>
+					<h2>Explore More of The TRC's Programs:</h2>
 				</div>
 				<ul class="purpleCircleGrid">
 					<li>
@@ -25,7 +26,7 @@ get_header(); ?>
 										</div>
 									</div>
 									<div class="ch-info-back">
-										<p>Tekera Resource Centre</p>
+										<p>Tekera <br>Resource<br> Centre</p>
 									</div>	
 								</div>
 							</div>
@@ -39,7 +40,7 @@ get_header(); ?>
 										<img src="<?php echo get_template_directory_uri();?>/images/svg/our-work-mobile/apple.svg" 	alt="apple-icon">
 									</div>
 									<div class="ch-info-back">
-										<p>Primary School</p>
+										<p>Primary<br> School</p>
 									</div>	
 								</div>
 							</div>
@@ -53,7 +54,7 @@ get_header(); ?>
 										<img src="<?php echo get_template_directory_uri();?>/images/svg/our-work-mobile/farm.svg" 	alt="farm-icon">
 									</div>
 									<div class="ch-info-back">
-										<p>Community Farm and Cooperative Agriculture</p>
+										<p>Community Farm </br>& Cooperative Agriculture</p>
 									</div>	
 								</div>
 							</div>
@@ -67,7 +68,7 @@ get_header(); ?>
 										<img src="<?php echo get_template_directory_uri();?>/images/svg/our-work-mobile/adult-education.svg" 	alt="crafting-icon">
 									</div>
 									<div class="ch-info-back">
-										<p>Adult Education</p>
+										<p>Adult<br>Education</p>
 									</div>	
 								</div>
 							</div>
@@ -81,7 +82,7 @@ get_header(); ?>
 										<img src="<?php echo get_template_directory_uri();?>/images/svg/our-work-mobile/medical.svg" 	alt="crafting-icon">
 									</div>
 									<div class="ch-info-back">
-										<p>Medical Clinic</p>
+										<p>Medical<br>Clinic</p>
 									</div>	
 								</div>
 							</div>
@@ -95,7 +96,7 @@ get_header(); ?>
 										<img src="<?php echo get_template_directory_uri();?>/images/svg/our-work-mobile/crafting.svg" 	alt="crafting-icon">
 									</div>
 									<div class="ch-info-back">
-										<p>Women's Craft Club</p>
+										<p>Women's<br>Craft Club</p>
 									</div>	
 								</div>
 							</div>
@@ -109,7 +110,7 @@ get_header(); ?>
 										<img src="<?php echo get_template_directory_uri();?>/images/svg/our-work-mobile/people.svg" alt="people-icon">
 									</div>
 									<div class="ch-info-back">
-										<p>Community Work Program</p>
+										<p>Community<br> Work Program</p>
 									</div>	
 								</div>
 							</div>
@@ -123,7 +124,7 @@ get_header(); ?>
 										<img src="<?php echo get_template_directory_uri();?>/images/svg/our-work-mobile/rectangle.svg" alt="rectangle-icon">
 									</div>
 									<div class="ch-info-back">
-										<p>Vocational School</p>
+										<p>Vocational<br> School</p>
 									</div>	
 								</div>
 							</div>
@@ -137,7 +138,7 @@ get_header(); ?>
 										<img src="<?php echo get_template_directory_uri();?>/images/svg/our-work-mobile/water.svg" alt="water-icon">
 									</div>
 									<div class="ch-info-back">
-										<p>Portable Drinking Water</p>
+										<p>Portable<br>Drinking Water</p>
 									</div>	
 								</div>
 							</div>
