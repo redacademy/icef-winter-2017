@@ -2075,6 +2075,8 @@ a {
     color: #F2CA6E; }
   .page-template-donate-primary .primary_school_process_desc {
     color: #433E3E; }
+  .page-template-donate-primary .primary-scholarship-wrapper {
+    padding: 10px 20px 40px 30px; }
   .page-template-donate-primary .primary-scholarship-heading {
     display: -ms-flexbox;
     display: flex;
@@ -2088,6 +2090,14 @@ a {
     color: #F2CA6E; }
   .page-template-donate-primary .grey-text {
     color: #898989; }
+  .page-template-donate-primary .sponsor-wrapper {
+    text-align: left;
+    color: #fff;
+    background-color: #F2CA6E;
+    padding: 10px 20px 40px 30px; }
+    .page-template-donate-primary .sponsor-wrapper ul {
+      margin: 0;
+      padding: 0 15px; }
 
 .updates {
   margin: 10% auto;
