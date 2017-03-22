@@ -10,7 +10,6 @@
         var $className;
         $classNameArray = $(this).attr('class').split(' ');
         $className = $classNameArray[1];
-        console.log($className);
 
         $('.' + $className).css('display', 'block');
 
