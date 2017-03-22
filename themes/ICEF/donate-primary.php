@@ -23,8 +23,9 @@ get_header(); ?>
 				<div class="process-wrapper">
 					<h2 class="process-title"><?php echo CFS()->get('primary_school_process_title');?></h2>
 					<p class="primary_school_process_desc"><?php echo CFS()->get('primary_school_process_description');?></p>
+					<img src="<?php echo get_template_directory_uri();?>/images/svg/line.svg" alt="Image of a line">
 				</div>
-				<img src="<?php echo get_template_directory_uri();?>/images/svg/line.svg" alt="Image of a line">
+				
 				<div class="primary-school-wrapper">
 					<img src="<?php echo get_template_directory_uri();?>/images/svg/page.svg" alt="Image of an open book">
 					<h2><?php echo CFS()->get('primary_school_scholarship_title');?><h2>
