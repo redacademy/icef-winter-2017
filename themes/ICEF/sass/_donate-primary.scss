@@ -55,6 +55,10 @@
         color: $brand_colour_darkgrey;
     }
 
+    .primary-scholarship-wrapper {
+        padding: 10px 20px 40px 30px;
+    }
+
     .primary-scholarship-heading {
         display: flex;
         height: 80px;
@@ -75,5 +79,16 @@
 
     .grey-text {
         color: $brand_colour_lightgrey;
+    }
+
+    .sponsor-wrapper {
+        text-align: left;
+        color: #fff;
+        background-color: $brand_colour_mediumgold;
+        padding: 10px 20px 40px 30px;
+        ul {
+            margin: 0;
+            padding: 0 15px;
+        }
     }
 }
