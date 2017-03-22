@@ -1,0 +1,15 @@
+.page-template-donate-vocational {
+    margin: 0 auto;
+
+    .site-main {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        @include desktop {
+        width: 82%;
+        }
+    }
+}

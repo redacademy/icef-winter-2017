@@ -2127,6 +2127,19 @@ a {
       margin: 0;
       padding: 0 15px; }
 
+.page-template-donate-vocational {
+  margin: 0 auto; }
+  .page-template-donate-vocational .site-main {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center; }
+  @media (min-width: 720px) {
+    .page-template-donate-vocational .container {
+      width: 82%; } }
+
 .updates {
   margin: 10% auto;
   width: 100%; }
