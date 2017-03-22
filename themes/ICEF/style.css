@@ -1995,7 +1995,8 @@ a {
     width: 100%;
     height: 80px;
     background: url(../../images/svg/yellow-dots.svg) no-repeat;
-    background-position: center; }
+    background-position: center;
+    border-bottom: 2px solid #852762; }
   .page-template-donate .icef-donor {
     font-size: 2rem;
     color: #000; }
