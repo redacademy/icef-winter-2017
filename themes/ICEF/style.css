@@ -1762,6 +1762,9 @@ a {
     .page-template-donate .container {
       width: 82%; } }
   .page-template-donate h2 {
+    font-size: 2rem;
+    line-height: 1;
+    margin-bottom: 0;
     text-transform: none; }
   .page-template-donate .donate-wrapper {
     display: -ms-flexbox;
@@ -1775,7 +1778,7 @@ a {
         flex-direction: column;
     color: #fff;
     background-color: #433E3E;
-    padding: 10px; }
+    padding: 10px 50px 40px 50px; }
     .page-template-donate .donate-trc-wrapper .donate-trc-desc {
       color: #fff; }
   .page-template-donate .donate-button {
@@ -1812,6 +1815,7 @@ a {
     -ms-flex-pack: center;
         justify-content: center; }
   .page-template-donate .primary-school-button {
+    padding: 30px 10px;
     text-align: center; }
     .page-template-donate .primary-school-button a {
       padding-top: 10px;
@@ -1827,8 +1831,10 @@ a {
       font-size: 1.5rem;
       border: none; }
     .page-template-donate .primary-school-button a {
-      height: 88px; }
+      height: 88px;
+      width: 130px; }
   .page-template-donate .vocational-school-button {
+    padding: 30px 10px;
     text-align: center; }
     .page-template-donate .vocational-school-button a {
       padding-top: 10px;
@@ -1844,7 +1850,8 @@ a {
       font-size: 1.5rem;
       border: none; }
     .page-template-donate .vocational-school-button a {
-      height: 88px; }
+      height: 88px;
+      width: 130px; }
   .page-template-donate .project-wrapper {
     display: -ms-flexbox;
     display: flex;
@@ -2045,7 +2052,7 @@ a {
   margin: 0 auto; }
   @media (min-width: 720px) {
     .single-update {
-      width: 70%;
+      width: 80%;
       margin: 10% auto; } }
   .single-update h2 {
     border-bottom: 3px solid #852762;
@@ -2122,7 +2129,7 @@ a {
     @media (min-width: 720px) {
       .single-update .update-content {
         padding-left: 0;
-        width: 70%; } }
+        width: 80%; } }
 
 /*--------------------------------------------------------------
 # Media

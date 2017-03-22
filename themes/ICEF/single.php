@@ -27,7 +27,7 @@ get_header(); ?>
 		
 			<?php $loop = new WP_Query( array( 
 			'post_type' => 'post',
-			'posts_per_page' => 4 ) ); ?>
+			'posts_per_page' => 3 ) ); ?>
 
 			<div class="latest-adventures">
 			<?php while ( $loop->have_posts() ) : $loop->the_post(); ?>  

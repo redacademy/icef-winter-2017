@@ -14,6 +14,9 @@
     }
 
     h2 {
+        font-size: 2rem;
+        line-height: 1;
+        margin-bottom: 0;
         text-transform: none;
     }
 
@@ -27,7 +30,7 @@
         flex-direction: column;
         color: #fff;
         background-color: $brand_colour_darkgrey;
-        padding: 10px;
+        padding: 10px 50px 40px 50px;
         .donate-trc-desc {
             color: #fff;
         } 
@@ -73,19 +76,24 @@
     }
 
     .primary-school-button {
-        
+        padding: 30px 10px;
         @include purple-button;   
         text-align: center;
+        
         a {
             height: 88px;
+            width: 130px;
         }    
     }
 
     .vocational-school-button {
+        padding: 30px 10px;
         @include purple-button;   
         text-align: center;
+        
         a {
             height: 88px;
+            width: 130px;
         }
     }
 
