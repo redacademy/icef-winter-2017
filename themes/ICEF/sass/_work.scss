@@ -1,15 +1,17 @@
 
 .page-template-work{
   .content-area{
-    width:1000px;
+		@include desktop{
+			width:1000px;
     margin: 0 auto;
 		margin-top:10rem;
+		}
+    
   }
   .handMade{
     display:flex;
     justify-content: center;
     align-items: center;
-    
     height: 110px;
     width: 110px;
     border-radius: 50%;
@@ -22,13 +24,38 @@
 			font-size: 3rem;
     }
   }
-	.yellowBackground{
-		background:$brand_colour_mediumgold;
-		h1{
-			color:white;
-			padding-left:1rem;
-			padding-top:.5rem;
-			font-size:3rem;
+	.workHero{
+		.yellowBackground{
+			background:$brand_colour_mediumgold;
+			width:100%;
+			h1{
+				font-size:1.25rem;
+				text-align: center;
+				color:white;
+				padding-top:.5rem;
+				@include desktop{
+					font-size:3rem;
+					padding-left:1rem;
+					text-align: left;
+				}
+			}
+		}
+		.openMap{
+			display:flex;
+			justify-content: center;
+			align-items: center;
+			// text-align: center;
+			flex-direction: column;
+			// margin:0 auto;
+			p{
+				margin:0;
+				text-transform: uppercase;
+				font-weight:bold;
+				color:$brand_colour_darkgrey;
+			}
+			img{
+				width:25px;
+			}
 		}
 	}
 	.purpleCircleTitle{
@@ -37,12 +64,14 @@
 	}
   .purpleCircleGrid{
     display:flex;
-    width:1000px;
-		margin:0;
-		padding:0;
-    justify-content:center;
+		justify-content:center;
     list-style:none;
     flex-wrap:wrap;
+		margin:0;
+		padding:0;
+		@include desktop{
+    	width:1000px;
+		}
     img{
       height:110px;
     }
