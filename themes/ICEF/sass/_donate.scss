@@ -23,10 +23,13 @@
     .img-wrapper {
         height: 183px;
     }
-    
+
     .donate-wrapper {
         display: flex;
-        flex-flow: row wrap; 
+        flex-flow: row wrap;
+        @include desktop {
+            flex-flow: row;
+        }
     }
 
     .donate-trc-wrapper {
@@ -38,6 +41,10 @@
         .donate-trc-desc {
             color: #fff;
         } 
+    }
+
+    form {
+        padding-top: 70px;
     }
 
     .donate-button{

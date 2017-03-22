@@ -1941,6 +1941,10 @@ a {
     display: flex;
     -ms-flex-flow: row wrap;
         flex-flow: row wrap; }
+    @media (min-width: 720px) {
+      .page-template-donate .donate-wrapper {
+        -ms-flex-flow: row;
+            flex-flow: row; } }
   .page-template-donate .donate-trc-wrapper {
     display: -ms-flexbox;
     display: flex;
@@ -1951,6 +1955,8 @@ a {
     padding: 10px 50px 40px 50px; }
     .page-template-donate .donate-trc-wrapper .donate-trc-desc {
       color: #fff; }
+  .page-template-donate form {
+    padding-top: 70px; }
   .page-template-donate .donate-button {
     display: inline-block;
     font-family: "Oswald", sans-serif;
