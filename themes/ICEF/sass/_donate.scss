@@ -111,12 +111,18 @@
 
     .project-wrapper {
         display: flex;
-        flex-flow: row wrap; 
+        flex-flow: row wrap;
+        @include desktop {
+            flex-flow: row;
+        }
     }
 
     .project-wrapper img {
         width: 100%;
-        height: 60%; 
+        height: 60%;
+        @include desktop {
+            width: 63%;
+        }
     }
 
     .fund-project-wrapper {
