@@ -140,10 +140,12 @@
         font-weight: bold;
         font-size: 1.5rem; 
         color: #000;
+        margin-bottom: 0;
     }
 
     .donor-number {
         font-size: 5rem;
+        font-weight: bold;
         color: $brand_colour_darkpurple;
         text-align: center;
         margin-top: 0;
