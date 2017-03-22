@@ -1762,6 +1762,9 @@ a {
     .page-template-donate .container {
       width: 82%; } }
   .page-template-donate h2 {
+    font-size: 2rem;
+    line-height: 1;
+    margin-bottom: 0;
     text-transform: none; }
   .page-template-donate .donate-wrapper {
     display: -ms-flexbox;
@@ -1775,7 +1778,7 @@ a {
         flex-direction: column;
     color: #fff;
     background-color: #433E3E;
-    padding: 10px; }
+    padding: 10px 50px 40px 50px; }
     .page-template-donate .donate-trc-wrapper .donate-trc-desc {
       color: #fff; }
   .page-template-donate .donate-button {
