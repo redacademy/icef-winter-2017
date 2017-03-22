@@ -27,21 +27,22 @@ get_header(); ?>
 		
 			<?php $loop = new WP_Query( array( 
 			'post_type' => 'post',
-			'posts_per_page' => 3 ) ); ?>
+			'posts_per_page' => 4 ) ); ?>
 
-			<div class="latest-adventures">
-			<?php while ( $loop->have_posts() ) : $loop->the_post(); ?>  
-					<div class="adventure-pic">
-						<?php the_post_thumbnail('large'); ?>
-						<span class="colorMeDark"></span>
-						<div class="adv-text">
-							<p><?php the_title(); ?></p>
-							<a class="read-more" href="<?php the_permalink(); ?> ">Read More</a>
+			<section class='updates'>
+				<div class="updates-flex">
+				<?php while ( $loop->have_posts() ) : $loop->the_post(); ?>  
+					<div class='updates-aticle'>
+						<div class='update-box'>
+							<div class='update-image'><?php the_post_thumbnail('large'); ?></div>
+							<p class='update-date'><?php echo get_the_date(); ?></p>
+							<p class='update-title'><?php the_title(); ?></p>
 						</div>
 					</div>
-			<?php endwhile; ?>  
-			</div>
+				<?php endwhile; ?>  
+				</div>
+			</section>
 		</main><!-- #main -->
-	</div><!-- #primary -->
+	</div>
 
 <?php get_footer(); ?>

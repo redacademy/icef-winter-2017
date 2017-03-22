@@ -3,6 +3,7 @@
   .content-area{
     width:1000px;
     margin: 0 auto;
+		margin-top:10rem;
   }
   .handMade{
     display:flex;
@@ -21,9 +22,24 @@
 			font-size: 3rem;
     }
   }
+	.yellowBackground{
+		background:$brand_colour_mediumgold;
+		h1{
+			color:white;
+			padding-left:1rem;
+			padding-top:.5rem;
+			font-size:3rem;
+		}
+	}
+	.purpleCircleTitle{
+		text-align: center;
+		font-size:1.5rem;
+	}
   .purpleCircleGrid{
     display:flex;
     width:1000px;
+		margin:0;
+		padding:0;
     justify-content:center;
     list-style:none;
     flex-wrap:wrap;
@@ -93,7 +109,10 @@
 		}
 		.ch-info .ch-info-back {
 			transform: rotate3d(0,1,0,180deg);
-			background: #000;
+			background: $brand_colour_darkpurple; 
+			display:flex;
+			justify-content: center;
+			align-items: center;
 		}
 .ch-info h4 {
 	color: #fff;
@@ -111,7 +130,7 @@
 .ch-info-back p {
 	color: #fff;
 	text-align: center;
-	margin-top:3rem;
+	margin-top:2rem;
 	// padding: 10px 5px;
 	font-family:$font__accent;
 	text-transform: uppercase;
