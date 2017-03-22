@@ -1887,6 +1887,8 @@ a {
     line-height: 1;
     margin-bottom: 0;
     text-transform: none; }
+  .page-template-donate .img-wrapper {
+    height: 183px; }
   .page-template-donate .donate-wrapper {
     display: -ms-flexbox;
     display: flex;

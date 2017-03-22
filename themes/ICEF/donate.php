@@ -10,7 +10,9 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 			<div class="container">
-				<img src="<?php echo CFS()->get('donate_landing_title_image');?>">
+				<div class="img-wrapper">
+					<img src="<?php echo CFS()->get('donate_landing_title_image');?>">
+				</div>
 				<div class="donate-wrapper">
 					<div class="donate-trc-wrapper">
 						<h2><?php echo CFS()->get('donate_to_trc_title');?></h2>
