@@ -8,25 +8,24 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+		<main id="main" class="site-main single-update" role="main">
 
 		<?php while ( have_posts() ) : the_post(); ?>
 
-			<?php get_template_part( 'template-parts/content', 'single' ); ?>
-
-			<?php the_post_navigation(); ?>
-
-			<?php
-				// If comments are open or we have at least one comment, load up the comment template.
-				if ( comments_open() || get_comments_number() ) :
-					comments_template();
-				endif;
-			?>
+			<div>
+				<div class='update-box'>
+					<div class='update-image'><?php the_post_thumbnail('large'); ?></div>
+					<p class='update-date'><?php echo get_the_date(); ?></p>
+					<p class='update-title'><?php the_title(); ?></p>
+				</div>
+				<div class='update-content'>	
+					<?php echo get_the_content(); ?>
+				</div>
+			</div>
 
 		<?php endwhile; // End of the loop. ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
