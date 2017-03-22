@@ -14,6 +14,10 @@ get_header(); ?>
 					<h1>Explore Tekera Resource Centre</h1>
 				</div>
 				<div class = "openMap">
+					<p>open map</p>
+					<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-icon.svg" 	alt="crafting-icon">
+				</div>
+				<div class="yellowBackgroundCategory">
 				</div>
 			</section>
 			<section class="purpleCircles">
