@@ -2148,6 +2148,11 @@ a {
     line-height: 1;
     margin-bottom: 0;
     text-transform: none; }
+  .page-template-donate-vocational .yellow-dots-banner {
+    width: 100%;
+    height: 80px;
+    background: url(../../images/svg/yellow-dots.svg) no-repeat;
+    background-position: center; }
   .page-template-donate-vocational .vocational-wrapper {
     display: -ms-flexbox;
     display: flex;
@@ -2166,6 +2171,29 @@ a {
     color: #F2CA6E; }
   .page-template-donate-vocational .vocational-school-process-desc {
     color: #433E3E; }
+  .page-template-donate-vocational .vocational-scholarship-wrapper {
+    padding: 10px 20px 40px 30px; }
+  .page-template-donate-vocational .vocational-scholarship-heading {
+    display: -ms-flexbox;
+    display: flex;
+    height: 80px; }
+  .page-template-donate-vocational .scholarship-title {
+    color: #F2CA6E;
+    margin-top: 0; }
+  .page-template-donate-vocational .scholarship-amount {
+    color: #898989; }
+  .page-template-donate-vocational .donation-amount {
+    color: #F2CA6E; }
+  .page-template-donate-vocational .sponsor-wrapper {
+    margin-bottom: 60px; }
+  .page-template-donate-vocational .sponsor-section {
+    text-align: left;
+    color: #fff;
+    background-color: #F2CA6E;
+    padding: 10px 20px 40px 30px; }
+    .page-template-donate-vocational .sponsor-section ul {
+      margin: 0;
+      padding: 0 15px; }
 
 .updates {
   margin: 10% auto;
