@@ -18,7 +18,7 @@ get_header(); ?>
 				<div class="primary-wrapper">
 					<h2><?php echo CFS()->get('primary_school_title');?></h2>
 					<p class="primary-school-desc"><?php echo CFS()->get('primary_school_description');?></p>
-					<img src="<?php echo CFS()->get('primary_school_image');?>">
+					<img class="primary-school-img" src="<?php echo CFS()->get('primary_school_image');?>">
 				</div>
 				<div class="process-wrapper">
 					<h2><?php echo CFS()->get('primary_school_process_title');?></p>

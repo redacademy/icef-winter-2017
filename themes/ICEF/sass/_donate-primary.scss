@@ -32,9 +32,14 @@
         flex-flow: row wrap;
         color: #fff;
         background-color: $brand_colour_mediumgold;
+        padding: 10px 50px 40px 50px;
     }
 
     .primary-school-desc {
         color: #fff;
+    }
+
+    .primary-school-img {
+        margin: 0 auto;
     }
 }
