@@ -2144,6 +2144,11 @@ a {
     line-height: 1;
     margin-bottom: 0;
     text-transform: none; }
+  .page-template-donate-vocational .yellow-dots-banner {
+    width: 100%;
+    height: 80px;
+    background: url(../../images/svg/yellow-dots.svg) no-repeat;
+    background-position: center; }
   .page-template-donate-vocational .vocational-wrapper {
     display: -ms-flexbox;
     display: flex;

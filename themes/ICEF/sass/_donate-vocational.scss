@@ -20,6 +20,13 @@
         text-transform: none;
     }
 
+    .yellow-dots-banner {
+        width: 100%;
+        height: 80px;
+        background: url(../../images/svg/yellow-dots.svg) no-repeat;
+        background-position: center;
+    }
+
     .vocational-wrapper {
         display: flex;
         flex-flow: row wrap;
