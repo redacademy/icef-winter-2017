@@ -2211,8 +2211,10 @@ a {
       margin: 10% auto; } }
   .single-update h2 {
     border-bottom: 3px solid #852762;
-    width: 70%;
+    width: 80%;
     margin: 20px auto; }
+    .single-update h2 span {
+      font-weight: 500; }
   .single-update .update-box {
     margin: 0 auto;
     display: -ms-flexbox;
@@ -2220,13 +2222,13 @@ a {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     width: 100%;
-    height: 70%;
+    height: 60%;
     -ms-flex-preferred-size: 55%;
         flex-basis: 55%;
     position: relative; }
     @media (min-width: 720px) {
       .single-update .update-box {
-        width: 70%; } }
+        width: 80%; } }
     .single-update .update-box .update-image {
       -ms-flex-preferred-size: 100%;
           flex-basis: 100%;
@@ -2285,6 +2287,62 @@ a {
       .single-update .update-content {
         padding-left: 0;
         width: 80%; } }
+  .single-update .more {
+    border-bottom: 3px solid #852762;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: end;
+        justify-content: flex-end;
+    margin: 0 auto;
+    width: 80%; }
+    .single-update .more a {
+      margin: 0;
+      padding: 10px 30px;
+      background-color: #433E3E;
+      border-radius: 10px;
+      text-transform: uppercase;
+      color: white;
+      font-size: 2.25rem;
+      font-weight: bold;
+      font-family: "Oswald", sans-serif; }
+  .single-update .updates-flex {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 1500px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-top: 30px; }
+    @media (min-width: 720px) {
+      .single-update .updates-flex {
+        height: 200px; } }
+    .single-update .updates-flex .updates-article {
+      -ms-flex-preferred-size: 100%;
+          flex-basis: 100%;
+      height: 300px;
+      margin: 10px 10px; }
+      @media (min-width: 720px) {
+        .single-update .updates-flex .updates-article {
+          -ms-flex-preferred-size: 25%;
+              flex-basis: 25%;
+          margin: 0 10px;
+          height: 100%; } }
+      .single-update .updates-flex .updates-article .update-box {
+        height: 250px;
+        width: 100%; }
+        @media (min-width: 720px) {
+          .single-update .updates-flex .updates-article .update-box .update-image {
+            -ms-flex-preferred-size: 100%;
+                flex-basis: 100%;
+            height: 75%; } }
+        .single-update .updates-flex .updates-article .update-box .update-title {
+          line-height: 21px;
+          height: 25%;
+          font-size: 1rem; }
+        .single-update .updates-flex .updates-article .update-box .update-date {
+          bottom: 15px; }
 
 /*--------------------------------------------------------------
 # Media

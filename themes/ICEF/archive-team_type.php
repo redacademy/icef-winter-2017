@@ -80,7 +80,7 @@ get_header(); ?>
 
 						if($country == 'uganda'){ ?>
 
-							<div class='team-member'>
+							<div class='team-member  <?php echo $name; ?>'>
 
 								<img src='<?php echo get_template_directory_uri();?>/images/svg/deco-uganda.svg' class='job-border' />
 								<div class='profile-pic'>
