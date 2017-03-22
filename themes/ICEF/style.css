@@ -1706,24 +1706,6 @@ a {
     .our-team {
       display: block; } }
 
-.our-team {
-  display: none;
-  width: 80%;
-  margin: 25vh auto 0 auto;
-  border-bottom: 2px solid #433E3E; }
-  @media (min-width: 720px) {
-    .our-team {
-      display: block; } }
-
-.our-team {
-  display: none;
-  width: 80%;
-  margin: 25vh auto 0 auto;
-  border-bottom: 2px solid #433E3E; }
-  @media (min-width: 720px) {
-    .our-team {
-      display: block; } }
-
 .team-type-archive {
   width: 85%;
   margin: 0 auto;
@@ -1943,7 +1925,8 @@ a {
     display: flex;
     -ms-flex-direction: column;
         flex-direction: column;
-    background-color: #F2CA6E; }
+    background-color: #F2CA6E;
+    padding: 10px 50px 40px 50px; }
     .page-template-donate .sponsor-wrapper .sponsor-title {
       color: #B5852F; }
   .page-template-donate .sponsor-desc {
