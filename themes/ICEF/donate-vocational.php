@@ -25,35 +25,35 @@ get_header(); ?>
 					<img src="<?php echo get_template_directory_uri();?>/images/svg/line.svg" alt="Image of a line">
 				</div>
 				
-				<div class="vocational-school-wrapper">
+				<div class="vocational-scholarship-wrapper">
 					<div class="vocational-scholarship-heading">
 						<img src="<?php echo get_template_directory_uri();?>/images/svg/craft.svg" alt="Image of a spool of thread">
 						<h2 class="scholarship-title"><?php echo CFS()->get('vocational_school_scholarship_title');?><h2>
 					</div>
 					<p><?php echo CFS()->get('vocational_school_scholarship_description');?></p>
-			</div>
 
-			<table>
-				<!--<thead>
-				<tr>
-					<th>Scholarship</th>
-					<th>Amount</th>
-					<th>Donation Amount(CAD)</th>
-				</tr> 
-				</thead>-->
-				<tbody>
-					<?php $fields = CFS()->get( 'vocational_school_scholarship_loop'); ?>
-					<?php foreach( $fields as $field ): ?>
+					<table>
+						<!--<thead>
 						<tr>
-							<td> <?php echo $field['scholarship_category']; ?> </td>
-							<td> <?php echo $field['scholarship_amount']; ?> </td>
-							<td> <?php echo $field['donation_amount']; ?> </td>
-						</tr>
-					<?php endforeach; ?>
-				</tbody>				
-			</table>
-			<p>* Price in yellow are in Canadian (CAD)</p>
-			<p><?php echo CFS()->get('vocational_school_student_fees');?></p>
+							<th>Scholarship</th>
+							<th>Amount</th>
+							<th>Donation Amount(CAD)</th>
+						</tr> 
+						</thead>-->
+						<tbody>
+							<?php $fields = CFS()->get( 'vocational_school_scholarship_loop'); ?>
+							<?php foreach( $fields as $field ): ?>
+								<tr>
+									<td> <?php echo $field['scholarship_category']; ?></td>
+									<td class="scholarship-amount"> <?php echo $field['scholarship_amount']; ?> </td>
+									<td class="donation-amount"> <?php echo $field['donation_amount']; ?> </td>
+								</tr>
+							<?php endforeach; ?>
+						</tbody>				
+					</table>
+					<p>* Prices in yellow are in Canadian (CAD)</p>
+					<p><?php echo CFS()->get('vocational_school_student_fees');?></p>
+				</div> <!-- vocational-scholarship-wrapper -->
 			<h2><?php echo CFS()->get('vocational_school_sponsor_title');?></h2>
 			<p><?php echo CFS()->get('vocational_school_sponsor_package');?></p>
 		</main><!-- #main -->
