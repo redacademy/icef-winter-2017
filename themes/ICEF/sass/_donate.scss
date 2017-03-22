@@ -136,12 +136,16 @@
     }
 
     .icef-donor {
-        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 1.5rem; 
         color: #000;
     }
 
     .donor-number {
         font-size: 5rem;
         color: $brand_colour_darkpurple;
+        text-align: center;
+        margin-top: 0;
     }
 }
