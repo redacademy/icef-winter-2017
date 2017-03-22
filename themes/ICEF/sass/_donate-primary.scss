@@ -29,7 +29,12 @@
 
     .primary-wrapper {
         display: flex;
-        flex-flow: row wrap; 
-        background-color: $brand_colour_lightgold;
+        flex-flow: row wrap;
+        color: #fff;
+        background-color: $brand_colour_mediumgold;
+    }
+
+    .primary-school-desc {
+        color: #fff;
     }
 }

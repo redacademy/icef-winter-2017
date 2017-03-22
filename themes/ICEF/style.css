@@ -2062,7 +2062,10 @@ a {
     display: flex;
     -ms-flex-flow: row wrap;
         flex-flow: row wrap;
-    background-color: #FFEABA; }
+    color: #fff;
+    background-color: #F2CA6E; }
+  .page-template-donate-primary .primary-school-desc {
+    color: #fff; }
 
 .updates {
   margin: 10% auto;

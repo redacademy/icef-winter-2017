@@ -17,7 +17,7 @@ get_header(); ?>
 				<div class="yellow-dots-banner"></div>
 				<div class="primary-wrapper">
 					<h2><?php echo CFS()->get('primary_school_title');?></h2>
-					<p class="donate-trc-desc"><?php echo CFS()->get('primary_school_description');?></p>
+					<p class="primary-school-desc"><?php echo CFS()->get('primary_school_description');?></p>
 					<img src="<?php echo CFS()->get('primary_school_image');?>">
 				</div>
 				<div class="process-wrapper">
