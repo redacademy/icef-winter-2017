@@ -13,15 +13,18 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 			<div class="container">
-					<img src="<?php echo CFS()->get('vocational_school_image');?>">
-					<h2><?php echo CFS()->get('vocational_school_title');?></h2>
-					<p class="donate-trc-desc"><?php echo CFS()->get('vocational_school_description');?></p>
+					<div class="vocational-wrapper">
+						<img src="<?php echo CFS()->get('vocational_school_image');?>">
+						<h2 class="vocational-school-title"><?php echo CFS()->get('vocational_school_title');?></h2>
+						<p class="vocational-school-desc"><?php echo CFS()->get('vocational_school_description');?></p>
+					</div>
 				</div>
 				<div class="process-wrapper">
-					<h2><?php echo CFS()->get('vocational_school_process_title');?></p>
-					<p class="vocational_school_process_desc"><?php echo CFS()->get('vocational_school_process_description');?></p>
+					<h2 class="vocational-school-process-title"><?php echo CFS()->get('vocational_school_process_title');?></h2>
+					<p class="vocational-school-process-desc"><?php echo CFS()->get('vocational_school_process_description');?></p>
+					<img src="<?php echo get_template_directory_uri();?>/images/svg/line.svg" alt="Image of a line">
 				</div>
-				<img src="<?php echo get_template_directory_uri();?>/images/svg/line.svg" alt="Image of a line">
+				
 				<div class="vocational-school-wrapper">
 					<img src="<?php echo get_template_directory_uri();?>/images/svg/craft.svg" alt="Image of a spool of thread">
 					<h2><?php echo CFS()->get('vocational_school_scholarship_title');?><h2>
