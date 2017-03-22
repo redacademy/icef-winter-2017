@@ -14,6 +14,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 			<div class="container">
+				<div class="yellow-dots-banner"></div>
 				<div class="primary-wrapper">
 					<h2><?php echo CFS()->get('primary_school_title');?></h2>
 					<p class="donate-trc-desc"><?php echo CFS()->get('primary_school_description');?></p>

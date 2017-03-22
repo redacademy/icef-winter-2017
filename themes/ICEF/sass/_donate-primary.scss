@@ -1,0 +1,35 @@
+.page-template-donate-primary {
+    margin: 0 auto;
+
+    .site-main {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        @include desktop {
+        width: 82%;
+        }
+    }
+
+    h2 {
+        font-size: 2rem;
+        line-height: 1;
+        margin-bottom: 0;
+        text-transform: none;
+    }
+
+    .yellow-dots-banner {
+        width: 100%;
+        height: 80px;
+        background: url(../../images/svg/yellow-dots.svg) no-repeat;
+        background-position: center;
+    }
+
+    .primary-wrapper {
+        display: flex;
+        flex-flow: row wrap; 
+        background-color: $brand_colour_lightgold;
+    }
+}
