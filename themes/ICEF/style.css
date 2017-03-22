@@ -2069,6 +2069,10 @@ a {
     color: #fff; }
   .page-template-donate-primary .primary-school-img {
     margin: 0 auto; }
+  .page-template-donate-primary .process-title {
+    color: #F2CA6E; }
+  .page-template-donate-primary .primary_school_process_desc {
+    color: #433E3E; }
 
 .updates {
   margin: 10% auto;

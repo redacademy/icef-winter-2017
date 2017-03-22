@@ -21,7 +21,7 @@ get_header(); ?>
 					<img class="primary-school-img" src="<?php echo CFS()->get('primary_school_image');?>">
 				</div>
 				<div class="process-wrapper">
-					<h2><?php echo CFS()->get('primary_school_process_title');?></p>
+					<h2 class="process-title"><?php echo CFS()->get('primary_school_process_title');?></h2>
 					<p class="primary_school_process_desc"><?php echo CFS()->get('primary_school_process_description');?></p>
 				</div>
 				<img src="<?php echo get_template_directory_uri();?>/images/svg/line.svg" alt="Image of a line">
