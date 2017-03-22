@@ -2175,6 +2175,16 @@ a {
     color: #898989; }
   .page-template-donate-vocational .donation-amount {
     color: #F2CA6E; }
+  .page-template-donate-vocational .sponsor-wrapper {
+    margin-bottom: 60px; }
+  .page-template-donate-vocational .sponsor-section {
+    text-align: left;
+    color: #fff;
+    background-color: #F2CA6E;
+    padding: 10px 20px 40px 30px; }
+    .page-template-donate-vocational .sponsor-section ul {
+      margin: 0;
+      padding: 0 15px; }
 
 .updates {
   margin: 10% auto;

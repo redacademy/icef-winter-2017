@@ -69,4 +69,19 @@
     .donation-amount {
         color: $brand_colour_mediumgold; 
     }
+
+    .sponsor-wrapper {
+        margin-bottom: 60px;
+    }
+
+    .sponsor-section {
+        text-align: left;
+        color: #fff;
+        background-color: $brand_colour_mediumgold;
+        padding: 10px 20px 40px 30px;
+        ul {
+            margin: 0;
+            padding: 0 15px;
+        }
+    }
 }

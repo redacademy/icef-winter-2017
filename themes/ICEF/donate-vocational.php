@@ -54,8 +54,12 @@ get_header(); ?>
 					<p>* Prices in yellow are in Canadian (CAD)</p>
 					<p><?php echo CFS()->get('vocational_school_student_fees');?></p>
 				</div> <!-- vocational-scholarship-wrapper -->
-			<h2><?php echo CFS()->get('vocational_school_sponsor_title');?></h2>
-			<p><?php echo CFS()->get('vocational_school_sponsor_package');?></p>
+				<div class="sponsor-wrapper">
+					<div class="sponsor-section">	
+						<h2 class="vocational-school-sponsor-title"><?php echo CFS()->get('vocational_school_sponsor_title');?></h2>
+						<p class="vocational-school-sponsor-package"><?php echo CFS()->get('vocational_school_sponsor_package');?></p>
+					</div>
+				</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
