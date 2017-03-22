@@ -73,19 +73,24 @@
     }
 
     .primary-school-button {
-        
+        padding: 30px 10px;
         @include purple-button;   
         text-align: center;
+        
         a {
             height: 88px;
+            width: 130px;
         }    
     }
 
     .vocational-school-button {
+        padding: 30px 10px;
         @include purple-button;   
         text-align: center;
+        
         a {
             height: 88px;
+            width: 130px;
         }
     }
 

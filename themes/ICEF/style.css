@@ -1812,6 +1812,7 @@ a {
     -ms-flex-pack: center;
         justify-content: center; }
   .page-template-donate .primary-school-button {
+    padding: 30px 10px;
     text-align: center; }
     .page-template-donate .primary-school-button a {
       padding-top: 10px;
@@ -1827,8 +1828,10 @@ a {
       font-size: 1.5rem;
       border: none; }
     .page-template-donate .primary-school-button a {
-      height: 88px; }
+      height: 88px;
+      width: 130px; }
   .page-template-donate .vocational-school-button {
+    padding: 30px 10px;
     text-align: center; }
     .page-template-donate .vocational-school-button a {
       padding-top: 10px;
@@ -1844,7 +1847,8 @@ a {
       font-size: 1.5rem;
       border: none; }
     .page-template-donate .vocational-school-button a {
-      height: 88px; }
+      height: 88px;
+      width: 130px; }
   .page-template-donate .project-wrapper {
     display: -ms-flexbox;
     display: flex;
