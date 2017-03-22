@@ -14,7 +14,7 @@ get_header(); ?>
 
 			<div class="container">
 					<img src="<?php echo CFS()->get('vocational_school_image');?>">
-					<h2><?php echo CFS()->get('vocational_school_title');?></h2>
+					<h2 class="vocational-school-title"><?php echo CFS()->get('vocational_school_title');?></h2>
 					<p class="donate-trc-desc"><?php echo CFS()->get('vocational_school_description');?></p>
 				</div>
 				<div class="process-wrapper">
