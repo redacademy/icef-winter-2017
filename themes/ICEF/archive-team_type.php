@@ -80,7 +80,7 @@ get_header(); ?>
 
 						if($country == 'uganda'){ ?>
 
-							<div class='team-member  <?php echo $name; ?>'>
+							<div class='team-member <?php echo $name; ?>'>
 
 								<img src='<?php echo get_template_directory_uri();?>/images/svg/deco-uganda.svg' class='job-border' />
 								<div class='profile-pic'>
@@ -91,7 +91,7 @@ get_header(); ?>
 							
 							</div>
 
-							<section class='<?php echo $name; ?> popup'>
+							<section class='<?php echo $name; ?> popup' >
 								<div class='team-member'>
 									<img src='<?php echo get_template_directory_uri();?>/images/svg/deco-uganda.svg' class='job-border' />
 									<div class='profile-pic'>
