@@ -638,6 +638,9 @@ a {
 .show-menu {
   display: block; }
 
+.home .menu a {
+  color: white; }
+
 @media (min-width: 720px) {
   .front-page-container .front-content-container {
     width: 80%;
@@ -655,7 +658,7 @@ a {
     .front-page-container .front-page-head {
       margin-top: 0;
       margin-bottom: 70px;
-      height: 620px; } }
+      height: 700px; } }
   .front-page-container .front-page-head .home-hero {
     width: 100%;
     height: 60%;
@@ -963,6 +966,7 @@ a {
   .front-page-container .our-values {
     padding: 0 3% 5% 2%; }
     .front-page-container .our-values img {
+      width: 100%;
       margin: 0 auto;
       padding: 30px 0 30px 30px;
       border-top: 2px solid #852762;
@@ -2369,7 +2373,11 @@ a {
     font-family: "Oswald", sans-serif;
     font-weight: 500;
     width: 100%;
-    border-bottom: 1px solid #852762; }
+    border-bottom: 1px solid #852762;
+    display: none; }
+    @media (min-width: 720px) {
+      .updates h2 {
+        display: inline-block; } }
 
 .single-update {
   width: 100%;
@@ -2379,11 +2387,15 @@ a {
       width: 80%;
       margin: 10% auto; } }
   .single-update h2 {
+    display: none;
     border-bottom: 3px solid #852762;
     width: 80%;
     margin: 20px auto; }
     .single-update h2 span {
       font-weight: 500; }
+    @media (min-width: 720px) {
+      .single-update h2 {
+        display: block; } }
   .single-update .update-box {
     margin: 0 auto;
     display: -ms-flexbox;
@@ -2401,7 +2413,7 @@ a {
     .single-update .update-box .update-image {
       -ms-flex-preferred-size: 100%;
           flex-basis: 100%;
-      height: 350px;
+      height: 70%;
       background-color: #433E3E; }
       @media (min-width: 720px) {
         .single-update .update-box .update-image {
@@ -2433,12 +2445,12 @@ a {
           flex-basis: 100%;
       text-transform: uppercase;
       margin: 0;
-      margin-top: 30px;
-      height: 100px;
+      height: 20%;
       text-align: center;
       color: #433E3E;
       font-weight: 600;
-      padding: 30px 10%; }
+      padding: 50px 10%;
+      border-bottom: 2px solid #852762; }
       @media (min-width: 720px) {
         .single-update .update-box .update-title {
           font-size: 1.75rem;
@@ -2477,6 +2489,8 @@ a {
   .single-update .updates-flex {
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     height: 1500px;
@@ -2494,8 +2508,8 @@ a {
       margin: 10px 10px; }
       @media (min-width: 720px) {
         .single-update .updates-flex .updates-article {
-          -ms-flex-preferred-size: 25%;
-              flex-basis: 25%;
+          -ms-flex-preferred-size: 22%;
+              flex-basis: 22%;
           margin: 0 10px;
           height: 100%; } }
       .single-update .updates-flex .updates-article .update-box {
