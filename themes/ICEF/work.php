@@ -17,9 +17,28 @@ get_header(); ?>
 					<p>open map</p>
 					<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-icon.svg" 	alt="crafting-icon">
 				</div>
-				<div class="yellowBackgroundCategory">
-					
+				<div class ="categoryContainer">
+					<div class="yellowBackgroundCategory">
+						<div class ="categoryNumber">
+							<?php echo CFS()->get('project_number');?>
+							<p> hellooo</p>
+						</div>
+						<div class="categoryName">
+							<?php echo CFS()->get('project_name');?>
+						</div>	
+					</div>
+					<div class ="categoryPicture">
+						<img src="<?php echo CFS()->get('project_image');?>" alt="Project 1 Image">
+					</div>
 				</div>
+			</section>
+			<section class ="categoryQuotes">
+				<div class = "quoteLeft">
+					<p>01</p>
+					<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-right.svg" 	alt="right-arrow">
+				</div>
+				
+
 			</section>
 			<section class="purpleCircles">
 				<div class = "purpleCircleTitle">
