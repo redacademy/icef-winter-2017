@@ -2425,6 +2425,8 @@ a {
               bottom: 10px;
               right: 5px; } }
         .updates .updates-flex .update-article .update-box .update-title {
+          font-size: .8rem;
+          line-height: 21px;
           -ms-flex-preferred-size: 100%;
               flex-basis: 100%;
           text-transform: uppercase;
@@ -2574,6 +2576,7 @@ a {
         height: 100%;
         object-fit: cover; }
     .single-update .update-box .update-date {
+      font-size: 1rem;
       position: absolute;
       color: white;
       text-align: center;
@@ -2591,6 +2594,8 @@ a {
           bottom: 45px;
           right: 5px; } }
     .single-update .update-box .update-title {
+      font-size: .8rem;
+      line-height: 21px;
       -ms-flex-preferred-size: 100%;
           flex-basis: 100%;
       text-transform: uppercase;
@@ -2606,7 +2611,7 @@ a {
           font-size: 1.75rem;
           margin: 0;
           text-align: left;
-          padding: 5px 55px 10px 15px;
+          padding: 5px 45px 10px 15px;
           background-color: #F2CA6E; } }
     .single-update .update-box .update-title :hover {
       text-decoration: none; }
@@ -2644,7 +2649,7 @@ a {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     height: 1500px;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     margin-top: 30px;
     padding-top: 30px; }
@@ -2671,9 +2676,9 @@ a {
                 flex-basis: 100%;
             height: 75%; } }
         .single-update .updates-flex .updates-article .update-box .update-title {
-          line-height: 21px;
           height: 25%;
-          font-size: 1rem; }
+          font-size: .8rem;
+          line-height: 21px; }
         .single-update .updates-flex .updates-article .update-box .update-date {
           bottom: 15px; }
 

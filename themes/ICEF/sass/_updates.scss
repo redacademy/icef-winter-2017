@@ -77,6 +77,8 @@
                 }
 
                 .update-title {
+                    font-size: .8rem;
+                    line-height: 21px;
                     flex-basis: 100%;
                     text-transform: uppercase;
                     margin: 0;
@@ -264,6 +266,7 @@
         
 
         .update-date {
+            font-size: 1rem;
             position: absolute;
             color: white;
             text-align: center;
@@ -284,6 +287,8 @@
         }
 
         .update-title {
+            font-size: .8rem;
+            line-height: 21px;
             flex-basis: 100%;
             text-transform: uppercase;
             margin: 0;
@@ -298,7 +303,7 @@
                 font-size: 1.75rem;
                 margin: 0;
                 text-align: left;
-                padding: 5px 55px 10px 15px;
+                padding: 5px 45px 10px 15px;
                 background-color: $brand_colour_mediumgold;
             }
         }
@@ -345,7 +350,7 @@
         justify-content: center;
         flex-wrap: wrap;
         height: 1500px;
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
         margin-top: 30px;
         padding-top: 30px;
@@ -378,9 +383,9 @@
                 }
 
                 .update-title{
-                    line-height: 21px;
                     height: 25%;
-                    font-size: 1rem;
+                    font-size: .8rem;
+                    line-height: 21px;
                 }
 
                 .update-date {
