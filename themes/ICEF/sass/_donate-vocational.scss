@@ -40,6 +40,12 @@
         padding: 10px 50px 40px 50px;
     }
 
+    .vocational-content {
+        @include desktop {
+            width: 50%;
+        }
+    }
+
     .vocational-school-title {
         color: #fff;
     }
