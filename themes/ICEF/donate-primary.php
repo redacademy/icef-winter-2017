@@ -16,8 +16,10 @@ get_header(); ?>
 			<div class="container">
 				<div class="yellow-dots-banner"></div>
 				<div class="primary-wrapper">
-					<h2><?php echo CFS()->get('primary_school_title');?></h2>
-					<p class="primary-school-desc"><?php echo CFS()->get('primary_school_description');?></p>
+					<div class="primary-content">
+						<h2><?php echo CFS()->get('primary_school_title');?></h2>
+						<p class="primary-school-desc"><?php echo CFS()->get('primary_school_description');?></p>
+					</div>
 					<img class="primary-school-img" src="<?php echo CFS()->get('primary_school_image');?>">
 				</div> <!-- .primary-wrapper -->
 				<div class="process-wrapper">
