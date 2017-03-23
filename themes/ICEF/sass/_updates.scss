@@ -3,7 +3,7 @@
     width: 100%;
 
     @include desktop {
-        width: 60%;
+        width: 80%;
     }
 
     a:hover {
@@ -286,18 +286,25 @@
             }
         }
 
+        .main-title {
+            
+            @include desktop {
+                height: 100px;
+                padding-top: 50px;
+            }
+        }
+
         .update-title {
             font-size: .8rem;
             line-height: 21px;
             flex-basis: 100%;
             text-transform: uppercase;
             margin: 0;
-            height: 20%;
             text-align: center;
             color: $brand_colour_darkgrey;
             font-weight: 600;
-            padding: 50px 10%;
-            border-bottom: 2px solid $brand_colour_lightpurple;
+            // padding: 50px 10%;
+            // border-bottom: 2px solid $brand_colour_lightpurple;
 
             @include desktop {
                 font-size: 1.75rem;
@@ -320,7 +327,7 @@
 
         @include desktop {
             padding-left: 0;
-            width: 80%;
+            width: 70%;
         }
     }
 
