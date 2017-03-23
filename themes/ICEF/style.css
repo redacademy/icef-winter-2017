@@ -2617,7 +2617,8 @@ a {
       margin: 0;
       text-align: center;
       color: #433E3E;
-      font-weight: 600; }
+      font-weight: 600;
+      padding: 50px 10%; }
       @media (min-width: 720px) {
         .single-update .update-box .update-title {
           font-size: 1.75rem;
