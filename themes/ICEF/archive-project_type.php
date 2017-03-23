@@ -25,6 +25,29 @@ get_header(); ?>
 					<div class='yellow-pic' ></div>
 				</div>
 			</section>
+			
+			<section class ="categoryQuotes">
+				<div class = "quoteNumber">
+					<p>01</p>
+					<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-right.svg" 	alt="right-arrow">
+				</div>
+				<div class="quoteText">
+				</div>
+				<div class = "quoteNumber">
+					<p>02</p>
+					<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-right.svg" 	alt="right-arrow">
+				</div>
+				<div class="quoteText">
+				</div>
+				<div class = "quoteNumber">
+					<p>03</p>
+					<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-right.svg" 	alt="right-arrow">
+				</div>
+				<div class="quoteText">
+				</div>
+			</section>
+
+
 			<section class="purpleCircles">
 				<div class = "purpleCircleTitle">
 					<h2>Explore More of The TRC's Programs:</h2>
