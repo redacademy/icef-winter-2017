@@ -2062,6 +2062,7 @@ a {
     height: 80px;
     background: url(../../images/svg/yellow-dots.svg) no-repeat;
     background-position: center;
+    background-size: cover;
     border-bottom: 2px solid #852762; }
   .page-template-donate .recycling-wrapper {
     padding: 10px 50px 20px 50px; }
