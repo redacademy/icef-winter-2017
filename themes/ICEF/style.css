@@ -1948,6 +1948,10 @@ a {
     display: flex;
     -ms-flex-flow: row wrap;
         flex-flow: row wrap; }
+    @media (min-width: 720px) {
+      .page-template-donate .donate-wrapper {
+        -ms-flex-flow: row;
+            flex-flow: row; } }
   .page-template-donate .donate-trc-wrapper {
     display: -ms-flexbox;
     display: flex;
@@ -1958,6 +1962,8 @@ a {
     padding: 10px 50px 40px 50px; }
     .page-template-donate .donate-trc-wrapper .donate-trc-desc {
       color: #fff; }
+  .page-template-donate form {
+    padding-top: 70px; }
   .page-template-donate .donate-button {
     display: inline-block;
     font-family: "Oswald", sans-serif;
@@ -2035,9 +2041,16 @@ a {
     display: flex;
     -ms-flex-flow: row wrap;
         flex-flow: row wrap; }
+    @media (min-width: 720px) {
+      .page-template-donate .project-wrapper {
+        -ms-flex-flow: row;
+            flex-flow: row; } }
   .page-template-donate .project-wrapper img {
     width: 100%;
     height: 60%; }
+    @media (min-width: 720px) {
+      .page-template-donate .project-wrapper img {
+        width: 63%; } }
   .page-template-donate .fund-project-wrapper {
     background-color: #FFEABA;
     padding: 10px 50px 20px 50px; }
@@ -2053,8 +2066,33 @@ a {
     background: url(../../images/svg/yellow-dots.svg) no-repeat;
     background-position: center;
     border-bottom: 2px solid #852762; }
+    @media (min-width: 720px) {
+      .page-template-donate .yellow-dots-banner {
+        background-size: cover; } }
   .page-template-donate .recycling-wrapper {
     padding: 10px 50px 20px 50px; }
+    @media (min-width: 720px) {
+      .page-template-donate .recycling-wrapper {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: justify;
+            justify-content: space-between; } }
+  @media (min-width: 720px) {
+    .page-template-donate .recycling-info, .page-template-donate .icef-info {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -ms-flex-align: center;
+          align-items: center;
+      width: 40%; }
+      .page-template-donate .recycling-info .icef-info, .page-template-donate .icef-info .icef-info {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+            align-items: center; } }
   .page-template-donate .icef-donor {
     text-transform: uppercase;
     font-weight: bold;
@@ -2067,6 +2105,10 @@ a {
     color: #631747;
     text-align: center;
     margin-top: 0; }
+    @media (min-width: 720px) {
+      .page-template-donate .donor-number {
+        font-size: 12rem;
+        line-height: 1; } }
 
 .page-template-donate-primary {
   margin: 0 auto; }
@@ -2090,6 +2132,10 @@ a {
     height: 80px;
     background: url(../../images/svg/yellow-dots.svg) no-repeat;
     background-position: center; }
+    @media (min-width: 720px) {
+      .page-template-donate-primary .yellow-dots-banner {
+        background-size: cover;
+        margin-top: 140px; } }
   .page-template-donate-primary .primary-wrapper {
     display: -ms-flexbox;
     display: flex;

@@ -25,6 +25,10 @@
         height: 80px;
         background: url(../../images/svg/yellow-dots.svg) no-repeat;
         background-position: center;
+        @include desktop {
+        background-size: cover;
+        margin-top: 140px;
+        }
     }
 
     .primary-wrapper {
