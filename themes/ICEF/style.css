@@ -2302,9 +2302,13 @@ a {
     color: #fff;
     background-color: #F2CA6E;
     padding: 10px 50px 40px 50px; }
+    @media (min-width: 720px) {
+      .page-template-donate-vocational .vocational-wrapper img {
+        margin-top: 33px; } }
   @media (min-width: 720px) {
     .page-template-donate-vocational .vocational-content {
-      width: 50%; } }
+      width: 67%;
+      padding: 0 100px; } }
   .page-template-donate-vocational .vocational-school-title {
     color: #fff; }
   .page-template-donate-vocational .vocational-school-desc {

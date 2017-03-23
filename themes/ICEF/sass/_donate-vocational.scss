@@ -38,11 +38,17 @@
         color: #fff;
         background-color: $brand_colour_mediumgold;
         padding: 10px 50px 40px 50px;
+        @include desktop {
+            img {
+                margin-top: 33px;
+            }
+        }
     }
 
     .vocational-content {
         @include desktop {
-            width: 50%;
+            width: 67%;
+            padding: 0 100px;
         }
     }
 
