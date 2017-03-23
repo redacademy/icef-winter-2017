@@ -48,10 +48,14 @@ get_header(); ?>
 					<!--<img src="<?php echo get_template_directory_uri();?>/images/svg/yellow-dots.svg" alt="image of yellow dots on white background">-->
 				</div>
 				<div class="recycling-wrapper">
-					<h2 class="recycling-prog-title"><?php echo CFS()->get('return_it_recycling_program_title');?></h2>
-					<p class="recycling-prog-desc"><?php echo CFS()->get('return_it_recycling_program_description');?></p>
-					<p class="icef-donor">ICEF’s Donor ID Number is</p>
-					<p class="donor-number">#395</p>
+					<div class="recycling-info">
+						<h2 class="recycling-prog-title"><?php echo CFS()->get('return_it_recycling_program_title');?></h2>
+						<p class="recycling-prog-desc"><?php echo CFS()->get('return_it_recycling_program_description');?></p>
+					</div>
+					<div class="icef-info">
+						<p class="icef-donor">ICEF’s Donor ID Number is</p>
+						<p class="donor-number">#395</p>
+					</div>
 				</div>
 			</div>
 		</main><!-- #main -->

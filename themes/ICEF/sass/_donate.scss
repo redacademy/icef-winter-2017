@@ -153,6 +153,24 @@
 
     .recycling-wrapper {
         padding: 10px 50px 20px 50px;
+        @include desktop {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    .recycling-info, .icef-info {
+        @include desktop {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 40%;
+        .icef-info {
+            display: flex;
+            align-items:center;
+        }
+        }
     }
 
     .icef-donor {
@@ -169,5 +187,9 @@
         color: $brand_colour_darkpurple;
         text-align: center;
         margin-top: 0;
+        @include desktop {
+            font-size: 12rem;
+            line-height: 1;
+        }
     }
 }

@@ -2068,6 +2068,28 @@ a {
         background-size: cover; } }
   .page-template-donate .recycling-wrapper {
     padding: 10px 50px 20px 50px; }
+    @media (min-width: 720px) {
+      .page-template-donate .recycling-wrapper {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: justify;
+            justify-content: space-between; } }
+  @media (min-width: 720px) {
+    .page-template-donate .recycling-info, .page-template-donate .icef-info {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -ms-flex-align: center;
+          align-items: center;
+      width: 40%; }
+      .page-template-donate .recycling-info .icef-info, .page-template-donate .icef-info .icef-info {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+            align-items: center; } }
   .page-template-donate .icef-donor {
     text-transform: uppercase;
     font-weight: bold;
@@ -2080,6 +2102,10 @@ a {
     color: #631747;
     text-align: center;
     margin-top: 0; }
+    @media (min-width: 720px) {
+      .page-template-donate .donor-number {
+        font-size: 12rem;
+        line-height: 1; } }
 
 .page-template-donate-primary {
   margin: 0 auto; }
