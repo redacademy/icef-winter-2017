@@ -2252,8 +2252,18 @@ a {
     color: #fff; }
   .page-template-donate-vocational .vocational-school-desc {
     color: #fff; }
+  @media (min-width: 720px) {
+    .page-template-donate-vocational .content-wrapper {
+      display: -ms-flexbox;
+      display: flex;
+      width: 78%;
+      margin: 0 auto; } }
   .page-template-donate-vocational .process-wrapper {
     padding: 10px 50px 40px 50px; }
+    @media (min-width: 720px) {
+      .page-template-donate-vocational .process-wrapper {
+        padding: 10px 10px 0;
+        width: 100%; } }
   .page-template-donate-vocational .vocational-school-process-title {
     color: #F2CA6E; }
   .page-template-donate-vocational .vocational-school-process-desc {
@@ -2264,9 +2274,18 @@ a {
     display: -ms-flexbox;
     display: flex;
     height: 80px; }
+    @media (min-width: 720px) {
+      .page-template-donate-vocational .vocational-scholarship-heading {
+        margin-top: 30px; } }
+  @media (min-width: 720px) {
+    .page-template-donate-vocational .scholarship-content {
+      padding-left: 64px; } }
   .page-template-donate-vocational .scholarship-title {
     color: #F2CA6E;
     margin-top: 0; }
+    @media (min-width: 720px) {
+      .page-template-donate-vocational .scholarship-title {
+        padding-left: 10px; } }
   .page-template-donate-vocational .scholarship-amount {
     color: #898989; }
   .page-template-donate-vocational .donation-amount {
