@@ -590,6 +590,10 @@ a {
       @media (min-width: 720px) {
         .menu li a {
           color: #433E3E; } }
+    .menu li a:hover {
+      text-decoration: none;
+      color: #433E3E;
+      border-bottom: 4px solid #F2CA6E; }
 
 @media (min-width: 720px) {
   #masthead li:first-child {
@@ -638,6 +642,15 @@ a {
 .show-menu {
   display: block; }
 
+.single .nav-title {
+  display: none; }
+
+.home .menu a {
+  color: white; }
+
+.home .menu a:hover {
+  color: white; }
+
 @media (min-width: 720px) {
   .front-page-container .front-content-container {
     width: 80%;
@@ -655,7 +668,7 @@ a {
     .front-page-container .front-page-head {
       margin-top: 0;
       margin-bottom: 70px;
-      height: 620px; } }
+      height: 600px; } }
   .front-page-container .front-page-head .home-hero {
     width: 100%;
     height: 60%;
@@ -963,6 +976,7 @@ a {
   .front-page-container .our-values {
     padding: 0 3% 5% 2%; }
     .front-page-container .our-values img {
+      width: 100%;
       margin: 0 auto;
       padding: 30px 0 30px 30px;
       border-top: 2px solid #852762;
@@ -1486,6 +1500,50 @@ a {
     font-family: "Oswald", sans-serif;
     margin: 4rem; }
 
+.workHero .map {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  height: 0px;
+  overflow: hidden; }
+
+.workHero .openMap {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  height: 100px; }
+
+.workHero .yellowBackgroundCategory {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  height: 200px;
+  background-color: #F2CA6E; }
+  .workHero .yellowBackgroundCategory .yellow-number {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    text-align: center;
+    height: 40%; }
+    @media (min-width: 720px) {
+      .workHero .yellowBackgroundCategory .yellow-number {
+        height: 100%;
+        -ms-flex-preferred-size: 30%;
+            flex-basis: 30%; } }
+  .workHero .yellowBackgroundCategory .yellow-pic {
+    height: 60%;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    background: black; }
+    @media (min-width: 720px) {
+      .workHero .yellowBackgroundCategory .yellow-pic {
+        height: 100%;
+        -ms-flex-preferred-size: 70%;
+            flex-basis: 70%; } }
+
+.showMap {
+  height: 100% !important; }
+
 @media (min-width: 720px) {
   .page-template-work .content-area {
     width: 1000px;
@@ -1510,36 +1568,49 @@ a {
     margin-bottom: 34px;
     font-size: 3rem; }
 
-.page-template-work .workHero .yellowBackground {
-  background: #F2CA6E;
-  width: 100%; }
-  .page-template-work .workHero .yellowBackground h1 {
-    font-size: 1.25rem;
-    text-align: center;
-    color: white;
-    padding-top: .5rem; }
-    @media (min-width: 720px) {
-      .page-template-work .workHero .yellowBackground h1 {
-        font-size: 3rem;
-        padding-left: 1rem;
-        text-align: left; } }
-
-.page-template-work .workHero .openMap {
+.page-template-work .workHero {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-align: center;
-      align-items: center;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -ms-flex-direction: column;
       flex-direction: column; }
-  .page-template-work .workHero .openMap p {
-    margin: 0;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #433E3E; }
-  .page-template-work .workHero .openMap img {
-    width: 25px; }
+  .page-template-work .workHero .yellowBackground {
+    background: #F2CA6E;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    height: 80px; }
+    .page-template-work .workHero .yellowBackground h1 {
+      font-size: 1.25rem;
+      text-align: center;
+      color: white;
+      margin: 10px; }
+      @media (min-width: 720px) {
+        .page-template-work .workHero .yellowBackground h1 {
+          font-size: 3rem;
+          padding-left: 1rem;
+          text-align: left; } }
+  .page-template-work .workHero .openMap {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    margin: 0 auto; }
+    .page-template-work .workHero .openMap p {
+      margin: 0;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: #433E3E; }
+    .page-template-work .workHero .openMap img {
+      width: 25px; }
+      @media (min-width: 720px) {
+        .page-template-work .workHero .openMap img {
+          width: 60px; } }
 
 .page-template-work .purpleCircleTitle {
   text-align: center;
@@ -1782,7 +1853,6 @@ a {
     height: 70%; }
     @media (min-width: 720px) {
       .team-type-archive .canada-team, .team-type-archive .uganda-team {
-        padding: 20px;
         -ms-flex-preferred-size: 49%;
             flex-basis: 49%;
         -ms-flex-pack: center;
@@ -1941,6 +2011,10 @@ a {
     display: flex;
     -ms-flex-flow: row wrap;
         flex-flow: row wrap; }
+    @media (min-width: 720px) {
+      .page-template-donate .donate-wrapper {
+        -ms-flex-flow: row;
+            flex-flow: row; } }
   .page-template-donate .donate-trc-wrapper {
     display: -ms-flexbox;
     display: flex;
@@ -1951,6 +2025,8 @@ a {
     padding: 10px 50px 40px 50px; }
     .page-template-donate .donate-trc-wrapper .donate-trc-desc {
       color: #fff; }
+  .page-template-donate form {
+    padding-top: 70px; }
   .page-template-donate .donate-button {
     display: inline-block;
     font-family: "Oswald", sans-serif;
@@ -2028,9 +2104,16 @@ a {
     display: flex;
     -ms-flex-flow: row wrap;
         flex-flow: row wrap; }
+    @media (min-width: 720px) {
+      .page-template-donate .project-wrapper {
+        -ms-flex-flow: row;
+            flex-flow: row; } }
   .page-template-donate .project-wrapper img {
     width: 100%;
     height: 60%; }
+    @media (min-width: 720px) {
+      .page-template-donate .project-wrapper img {
+        width: 63%; } }
   .page-template-donate .fund-project-wrapper {
     background-color: #FFEABA;
     padding: 10px 50px 20px 50px; }
@@ -2046,8 +2129,33 @@ a {
     background: url(../../images/svg/yellow-dots.svg) no-repeat;
     background-position: center;
     border-bottom: 2px solid #852762; }
+    @media (min-width: 720px) {
+      .page-template-donate .yellow-dots-banner {
+        background-size: cover; } }
   .page-template-donate .recycling-wrapper {
     padding: 10px 50px 20px 50px; }
+    @media (min-width: 720px) {
+      .page-template-donate .recycling-wrapper {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: justify;
+            justify-content: space-between; } }
+  @media (min-width: 720px) {
+    .page-template-donate .recycling-info, .page-template-donate .icef-info {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -ms-flex-align: center;
+          align-items: center;
+      width: 40%; }
+      .page-template-donate .recycling-info .icef-info, .page-template-donate .icef-info .icef-info {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+            align-items: center; } }
   .page-template-donate .icef-donor {
     text-transform: uppercase;
     font-weight: bold;
@@ -2060,6 +2168,195 @@ a {
     color: #631747;
     text-align: center;
     margin-top: 0; }
+    @media (min-width: 720px) {
+      .page-template-donate .donor-number {
+        font-size: 12rem;
+        line-height: 1; } }
+
+.page-template-donate-primary {
+  margin: 0 auto; }
+  .page-template-donate-primary .site-main {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center; }
+  @media (min-width: 720px) {
+    .page-template-donate-primary .container {
+      width: 82%; } }
+  .page-template-donate-primary h2 {
+    font-size: 2rem;
+    line-height: 1;
+    margin-bottom: 0;
+    text-transform: none; }
+  .page-template-donate-primary .yellow-dots-banner {
+    width: 100%;
+    height: 80px;
+    background: url(../../images/svg/yellow-dots.svg) no-repeat;
+    background-position: center; }
+    @media (min-width: 720px) {
+      .page-template-donate-primary .yellow-dots-banner {
+        background-size: cover;
+        margin-top: 140px; } }
+  .page-template-donate-primary .primary-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    color: #fff;
+    background-color: #F2CA6E;
+    padding: 10px 50px 40px 50px; }
+  @media (min-width: 720px) {
+    .page-template-donate-primary .primary-content {
+      width: 50%; } }
+  @media (min-width: 720px) {
+    .page-template-donate-primary .content-wrapper {
+      display: -ms-flexbox;
+      display: flex;
+      width: 78%;
+      margin: 0 auto; } }
+  .page-template-donate-primary .process-wrapper {
+    padding: 10px 50px 40px 50px; }
+    @media (min-width: 720px) {
+      .page-template-donate-primary .process-wrapper {
+        padding: 10px 10px 0;
+        width: 90%; } }
+  .page-template-donate-primary .primary-school-desc {
+    color: #fff; }
+  .page-template-donate-primary .primary-school-img {
+    margin: 0 auto; }
+  .page-template-donate-primary .process-title {
+    color: #F2CA6E; }
+  .page-template-donate-primary .primary_school_process_desc {
+    color: #433E3E; }
+    @media (min-width: 720px) {
+      .page-template-donate-primary .primary_school_process_desc {
+        width: 100%; } }
+  .page-template-donate-primary .primary-scholarship-wrapper {
+    padding: 10px 20px 40px 30px; }
+  .page-template-donate-primary .primary-scholarship-heading {
+    display: -ms-flexbox;
+    display: flex;
+    height: 80px; }
+    @media (min-width: 720px) {
+      .page-template-donate-primary .primary-scholarship-heading {
+        margin-top: 30px; } }
+  @media (min-width: 720px) {
+    .page-template-donate-primary .scholarship-content {
+      padding-left: 140px; } }
+  .page-template-donate-primary .scholarship-title {
+    color: #F2CA6E;
+    margin-top: 0; }
+    @media (min-width: 720px) {
+      .page-template-donate-primary .scholarship-title {
+        padding-left: 10px; } }
+  .page-template-donate-primary .scholarship-amount {
+    color: #898989; }
+  .page-template-donate-primary .donation-amount {
+    color: #F2CA6E; }
+  .page-template-donate-primary .grey-text {
+    color: #898989; }
+  .page-template-donate-primary .sponsor-wrapper {
+    margin-bottom: 60px; }
+  .page-template-donate-primary .sponsor-section {
+    text-align: left;
+    color: #fff;
+    background-color: #F2CA6E;
+    padding: 10px 20px 40px 30px; }
+    .page-template-donate-primary .sponsor-section ul {
+      margin: 0;
+      padding: 0 15px; }
+
+.page-template-donate-vocational {
+  margin: 0 auto; }
+  .page-template-donate-vocational .site-main {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center; }
+  @media (min-width: 720px) {
+    .page-template-donate-vocational .container {
+      width: 82%; } }
+  .page-template-donate-vocational h2 {
+    font-size: 2rem;
+    line-height: 1;
+    margin-bottom: 0;
+    text-transform: none; }
+  .page-template-donate-vocational .yellow-dots-banner {
+    width: 100%;
+    height: 80px;
+    background: url(../../images/svg/yellow-dots.svg) no-repeat;
+    background-position: center; }
+    @media (min-width: 720px) {
+      .page-template-donate-vocational .yellow-dots-banner {
+        background-size: cover;
+        margin-top: 140px; } }
+  .page-template-donate-vocational .vocational-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    color: #fff;
+    background-color: #F2CA6E;
+    padding: 10px 50px 40px 50px; }
+  @media (min-width: 720px) {
+    .page-template-donate-vocational .vocational-content {
+      width: 50%; } }
+  .page-template-donate-vocational .vocational-school-title {
+    color: #fff; }
+  .page-template-donate-vocational .vocational-school-desc {
+    color: #fff; }
+  @media (min-width: 720px) {
+    .page-template-donate-vocational .content-wrapper {
+      display: -ms-flexbox;
+      display: flex;
+      width: 78%;
+      margin: 0 auto; } }
+  .page-template-donate-vocational .process-wrapper {
+    padding: 10px 50px 40px 50px; }
+    @media (min-width: 720px) {
+      .page-template-donate-vocational .process-wrapper {
+        padding: 10px 10px 0;
+        width: 100%; } }
+  .page-template-donate-vocational .vocational-school-process-title {
+    color: #F2CA6E; }
+  .page-template-donate-vocational .vocational-school-process-desc {
+    color: #433E3E; }
+  .page-template-donate-vocational .vocational-scholarship-wrapper {
+    padding: 10px 20px 40px 30px; }
+  .page-template-donate-vocational .vocational-scholarship-heading {
+    display: -ms-flexbox;
+    display: flex;
+    height: 80px; }
+    @media (min-width: 720px) {
+      .page-template-donate-vocational .vocational-scholarship-heading {
+        margin-top: 30px; } }
+  @media (min-width: 720px) {
+    .page-template-donate-vocational .scholarship-content {
+      padding-left: 64px; } }
+  .page-template-donate-vocational .scholarship-title {
+    color: #F2CA6E;
+    margin-top: 0; }
+    @media (min-width: 720px) {
+      .page-template-donate-vocational .scholarship-title {
+        padding-left: 10px; } }
+  .page-template-donate-vocational .scholarship-amount {
+    color: #898989; }
+  .page-template-donate-vocational .donation-amount {
+    color: #F2CA6E; }
+  .page-template-donate-vocational .sponsor-wrapper {
+    margin-bottom: 60px; }
+  .page-template-donate-vocational .sponsor-section {
+    text-align: left;
+    color: #fff;
+    background-color: #F2CA6E;
+    padding: 10px 20px 40px 30px; }
+    .page-template-donate-vocational .sponsor-section ul {
+      margin: 0;
+      padding: 0 15px; }
 
 .updates {
   margin: 10% auto;
@@ -2226,7 +2523,11 @@ a {
     font-family: "Oswald", sans-serif;
     font-weight: 500;
     width: 100%;
-    border-bottom: 1px solid #852762; }
+    border-bottom: 1px solid #852762;
+    display: none; }
+    @media (min-width: 720px) {
+      .updates h2 {
+        display: inline-block; } }
 
 .single-update {
   width: 100%;
@@ -2236,9 +2537,15 @@ a {
       width: 80%;
       margin: 10% auto; } }
   .single-update h2 {
+    display: none;
     border-bottom: 3px solid #852762;
-    width: 70%;
+    width: 80%;
     margin: 20px auto; }
+    .single-update h2 span {
+      font-weight: 500; }
+    @media (min-width: 720px) {
+      .single-update h2 {
+        display: block; } }
   .single-update .update-box {
     margin: 0 auto;
     display: -ms-flexbox;
@@ -2246,17 +2553,17 @@ a {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     width: 100%;
-    height: 70%;
+    height: 60%;
     -ms-flex-preferred-size: 55%;
         flex-basis: 55%;
     position: relative; }
     @media (min-width: 720px) {
       .single-update .update-box {
-        width: 70%; } }
+        width: 80%; } }
     .single-update .update-box .update-image {
       -ms-flex-preferred-size: 100%;
           flex-basis: 100%;
-      height: 350px;
+      height: 70%;
       background-color: #433E3E; }
       @media (min-width: 720px) {
         .single-update .update-box .update-image {
@@ -2288,12 +2595,12 @@ a {
           flex-basis: 100%;
       text-transform: uppercase;
       margin: 0;
-      margin-top: 30px;
-      height: 100px;
+      height: 20%;
       text-align: center;
       color: #433E3E;
       font-weight: 600;
-      padding: 30px 10%; }
+      padding: 50px 10%;
+      border-bottom: 2px solid #852762; }
       @media (min-width: 720px) {
         .single-update .update-box .update-title {
           font-size: 1.75rem;
@@ -2311,6 +2618,64 @@ a {
       .single-update .update-content {
         padding-left: 0;
         width: 80%; } }
+  .single-update .more {
+    border-bottom: 3px solid #852762;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: end;
+        justify-content: flex-end;
+    margin: 0 auto;
+    width: 80%; }
+    .single-update .more a {
+      margin: 0;
+      padding: 10px 30px;
+      background-color: #433E3E;
+      border-radius: 10px;
+      text-transform: uppercase;
+      color: white;
+      font-size: 2.25rem;
+      font-weight: bold;
+      font-family: "Oswald", sans-serif; }
+  .single-update .updates-flex {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 1500px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-top: 30px; }
+    @media (min-width: 720px) {
+      .single-update .updates-flex {
+        height: 200px; } }
+    .single-update .updates-flex .updates-article {
+      -ms-flex-preferred-size: 100%;
+          flex-basis: 100%;
+      height: 300px;
+      margin: 10px 10px; }
+      @media (min-width: 720px) {
+        .single-update .updates-flex .updates-article {
+          -ms-flex-preferred-size: 22%;
+              flex-basis: 22%;
+          margin: 0 10px;
+          height: 100%; } }
+      .single-update .updates-flex .updates-article .update-box {
+        height: 250px;
+        width: 100%; }
+        @media (min-width: 720px) {
+          .single-update .updates-flex .updates-article .update-box .update-image {
+            -ms-flex-preferred-size: 100%;
+                flex-basis: 100%;
+            height: 75%; } }
+        .single-update .updates-flex .updates-article .update-box .update-title {
+          line-height: 21px;
+          height: 25%;
+          font-size: 1rem; }
+        .single-update .updates-flex .updates-article .update-box .update-date {
+          bottom: 15px; }
 
 /*--------------------------------------------------------------
 # Media

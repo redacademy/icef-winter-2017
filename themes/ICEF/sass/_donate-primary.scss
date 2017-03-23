@@ -1,0 +1,138 @@
+.page-template-donate-primary {
+    margin: 0 auto;
+
+    .site-main {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        @include desktop {
+        width: 82%;
+        }
+    }
+
+    h2 {
+        font-size: 2rem;
+        line-height: 1;
+        margin-bottom: 0;
+        text-transform: none;
+    }
+
+    .yellow-dots-banner {
+        width: 100%;
+        height: 80px;
+        background: url(../../images/svg/yellow-dots.svg) no-repeat;
+        background-position: center;
+        @include desktop {
+        background-size: cover;
+        margin-top: 140px;
+        }
+    }
+
+    .primary-wrapper {
+        display: flex;
+        flex-flow: row wrap;
+        color: #fff;
+        background-color: $brand_colour_mediumgold;
+        padding: 10px 50px 40px 50px;
+    }
+
+    .primary-content {
+        @include desktop {
+            width: 50%;
+        }
+    }
+
+    .content-wrapper {
+        @include desktop {
+            display: flex;
+            width: 78%;
+            margin: 0 auto;
+        }
+    }
+
+    .process-wrapper {
+        padding: 10px 50px 40px 50px;
+        @include desktop {
+            padding: 10px 10px 0;
+            width: 90%;
+        }
+    }
+
+    .primary-school-desc {
+        color: #fff;
+    }
+
+    .primary-school-img {
+        margin: 0 auto;
+    }
+
+    .process-title {
+        color: $brand_colour_mediumgold;
+    }
+
+    .primary_school_process_desc {
+        color: $brand_colour_darkgrey;
+        @include desktop {
+            width: 100%;
+        }
+    }
+
+    .primary-scholarship-wrapper {
+        padding: 10px 20px 40px 30px;
+        @include desktop {
+            // width: 80%;
+        }
+    }
+
+    .primary-scholarship-heading {
+        display: flex;
+        height: 80px;
+        @include desktop {
+            margin-top: 30px;
+        }
+    }
+
+    .scholarship-content {
+        @include desktop {
+            padding-left: 140px;
+        }
+    }
+
+    .scholarship-title {
+        color: $brand_colour_mediumgold;
+        margin-top: 0;
+        @include desktop {
+            padding-left: 10px;
+        }
+    }
+
+    .scholarship-amount {
+        color: $brand_colour_lightgrey;
+    }
+
+    .donation-amount {
+        color: $brand_colour_mediumgold;
+    }
+
+    .grey-text {
+        color: $brand_colour_lightgrey;
+    }
+
+    .sponsor-wrapper {
+        margin-bottom: 60px;
+    }
+
+    .sponsor-section {
+        text-align: left;
+        color: #fff;
+        background-color: $brand_colour_mediumgold;
+        padding: 10px 20px 40px 30px;
+        ul {
+            margin: 0;
+            padding: 0 15px;
+        }
+    }
+}

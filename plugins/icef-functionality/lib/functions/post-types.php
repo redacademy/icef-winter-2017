@@ -11,7 +11,7 @@
 function icef_cpt_team() {
 
 	$labels = array(
-		'name'                  => _x( 'Team Types', 'Post Type General Name', 'text_domain' ),
+		'name'                  => _x( 'Our Team', 'Post Type General Name', 'text_domain' ),
 		'singular_name'         => _x( 'Team Type', 'Post Type Singular Name', 'text_domain' ),
 		'menu_name'             => __( 'Team Types', 'text_domain' ),
 		'name_admin_bar'        => __( 'Team Type', 'text_domain' ),

@@ -248,6 +248,12 @@ a {
 				color: #433E3E;
 			}
 		}
+
+		a:hover {
+			text-decoration: none;
+			color: $brand_colour_darkgrey;
+		 	border-bottom: 4px solid $brand_colour_mediumgold;
+		}
 	}
 }
 
@@ -293,4 +299,11 @@ a {
 
 .show-menu {
 	display: block;
+}
+
+.single {
+
+	.nav-title {
+		display: none;
+	}
 }
