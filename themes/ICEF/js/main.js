@@ -19,6 +19,19 @@
         })
     })
 
+    $('.map-arrow').on('click', function(){
+
+        $('.map').toggleClass('showMap');
+
+        $('.map-arrow').css('transform', 'rotate(180deg)');
+
+        if($('.openMap p').text() == 'open map'){
+            $('.openMap p').text('close map');
+        } else {
+            $('.openMap p').text('open map');
+        }
+    })
+
     
 
 })(jQuery);
