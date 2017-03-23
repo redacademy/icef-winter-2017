@@ -591,7 +591,9 @@ a {
         .menu li a {
           color: #433E3E; } }
     .menu li a:hover {
-      color: #852762 !important; }
+      text-decoration: none;
+      color: #433E3E;
+      border-bottom: 4px solid #F2CA6E; }
 
 @media (min-width: 720px) {
   #masthead li:first-child {
@@ -644,6 +646,9 @@ a {
   display: none; }
 
 .home .menu a {
+  color: white; }
+
+.home .menu a:hover {
   color: white; }
 
 @media (min-width: 720px) {
@@ -1791,7 +1796,6 @@ a {
     height: 70%; }
     @media (min-width: 720px) {
       .team-type-archive .canada-team, .team-type-archive .uganda-team {
-        padding: 20px;
         -ms-flex-preferred-size: 49%;
             flex-basis: 49%;
         -ms-flex-pack: center;

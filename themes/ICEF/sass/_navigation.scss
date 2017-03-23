@@ -250,7 +250,9 @@ a {
 		}
 
 		a:hover {
-			color: $brand_colour_lightpurple!important;
+			text-decoration: none;
+			color: $brand_colour_darkgrey;
+		 	border-bottom: 4px solid $brand_colour_mediumgold;
 		}
 	}
 }
@@ -300,7 +302,6 @@ a {
 }
 
 .single {
-
 
 	.nav-title {
 		display: none;
