@@ -2,6 +2,10 @@
     .menu a {
         color: white;
     }
+
+    .menu a:hover{
+		color: white;
+	}
 }
 
 .front-page-container {
@@ -29,7 +33,7 @@
         @include desktop {
             margin-top: 0;
             margin-bottom: 70px;
-            height: 700px;
+            height: 600px;
         }
 
 
