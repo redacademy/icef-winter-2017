@@ -145,8 +145,10 @@
         height: 80px;
         background: url(../../images/svg/yellow-dots.svg) no-repeat;
         background-position: center;
-        background-size: cover;
         border-bottom: 2px solid $brand_colour_lightpurple;
+        @include desktop {
+            background-size: cover;
+        }
     }
 
     .recycling-wrapper {
