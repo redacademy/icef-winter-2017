@@ -2233,6 +2233,10 @@ a {
     height: 80px;
     background: url(../../images/svg/yellow-dots.svg) no-repeat;
     background-position: center; }
+    @media (min-width: 720px) {
+      .page-template-donate-vocational .yellow-dots-banner {
+        background-size: cover;
+        margin-top: 140px; } }
   .page-template-donate-vocational .vocational-wrapper {
     display: -ms-flexbox;
     display: flex;
