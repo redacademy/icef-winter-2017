@@ -39,8 +39,26 @@
         padding: 10px 50px 40px 50px;
     }
 
+    .primary-content {
+        @include desktop {
+            width: 50%;
+        }
+    }
+
+    .content-wrapper {
+        @include desktop {
+            display: flex;
+            width: 78%;
+            margin: 0 auto;
+        }
+    }
+
     .process-wrapper {
         padding: 10px 50px 40px 50px;
+        @include desktop {
+            padding: 10px 10px 0;
+            width: 90%;
+        }
     }
 
     .primary-school-desc {
@@ -57,20 +75,38 @@
 
     .primary_school_process_desc {
         color: $brand_colour_darkgrey;
+        @include desktop {
+            width: 100%;
+        }
     }
 
     .primary-scholarship-wrapper {
         padding: 10px 20px 40px 30px;
+        @include desktop {
+            // width: 80%;
+        }
     }
 
     .primary-scholarship-heading {
         display: flex;
         height: 80px;
+        @include desktop {
+            margin-top: 30px;
+        }
+    }
+
+    .scholarship-content {
+        @include desktop {
+            padding-left: 140px;
+        }
     }
 
     .scholarship-title {
         color: $brand_colour_mediumgold;
         margin-top: 0;
+        @include desktop {
+            padding-left: 10px;
+        }
     }
 
     .scholarship-amount {

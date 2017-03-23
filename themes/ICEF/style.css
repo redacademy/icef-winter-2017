@@ -2146,8 +2146,21 @@ a {
     color: #fff;
     background-color: #F2CA6E;
     padding: 10px 50px 40px 50px; }
+  @media (min-width: 720px) {
+    .page-template-donate-primary .primary-content {
+      width: 50%; } }
+  @media (min-width: 720px) {
+    .page-template-donate-primary .content-wrapper {
+      display: -ms-flexbox;
+      display: flex;
+      width: 78%;
+      margin: 0 auto; } }
   .page-template-donate-primary .process-wrapper {
     padding: 10px 50px 40px 50px; }
+    @media (min-width: 720px) {
+      .page-template-donate-primary .process-wrapper {
+        padding: 10px 10px 0;
+        width: 90%; } }
   .page-template-donate-primary .primary-school-desc {
     color: #fff; }
   .page-template-donate-primary .primary-school-img {
@@ -2156,15 +2169,27 @@ a {
     color: #F2CA6E; }
   .page-template-donate-primary .primary_school_process_desc {
     color: #433E3E; }
+    @media (min-width: 720px) {
+      .page-template-donate-primary .primary_school_process_desc {
+        width: 100%; } }
   .page-template-donate-primary .primary-scholarship-wrapper {
     padding: 10px 20px 40px 30px; }
   .page-template-donate-primary .primary-scholarship-heading {
     display: -ms-flexbox;
     display: flex;
     height: 80px; }
+    @media (min-width: 720px) {
+      .page-template-donate-primary .primary-scholarship-heading {
+        margin-top: 30px; } }
+  @media (min-width: 720px) {
+    .page-template-donate-primary .scholarship-content {
+      padding-left: 140px; } }
   .page-template-donate-primary .scholarship-title {
     color: #F2CA6E;
     margin-top: 0; }
+    @media (min-width: 720px) {
+      .page-template-donate-primary .scholarship-title {
+        padding-left: 10px; } }
   .page-template-donate-primary .scholarship-amount {
     color: #898989; }
   .page-template-donate-primary .donation-amount {
