@@ -60,7 +60,13 @@ get_header(); ?>
 				<div class="sponsor-wrapper">
 					<div class="sponsor-section">	
 						<h2 class="vocational-school-sponsor-title"><?php echo CFS()->get('vocational_school_sponsor_title');?></h2>
-						<p class="vocational-school-sponsor-package"><?php echo CFS()->get('vocational_school_sponsor_package');?></p>
+						<!--<p class="vocational-school-sponsor-package"><?php echo CFS()->get('vocational_school_sponsor_package');?></p>-->
+						<ul>
+							<?php $sponsor_list = CFS()->get( 'vocational_school_sponsor_package_loop' ); ?>
+							<?php foreach( $sponsor_list as $item ): ?>
+								<li> <?php echo $item['sponsor_item']; ?> </li>
+							<?php endforeach; ?>
+						</ul>
 					</div>
 				</div>
 		</main><!-- #main -->
