@@ -248,6 +248,10 @@ a {
 				color: #433E3E;
 			}
 		}
+
+		a:hover {
+			color: $brand_colour_lightpurple!important;
+		}
 	}
 }
 
@@ -293,4 +297,12 @@ a {
 
 .show-menu {
 	display: block;
+}
+
+.single {
+
+
+	.nav-title {
+		display: none;
+	}
 }

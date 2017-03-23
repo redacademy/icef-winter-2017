@@ -590,6 +590,8 @@ a {
       @media (min-width: 720px) {
         .menu li a {
           color: #433E3E; } }
+    .menu li a:hover {
+      color: #852762 !important; }
 
 @media (min-width: 720px) {
   #masthead li:first-child {
@@ -637,6 +639,9 @@ a {
 
 .show-menu {
   display: block; }
+
+.single .nav-title {
+  display: none; }
 
 .home .menu a {
   color: white; }
