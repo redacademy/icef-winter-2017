@@ -1561,12 +1561,150 @@ a {
   width: 100%; }
 
 @media (min-width: 720px) {
-  .post-type-archive-project_type .content-area {
+  .post-type-archive-project .content-area {
     width: 1000px;
     margin: 0 auto;
     margin-top: 10rem; } }
 
-.post-type-archive-project_type .handMade {
+.post-type-archive-project .content-area p {
+  margin: 1.5rem; }
+
+.post-type-archive-project .fact {
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2.5rem; }
+  @media (min-width: 720px) {
+    .post-type-archive-project .fact .mobile-arrow {
+      display: none; } }
+  .post-type-archive-project .fact .desktop-arrow {
+    display: none; }
+    @media (min-width: 720px) {
+      .post-type-archive-project .fact .desktop-arrow {
+        display: block; } }
+
+.post-type-archive-project .yellow-background-category {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background: #F2CA6E;
+  width: 100%;
+  font-family: "Oswald", sans-serif;
+  -ms-flex-pack: center;
+      justify-content: center;
+  padding: 1.5rem;
+  justify-content: center; }
+  .post-type-archive-project .yellow-background-category .yellow-number {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    font-weight: bold;
+    padding-right: 2rem;
+    font-size: 4rem; }
+    .post-type-archive-project .yellow-background-category .yellow-number p {
+      margin: 0 auto;
+      height: 70px;
+      color: #B5852F; }
+  .post-type-archive-project .yellow-background-category .yellow-description {
+    font-size: 1.5rem;
+    width: 45%;
+    font-weight: bold;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center; }
+    .post-type-archive-project .yellow-background-category .yellow-description p {
+      margin: 0;
+      color: white;
+      line-height: 1.2;
+      text-transform: uppercase; }
+    @media (min-width: 720px) {
+      .post-type-archive-project .yellow-background-category .yellow-description {
+        width: 100%; } }
+
+.post-type-archive-project .quote-background {
+  background: #FFEABA;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: .8rem; }
+  .post-type-archive-project .quote-background p {
+    margin: 0; }
+
+.post-type-archive-project .our-work-content.trc {
+  display: block; }
+
+.post-type-archive-project .our-work-content {
+  display: none; }
+
+@media (min-width: 720px) {
+  .post-type-archive-project .fact-text {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center; } }
+
+.post-type-archive-project .fact-text p {
+  margin: 0; }
+
+.post-type-archive-project .fact-number {
+  text-align: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin-right: 1rem; }
+  .post-type-archive-project .fact-number p {
+    margin: 0;
+    font-weight: bold;
+    color: black;
+    font-size: 1.5rem;
+    font-family: "Oswald", sans-serif;
+    height: 25px; }
+  .post-type-archive-project .fact-number img {
+    max-width: 50px; }
+  @media (min-width: 720px) {
+    .post-type-archive-project .fact-number {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+          align-items: center;
+      font-weight: bold;
+      font-size: 2rem;
+      margin-right: 2rem; }
+      .post-type-archive-project .fact-number img {
+        margin-left: 1.5rem; }
+      .post-type-archive-project .fact-number p {
+        margin: 0;
+        color: black; } }
+
+.post-type-archive-project .why-text {
+  background: #FFEABA;
+  padding: 1.5rem; }
+
+.post-type-archive-project .why-read a, .post-type-archive-project .story-read a, .post-type-archive-project .impact-read a {
+  padding-top: 10px;
+  text-align: center;
+  height: 50px;
+  width: 150px;
+  border-radius: 8px;
+  display: inline-block;
+  background-color: #852762;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  border: none; }
+
+.post-type-archive-project .read-why p, .post-type-archive-project .read-story p, .post-type-archive-project .read-impact p {
+  height: 0;
+  overflow: hidden; }
+
+.post-type-archive-project .handMade {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -1577,14 +1715,14 @@ a {
   width: 110px;
   border-radius: 50%;
   background: #852762; }
-  .post-type-archive-project_type .handMade p {
+  .post-type-archive-project .handMade p {
     background: #852762;
     font-family: "Oswald", sans-serif;
     color: white;
     margin-bottom: 34px;
     font-size: 3rem; }
 
-.post-type-archive-project_type .workHero {
+.post-type-archive-project .workHero {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
@@ -1592,22 +1730,22 @@ a {
       flex-wrap: wrap;
   -ms-flex-direction: column;
       flex-direction: column; }
-  .post-type-archive-project_type .workHero .yellowBackground {
+  .post-type-archive-project .workHero .yellowBackground {
     background: #F2CA6E;
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     height: 80px; }
-    .post-type-archive-project_type .workHero .yellowBackground h1 {
+    .post-type-archive-project .workHero .yellowBackground h1 {
       font-size: 1.25rem;
       text-align: center;
       color: white;
       margin: 10px; }
       @media (min-width: 720px) {
-        .post-type-archive-project_type .workHero .yellowBackground h1 {
+        .post-type-archive-project .workHero .yellowBackground h1 {
           font-size: 2rem;
           padding: .7rem;
           text-align: left; } }
-  .post-type-archive-project_type .workHero .openMap {
+  .post-type-archive-project .workHero .openMap {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -1617,22 +1755,23 @@ a {
     -ms-flex-align: center;
         align-items: center;
     margin: 0 auto; }
-    .post-type-archive-project_type .workHero .openMap p {
+    .post-type-archive-project .workHero .openMap p {
       margin: 0;
       text-transform: uppercase;
       font-weight: bold;
       color: #433E3E; }
-    .post-type-archive-project_type .workHero .openMap img {
+    .post-type-archive-project .workHero .openMap img {
       width: 25px; }
       @media (min-width: 720px) {
-        .post-type-archive-project_type .workHero .openMap img {
+        .post-type-archive-project .workHero .openMap img {
           width: 60px; } }
 
-.post-type-archive-project_type .purpleCircleTitle {
+.post-type-archive-project .purpleCircleTitle {
   text-align: center;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  margin-top: 150rem; }
 
-.post-type-archive-project_type .purpleCircleGrid {
+.post-type-archive-project .purpleCircleGrid {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -1643,11 +1782,11 @@ a {
   margin: 0;
   padding: 0; }
   @media (min-width: 720px) {
-    .post-type-archive-project_type .purpleCircleGrid {
+    .post-type-archive-project .purpleCircleGrid {
       width: 1000px; } }
-  .post-type-archive-project_type .purpleCircleGrid img {
+  .post-type-archive-project .purpleCircleGrid img {
     height: 110px; }
-  .post-type-archive-project_type .purpleCircleGrid li {
+  .post-type-archive-project .purpleCircleGrid li {
     margin: .25rem 1rem;
     height: 150px;
     display: -ms-flexbox;
@@ -1655,7 +1794,7 @@ a {
     -ms-flex-pack: center;
         justify-content: center;
     width: 150px; }
-  .post-type-archive-project_type .purpleCircleGrid .ch-item {
+  .post-type-archive-project .purpleCircleGrid .ch-item {
     background: #852762;
     display: -ms-flexbox;
     display: flex;
@@ -1669,7 +1808,7 @@ a {
     position: relative;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     cursor: default; }
-  .post-type-archive-project_type .purpleCircleGrid .ch-info-wrap {
+  .post-type-archive-project .purpleCircleGrid .ch-info-wrap {
     position: absolute;
     width: 110px;
     height: 110px;
@@ -1677,20 +1816,20 @@ a {
     perspective: 800px;
     transition: all 0.4s ease-in-out;
     box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.2), inset 0 0 3px rgba(115, 114, 23, 0.8); }
-  .post-type-archive-project_type .purpleCircleGrid .ch-img-11 {
+  .post-type-archive-project .purpleCircleGrid .ch-img-11 {
     background-image: url(./images/svg/our-work-mobile/water.svg); }
-  .post-type-archive-project_type .purpleCircleGrid .ch-info-front img {
+  .post-type-archive-project .purpleCircleGrid .ch-info-front img {
     width: 100%;
     height: 100%;
     object-fit: cover; }
-  .post-type-archive-project_type .purpleCircleGrid .ch-info {
+  .post-type-archive-project .purpleCircleGrid .ch-info {
     position: absolute;
     width: 111px;
     height: 111px;
     border-radius: 50%;
     transition: all 0.4s ease-in-out;
     transform-style: preserve-3d; }
-  .post-type-archive-project_type .purpleCircleGrid .ch-info > div {
+  .post-type-archive-project .purpleCircleGrid .ch-info > div {
     display: block;
     position: absolute;
     width: 100%;
@@ -1699,7 +1838,7 @@ a {
     background-position: center center;
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden; }
-  .post-type-archive-project_type .purpleCircleGrid .ch-info .ch-info-back {
+  .post-type-archive-project .purpleCircleGrid .ch-info .ch-info-back {
     transform: rotate3d(0, 1, 0, 180deg);
     background: #631747;
     display: -ms-flexbox;
@@ -1708,7 +1847,7 @@ a {
         justify-content: center;
     -ms-flex-align: center;
         align-items: center; }
-  .post-type-archive-project_type .purpleCircleGrid .ch-info h4 {
+  .post-type-archive-project .purpleCircleGrid .ch-info h4 {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -1718,14 +1857,14 @@ a {
     height: 90px;
     font-family: 'Open Sans', Arial, sans-serif;
     text-shadow: 0 0 1px #fff, 0 1px 2px rgba(0, 0, 0, 0.3); }
-  .post-type-archive-project_type .purpleCircleGrid .ch-info-back p {
+  .post-type-archive-project .purpleCircleGrid .ch-info-back p {
     color: #fff;
     text-align: center;
     margin-top: 2rem;
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
     font-size: 12px; }
-  .post-type-archive-project_type .purpleCircleGrid .ch-info p a {
+  .post-type-archive-project .purpleCircleGrid .ch-info p a {
     display: block;
     color: rgba(255, 255, 255, 0.7);
     font-style: normal;
@@ -1735,14 +1874,14 @@ a {
     letter-spacing: 1px;
     padding-top: 4px;
     font-family: 'Open Sans', Arial, sans-serif; }
-  .post-type-archive-project_type .purpleCircleGrid .ch-info p a:hover {
+  .post-type-archive-project .purpleCircleGrid .ch-info p a:hover {
     color: rgba(255, 242, 34, 0.8); }
-  .post-type-archive-project_type .purpleCircleGrid .ch-item:hover .ch-info-wrap {
+  .post-type-archive-project .purpleCircleGrid .ch-item:hover .ch-info-wrap {
     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.8), inset 0 0 3px rgba(115, 114, 23, 0.8); }
-  .post-type-archive-project_type .purpleCircleGrid .ch-item:hover .ch-info {
+  .post-type-archive-project .purpleCircleGrid .ch-item:hover .ch-info {
     transform: rotate3d(0, 1, 0, -180deg); }
 
-.post-type-archive-project_type .test1 .ch-item {
+.post-type-archive-project .test1 .ch-item {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -1750,7 +1889,7 @@ a {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   cursor: default; }
 
-.post-type-archive-project_type .test1 .ch-info-wrap {
+.post-type-archive-project .test1 .ch-info-wrap {
   position: absolute;
   width: 110px;
   height: 110px;
@@ -1760,16 +1899,16 @@ a {
   background: #f9f9f9 url(../images/bg.jpg);
   box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.2), inset 0 0 3px rgba(115, 114, 23, 0.8); }
 
-.post-type-archive-project_type .test1 .ch-img-11 {
+.post-type-archive-project .test1 .ch-img-11 {
   background: #852762;
   background-image: url(./images/svg/our-work-mobile/water.svg); }
 
-.post-type-archive-project_type .test1 .ch-info-front img {
+.post-type-archive-project .test1 .ch-info-front img {
   width: 100%;
   height: 100%;
   object-fit: cover; }
 
-.post-type-archive-project_type .test1 .ch-info {
+.post-type-archive-project .test1 .ch-info {
   position: absolute;
   width: 111px;
   height: 111px;
@@ -1777,7 +1916,7 @@ a {
   transition: all 0.4s ease-in-out;
   transform-style: preserve-3d; }
 
-.post-type-archive-project_type .test1 .ch-info > div {
+.post-type-archive-project .test1 .ch-info > div {
   display: block;
   position: absolute;
   width: 100%;
@@ -1787,11 +1926,11 @@ a {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden; }
 
-.post-type-archive-project_type .test1 .ch-info .ch-info-back {
+.post-type-archive-project .test1 .ch-info .ch-info-back {
   transform: rotate3d(0, 1, 0, 180deg);
   background: #000; }
 
-.post-type-archive-project_type .test1 .ch-info h3 {
+.post-type-archive-project .test1 .ch-info h3 {
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -1802,7 +1941,7 @@ a {
   font-family: 'Open Sans', Arial, sans-serif;
   text-shadow: 0 0 1px #fff, 0 1px 2px rgba(0, 0, 0, 0.3); }
 
-.post-type-archive-project_type .test1 .ch-info p {
+.post-type-archive-project .test1 .ch-info p {
   color: #fff;
   padding: 10px 5px;
   font-style: italic;
@@ -1810,7 +1949,7 @@ a {
   font-size: 12px;
   border-top: 1px solid rgba(255, 255, 255, 0.5); }
 
-.post-type-archive-project_type .test1 .ch-info p a {
+.post-type-archive-project .test1 .ch-info p a {
   display: block;
   color: rgba(255, 255, 255, 0.7);
   font-style: normal;
@@ -1821,13 +1960,13 @@ a {
   padding-top: 4px;
   font-family: 'Open Sans', Arial, sans-serif; }
 
-.post-type-archive-project_type .test1 .ch-info p a:hover {
+.post-type-archive-project .test1 .ch-info p a:hover {
   color: rgba(255, 242, 34, 0.8); }
 
-.post-type-archive-project_type .test1 .ch-item:hover .ch-info-wrap {
+.post-type-archive-project .test1 .ch-item:hover .ch-info-wrap {
   box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.8), inset 0 0 3px rgba(115, 114, 23, 0.8); }
 
-.post-type-archive-project_type .test1 .ch-item:hover .ch-info {
+.post-type-archive-project .test1 .ch-item:hover .ch-info {
   transform: rotate3d(0, 1, 0, -180deg); }
 
 .our-team {

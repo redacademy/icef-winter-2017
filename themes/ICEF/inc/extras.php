@@ -23,7 +23,7 @@ add_filter( 'body_class', 'red_starter_body_classes' );
 
 
 function post_list( $query ){
-	if ( is_post_type_archive( 'team_type' ) ){
+	if ( is_post_type_archive( 'team' ) ){
         $query->set( 'posts_per_page', 16);
         $query->set('order', 'ASC');
         return;
@@ -83,3 +83,10 @@ if ($post_types) :
 
 endif;
 }
+function our_work_archive_posts( $query ) {
+    if ( is_post_type_archive( 'project_type' )){
+		$query->set('order', 'ASC' );
+        return;
+    }
+}
+add_action( 'pre_get_posts', 'our_work_archive_posts' );
