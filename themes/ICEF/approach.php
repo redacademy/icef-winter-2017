@@ -10,12 +10,12 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 			<section class="approachTitle">
-				<h1><?php the_title();?></h1>
+				<h1><?php esc_html(the_title());?></h1>
 			</section>
 			<section class="hero">
-				<img src="<?php echo CFS()->get('approach_hero');?>" alt=:"top image">
+				<img src="<?php echo esc_html(CFS()->get('approach_hero'));?>" alt=:"top image">
 			</section>
-			<?php echo CFS()->get('below_hero_text');?>
+			<?php echo esc_html(CFS()->get('below_hero_text'));?>
 
 			<!--<div class = "desktopSwirl">
 				<img class ="desktop-swirl" src="<?php echo get_template_directory_uri();?>/images/svg/our-approach-wheel.svg" alt="our-approach-wheel">
@@ -70,18 +70,18 @@ get_header(); ?>
 				</ul>
 			</section>
 			<div>
-			<?php echo CFS()->get('below_self_sustainability');?>
+			<?php echo esc_html(CFS()->get('below_self_sustainability'));?>
 			<div class = "quoteBackground">
-				<?php echo CFS()->get('approach_quote');?>
+				<?php echo esc_html(CFS()->get('approach_quote'));?>
 			</div>
-			<?php echo CFS()->get('below_quote');?>
+			<?php echo esc_html(CFS()->get('below_quote'));?>
 			<div class="lastPictureMobile">
-				<img src="<?php echo CFS()->get('last_picture');?>" alt="last picture">
+				<img src="<?php echo esc_html(CFS()->get('last_picture'));?>" alt="last picture">
 			</div>
 			<div class="lastPictureDesktop">
-				<img src="<?php echo CFS()->get('last_picture_desktop');?>" alt="last-picture-desktop">
+				<img src="<?php echo esc_html(CFS()->get('last_picture_desktop'));?>" alt="last-picture-desktop">
 			</div>
-			<?php echo CFS()->get('below_last_picture_text');?> 
+			<?php echo esc_html(CFS()->get('below_last_picture_text'));?> 
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
