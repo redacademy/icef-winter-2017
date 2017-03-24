@@ -65,7 +65,7 @@ function icef_cpt_team() {
 		'rewrite'               => $rewrite,
 		'capability_type'       => 'page',
 	);
-	register_post_type( 'team_type', $args );
+	register_post_type( 'team', $args );
 
 }
 add_action( 'init', 'icef_cpt_team', 0 );
@@ -120,7 +120,7 @@ function project_post_type() {
 		'publicly_queryable'    => true,
 		'capability_type'       => 'post',
 	);
-	register_post_type( 'project_type', $args );
+	register_post_type( 'project', $args );
 
 }
 add_action( 'init', 'project_post_type', 0 );
