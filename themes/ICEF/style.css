@@ -669,37 +669,6 @@ a {
       margin-top: 0;
       margin-bottom: 70px;
       height: 600px; } }
-  .front-page-container .front-page-head .home-hero {
-    width: 100%;
-    height: 60%;
-    background: url(../../images/jpegs/home-hero.jpg) no-repeat;
-    background-size: cover;
-    background-position: -100px; }
-    @media (min-width: 720px) {
-      .front-page-container .front-page-head .home-hero {
-        height: 100%;
-        background: url(../../images/jpegs/homepage-hero.png) no-repeat;
-        background-size: 100%;
-        background-position: center; } }
-  .front-page-container .front-page-head .hero-text {
-    height: 30%; }
-    @media (min-width: 720px) {
-      .front-page-container .front-page-head .hero-text {
-        display: none; }
-        .front-page-container .front-page-head .hero-text p {
-          color: #433E3E;
-          width: 55%;
-          border-top: 1px solid white;
-          text-align: left;
-          padding: 10px 30px 10px 10px; } }
-    .front-page-container .front-page-head .hero-text h2 {
-      font-weight: normal;
-      background-color: #852762;
-      margin: 0;
-      padding: 10px;
-      font-size: 1.25rem;
-      color: white;
-      text-transform: uppercase; }
   .front-page-container .front-page-head .scroll-down {
     width: 23px;
     position: relative;
@@ -708,6 +677,39 @@ a {
       .front-page-container .front-page-head .scroll-down {
         width: 105px;
         bottom: 55px; } }
+
+.front-page-container .home-hero {
+  width: 100%;
+  height: 60%;
+  background: url(../../images/jpegs/home-hero.jpg) no-repeat;
+  background-size: cover;
+  background-position: -100px; }
+  @media (min-width: 720px) {
+    .front-page-container .home-hero {
+      height: 100%;
+      background: url(../../images/jpegs/homepage-hero.png) no-repeat;
+      background-size: 100%;
+      background-position: center; } }
+
+.front-page-container .hero-text {
+  height: 30%; }
+  @media (min-width: 720px) {
+    .front-page-container .hero-text {
+      display: none; }
+      .front-page-container .hero-text p {
+        color: #433E3E;
+        width: 55%;
+        border-top: 1px solid white;
+        text-align: left;
+        padding: 10px 30px 10px 10px; } }
+  .front-page-container .hero-text h2 {
+    font-weight: normal;
+    background-color: #852762;
+    margin: 0;
+    padding: 10px;
+    font-size: 1.25rem;
+    color: white;
+    text-transform: uppercase; }
 
 .front-page-container .who-we-are {
   text-align: center; }
@@ -1836,7 +1838,8 @@ a {
   border-bottom: 2px solid #433E3E; }
   @media (min-width: 720px) {
     .our-team {
-      display: block; } }
+      display: block;
+      font-size: 1.1rem; } }
 
 .team-type-archive {
   width: 85%;
@@ -1907,9 +1910,12 @@ a {
           .team-type-archive .canada-team .team-member p, .team-type-archive .uganda-team .team-member p {
             font-size: 1.2rem; } }
       .team-type-archive .canada-team .team-member .name, .team-type-archive .uganda-team .team-member .name {
+        font-size: 1rem;
         font-weight: 600;
         color: #433E3E; }
       .team-type-archive .canada-team .team-member .job, .team-type-archive .uganda-team .team-member .job {
+        font-size: 1rem;
+        font-weight: 100;
         height: 20%; }
       .team-type-archive .canada-team .team-member .job-border, .team-type-archive .uganda-team .team-member .job-border {
         width: 100%;
@@ -1955,7 +1961,7 @@ a {
     overflow: scroll; }
     @media (min-width: 720px) {
       .team-type-archive .popup {
-        padding: 10% 25% 0 25%; } }
+        padding: 10% 23% 0 23%; } }
     .team-type-archive .popup .x-close {
       transform: rotate(45deg);
       width: 30px;
@@ -2001,8 +2007,26 @@ a {
           border: 1px solid #F2CA6E;
           padding: 20px; } }
 
+.ugandan-staff {
+  width: 100%;
+  height: 100px;
+  width: 450px;
+  margin: 0 auto;
+  text-align: center; }
+  .ugandan-staff p {
+    margin: 50px;
+    margin-top: 0;
+    padding: 20px 40px;
+    background-color: #631747;
+    color: white; }
+    .ugandan-staff p span {
+      font-size: 1.5rem;
+      font-family: "Oswald", sans-serif; }
+
 .page-template-donate {
   margin: 0 auto; }
+  .page-template-donate .menu a {
+    color: white; }
   .page-template-donate .site-main {
     display: -ms-flexbox;
     display: flex;

@@ -160,8 +160,8 @@ get_header(); ?>
 
         <section class='front-bottom'>
             <h4>Interested in learning more about the TRC or want to help Tekera?</h4>
-            <a class='purple-btn'>Explore</a>
-            <a class='purple-btn'>Donate</a>
+            <a href='<?php get_template_directory_uri() ?>/icef/updates' class='purple-btn'>Explore</a>
+            <a href='<?php get_template_directory_uri() ?>/icef/donate' class='purple-btn'>Donate</a>
         </section>
     </div>
 </div>
