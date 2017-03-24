@@ -1505,8 +1505,12 @@ a {
       flex-basis: 100%;
   height: 0px;
   overflow: hidden;
-  background: url(../../images/jpegs/drop-pins.png) 0px -140px, url(../../images/jpegs/our-work2x.jpg) center;
+  background: url(../../images/jpegs/our-work2x.jpg) center;
   background-size: cover, cover; }
+  @media (min-width: 720px) {
+    .workHero .map {
+      background: url(../../images/jpegs/drop-pins.png) 0px -140px, url(../../images/jpegs/our-work2x.jpg) center;
+      background-size: cover, cover; } }
 
 .workHero .openMap {
   -ms-flex-preferred-size: 100%;
@@ -2769,6 +2773,29 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+.error404 {
+  margin-top: 25.5vh;
+  height: 100%;
+  background-color: #F2CA6E; }
+  .error404 .menu a {
+    color: white; }
+  .error404 .error-404 {
+    height: 1000px; }
+    .error404 .error-404 .page-header {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 21%;
+      height: 100%;
+      text-align: center;
+      width: 60%;
+      background: url(../../images/jpegs/home-hero2x.jpg) center;
+      border: 5px solid #852762; }
+      .error404 .error-404 .page-header .page-title {
+        padding-top: 50px;
+        color: #433E3E;
+        font-size: 15rem; }
+
 footer .icef-footer {
   display: -ms-flexbox;
   display: flex;
