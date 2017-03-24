@@ -14,17 +14,47 @@ get_header(); ?>
 					<h1>Explore Tekera Resource Centre</h1>
 				</div>
 				<div class='map'>
-					<img src='<?php echo get_template_directory_uri();?>/images/jpegs/our-work2x.jpg' alt='map'>
 				</div>
 				<div class = "openMap">
 					<p>open map</p>
 					<img class='map-arrow' src="<?php echo get_template_directory_uri();?>/images/svg/arrow-icon.svg" alt="crafting-icon">
 				</div>
-				<div class="yellowBackgroundCategory">
-					<div class='yellow-number' ></div>
-					<div class='yellow-pic' ></div>
-				</div>
-			</section>
+
+				<?php while ( have_posts() ) : the_post(); ?>
+					<section class='our-work-content'>
+						<div class="yellowBackgroundCategory">
+							<div class='yellow-number' ></div>
+							<div class='yellow-pic' ></div>
+						</div>
+
+						<ol>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ol>
+
+						<div class='quote-block'></div>
+
+						<div class='work-flex'>
+							<div class='why-flex'>
+								<div class='why-text'></div>
+								<div class='why-pic'></div>
+							</div>
+					
+							<div class='story-flex'>
+								<div class='story-pic'></div>
+								<div class='story-text'></div>
+							</div>
+
+							<div class='impact-flex'>
+								<div class='impact-text'></div>
+								<div class='impact-pic'></div>
+							</div>
+						</div>
+				</section>
+			<?php endwhile; // End of the loop. ?>
+
+
 			<section class="purpleCircles">
 				<div class = "purpleCircleTitle">
 					<h2>Explore More of The TRC's Programs:</h2>

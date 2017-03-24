@@ -3,7 +3,7 @@
     width: 100%;
 
     @include desktop {
-        width: 60%;
+        width: 80%;
     }
 
     a:hover {
@@ -77,6 +77,8 @@
                 }
 
                 .update-title {
+                    font-size: .8rem;
+                    line-height: 21px;
                     flex-basis: 100%;
                     text-transform: uppercase;
                     margin: 0;
@@ -264,6 +266,7 @@
         
 
         .update-date {
+            font-size: 1rem;
             position: absolute;
             color: white;
             text-align: center;
@@ -283,22 +286,31 @@
             }
         }
 
+        .main-title {
+            
+            @include desktop {
+                height: 100px;
+                padding-top: 50px;
+            }
+        }
+
         .update-title {
+            font-size: .8rem;
+            line-height: 21px;
             flex-basis: 100%;
             text-transform: uppercase;
             margin: 0;
-            height: 20%;
             text-align: center;
             color: $brand_colour_darkgrey;
             font-weight: 600;
             padding: 50px 10%;
-            border-bottom: 2px solid $brand_colour_lightpurple;
+            // border-bottom: 2px solid $brand_colour_lightpurple;
 
             @include desktop {
                 font-size: 1.75rem;
                 margin: 0;
                 text-align: left;
-                padding: 5px 55px 10px 15px;
+                padding: 5px 45px 10px 15px;
                 background-color: $brand_colour_mediumgold;
             }
         }
@@ -315,7 +327,7 @@
 
         @include desktop {
             padding-left: 0;
-            width: 80%;
+            width: 70%;
         }
     }
 
@@ -345,7 +357,7 @@
         justify-content: center;
         flex-wrap: wrap;
         height: 1500px;
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
         margin-top: 30px;
         padding-top: 30px;
@@ -378,9 +390,9 @@
                 }
 
                 .update-title{
-                    line-height: 21px;
                     height: 25%;
-                    font-size: 1rem;
+                    font-size: .8rem;
+                    line-height: 21px;
                 }
 
                 .update-date {
