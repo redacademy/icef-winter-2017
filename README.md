@@ -1,4 +1,4 @@
-![alt tag](/themes/icef/images/jpegs/screenshot.png)
+![alt tag](themes/ICEF/images/jpegs/screenshot.png)
 
 # International Community Empowerment Foundation
 
