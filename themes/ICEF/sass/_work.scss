@@ -43,8 +43,8 @@
 				margin: 10px;
 
 				@include desktop{
-					font-size:3rem;
-					padding-left:1rem;
+					font-size:2rem;
+					padding:.7rem;
 					text-align: left;
 				}
 			}
@@ -114,9 +114,6 @@
 			border-radius: 50%;
 			perspective: 800px;
 			transition: all 0.4s ease-in-out;
-			// top: 20px;
-			// left: 20px;
-			background: #f9f9f9 url(../images/bg.jpg);
 			box-shadow: 
 				0 0 0 20px rgba(255,255,255,0.2), 
 				inset 0 0 3px rgba(115,114, 23, 0.8);
