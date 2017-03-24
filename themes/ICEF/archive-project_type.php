@@ -14,7 +14,6 @@ get_header(); ?>
 					<h1>Explore Tekera Resource Centre</h1>
 				</div>
 				<div class='map'>
-					<img src='<?php echo get_template_directory_uri();?>/images/jpegs/our-work2x.jpg' alt='map'>
 				</div>
 				<div class = "openMap">
 					<p>open map</p>
