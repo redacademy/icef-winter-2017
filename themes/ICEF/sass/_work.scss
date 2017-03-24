@@ -132,9 +132,11 @@
 		@include purple-button;
 	}
 	.read-why,.read-story,.read-impact{
+		
 		p{
 			height:0;
 			// display: none;
+			overflow:hidden;
 		}
 	}
   .handMade{
