@@ -31,7 +31,4 @@
             $('.openMap p').text('open map');
         }
     })
-
-    
-
 })(jQuery);

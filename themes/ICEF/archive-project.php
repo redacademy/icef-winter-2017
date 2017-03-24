@@ -19,40 +19,134 @@ get_header(); ?>
 					<p>open map</p>
 					<img class='map-arrow' src="<?php echo get_template_directory_uri();?>/images/svg/arrow-icon.svg" alt="crafting-icon">
 				</div>
-
-				<?php while ( have_posts() ) : the_post(); ?>
-					<section class='our-work-content'>
-						<div class="yellowBackgroundCategory">
-							<div class='yellow-number' ></div>
-							<div class='yellow-pic' ></div>
+				<!--<div class="yellowBackgroundCategory">
+					<div class='yellow-number' ></div>
+					<div class='yellow-pic' ></div>
+				</div>-->
+			</section>
+	
+				<?php while ( have_posts() ) : the_post(); 
+					$class       = CFS()->get( 'project_class_creator' );
+					$number      = CFS()->get( 'project_number' );
+					$projectName = CFS()->get( 'project_name' );
+					$image       = CFS()->get( 'project_image' );
+					$fact1       = CFS()->get( 'project_fact_1' );
+					$fact2       = CFS()->get( 'project_fact_2' );
+					$fact3       = CFS()->get( 'project_fact_3' );
+					$quote       = CFS()->get( 'project_quote' );
+					$whyIntro    = CFS()->get( 'project_why_intro' );
+					$why         = CFS()->get( 'project_why' );
+					$whyImage    = CFS()->get( 'project_why_image' );
+					$storyIntro  = CFS()->get( 'project_story_intro' );
+					$story       = CFS()->get( 'project_story' );
+					$storyImage  = CFS()->get( 'project_story_image' );
+					$impactIntro = CFS()->get( 'project_impact_intro' );
+					$impact      = CFS()->get( 'project_impact' );
+					$impactImage = CFS()->get( 'project_impact_image' );
+					?>
+					<section class='our-work-content <?php echo $class; ?>'>
+						<div class="yellow-background-category">
+							<div class='yellow-number'>
+								<?php echo $number ?>
+							</div>
+							<div class="yellow-description">
+								<?php echo $projectName ?>
+							</div>
 						</div>
-
-						<ol>
-							<li></li>
-							<li></li>
-							<li></li>
-						</ol>
-
-						<div class='quote-block'></div>
-
+						<div class="categoryImage">
+							<img src="<?php echo $image ?>">
+						</div>
+						<div class = "fact">
+							<div class = "fact-number">
+								<p>01</p>
+								<div class="mobile-arrow">
+									<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-icon.svg" 	alt="right-arrow">
+								</div>
+								<div class="desktop-arrow">
+									<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-right.svg" 	alt="right-arrow">
+								</div>
+							</div>
+							<div class="fact-text">
+								<?php echo $fact1;?>
+							</div>
+						</div>
+						<div class="fact">
+							<div class = "fact-number">
+								<p>02</p>
+								<div class="mobile-arrow">
+									<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-icon.svg" 	alt="right-arrow">
+								</div>
+								<div class="desktop-arrow">
+									<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-right.svg" 	alt="right-arrow">
+								</div>
+							</div>
+							<div class="fact-text">
+								<?php echo $fact2;?>
+							</div>
+						</div>
+						<div class="fact">
+							<div class="fact-number">
+								<p>03</p>
+								<div class="mobile-arrow">
+									<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-icon.svg" 	alt="right-arrow">
+								</div>
+								<div class="desktop-arrow">
+									<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-right.svg" 	alt="right-arrow">
+								</div>
+							</div>
+							<div class="fact-text">
+								<?php echo $fact3;?>
+							</div>
+						</div>
+						<div class="quote-background">
+							<div class='quote-block'>
+								<?php echo $quote;?>
+							</div>
+						</div>
 						<div class='work-flex'>
 							<div class='why-flex'>
-								<div class='why-text'></div>
-								<div class='why-pic'></div>
+								<div class='why-text'>
+									<h2>Why</h2>
+									<?php echo $whyIntro ?>
+									<button class="why-read"> <a href=''>Read</a></button>
+								</div>
+								<div class='why-pic'>
+										<img src='<?php echo $whyImage ?>'>
+								</div>
+							</div> 
+
+							<div class='read-why'>
+								<?php echo $why ?>
 							</div>
 					
 							<div class='story-flex'>
-								<div class='story-pic'></div>
-								<div class='story-text'></div>
+								<div class='story-pic'>
+									<img src='<?php echo $storyImage ?>'>
+								</div>
+								<div class='story-text'>
+									<?php echo $storyIntro ?>
+									<button class="story-read"> <a href=''>Read</a></button>
+								</div>
+							</div>
+							<div class='read-story'>
+								<?php echo $story ?>
 							</div>
 
 							<div class='impact-flex'>
 								<div class='impact-text'></div>
-								<div class='impact-pic'></div>
-							</div>
+									<?php echo $impactIntro ?>
+									<button class="impact-read"> <a href=''>Read</a></button>		
+									<div class='impact-pic'>
+										<img src='<?php echo $impactImage?>'>
+									</div>
+								</div>
 						</div>
-				</section>
+						<div class='read-impact'>
+							<?php echo $impact ?>
+						</div>
+					</section>
 			<?php endwhile; // End of the loop. ?>
+			<!--</section>-->
 
 
 			<section class="purpleCircles">
