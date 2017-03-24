@@ -40,7 +40,7 @@ function icef_cpt_team() {
 		'filter_items_list'     => 'Filter Teammates list',
 	);
 	$rewrite = array(
-		'slug'                  => 'team_type',
+		'slug'                  => 'team',
 		'with_front'            => true,
 		'pages'                 => true,
 		'feeds'                 => true,
