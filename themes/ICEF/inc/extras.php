@@ -83,3 +83,10 @@ if ($post_types) :
 
 endif;
 }
+function our_work_archive_posts( $query ) {
+    if ( is_post_type_archive( 'project_type' )){
+		$query->set('order', 'ASC' );
+        return;
+    }
+}
+add_action( 'pre_get_posts', 'our_work_archive_posts' );

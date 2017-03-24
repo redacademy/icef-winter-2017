@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="91px" height="57px" viewBox="0 0 91 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Clinic</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="8.56470588" y="13.9811321" width="72.8" height="43.0188679" rx="2"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="72.8" height="43.0188679" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="34.2588235" y="33.3396226" width="22.4823529" height="23.6603774" rx="2"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="22.4823529" height="23.6603774" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="29.9764706" y="13.9811321" width="31.0470588" height="13.9811321" rx="3"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="31.0470588" height="13.9811321" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+    </defs>
+    <g id="03.-Our-Work" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3.1_DESKTOP_OurWork-TRCEmpty" transform="translate(-1058.000000, -3312.000000)" stroke="#FFFFFF">
+            <g id="CTA-DONATE" transform="translate(263.000000, 3151.000000)">
+                <g id="TRC-NAV" transform="translate(0.000000, 118.000000)">
+                    <g id="ASSET_YCircleFill-Copy-4" transform="translate(764.000000, 0.000000)">
+                        <g id="Clinic" transform="translate(31.000000, 43.000000)">
+                            <use id="Rectangle-4" mask="url(#mask-2)" stroke-width="8" xlink:href="#path-1"></use>
+                            <use id="Rectangle-5" mask="url(#mask-4)" stroke-width="8" xlink:href="#path-3"></use>
+                            <path d="M45.5,36.5660377 L45.5,56.2890946" id="Path-4" stroke-width="3"></path>
+                            <path d="M0,54.8490566 L91,54.8490566" id="Path-5" stroke-width="4"></path>
+                            <use id="Rectangle-6" mask="url(#mask-6)" stroke-width="8" xlink:href="#path-5"></use>
+                            <path d="M44.9647059,14.513809 L44.9647059,0.532676885" id="Path-7" stroke-width="4"></path>
+                            <path d="M37.533318,7.52830189 L51.4509651,7.52830189" id="Path-8" stroke-width="4"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

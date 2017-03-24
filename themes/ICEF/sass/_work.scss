@@ -3,10 +3,140 @@
   .content-area{
 		@include desktop{
 			width:1000px;
-    margin: 0 auto;
-		margin-top:10rem;
+			margin: 0 auto;
+			margin-top:10rem;
+		}
+		p{
+			margin:1.5rem;
 		}
   }
+	.fact{
+		display:flex;
+		margin:2.5rem;
+		.mobile-arrow{
+			@include desktop{
+				display:none;
+			}
+		}
+		.desktop-arrow{
+			display:none;
+			@include desktop{
+				display:block;
+			}
+		}
+	}
+	.yellow-background-category{
+		display:inline-flex;
+		background:$brand_colour_mediumgold;
+		width:100%;
+		font-family:$font__accent;
+		justify-content: center;
+		padding:1.5rem;
+		justify-content: center;
+		// text-align:center;
+		.yellow-number{
+			display:flex;
+			justify-content: center;
+			align-items: center;
+			font-weight:bold;
+			padding-right:2rem;
+			font-size:4rem;
+			p{
+				margin:0 auto;
+				height: 70px;
+				color:$brand_colour_darkgold;
+			}
+		}
+		.yellow-description{
+			font-size:1.5rem;
+			width:45%;
+			font-weight:bold;
+			display:flex;
+			justify-content: center;
+			align-items: center;
+			p{
+				margin:0;
+				color:white;
+				line-height: 1.2;
+				text-transform: uppercase;
+			}
+			@include desktop{
+				width:100%;
+			}
+		}
+	}
+	.quote-background{
+			background:$brand_colour_lightgold;
+			margin: 1rem;
+			padding:1rem;
+			font-size:.8rem;
+			p{
+				margin:0;
+			}
+		}
+	.our-work-content.trc{
+		display:block;
+	}
+	.our-work-content{
+		display:none;
+	}
+	.fact-text{
+		@include desktop{
+			display:flex;
+			align-items: center;
+		}
+	}
+	.fact-text{
+		p{
+			margin:0;
+		}
+	}
+	.fact-number{
+		text-align: center;
+		display: flex;
+    flex-direction: column;
+    justify-content: center;
+		p{
+			margin:0;
+			font-weight:bold;
+			color:black;
+			font-size:1.5rem;
+			font-family: $font__accent;
+			height:25px;
+		}
+		img{
+			max-width:50px;
+		}
+		margin-right:1rem;
+		@include desktop{
+			display:flex;
+			align-items: center;
+			font-weight:bold;
+			font-size:2rem;
+			margin-right:2rem;
+			img{
+				margin-left:1.5rem;
+			}
+			// margin-bottom:2rem;
+			p{
+				margin:0;
+				color:black;
+			}
+		}
+	}
+	.why-text{
+		background:$brand_colour_lightgold;
+		padding:1.5rem;
+	}
+	.why-read, .story-read,.impact-read{
+		@include purple-button;
+	}
+	.read-why,.read-story,.read-impact{
+		p{
+			height:0;
+			// display: none;
+		}
+	}
   .handMade{
     display:flex;
     justify-content: center;
@@ -63,7 +193,6 @@
 			}
 			img{
 				width:25px;
-
 				@include desktop {
 					width: 60px;
 				}
@@ -73,6 +202,7 @@
 	.purpleCircleTitle{
 		text-align: center;
 		font-size:1.5rem;
+		margin-top:150rem;
 	}
   .purpleCircleGrid{
     display:flex;
@@ -80,6 +210,7 @@
     list-style:none;
     flex-wrap:wrap;
 		margin:0;
+		
 		padding:0;
 		@include desktop{
     	width:1000px;
