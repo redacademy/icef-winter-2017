@@ -14,8 +14,8 @@ get_header(); ?>
 
 			<header class="page-header">
 				<?php
-					the_archive_title( '<h1 class="page-title">', '</h1>' );
-					the_archive_description( '<div class="taxonomy-description">', '</div>' );
+					esc_html(the_archive_title( '<h1 class="page-title">', '</h1>' ));
+					esc_html(the_archive_description( '<div class="taxonomy-description">', '</div>' ));
 				?>
 			</header><!-- .page-header -->
 
@@ -23,16 +23,16 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
 				<?php
-					get_template_part( 'template-parts/content' );
+					esc_html(get_template_part( 'template-parts/content' ));
 				?>
 
 			<?php endwhile; ?>
 
-			<?php the_posts_navigation(); ?>
+			<?php esc_html(the_posts_navigation()); ?>
 
 		<?php else : ?>
 
-			<?php get_template_part( 'template-parts/content', 'none' ); ?>
+			<?php esc_html(get_template_part( 'template-parts/content', 'none' )); ?>
 
 		<?php endif; ?>
 

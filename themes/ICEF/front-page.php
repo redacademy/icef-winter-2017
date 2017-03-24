@@ -7,6 +7,7 @@
 
 get_header(); ?>
 <div class="front-page-container">
+    <h1 class='screen-reader-text'>Icef</h1>
     <header class="front-page-head">
         <div class='home-hero'></div>
         <div class="hero-text">
@@ -100,7 +101,7 @@ get_header(); ?>
                 when money is spent efficiently and towards the projects that need it the most.
                 As a small but impactful organization we pride ourselves on 100% transparency and direct impact. 
             </p>
-            <a class="purple-btn">Donate</a>
+            <a href='<?php get_template_directory_uri() ?>/icef/donate' class='purple-btn'>Donate</a>
         </section>
 
         <div class="yellow-dot-filler">
@@ -160,8 +161,8 @@ get_header(); ?>
 
         <section class='front-bottom'>
             <h4>Interested in learning more about the TRC or want to help Tekera?</h4>
-            <a class='purple-btn'>Explore</a>
-            <a class='purple-btn'>Donate</a>
+            <a href='<?php get_template_directory_uri() ?>/icef/project_type' class='purple-btn'>Explore</a>
+            <a href='<?php get_template_directory_uri() ?>/icef/donate' class='purple-btn'>Donate</a>
         </section>
     </div>
 </div>
