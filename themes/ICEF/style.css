@@ -1513,7 +1513,7 @@ a {
     .workHero .map {
       background: url(../../images/jpegs/our-work2x.jpg) center;
       background-size: cover, cover; } }
-  .workHero .map span {
+  .workHero .map span img {
     display: none; }
 
 .workHero .openMap {

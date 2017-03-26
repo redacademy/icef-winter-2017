@@ -23,7 +23,7 @@ get_header(); ?>
 					<img class='communitywork' src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
 					<img class='vocational' src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
 					<img class='water' src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
-					<span>
+					<span class='our-work-wrapper'>
 						<img class='trc' src="<?php echo get_template_directory_uri();?>/images/svg/map/one-selected.svg" alt="crafting-icon">
 						<img class='primary' src="<?php echo get_template_directory_uri();?>/images/svg/map/two-selected.svg" alt="crafting-icon">
 						<img class='farm' src="<?php echo get_template_directory_uri();?>/images/svg/map/three-selected.svg" alt="crafting-icon">
@@ -44,6 +44,7 @@ get_header(); ?>
 					<div class='yellow-pic' ></div>
 				</div>-->
 			</section>
+			<span class='our-work-wrapper'>
 	
 				<?php while ( have_posts() ) : the_post(); 
 					$class       = CFS()->get( 'project_class_creator' );
@@ -167,6 +168,7 @@ get_header(); ?>
 					</section>
 			<?php endwhile; // End of the loop. ?>
 			<!--</section>-->
+			</span>
 
 
 			<section class="purpleCircles">
