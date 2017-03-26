@@ -120,26 +120,29 @@ get_header(); ?>
 							</div>
 					
 							<div class='story-flex'>
-								<div class='story-pic'>
-									<img src='<?php echo $storyImage ?>'>
-								</div>
 								<div class='story-text'>
+									<h2>Story</h2>
 									<?php echo $storyIntro ?>
 									<button class="story-read"> <a href=''>Read</a></button>
 								</div>
+							</div>
+							<div class='story-pic'>
+								<img src='<?php echo $storyImage ?>'>
 							</div>
 							<div class='read-story'>
 								<?php echo $story ?>
 							</div>
 
 							<div class='impact-flex'>
-								<div class='impact-text'></div>
+								<div class='impact-text'>
+									<h2>Impact</h2>
 									<?php echo $impactIntro ?>
 									<button class="impact-read"> <a href=''>Read</a></button>		
-									<div class='impact-pic'>
-										<img src='<?php echo $impactImage?>'>
-									</div>
 								</div>
+								<div class='impact-pic'>
+									<img src='<?php echo $impactImage?>'>
+								</div>
+							</div>
 						</div>
 						<div class='read-impact'>
 							<?php echo $impact ?>

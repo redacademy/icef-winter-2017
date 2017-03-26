@@ -1682,7 +1682,7 @@ a {
         margin: 0;
         color: black; } }
 
-.post-type-archive-project .why-text {
+.post-type-archive-project .why-text, .post-type-archive-project .story-text, .post-type-archive-project .impact-text {
   background: #FFEABA;
   padding: 1.5rem; }
 
@@ -1700,9 +1700,12 @@ a {
   font-size: 1.5rem;
   border: none; }
 
-.post-type-archive-project .read-why p, .post-type-archive-project .read-story p, .post-type-archive-project .read-impact p {
-  height: 0;
-  overflow: hidden; }
+.post-type-archive-project .read-why, .post-type-archive-project .read-story, .post-type-archive-project .read-impact {
+  display: none; }
+  .post-type-archive-project .read-why p, .post-type-archive-project .read-story p, .post-type-archive-project .read-impact p {
+    height: 0;
+    display: none;
+    overflow: hidden; }
 
 .post-type-archive-project .handMade {
   display: -ms-flexbox;
@@ -1769,7 +1772,7 @@ a {
 .post-type-archive-project .purpleCircleTitle {
   text-align: center;
   font-size: 1.5rem;
-  margin-top: 150rem; }
+  margin-top: 85rem; }
 
 .post-type-archive-project .purpleCircleGrid {
   display: -ms-flexbox;

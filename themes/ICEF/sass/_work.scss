@@ -124,7 +124,7 @@
 			}
 		}
 	}
-	.why-text{
+	.why-text,.story-text,.impact-text{
 		background:$brand_colour_lightgold;
 		padding:1.5rem;
 	}
@@ -132,10 +132,10 @@
 		@include purple-button;
 	}
 	.read-why,.read-story,.read-impact{
-		
+		display: none;
 		p{
 			height:0;
-			// display: none;
+			display: none;
 			overflow:hidden;
 		}
 	}
@@ -155,7 +155,6 @@
 			font-size: 3rem;
     }
   }
-
 	.workHero{
 		display: flex;
 		width: 100%;	
@@ -204,7 +203,7 @@
 	.purpleCircleTitle{
 		text-align: center;
 		font-size:1.5rem;
-		margin-top:150rem;
+		margin-top:85rem;
 	}
   .purpleCircleGrid{
     display:flex;
