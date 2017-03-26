@@ -38,8 +38,12 @@
     }
 
     $('.water, .vocational, .communitywork, .empowerment, .medical, .sustainability, .farm, .primary, .trc').on('click', function(){
-        $clickedThing = $(this).attr('class');
-        $('.our-work-content', '.our-work-wrapper img').css('display', 'none');
+        var $clickedThingClasses = $(this).attr('class').split(' ');
+        $clickedThing = $clickedThingClasses[1];
+        console.log('' + $clickedThing);
+        $('.map .yellow-pin').css('display', 'inline-block');
+        $('.our-work-wrapper .purple-pin').css('display', 'none');
+        $('.our-work-content').css('display', 'none');
         $('.map .' + $clickedThing).css('display', 'none');
         mapPinClick();
     })

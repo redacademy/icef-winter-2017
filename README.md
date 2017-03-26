@@ -3,7 +3,13 @@
 # International Community Empowerment Foundation
 
     Site to convey the purpose of ICEF. Gives the option to donate,
-sponsor, or just learn about their newest updates.
+    sponsor, or just learn about their newest updates.
+
+# Developed By 
+
+- Andrew Nelson
+- Julie Lo
+- John Wat
 
 # Tools Used
 
@@ -12,9 +18,5 @@ sponsor, or just learn about their newest updates.
 - PHP
 - Custom Field Suite
 - Wordpress Plugins
+- Gulp
 
-# Learning Outcomes
-
-- Learned how to communicate git pushes and pull's in a team environment.
-- Learned the handoff process between ui/ux and web dev
-- Learned how to organize projects for a group
