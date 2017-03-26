@@ -31,4 +31,17 @@
             $('.openMap p').text('open map');
         }
     })
+
+    var $clickedThing;
+
+    function mapPinClick(){
+        $('.our-work-none').css('display', 'none')
+        console.log($clickedThing);
+        $('.' + $clickedThing).css('display', 'inline-block');
+    }
+
+    $('.water, .vocational, .communitywork, .empowerment, .medical, .sustainability, .farm, .primary, .trc').on('click', function(){
+        $clickedThing = $(this).attr('class');
+        mapPinClick();
+    })
 })(jQuery);

@@ -14,6 +14,26 @@ get_header(); ?>
 					<h1>Explore Tekera Resource Centre</h1>
 				</div>
 				<div class='map'>
+					<img class='trc' src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
+					<img class='primary' src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
+					<img class='farm' src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
+					<img class='sustainability' src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
+					<img class='medical' src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
+					<img class='empowerment' src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
+					<img class='communitywork' src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
+					<img class='vocational' src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
+					<img class='water' src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
+					<span>
+						<img class='trc' src="<?php echo get_template_directory_uri();?>/images/svg/map/one-selected.svg" alt="crafting-icon">
+						<img class='primary' src="<?php echo get_template_directory_uri();?>/images/svg/map/two-selected.svg" alt="crafting-icon">
+						<img class='farm' src="<?php echo get_template_directory_uri();?>/images/svg/map/three-selected.svg" alt="crafting-icon">
+						<img class='sustainability' src="<?php echo get_template_directory_uri();?>/images/svg/map/four-selected.svg" alt="crafting-icon">
+						<img class='medical' src="<?php echo get_template_directory_uri();?>/images/svg/map/five-selected.svg" alt="crafting-icon">
+						<img class='empowerment' src="<?php echo get_template_directory_uri();?>/images/svg/map/six-selected.svg" alt="crafting-icon">
+						<img class='communitywork' src="<?php echo get_template_directory_uri();?>/images/svg/map/seven-selected.svg" alt="crafting-icon">
+						<img class='vocational' src="<?php echo get_template_directory_uri();?>/images/svg/map/eight-selected.svg" alt="crafting-icon">
+						<img class='water' src="<?php echo get_template_directory_uri();?>/images/svg/map/nine-selected.svg" alt="crafting-icon">
+					</span>
 				</div>
 				<div class = "openMap">
 					<p>open map</p>

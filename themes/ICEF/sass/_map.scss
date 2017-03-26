@@ -8,9 +8,12 @@
         background-size: cover, cover;
 
         @include desktop {
-            background: url(../../images/jpegs/drop-pins.png) 0px -140px,
-            url(../../images/jpegs/our-work2x.jpg) center;
+            background: url(../../images/jpegs/our-work2x.jpg) center;
             background-size: cover, cover;
+        }
+
+        span {
+            display: none;
         }
     }
 
