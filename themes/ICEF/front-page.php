@@ -116,7 +116,7 @@ get_header(); ?>
 
                 <div class="education">
                     <div class='cornerstone-text'>
-                        <h3>Eduction</h3>
+                        <h3>Education</h3>
                         <p><b>Tekera Primary School</b></p>
                         <p>Is one of the top schools in Masaka.
                         <p><b>Vocational School</b></p>
@@ -161,7 +161,7 @@ get_header(); ?>
 
         <section class='front-bottom'>
             <h4>Interested in learning more about the TRC or want to help Tekera?</h4>
-            <a href='<?php get_template_directory_uri() ?>/icef/project_type' class='purple-btn'>Explore</a>
+            <a href='<?php get_template_directory_uri() ?>/icef/project' class='purple-btn'>Explore</a>
             <a href='<?php get_template_directory_uri() ?>/icef/donate' class='purple-btn'>Donate</a>
         </section>
     </div>

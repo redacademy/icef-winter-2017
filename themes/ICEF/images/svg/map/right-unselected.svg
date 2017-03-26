@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="97px" height="58px" viewBox="0 0 97 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Right_Unselected_MapIcon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Map_Export" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-30.000000, -41.000000)">
+            <g id="Right_Unselected_MapIcon" transform="translate(30.000000, 41.000000)">
+                <g id="Group-9-Copy-8" opacity="0.5" transform="translate(9.655303, 48.308160)" fill="#0F0F10">
+                    <polygon id="Combined-Shape-Copy-7" points="29.841027 0.225068027 87.1291607 0.225068027 61.7737327 5.88765346 48.133027 8.99418166 39.669871 6.86649829 0.102613483 6.86649829"></polygon>
+                </g>
+                <g id="Group-9-Copy-7" fill="#F2CA6E">
+                    <path d="M57.2881338,30.99589 L57.2881338,0.495081019 L0,0.495081019 L0,41.8469329 L36.1987676,41.8469329 L57.5780251,57.6791194 L57.334974,30.9720237 L57.2881338,30.99589 Z" id="Combined-Shape-Copy-7"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

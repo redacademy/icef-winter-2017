@@ -10,7 +10,6 @@
         var $className;
         $classNameArray = $(this).attr('class').split(' ');
         $className = $classNameArray[1];
-        console.log($className);
 
         $('.' + $className).css('display', 'block');
 
@@ -25,10 +24,23 @@
 
         $('.map-arrow').css('transform', 'rotate(180deg)');
 
-        if($('.openMap p').text() == 'open map'){
+        if($('.openMap p').text() === 'open map'){
             $('.openMap p').text('close map');
         } else {
             $('.openMap p').text('open map');
         }
+    })
+
+    var $clickedThing;
+
+    function mapPinClick(){
+        $('.our-work-wrapper .' + $clickedThing).css('display', 'inline-block');
+    }
+
+    $('.water, .vocational, .communitywork, .empowerment, .medical, .sustainability, .farm, .primary, .trc').on('click', function(){
+        $clickedThing = $(this).attr('class');
+        $('.our-work-content', '.our-work-wrapper img').css('display', 'none');
+        $('.map .' + $clickedThing).css('display', 'none');
+        mapPinClick();
     })
 })(jQuery);

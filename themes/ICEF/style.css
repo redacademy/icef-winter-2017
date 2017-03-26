@@ -1511,8 +1511,10 @@ a {
   background-size: cover, cover; }
   @media (min-width: 720px) {
     .workHero .map {
-      background: url(../../images/jpegs/drop-pins.png) 0px -140px, url(../../images/jpegs/our-work2x.jpg) center;
+      background: url(../../images/jpegs/our-work2x.jpg) center;
       background-size: cover, cover; } }
+  .workHero .map span img {
+    display: none; }
 
 .workHero .openMap {
   -ms-flex-preferred-size: 100%;
@@ -2086,7 +2088,7 @@ a {
           min-width: 100%; }
           @media (min-width: 720px) {
             .team-type-archive .canada-team .team-member .profile-pic img, .team-type-archive .uganda-team .team-member .profile-pic img {
-              right: 25px;
+              right: 20px;
               min-width: 100%; } }
   .team-type-archive .member-description {
     display: none; }
@@ -2559,7 +2561,7 @@ a {
   width: 100%; }
   @media (min-width: 720px) {
     .updates {
-      width: 80%; } }
+      width: 1000px; } }
   .updates a:hover {
     text-decoration: none !important; }
   .updates .updates-flex {

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="144px" height="89px" viewBox="0 0 144 89" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>04_ProjectName_Selected_Left</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Map_Export" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-698.000000, -21.000000)">
+            <g id="Left_Selectd_MapIcons" transform="translate(266.000000, 13.000000)">
+                <g id="04_ProjectName_Selected_Left" transform="translate(432.000000, 0.000000)">
+                    <polygon id="Combined-Shape-Copy-7" fill-opacity="0.5" fill="#000000" points="143.531779 82 54.6635167 82 19.634879 90.8910094 0 95.7686703 41.0692881 92.4279255 102.448028 92.4279255"></polygon>
+                    <path d="M90.0814214,55.4405807 L90.0814214,8.25 L1.08142138,8.25 L1.08142138,72.25 L57.3068392,72.25 L90.5,96.7533751 L90.1859722,55.3873094 L90.0814214,55.4405807 Z" id="Combined-Shape-Copy-7" fill="#852762" transform="translate(45.790711, 52.501688) scale(-1, 1) translate(-45.790711, -52.501688) "></path>
+                    <text id="04" font-family="FiraSans-Bold, Fira Sans" font-size="48" font-weight="bold" letter-spacing="0.480000019" fill="#631747">
+                        <tspan x="19.92" y="57">04</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
