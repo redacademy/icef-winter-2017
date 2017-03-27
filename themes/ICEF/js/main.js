@@ -47,4 +47,29 @@
         $('.map .' + $clickedThing).css('display', 'none');
         mapPinClick();
     })
+
+    $('.why-read').on('click',function(event){
+        event.preventDefault();
+        $('.read-why').css('display','flex');
+    })
+    $('.story-read').on('click',function(event){
+        event.preventDefault();
+        $('.read-story').css('display','flex');
+    })
+    $('.impact-read').on('click', function(event){
+        event.preventDefault();
+        $('.read-impact').css('display','flex');
+    })
+    $('.close-why-button').on('click', function(event){
+        event.preventDefault();
+        $('.read-why').css('display','none');
+    })
+    $('.close-story-button').on('click', function(event){
+        event.preventDefault();
+        $('.read-story').css('display','none');
+    })
+    $('.close-impact-button').on('click', function(event){
+        event.preventDefault();
+        $('.read-impact').css('display','none');
+    })
 })(jQuery);

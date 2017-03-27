@@ -1833,9 +1833,18 @@ a {
 .post-type-archive-project .read-why, .post-type-archive-project .read-story, .post-type-archive-project .read-impact {
   display: none; }
   .post-type-archive-project .read-why p, .post-type-archive-project .read-story p, .post-type-archive-project .read-impact p {
-    height: 0;
-    display: none;
-    overflow: hidden; }
+    width: 80%; }
+
+.post-type-archive-project .close-why-button, .post-type-archive-project .close-story-button, .post-type-archive-project .close-impact-button {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  padding-top: 4rem;
+  padding-right: 3rem;
+  width: 400px; }
+  .post-type-archive-project .close-why-button img, .post-type-archive-project .close-story-button img, .post-type-archive-project .close-impact-button img {
+    transform: rotate(45deg); }
 
 .post-type-archive-project .why-pic, .post-type-archive-project .story-pic, .post-type-archive-project .impact-pic {
   height: 270px;

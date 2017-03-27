@@ -190,14 +190,25 @@
 		}
 	}
 	// .why-read, .story-read,.impact-read{
-		
 	// }
 	.read-why,.read-story,.read-impact{
 		display: none;
 		p{
-			height:0;
-			display: none;
-			overflow:hidden;
+			width:80%;
+			// height:0;
+			// margin:0;
+			// display: none;
+			// overflow:hidden;
+		}
+	}
+	.close-why-button, .close-story-button, .close-impact-button{
+		display:flex;
+		flex-direction: column;
+		padding-top:4rem;
+		padding-right: 3rem;
+		width:400px;
+		img{
+			transform: rotate(45deg);
 		}
 	}
 	.why-pic, .story-pic, .impact-pic{
