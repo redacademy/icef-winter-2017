@@ -61,9 +61,9 @@ get_header(); ?>
 				</div> <!-- .content-wrapper -->
 				<div class="sponsor-wrapper">
 					<div class="sponsor-section">
-						<h2><?php echo CFS()->get('primary_school_sponsor_title');?></h2>
+						<h2><?php echo esc_html(CFS()->get('primary_school_sponsor_title'));?></h2>
 						<ul>
-							<?php $sponsor_list = esc_html(CFS()->get( 'primary_school_sponsor_package_loop' )); ?>
+							<?php $sponsor_list = CFS()->get( 'primary_school_sponsor_package_loop' ); ?>
 							<?php foreach( $sponsor_list as $item ): ?>
 								<li> <?php echo esc_html($item['sponsor_item']); ?> </li>
 							<?php endforeach; ?>
