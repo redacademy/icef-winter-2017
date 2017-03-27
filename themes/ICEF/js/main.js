@@ -32,7 +32,7 @@
     })
 
     //WHEN SUB MENU OR DROP PINS ARE CLICKED --
-    $('.water, .vocational, .communitywork, .empowerment, .medical, .sustainability, .farm, .primary, .trc').on('click', function(){
+    $('.map .water, .map .vocational, .map .communitywork, .map .empowerment, .map .medical, .map .sustainability, .map .farm, .map .primary, .map .trc').on('click', function(){
         var $pathname = window.location.pathname; 
         console.log($pathname);
         if($pathname == '/project' ){

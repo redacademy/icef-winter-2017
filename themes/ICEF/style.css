@@ -1619,14 +1619,6 @@ a {
 .showMap {
   height: 400px !important; }
 
-.our-work-content .work-flex {
-  height: 1000px;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  width: 100%; }
-
 @media (min-width: 720px) {
   .post-type-archive-project .content-area {
     width: 1000px;
