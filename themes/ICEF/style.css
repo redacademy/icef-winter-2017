@@ -2609,7 +2609,8 @@ a {
       padding-left: 64px; } }
   .page-template-donate-vocational .scholarship-title {
     color: #F2CA6E;
-    margin-top: 0; }
+    padding-left: 12px;
+    margin-top: 7px; }
     @media (min-width: 720px) {
       .page-template-donate-vocational .scholarship-title {
         padding-left: 10px; } }

@@ -104,7 +104,8 @@
 
     .scholarship-title {
         color: $brand_colour_mediumgold;
-        margin-top: 0;
+        padding-left: 12px;
+        margin-top: 7px;
         @include desktop {
             padding-left: 10px;
         }
