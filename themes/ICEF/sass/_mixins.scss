@@ -44,3 +44,22 @@
 		
 	}
 }
+
+@mixin darkgold-button {
+	button{
+		padding-top: 10px;
+		text-align: center;
+		height: 50px;
+		width: 150px;
+		border-radius: 8px;
+		display: inline-block;
+		background:$brand_colour_darkgold;
+		color: white;
+		font-family: $font__accent;
+		font-weight: bold; 
+		text-transform: uppercase;
+		font-size: 1.5rem;
+		border: none;
+		
+	}
+}
