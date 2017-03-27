@@ -2344,6 +2344,12 @@ a {
   @media (min-width: 720px) {
     .page-template-donate .container {
       width: 82%; } }
+  .page-template-donate .page-title-wrapper {
+    border-bottom: 1px solid purple;
+    margin-bottom: 42px;
+    margin-top: 170px; }
+  .page-template-donate .page-title {
+    margin-bottom: 0; }
   .page-template-donate h2 {
     font-size: 2rem;
     line-height: 1;
