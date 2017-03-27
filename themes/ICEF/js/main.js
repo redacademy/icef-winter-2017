@@ -34,8 +34,7 @@
     //WHEN SUB MENU OR DROP PINS ARE CLICKED --
     $('.map .water, .map .vocational, .map .communitywork, .map .empowerment, .map .medical, .map .sustainability, .map .farm, .map .primary, .map .trc').on('click', function(){
         var $pathname = window.location.pathname; 
-        console.log($pathname);
-        if($pathname == '/project' ){
+        if($pathname === '/project' ){
             event.preventDefault();
         }
         var $clickedThingClasses = $(this).attr('class').split(' ');
