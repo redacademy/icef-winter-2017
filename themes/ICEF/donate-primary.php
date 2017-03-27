@@ -44,7 +44,7 @@ get_header(); ?>
 									</tr> 
 								</thead>-->
 								<tbody>
-									<?php $fields = esc_html(CFS()->get( 'primary_school_scholarship_loop' )); ?>
+									<?php $fields = CFS()->get( 'primary_school_scholarship_loop' ); ?>
 									<?php foreach( $fields as $field ): ?>
 										<tr>
 											<td> <?php echo esc_html($field['scholarship_category']); ?> </td>
@@ -61,7 +61,7 @@ get_header(); ?>
 				</div> <!-- .content-wrapper -->
 				<div class="sponsor-wrapper">
 					<div class="sponsor-section">
-						<h2><?php echo esc_html(CFS()->get('primary_school_sponsor_title'));?></h2>
+						<h2><?php echo CFS()->get('primary_school_sponsor_title');?></h2>
 						<ul>
 							<?php $sponsor_list = esc_html(CFS()->get( 'primary_school_sponsor_package_loop' )); ?>
 							<?php foreach( $sponsor_list as $item ): ?>
