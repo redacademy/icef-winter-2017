@@ -2607,7 +2607,8 @@ a {
       padding-left: 140px; } }
   .page-template-donate-primary .scholarship-title {
     color: #F2CA6E;
-    margin-top: 0; }
+    margin-top: 7px;
+    padding-left: 12px; }
     @media (min-width: 720px) {
       .page-template-donate-primary .scholarship-title {
         padding-left: 10px; } }
