@@ -62,20 +62,26 @@ get_header(); ?>
 					$impactImage = CFS()->get( 'project_impact_image' );
 					?>
 					<section class='our-work-content <?php echo $class; ?>'>
-						<div class="yellow-background-category">
-							<div class='yellow-number'>
-								<?php echo $number ?>
+						<div class="section-category">
+							<div class="yellow-background-category">
+								<div class='yellow-number'>
+									<?php echo $number ?>
+								</div>
+								<div class="yellow-description">
+									<?php echo $projectName ?>
+								</div>
 							</div>
-							<div class="yellow-description">
-								<?php echo $projectName ?>
+							<div class="section-picture">
+								<div class="categoryImage">
+									<img src="<?php echo $image ?>">
+								</div>
 							</div>
-						</div>
-						<div class="categoryImage">
-							<img src="<?php echo $image ?>">
 						</div>
 						<div class = "fact">
 							<div class = "fact-number">
+								<div class="number">
 								<p>01</p>
+								</div>
 								<div class="mobile-arrow">
 									<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-icon.svg" 	alt="right-arrow">
 								</div>
@@ -125,7 +131,7 @@ get_header(); ?>
 								<div class='why-text'>
 									<h2>Why</h2>
 									<?php echo $whyIntro ?>
-									<button class="why-read"> <a href=''>Read</a></button>
+									<button class="why-read"> Read </button>
 								</div>
 								<div class='why-pic'>
 										<img src='<?php echo $whyImage ?>'>
@@ -140,11 +146,11 @@ get_header(); ?>
 								<div class='story-text'>
 									<h2>Story</h2>
 									<?php echo $storyIntro ?>
-									<button class="story-read"> <a href=''>Read</a></button>
+									<button class="story-read"> Read </button>
 								</div>
-							</div>
-							<div class='story-pic'>
-								<img src='<?php echo $storyImage ?>'>
+								<div class='story-pic'>
+									<img src='<?php echo $storyImage ?>'>
+								</div>
 							</div>
 							<div class='read-story'>
 								<?php echo $story ?>
@@ -154,15 +160,15 @@ get_header(); ?>
 								<div class='impact-text'>
 									<h2>Impact</h2>
 									<?php echo $impactIntro ?>
-									<button class="impact-read"> <a href=''>Read</a></button>		
+									<button class="impact-read"> Read </button>		
 								</div>
 								<div class='impact-pic'>
 									<img src='<?php echo $impactImage?>'>
 								</div>
 							</div>
-						</div>
-						<div class='read-impact'>
-							<?php echo $impact ?>
+							<div class='read-impact'>
+								<?php echo $impact ?>
+							</div>
 						</div>
 					</section>
 			<?php endwhile; // End of the loop. ?>
@@ -213,7 +219,7 @@ get_header(); ?>
 										<img src="<?php echo get_template_directory_uri();?>/images/svg/our-work-mobile/farm.svg" 	alt="farm-icon">
 									</div>
 									<div class="ch-info-back">
-										<p>Community Farm </br>& Cooperative Agriculture</p>
+										<p>Farm</br>& Agriculture</p>
 									</div>	
 								</div>
 							</div>
