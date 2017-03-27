@@ -13,8 +13,9 @@
     }
 
     .container {
+        width: 100%;
         @include desktop {
-        width: 82%;
+        width: 1024px;
         }
     }
 
