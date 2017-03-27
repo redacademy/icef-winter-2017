@@ -33,18 +33,17 @@
 
     var $clickedThing;
 
-    function mapPinClick(){
-        $('.our-work-wrapper .' + $clickedThing).css('display', 'inline-block');
-    }
 
-    $('.water, .vocational, .communitywork, .empowerment, .medical, .sustainability, .farm, .primary, .trc').on('click', function(){
+    $('.water, .vocational, .communitywork, .empowerment, .medical, .sustainability, .farm, .primary, .trc').on('click', function(event){
+        event.preventDefault();
         var $clickedThingClasses = $(this).attr('class').split(' ');
-        $clickedThing = $clickedThingClasses[1];
-        console.log('' + $clickedThing);
+        $clickedThing = $clickedThingClasses[0];
+        console.log($clickedThing);
         $('.map .yellow-pin').css('display', 'inline-block');
         $('.our-work-wrapper .purple-pin').css('display', 'none');
         $('.our-work-content').css('display', 'none');
         $('.map .' + $clickedThing).css('display', 'none');
-        mapPinClick();
+        $('.our-work-wrapper .' + $clickedThing).css('display', 'inline-block');
+        
     })
 })(jQuery);
