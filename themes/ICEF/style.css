@@ -1505,6 +1505,7 @@ a {
 .workHero .map {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
+  position: relative;
   height: 0px;
   overflow: hidden;
   background: url(../../images/svg/map/map-shadow.png) center;
@@ -1515,6 +1516,78 @@ a {
       background-size: cover, cover; } }
   .workHero .map span img {
     display: none; }
+  .workHero .map .trc {
+    position: absolute;
+    right: 350px;
+    top: 150px; }
+  .workHero .map .medical {
+    position: absolute;
+    right: 200px;
+    top: 185px; }
+  .workHero .map .primary {
+    position: absolute;
+    right: 150px;
+    top: 200px; }
+  .workHero .map .farm {
+    position: absolute;
+    right: 320px;
+    top: 180px; }
+  .workHero .map .sustainability {
+    position: absolute;
+    right: 220px;
+    top: 205px; }
+  .workHero .map .empowerment {
+    position: absolute;
+    right: 300px;
+    top: 115px; }
+  .workHero .map .communitywork {
+    position: absolute;
+    right: 450px;
+    top: 165px; }
+  .workHero .map .vocational {
+    position: absolute;
+    right: 420px;
+    top: 265px; }
+  .workHero .map .water {
+    position: absolute;
+    right: 500px;
+    top: 65px; }
+  .workHero .map span .trc {
+    position: absolute;
+    right: 305px;
+    top: 125px; }
+  .workHero .map span .medical {
+    position: absolute;
+    right: 155px;
+    top: 150px; }
+  .workHero .map span .primary {
+    position: absolute;
+    right: 105px;
+    top: 175px; }
+  .workHero .map span .farm {
+    position: absolute;
+    right: 275px;
+    top: 145px; }
+  .workHero .map span .sustainability {
+    position: absolute;
+    right: 180px;
+    top: 180px; }
+  .workHero .map span .empowerment {
+    position: absolute;
+    right: 255px;
+    top: 90px; }
+  .workHero .map span .communitywork {
+    position: absolute;
+    right: 405px;
+    top: 140px; }
+  .workHero .map span .vocational {
+    position: absolute;
+    right: 380px;
+    top: 240px; }
+  .workHero .map span .water {
+    position: absolute;
+    right: 435px;
+    top: 45px; }
 
 .workHero .openMap {
   -ms-flex-preferred-size: 100%;
