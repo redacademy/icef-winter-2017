@@ -31,14 +31,11 @@
         }
     })
 
-    var $clickedThing;
-
-
-    $('.water, .vocational, .communitywork, .empowerment, .medical, .sustainability, .farm, .primary, .trc').on('click', function(event){
-        event.preventDefault();
+    //WHEN SUB MENU OR DROP PINS ARE CLICKED --
+    $('.water, .vocational, .communitywork, .empowerment, .medical, .sustainability, .farm, .primary, .trc').on('click', function(){
+        // event.preventDefault();
         var $clickedThingClasses = $(this).attr('class').split(' ');
-        $clickedThing = $clickedThingClasses[0];
-        console.log($clickedThing);
+        var $clickedThing = $clickedThingClasses[0];
         $('.map .yellow-pin').css('display', 'inline-block');
         $('.our-work-wrapper .purple-pin').css('display', 'none');
         $('.our-work-content').css('display', 'none');

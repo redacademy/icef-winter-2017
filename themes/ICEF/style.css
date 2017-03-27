@@ -644,13 +644,10 @@ a {
 .sub-menu {
   background-color: #898989;
   display: none;
-  position: absolute;
   width: 200px;
   margin: 0;
   padding: 10px;
   z-index: 2;
-  top: 15%;
-  left: 32%;
   list-style-type: none;
   text-align: center; }
   .sub-menu li {
@@ -668,7 +665,8 @@ a {
       text-decoration: none; }
 
 .menu-item-261:hover .sub-menu {
-  display: block; }
+  position: absolute;
+  display: inline-block; }
 
 .home .menu a {
   color: white; }
@@ -713,8 +711,7 @@ a {
     .front-page-container .home-hero {
       height: 100%;
       background: url(../../images/jpegs/homepage-hero.png) no-repeat;
-      background-size: 100%;
-      background-position: center; } }
+      background-size: 100%; } }
 
 .front-page-container .hero-text {
   height: 30%; }
