@@ -15,10 +15,10 @@ get_header(); ?>
 				</div>
 				<div class='map'>
 					<img class='yellow-pin trc' src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
+					<img class='yellow-pin medical' src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
 					<img class='yellow-pin primary' src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
 					<img class='yellow-pin farm' src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
 					<img class='yellow-pin sustainability' src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
-					<img class='yellow-pin medical' src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
 					<img class='yellow-pin empowerment' src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
 					<img class='yellow-pin communitywork' src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
 					<img class='yellow-pin vocational' src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">

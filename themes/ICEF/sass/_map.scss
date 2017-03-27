@@ -2,18 +2,130 @@
 
     .map {
         flex-basis: 100%;
+        position: relative;
         height: 0px;
         overflow: hidden;
-        background: url(../../images/jpegs/our-work2x.jpg) center;
+        background: url(../../images/svg/map/map-shadow.png) center;
         background-size: cover, cover;
 
         @include desktop {
-            background: url(../../images/jpegs/our-work2x.jpg) center;
+            background: url(../../images/svg/map/map-shadow.png) center;
             background-size: cover, cover;
         }
 
         span img{
             display: none;
+        }
+
+        .trc {
+            position: absolute;
+            right: 350px;
+            top: 150px;
+        }
+
+        .medical {
+            position: absolute;
+            right: 200px;
+            top: 185px;
+        }
+
+        .primary {
+            position: absolute;
+            right: 150px;
+            top: 200px;
+        }
+
+        .farm {
+            position: absolute;
+            right: 320px;
+            top: 180px;
+        }
+
+        .sustainability {
+            position: absolute;
+            right: 220px;
+            top: 205px;
+        }
+
+        .empowerment {
+            position: absolute;
+            right: 300px;
+            top: 115px;
+        }
+
+        .communitywork {
+            position: absolute;
+            right: 450px;
+            top: 165px;
+        }
+
+        .vocational {
+            position: absolute;
+            right: 420px;
+            top: 265px;
+        }
+
+        .water {
+            position: absolute;
+            right: 500px;
+            top: 65px;
+        }
+
+        span {
+
+            .trc {
+                position: absolute;
+                right: 305px;
+                top: 125px;
+            }
+
+            .medical {
+                position: absolute;
+                right: 155px;
+                top: 150px;
+            }
+
+            .primary {
+                position: absolute;
+                right: 105px;
+                top: 175px;
+            }
+
+            .farm {
+                position: absolute;
+                right: 275px;
+                top: 145px;
+            }
+
+            .sustainability {
+                position: absolute;
+                right: 180px;
+                top: 180px;
+            }
+
+            .empowerment {
+                position: absolute;
+                right: 255px;
+                top: 90px;
+            }
+
+            .communitywork {
+                position: absolute;
+                right: 405px;
+                top: 140px;
+            }
+
+            .vocational {
+                position: absolute;
+                right: 380px;
+                top: 240px;
+            }
+
+            .water {
+                position: absolute;
+                right: 435px;
+                top: 45px;
+            }
         }
     }
 
