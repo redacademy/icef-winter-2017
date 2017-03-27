@@ -14,11 +14,11 @@ get_header(); ?>
 			<div class="container">
 				<div class="yellow-dots-banner"></div>
 				<div class="vocational-wrapper">
-					<img src="<?php echo esc_html(CFS()->get('vocational_school_image'));?>">
 					<div class="vocational-content">
 						<h2 class="vocational-school-title"><?php echo esc_html(CFS()->get('vocational_school_title'));?></h2>
 						<p class="vocational-school-desc"><?php echo esc_html(CFS()->get('vocational_school_description'));?></p>
 					</div>
+					<img src="<?php echo esc_html(CFS()->get('vocational_school_image'));?>">					
 				</div>
 				<div class="content-wrapper">
 					<div class="process-wrapper">
