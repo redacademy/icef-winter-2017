@@ -265,7 +265,7 @@ button,
 input,
 select,
 textarea {
-  color: #404040;
+  color: #433E3E;
   font-family: "Fira", sans-serif;
   font-size: 16px;
   font-size: 1rem;
@@ -1584,6 +1584,16 @@ a {
       .post-type-archive-project .fact .desktop-arrow {
         display: block; } }
 
+@media (min-width: 720px) {
+  .post-type-archive-project .section-category {
+    display: -ms-flexbox;
+    display: flex;
+    height: 300px; } }
+
+.post-type-archive-project .section-category .section-picture {
+  height: 100%;
+  overflow: hidden; }
+
 .post-type-archive-project .yellow-background-category {
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -1594,6 +1604,11 @@ a {
       justify-content: center;
   padding: 1.5rem;
   justify-content: center; }
+  @media (min-width: 720px) {
+    .post-type-archive-project .yellow-background-category {
+      width: 40%;
+      -ms-flex-direction: column;
+          flex-direction: column; } }
   .post-type-archive-project .yellow-background-category .yellow-number {
     display: -ms-flexbox;
     display: flex;
@@ -1608,6 +1623,13 @@ a {
       margin: 0 auto;
       height: 70px;
       color: #B5852F; }
+    @media (min-width: 720px) {
+      .post-type-archive-project .yellow-background-category .yellow-number {
+        font-size: 8rem;
+        padding: 0;
+        padding-left: 9rem;
+        height: 100px;
+        color: #B5852F; } }
   .post-type-archive-project .yellow-background-category .yellow-description {
     font-size: 1.5rem;
     width: 45%;
@@ -1667,12 +1689,18 @@ a {
     font-size: 1.5rem;
     font-family: "Oswald", sans-serif;
     height: 25px; }
-  .post-type-archive-project .fact-number img {
-    max-width: 50px; }
+    @media (min-width: 720px) {
+      .post-type-archive-project .fact-number p {
+        height: auto;
+        font-size: 2rem; } }
+  .post-type-archive-project .fact-number .mobile-arrow img {
+    max-width: 50px;
+    height: 50px;
+    height: 100%; }
   @media (min-width: 720px) {
     .post-type-archive-project .fact-number {
-      display: -ms-flexbox;
-      display: flex;
+      -ms-flex-direction: row;
+          flex-direction: row;
       -ms-flex-align: center;
           align-items: center;
       font-weight: bold;
@@ -1684,23 +1712,50 @@ a {
         margin: 0;
         color: black; } }
 
+@media (min-width: 720px) {
+  .post-type-archive-project .why-flex, .post-type-archive-project .story-flex, .post-type-archive-project .impact-flex {
+    display: -ms-flexbox;
+    display: flex;
+    height: 420px;
+    width: 100%; } }
+
+.post-type-archive-project .story-flex .story-text {
+  -ms-flex-order: 1;
+      order: 1; }
+
+.post-type-archive-project .story-flex .story-pic {
+  -ms-flex-order: 0;
+      order: 0; }
+
 .post-type-archive-project .why-text, .post-type-archive-project .story-text, .post-type-archive-project .impact-text {
   background: #FFEABA;
   padding: 1.5rem; }
-
-.post-type-archive-project .why-read a, .post-type-archive-project .story-read a, .post-type-archive-project .impact-read a {
-  padding-top: 10px;
-  text-align: center;
-  height: 50px;
-  width: 150px;
-  border-radius: 8px;
-  display: inline-block;
-  background-color: #852762;
-  color: white;
-  font-family: "Oswald", sans-serif;
-  text-transform: uppercase;
-  font-size: 1.5rem;
-  border: none; }
+  .post-type-archive-project .why-text button, .post-type-archive-project .story-text button, .post-type-archive-project .impact-text button {
+    padding-top: 10px;
+    text-align: center;
+    height: 50px;
+    width: 150px;
+    border-radius: 8px;
+    display: inline-block;
+    background: #B5852F;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    border: none; }
+  .post-type-archive-project .why-text h2, .post-type-archive-project .story-text h2, .post-type-archive-project .impact-text h2 {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #F2CA6E; }
+  .post-type-archive-project .why-text p, .post-type-archive-project .story-text p, .post-type-archive-project .impact-text p {
+    margin: 0;
+    margin-bottom: 1rem; }
+  @media (min-width: 720px) {
+    .post-type-archive-project .why-text, .post-type-archive-project .story-text, .post-type-archive-project .impact-text {
+      width: 50%; }
+      .post-type-archive-project .why-text button, .post-type-archive-project .story-text button, .post-type-archive-project .impact-text button {
+        float: right; } }
 
 .post-type-archive-project .read-why, .post-type-archive-project .read-story, .post-type-archive-project .read-impact {
   display: none; }
@@ -1709,6 +1764,18 @@ a {
     display: none;
     overflow: hidden; }
 
+.post-type-archive-project .why-pic, .post-type-archive-project .story-pic, .post-type-archive-project .impact-pic {
+  height: 270px;
+  width: 100%;
+  overflow-y: hidden; }
+  @media (min-width: 720px) {
+    .post-type-archive-project .why-pic, .post-type-archive-project .story-pic, .post-type-archive-project .impact-pic {
+      height: 100%; } }
+  .post-type-archive-project .why-pic img, .post-type-archive-project .story-pic img, .post-type-archive-project .impact-pic img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%; }
+
 .post-type-archive-project .handMade {
   display: -ms-flexbox;
   display: flex;
@@ -1716,16 +1783,23 @@ a {
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
-  height: 110px;
-  width: 110px;
+  height: 80px;
+  width: 80px;
   border-radius: 50%;
   background: #852762; }
+  @media (min-width: 720px) {
+    .post-type-archive-project .handMade {
+      height: 110px;
+      width: 110px; } }
   .post-type-archive-project .handMade p {
     background: #852762;
     font-family: "Oswald", sans-serif;
     color: white;
-    margin-bottom: 34px;
-    font-size: 3rem; }
+    font-size: 2rem;
+    margin-top: 2.5rem; }
+    @media (min-width: 720px) {
+      .post-type-archive-project .handMade p {
+        font-size: 3rem; } }
 
 .post-type-archive-project .workHero {
   display: -ms-flexbox;
@@ -1774,7 +1848,10 @@ a {
 .post-type-archive-project .purpleCircleTitle {
   text-align: center;
   font-size: 1.5rem;
-  margin-top: 85rem; }
+  margin-top: 37rem; }
+  @media (min-width: 720px) {
+    .post-type-archive-project .purpleCircleTitle {
+      margin-top: 20rem; } }
 
 .post-type-archive-project .purpleCircleGrid {
   display: -ms-flexbox;
@@ -1785,20 +1862,28 @@ a {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: 0;
+  margin-bottom: 4rem;
   padding: 0; }
   @media (min-width: 720px) {
     .post-type-archive-project .purpleCircleGrid {
       width: 1000px; } }
   .post-type-archive-project .purpleCircleGrid img {
-    height: 110px; }
+    height: 80px; }
+    @media (min-width: 720px) {
+      .post-type-archive-project .purpleCircleGrid img {
+        height: 110px; } }
   .post-type-archive-project .purpleCircleGrid li {
     margin: .25rem 1rem;
-    height: 150px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: center;
         justify-content: center;
-    width: 150px; }
+    height: 120px;
+    width: 120px; }
+    @media (min-width: 720px) {
+      .post-type-archive-project .purpleCircleGrid li {
+        height: 150px;
+        width: 150px; } }
   .post-type-archive-project .purpleCircleGrid .ch-item {
     background: #852762;
     display: -ms-flexbox;
@@ -1815,12 +1900,16 @@ a {
     cursor: default; }
   .post-type-archive-project .purpleCircleGrid .ch-info-wrap {
     position: absolute;
-    width: 110px;
-    height: 110px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     perspective: 800px;
     transition: all 0.4s ease-in-out;
     box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.2), inset 0 0 3px rgba(115, 114, 23, 0.8); }
+    @media (min-width: 720px) {
+      .post-type-archive-project .purpleCircleGrid .ch-info-wrap {
+        width: 110px;
+        height: 110px; } }
   .post-type-archive-project .purpleCircleGrid .ch-img-11 {
     background-image: url(./images/svg/our-work-mobile/water.svg); }
   .post-type-archive-project .purpleCircleGrid .ch-info-front img {
@@ -1829,11 +1918,15 @@ a {
     object-fit: cover; }
   .post-type-archive-project .purpleCircleGrid .ch-info {
     position: absolute;
-    width: 111px;
-    height: 111px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     transition: all 0.4s ease-in-out;
     transform-style: preserve-3d; }
+    @media (min-width: 720px) {
+      .post-type-archive-project .purpleCircleGrid .ch-info {
+        width: 111px;
+        height: 111px; } }
   .post-type-archive-project .purpleCircleGrid .ch-info > div {
     display: block;
     position: absolute;
