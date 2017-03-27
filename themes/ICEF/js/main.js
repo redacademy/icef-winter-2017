@@ -35,7 +35,6 @@
 
 
     $('.water, .vocational, .communitywork, .empowerment, .medical, .sustainability, .farm, .primary, .trc').on('click', function(event){
-        event.preventDefault();
         var $clickedThingClasses = $(this).attr('class').split(' ');
         $clickedThing = $clickedThingClasses[0];
         console.log($clickedThing);
