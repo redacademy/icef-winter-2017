@@ -33,7 +33,11 @@
 
     //WHEN SUB MENU OR DROP PINS ARE CLICKED --
     $('.water, .vocational, .communitywork, .empowerment, .medical, .sustainability, .farm, .primary, .trc').on('click', function(){
-        // event.preventDefault();
+        var $pathname = window.location.pathname; 
+        console.log($pathname);
+        if($pathname == '/project' ){
+            event.preventDefault();
+        }
         var $clickedThingClasses = $(this).attr('class').split(' ');
         var $clickedThing = $clickedThingClasses[0];
         $('.map .yellow-pin').css('display', 'inline-block');
