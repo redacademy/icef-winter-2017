@@ -15,7 +15,7 @@ get_header(); ?>
 			<div>
 				<div class='update-box'>
 					<div class='update-image'><?php the_post_thumbnail('large'); ?></div>
-					<p class='update-date'><?php echo get_the_date(); ?></p>
+					<p class='update-date main-date'><?php echo get_the_date(); ?></p>
 					<p class='update-title main-title'><?php the_title(); ?></p>
 				</div>
 				<div class='update-content'>	

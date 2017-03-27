@@ -190,6 +190,10 @@
 		}
 	}
 	// .why-read, .story-read,.impact-read{
+<<<<<<< HEAD
+=======
+		
+>>>>>>> 7c2e8ee02d3bf755dcf17d05e1ec3eb1aac8ec94
 	// }
 	.read-why,.read-story,.read-impact{
 		display: none;
@@ -209,6 +213,19 @@
 		width:400px;
 		img{
 			transform: rotate(45deg);
+		}
+	}
+	.why-pic, .story-pic, .impact-pic{
+		height:270px;
+		width:100%;
+		overflow-y:hidden;
+		@include desktop{
+			height:100%;
+		}
+		img{
+			object-fit: cover;
+			width: 100%;
+			height:100%;
 		}
 	}
 	.why-pic, .story-pic, .impact-pic{
