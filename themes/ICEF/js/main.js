@@ -32,8 +32,8 @@
     })
 
     //WHEN SUB MENU OR DROP PINS ARE CLICKED --
-    $('.water, .vocational, .communitywork, .empowerment, .medical, .sustainability, .farm, .primary, .trc').on('click', function(event){
-        event.preventDefault();
+    $('.water, .vocational, .communitywork, .empowerment, .medical, .sustainability, .farm, .primary, .trc').on('click', function(){
+        // event.preventDefault();
         var $clickedThingClasses = $(this).attr('class').split(' ');
         var $clickedThing = $clickedThingClasses[0];
         $('.map .yellow-pin').css('display', 'inline-block');
