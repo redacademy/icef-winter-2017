@@ -37,7 +37,10 @@
     }
 
     .img-wrapper {
-        height: 183px;
+        height: 198px;
+        @include desktop {
+            height: 465px;
+        }
     }
 
     .donate-wrapper {

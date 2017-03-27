@@ -2379,7 +2379,10 @@ a {
     margin-bottom: 0;
     text-transform: none; }
   .page-template-donate .img-wrapper {
-    height: 183px; }
+    height: 198px; }
+    @media (min-width: 720px) {
+      .page-template-donate .img-wrapper {
+        height: 465px; } }
   .page-template-donate .donate-wrapper {
     display: -ms-flexbox;
     display: flex;
