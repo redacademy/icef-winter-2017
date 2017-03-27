@@ -38,7 +38,6 @@
         if($pathname == '/project' ){
             event.preventDefault();
         }
-
         var $clickedThingClasses = $(this).attr('class').split(' ');
         var $clickedThing = $clickedThingClasses[0];
         $('.map .yellow-pin').css('display', 'inline-block');
@@ -47,5 +46,30 @@
         $('.map .' + $clickedThing).css('display', 'none');
         $('.our-work-wrapper .' + $clickedThing).css('display', 'inline-block');
         
+    })
+
+    $('.why-read').on('click',function(event){
+        event.preventDefault();
+        $('.read-why').css('display','flex');
+    })
+    $('.story-read').on('click',function(event){
+        event.preventDefault();
+        $('.read-story').css('display','flex');
+    })
+    $('.impact-read').on('click', function(event){
+        event.preventDefault();
+        $('.read-impact').css('display','flex');
+    })
+    $('.close-why-button').on('click', function(event){
+        event.preventDefault();
+        $('.read-why').css('display','none');
+    })
+    $('.close-story-button').on('click', function(event){
+        event.preventDefault();
+        $('.read-story').css('display','none');
+    })
+    $('.close-impact-button').on('click', function(event){
+        event.preventDefault();
+        $('.read-impact').css('display','none');
     })
 })(jQuery);

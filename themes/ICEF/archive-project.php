@@ -137,11 +137,15 @@ get_header(); ?>
 										<img src='<?php echo $whyImage ?>'>
 								</div>
 							</div> 
-
 							<div class='read-why'>
-								<?php echo $why ?>
+								<div class="read-more-why">
+									<?php echo $why ?>
+								</div>
+								<div class="close-why-button">
+									<img src="<?php echo get_template_directory_uri();?>/images/svg/yellow-cross.svg" 	alt="yellow cross">
+									<p> Close</p>
+								</div>
 							</div>
-					
 							<div class='story-flex'>
 								<div class='story-text'>
 									<h2>Story</h2>
@@ -153,9 +157,13 @@ get_header(); ?>
 								</div>
 							</div>
 							<div class='read-story'>
-								<?php echo $story ?>
+								<div class="read-more-story">
+									<?php echo $story ?>
+								</div>
+								<div class="close-story-button">
+									<img src="<?php echo get_template_directory_uri();?>/images/svg/yellow-cross.svg" 	alt="yellow cross">
+								</div>
 							</div>
-
 							<div class='impact-flex'>
 								<div class='impact-text'>
 									<h2>Impact</h2>
@@ -167,6 +175,12 @@ get_header(); ?>
 								</div>
 							</div>
 							<div class='read-impact'>
+								<div class="read-more-impact">
+									<?php echo $impact ?>
+								</div>
+								<div class="close-impact-button">
+									<img src="<?php echo get_template_directory_uri();?>/images/svg/yellow-cross.svg" 	alt="yellow cross">
+								</div>
 								<?php echo $impact ?>
 							</div>
 						</div>
