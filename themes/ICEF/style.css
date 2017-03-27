@@ -2487,14 +2487,17 @@ a {
     height: 60%; }
     @media (min-width: 720px) {
       .page-template-donate .project-wrapper img {
-        width: 63%; } }
+        width: 69%; } }
   .page-template-donate .fund-project-wrapper {
     background-color: #FFEABA;
     padding: 10px 50px 20px 50px; }
-    .page-template-donate .fund-project-wrapper a {
-      color: #000; }
-      .page-template-donate .fund-project-wrapper a:hover {
-        color: #000; }
+    @media (min-width: 720px) {
+      .page-template-donate .fund-project-wrapper {
+        width: 31%; }
+        .page-template-donate .fund-project-wrapper a {
+          color: #000; }
+          .page-template-donate .fund-project-wrapper a:hover {
+            color: #000; } }
   .page-template-donate .project-title {
     color: #852762; }
   .page-template-donate .yellow-dots-banner {
