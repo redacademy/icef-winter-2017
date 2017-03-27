@@ -36,7 +36,7 @@
         display: flex;
         flex-flow: row wrap;
         color: #fff;
-        background-color: $brand_colour_mediumgold;
+        background-color: $brand_colour_darkgrey; 
         padding: 10px 50px 40px 50px;
         @include desktop {
             img {
