@@ -45,7 +45,7 @@ get_header(); ?>
 								</tr> 
 								</thead>-->
 								<tbody>
-									<?php $fields = esc_html(CFS()->get( 'vocational_school_scholarship_loop')); ?>
+									<?php $fields = CFS()->get( 'vocational_school_scholarship_loop'); ?>
 									<?php foreach( $fields as $field ): ?>
 										<tr>
 											<td> <?php echo esc_html($field['scholarship_category']); ?></td>
@@ -64,7 +64,7 @@ get_header(); ?>
 					<div class="sponsor-section">	
 						<h2 class="vocational-school-sponsor-title"><?php echo esc_html(CFS()->get('vocational_school_sponsor_title'));?></h2>
 						<ul>
-							<?php $sponsor_list = esc_html(CFS()->get( 'vocational_school_sponsor_package_loop' )); ?>
+							<?php $sponsor_list = CFS()->get( 'vocational_school_sponsor_package_loop' ); ?>
 							<?php foreach( $sponsor_list as $item ): ?>
 								<li> <?php echo esc_html($item['sponsor_item']); ?> </li>
 							<?php endforeach; ?>
