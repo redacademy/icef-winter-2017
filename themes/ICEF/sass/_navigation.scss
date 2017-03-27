@@ -311,13 +311,10 @@ a {
 .sub-menu{
 	background-color: $brand_colour_lightgrey;
 	display: none;
-	position: absolute;
 	width: 200px;
 	margin: 0;
 	padding: 10px;
 	z-index: 2;
-	top: 15%;
-	left: 32%;
 	list-style-type: none;
 	text-align: center;
 	
@@ -341,7 +338,8 @@ a {
 
 .menu-item-261:hover{
 	.sub-menu{
-		display: block;
+		position: absolute;
+		display: inline-block;
 	}
 }
 
