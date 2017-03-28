@@ -2531,8 +2531,7 @@ a {
     -ms-flex-direction: column;
         flex-direction: column;
     -ms-flex-pack: end;
-        justify-content: flex-end;
-    padding-left: 31px; }
+        justify-content: flex-end; }
   .page-template-donate-primary .sponsor-button {
     text-align: center; }
     .page-template-donate-primary .sponsor-button a {
@@ -2602,6 +2601,10 @@ a {
     .page-template-donate-primary .sponsor-section ul {
       margin: 0;
       padding: 0 15px; }
+      @media (min-width: 720px) {
+        .page-template-donate-primary .sponsor-section ul {
+          padding: 0 15px;
+          width: 75%; } }
 
 .page-template-donate-vocational {
   margin: 0 auto; }
