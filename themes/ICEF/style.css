@@ -724,14 +724,6 @@ a {
         border-top: 1px solid white;
         text-align: left;
         padding: 10px 30px 10px 10px; } }
-  .front-page-container .hero-text h2 {
-    font-weight: normal;
-    background-color: #852762;
-    margin: 0;
-    padding: 10px;
-    font-size: 1.25rem;
-    color: white;
-    text-transform: uppercase; }
 
 .front-page-container .who-we-are {
   text-align: center; }
@@ -2354,16 +2346,27 @@ a {
         flex-direction: column;
     -ms-flex-align: center;
         align-items: center; }
-  @media (min-width: 720px) {
-    .page-template-donate .container {
-      width: 82%; } }
+  .page-template-donate .container {
+    width: 100%; }
+    @media (min-width: 720px) {
+      .page-template-donate .container {
+        width: 1024px; } }
+  .page-template-donate .page-title-wrapper {
+    border-bottom: 1px solid purple;
+    margin-bottom: 42px;
+    margin-top: 170px; }
+  .page-template-donate .page-title {
+    margin-bottom: 0; }
   .page-template-donate h2 {
     font-size: 2rem;
     line-height: 1;
     margin-bottom: 0;
     text-transform: none; }
   .page-template-donate .img-wrapper {
-    height: 183px; }
+    height: 198px; }
+    @media (min-width: 720px) {
+      .page-template-donate .img-wrapper {
+        height: 465px; } }
   .page-template-donate .donate-wrapper {
     display: -ms-flexbox;
     display: flex;
@@ -2471,14 +2474,17 @@ a {
     height: 60%; }
     @media (min-width: 720px) {
       .page-template-donate .project-wrapper img {
-        width: 63%; } }
+        width: 69%; } }
   .page-template-donate .fund-project-wrapper {
     background-color: #FFEABA;
     padding: 10px 50px 20px 50px; }
-    .page-template-donate .fund-project-wrapper a {
-      color: #000; }
-      .page-template-donate .fund-project-wrapper a:hover {
-        color: #000; }
+    @media (min-width: 720px) {
+      .page-template-donate .fund-project-wrapper {
+        width: 31%; }
+        .page-template-donate .fund-project-wrapper a {
+          color: #000; }
+          .page-template-donate .fund-project-wrapper a:hover {
+            color: #000; } }
   .page-template-donate .project-title {
     color: #852762; }
   .page-template-donate .yellow-dots-banner {
