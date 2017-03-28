@@ -1529,6 +1529,8 @@ html {
     margin: 4rem; }
 
 .workHero .map {
+  display: -ms-flexbox;
+  display: flex;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
   position: relative;
@@ -1549,7 +1551,14 @@ html {
     color: #433E3E; }
   .workHero .map span img {
     display: none; }
+  .workHero .map .yellow-pin {
+    display: none; }
+  .workHero .map .purple-pin {
+    width: 100px;
+    height: 100px; }
   @media (min-width: 720px) {
+    .workHero .map .yellow-pin {
+      display: inline-block; }
     .workHero .map .our-work {
       position: absolute;
       right: 370px;
@@ -1629,7 +1638,14 @@ html {
 .workHero .openMap {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
-  height: 100px; }
+  height: 100px;
+  position: relative; }
+  .workHero .openMap .previous-arrow {
+    position: absolute;
+    left: -130px; }
+  .workHero .openMap .next-arrow {
+    position: absolute;
+    right: -130px; }
 
 .showMap {
   height: 0px !important; }

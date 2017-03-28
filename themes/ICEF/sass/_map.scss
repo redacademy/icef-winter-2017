@@ -1,6 +1,7 @@
 .workHero {
 
     .map {
+        display: flex;
         flex-basis: 100%;
         position: relative;
         height: 400px;
@@ -12,6 +13,8 @@
             background: url(../../images/svg/map/map.png) center;
             background-size: cover, cover;
         }
+
+        
 
         h2 {
             display: inline;
@@ -26,7 +29,20 @@
             display: none;
         }
 
+        .yellow-pin{
+            display: none;
+        }
+
+        .purple-pin {
+            width: 100px;
+            height: 100px;
+        }
+
         @include desktop {
+
+            .yellow-pin {
+                display: inline-block;
+            }
 
             .our-work {
                 position: absolute;
@@ -149,6 +165,17 @@
     .openMap{
         flex-basis: 100%;
         height: 100px;
+        position: relative;
+
+        .previous-arrow {
+            position: absolute;
+            left: -130px;
+        }
+
+        .next-arrow {
+            position: absolute;
+            right: -130px;
+        }
     }
     
 }

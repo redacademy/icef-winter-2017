@@ -2,7 +2,6 @@
 
     var $slug = window.location.pathname;
     $slug = $slug.slice(14);
-    console.log($slug);
 
     $('.' + $slug).css('display', 'none');
     $('span .' + $slug).css('display', 'inline-block');
