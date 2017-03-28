@@ -168,13 +168,23 @@
         position: relative;
 
         .previous-arrow {
+            display: inline-block;
             position: absolute;
             left: -130px;
+
+            @include desktop {
+                display: none;
+            }
         }
 
         .next-arrow {
+            display: inline-block;
             position: absolute;
             right: -130px;
+
+            @include desktop {
+                display: none;
+            }
         }
     }
     

@@ -1,14 +1,8 @@
 (function($){
 
-    var $slug = window.location.pathname;
-    $slug = $slug.slice(14);
-
-    $('.' + $slug).css('display', 'none');
-    $('span .' + $slug).css('display', 'inline-block');
-
     $('.fa-bars').on('click', function(event){
         event.preventDefault();
-        $('.menu, .yellow-dot-filler').toggleClass('show-menu');
+        $('.menu').toggleClass('show-menu');
     })
 
     $('.team-member').on('click', function(event){
@@ -81,4 +75,14 @@
         $('.read-impact').slideToggle('slow', function(){
         })
     })
+
+    ourWorkPageCheck();
+
+    function ourWorkPageCheck(){
+        var $slug = window.location.pathname;
+        $slug = $slug.slice(14);
+        $('.' + $slug).css('display', 'none');
+        $('span .' + $slug).css('display', 'inline-block');
+    }
+
 })(jQuery);

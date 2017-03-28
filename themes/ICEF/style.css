@@ -1641,11 +1641,19 @@ html {
   height: 100px;
   position: relative; }
   .workHero .openMap .previous-arrow {
+    display: inline-block;
     position: absolute;
     left: -130px; }
+    @media (min-width: 720px) {
+      .workHero .openMap .previous-arrow {
+        display: none; } }
   .workHero .openMap .next-arrow {
+    display: inline-block;
     position: absolute;
     right: -130px; }
+    @media (min-width: 720px) {
+      .workHero .openMap .next-arrow {
+        display: none; } }
 
 .showMap {
   height: 0px !important; }
@@ -2215,7 +2223,6 @@ html {
           min-width: 100%; }
           @media (min-width: 720px) {
             .team-type-archive .canada-team .team-member .profile-pic img, .team-type-archive .uganda-team .team-member .profile-pic img {
-              right: 20px;
               min-width: 100%; } }
   .team-type-archive .member-description {
     display: none; }
