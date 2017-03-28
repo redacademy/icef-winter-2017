@@ -1408,6 +1408,9 @@ a {
     .page-template-approach .mobile-approach-table li .table-numbers {
       color: #B5852F; }
 
+.page-template-internship html {
+  font-variant-ligatures: none; }
+
 .page-template-internship .content-area p {
   margin: 1rem 1.5rem; }
 
@@ -1502,6 +1505,9 @@ a {
   display: flex;
   -ms-flex-align: center;
       align-items: center; }
+  .page-template-internship .right-column ul {
+    margin: 0;
+    padding: 0px 0 0 14px; }
 
 .page-template-internship .applyButton {
   text-align: center; }

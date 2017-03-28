@@ -1,4 +1,9 @@
 .page-template-internship{
+  html {
+     -webkit-font-variant-ligatures: none;
+  -moz-font-variant-ligatures: none;
+    font-variant-ligatures: none;
+  }
   .content-area{
     p{
       margin:1rem 1.5rem;
@@ -102,6 +107,10 @@
     width:70%;
     display: flex;
     align-items: center;
+    ul {
+      margin: 0;
+      padding: 0px 0 0 14px;
+    }
   }
   .applyButton{
     @include purple-button;
