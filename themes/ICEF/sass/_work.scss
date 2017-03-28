@@ -1,5 +1,5 @@
 
-.post-type-archive-project{
+.single-project{
   .content-area{
 		@include desktop{
 			width:1000px;
@@ -78,6 +78,7 @@
 			text-transform: uppercase;
 			@include desktop{
 				width:100%;
+				text-align: right;
 			}
 		}
 	}
@@ -90,12 +91,6 @@
 				margin:0;
 			}
 		}
-	.our-work-content.trc{
-		display:block;
-	}
-	.our-work-content{
-		display:none;
-	}
 	.fact-text{
 		@include desktop{
 			display:flex;
