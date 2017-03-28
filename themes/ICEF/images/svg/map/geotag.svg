@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="144px" height="194px" viewBox="0 0 144 194" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M49.9996121,150 C48.5601994,150 47.2041426,149.296874 46.3480858,148.109363 C44.4541329,145.468738 0,83.2727661 0,51.5624744 C0,23.1322128 22.4312478,0 50,0 C77.5687522,0 100,23.1322128 100,51.5624744 C100,83.2727661 55.544781,145.469338 53.6519142,148.109363 C52.795838,149.296874 51.43982,150 50.0003879,150 L49.9996121,150 Z" id="path-1"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="4" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.262745098   0 0 0 0 0.243137255   0 0 0 0 0.243137255  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="02.-Handoff-Folder-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ICEF_Assets" transform="translate(-40.000000, -438.000000)">
+            <g id="Geo-&amp;-Blog-Date-" transform="translate(62.000000, 460.000000)">
+                <g id="Fill-1">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#852762" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
