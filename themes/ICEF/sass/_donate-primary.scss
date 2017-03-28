@@ -8,8 +8,9 @@
     }
 
     .container {
+        width: 100%;
         @include desktop {
-        width: 82%;
+            width: 1024px;
         }
     }
 
@@ -66,6 +67,24 @@
 
     .primary-school-desc {
         color: #fff;
+    }
+
+    .align-center {
+        display: flex;
+        justify-content: center;
+        padding: 10px 0px 38px 0px;
+    }
+
+    .align-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        // padding-left: 31px;
+    }
+
+    .sponsor-button {
+        @include purple-button;
+        text-align: center;
     }
 
     .primary-school-img {
@@ -132,6 +151,15 @@
         margin-bottom: 60px;
     }
 
+    .sponsor-content-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        @include desktop {
+            
+        }
+    }
+
     .sponsor-section {
         text-align: left;
         color: #fff;
@@ -140,6 +168,10 @@
         ul {
             margin: 0;
             padding: 0 15px;
+            @include desktop {
+                padding: 0 15px;
+                width: 75%;
+            }
         }
     }
 }

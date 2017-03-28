@@ -56,6 +56,7 @@
 			padding-right:2rem;
 			font-size:4rem;
 			margin:0 auto;
+			// height: 70px;	
 			color:$brand_colour_darkgold;
 			@include desktop{
 				font-size:8rem;
@@ -170,6 +171,7 @@
 	.why-text,.story-text,.impact-text{
 		background:$brand_colour_lightgold;
 		padding:1.5rem;
+		// height:420px;
 		@include darkgold-button;
 		.read-intro{
 			height: 50%;

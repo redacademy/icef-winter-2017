@@ -1528,12 +1528,17 @@ a {
   position: relative;
   height: 0px;
   overflow: hidden;
-  background: url(../../images/svg/map/map-shadow.png) center;
+  background: url(../../images/svg/map/map.png) center;
   background-size: cover, cover; }
   @media (min-width: 720px) {
     .workHero .map {
-      background: url(../../images/svg/map/map-shadow.png) center;
+      background: url(../../images/svg/map/map.png) center;
       background-size: cover, cover; } }
+  .workHero .map h2 {
+    position: relative;
+    bottom: 75px;
+    left: 30px;
+    margin: 0; }
   .workHero .map span img {
     display: none; }
   .workHero .map .trc {
@@ -1572,10 +1577,13 @@ a {
     position: absolute;
     right: 500px;
     top: 65px; }
+  .workHero .map span .purple-pin {
+    height: 120px;
+    width: 120px; }
   .workHero .map span .trc {
     position: absolute;
     right: 325px;
-    top: 100px; }
+    bottom: 550px; }
   .workHero .map span .medical {
     position: absolute;
     right: 155px;
@@ -2287,19 +2295,24 @@ a {
     @media (min-width: 720px) {
       .page-template-donate .container {
         width: 1024px; } }
-  .page-template-donate .page-title-wrapper {
-    border-bottom: 1px solid purple;
-    margin-bottom: 42px;
-    margin-top: 170px; }
+  @media (min-width: 720px) {
+    .page-template-donate .page-title-wrapper {
+      border-bottom: 1px solid purple;
+      margin-bottom: 42px;
+      margin-top: 170px; } }
   .page-template-donate .page-title {
-    margin-bottom: 0; }
+    display: none; }
+    @media (min-width: 720px) {
+      .page-template-donate .page-title {
+        display: block;
+        margin-bottom: 0; } }
   .page-template-donate h2 {
     font-size: 2rem;
     line-height: 1;
     margin-bottom: 0;
     text-transform: none; }
   .page-template-donate .img-wrapper {
-    height: 198px; }
+    height: 183px; }
     @media (min-width: 720px) {
       .page-template-donate .img-wrapper {
         height: 465px; } }
@@ -2482,9 +2495,11 @@ a {
         flex-direction: column;
     -ms-flex-align: center;
         align-items: center; }
-  @media (min-width: 720px) {
-    .page-template-donate-primary .container {
-      width: 82%; } }
+  .page-template-donate-primary .container {
+    width: 100%; }
+    @media (min-width: 720px) {
+      .page-template-donate-primary .container {
+        width: 1024px; } }
   .page-template-donate-primary h2 {
     font-size: 2rem;
     line-height: 1;
@@ -2528,6 +2543,34 @@ a {
         width: 90%; } }
   .page-template-donate-primary .primary-school-desc {
     color: #fff; }
+  .page-template-donate-primary .align-center {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    padding: 10px 0px 38px 0px; }
+  .page-template-donate-primary .align-right {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: end;
+        justify-content: flex-end; }
+  .page-template-donate-primary .sponsor-button {
+    text-align: center; }
+    .page-template-donate-primary .sponsor-button a {
+      padding-top: 10px;
+      text-align: center;
+      height: 50px;
+      width: 150px;
+      border-radius: 8px;
+      display: inline-block;
+      background-color: #852762;
+      color: white;
+      font-family: "Oswald", sans-serif;
+      text-transform: uppercase;
+      font-size: 1.5rem;
+      border: none; }
   .page-template-donate-primary .primary-school-img {
     margin: 0 auto; }
     @media (min-width: 720px) {
@@ -2567,6 +2610,13 @@ a {
     color: #898989; }
   .page-template-donate-primary .sponsor-wrapper {
     margin-bottom: 60px; }
+  .page-template-donate-primary .sponsor-content-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: center;
+        justify-content: center; }
   .page-template-donate-primary .sponsor-section {
     text-align: left;
     color: #fff;
@@ -2575,6 +2625,10 @@ a {
     .page-template-donate-primary .sponsor-section ul {
       margin: 0;
       padding: 0 15px; }
+      @media (min-width: 720px) {
+        .page-template-donate-primary .sponsor-section ul {
+          padding: 0 15px;
+          width: 75%; } }
 
 .page-template-donate-vocational {
   margin: 0 auto; }
@@ -2585,9 +2639,11 @@ a {
         flex-direction: column;
     -ms-flex-align: center;
         align-items: center; }
-  @media (min-width: 720px) {
-    .page-template-donate-vocational .container {
-      width: 82%; } }
+  .page-template-donate-vocational .container {
+    width: 100%; }
+    @media (min-width: 720px) {
+      .page-template-donate-vocational .container {
+        width: 1024px; } }
   .page-template-donate-vocational h2 {
     font-size: 2rem;
     line-height: 1;
@@ -2610,16 +2666,45 @@ a {
     background-color: #433E3E;
     padding: 10px 50px 40px 50px; }
     @media (min-width: 720px) {
-      .page-template-donate-vocational .vocational-wrapper img {
-        margin-top: 33px; } }
+      .page-template-donate-vocational .vocational-wrapper {
+        padding: 35px 18px; }
+        .page-template-donate-vocational .vocational-wrapper img {
+          margin-top: 33px; } }
   @media (min-width: 720px) {
     .page-template-donate-vocational .vocational-content {
-      width: 67%;
-      padding: 0 100px; } }
+      width: 63%;
+      padding: 0px 50px; } }
   .page-template-donate-vocational .vocational-school-title {
     color: #fff; }
   .page-template-donate-vocational .vocational-school-desc {
     color: #fff; }
+  .page-template-donate-vocational .align-center {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    padding: 10px 0px 38px 0px; }
+  .page-template-donate-vocational .align-right {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: end;
+        justify-content: flex-end;
+    padding-left: 31px; }
+  .page-template-donate-vocational .sponsor-button a {
+    padding-top: 10px;
+    text-align: center;
+    height: 50px;
+    width: 150px;
+    border-radius: 8px;
+    display: inline-block;
+    background-color: #852762;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    border: none; }
   @media (min-width: 720px) {
     .page-template-donate-vocational .content-wrapper {
       display: -ms-flexbox;
@@ -2661,14 +2746,27 @@ a {
     color: #F2CA6E; }
   .page-template-donate-vocational .sponsor-wrapper {
     margin-bottom: 60px; }
+    @media (min-width: 720px) {
+      .page-template-donate-vocational .sponsor-wrapper {
+        padding-top: 20px; } }
+  .page-template-donate-vocational .vocational-content-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
   .page-template-donate-vocational .sponsor-section {
     text-align: left;
     color: #fff;
     background-color: #F2CA6E;
-    padding: 10px 20px 40px 30px; }
+    padding: 10px 30px 40px 86px; }
     .page-template-donate-vocational .sponsor-section ul {
       margin: 0;
-      padding: 0 15px; }
+      padding: 0 15px 29px 15px;
+      width: 100%; }
+      @media (min-width: 720px) {
+        .page-template-donate-vocational .sponsor-section ul {
+          padding: 0 15px;
+          width: 75%; } }
 
 .updates {
   margin: 10% auto;

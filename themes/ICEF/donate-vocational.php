@@ -17,6 +17,9 @@ get_header(); ?>
 					<div class="vocational-content">
 						<h2 class="vocational-school-title"><?php echo esc_html(CFS()->get('vocational_school_title'));?></h2>
 						<p class="vocational-school-desc"><?php echo esc_html(CFS()->get('vocational_school_description'));?></p>
+						<div class="sponsor-button align-center">
+							<a href="mailto:info@icefcanada.org">Sponsor</a>
+						</div>
 					</div>
 					<img src="<?php echo esc_html(CFS()->get('vocational_school_image'));?>">					
 				</div>
@@ -63,12 +66,17 @@ get_header(); ?>
 				<div class="sponsor-wrapper">
 					<div class="sponsor-section">	
 						<h2 class="vocational-school-sponsor-title"><?php echo esc_html(CFS()->get('vocational_school_sponsor_title'));?></h2>
-						<ul>
-							<?php $sponsor_list = CFS()->get( 'vocational_school_sponsor_package_loop' ); ?>
-							<?php foreach( $sponsor_list as $item ): ?>
-								<li> <?php echo esc_html($item['sponsor_item']); ?> </li>
-							<?php endforeach; ?>
-						</ul>
+						<div class="vocational-content-wrapper">
+							<ul>
+								<?php $sponsor_list = CFS()->get( 'vocational_school_sponsor_package_loop' ); ?>
+								<?php foreach( $sponsor_list as $item ): ?>
+									<li> <?php echo esc_html($item['sponsor_item']); ?> </li>
+								<?php endforeach; ?>
+							</ul>
+							<div class="sponsor-button align-right">
+								<a href="mailto:info@icefcanada.org">Sponsor</a>
+							</div> <!-- .sponsor-button align-center -->
+						</div> <!-- .content-wrapper -->
 					</div> <!-- .sponsor-section -->
 				</div> <!-- .sponsor-wrapper -->
 		</main><!-- #main -->

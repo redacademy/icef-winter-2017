@@ -46,7 +46,7 @@ function icef_cpt_team() {
 		'feeds'                 => true,
 	);
 	$args = array(
-		'label'                 => 'Team Type',
+		'label'                 => 'Team',
 		'description'           => 'Team Type Description',
 		'labels'                => $labels,
 		'supports'              => array( 'title','revisions' ),
@@ -103,10 +103,10 @@ function project_post_type() {
 		'filter_items_list'     => 'Filter items list',
 	);
 	$args = array(
-		'label'                 => 'Project Type',
+		'label'                 => 'Project',
 		'description'           => 'Project Type Description',
 		'labels'                => $labels,
-		'supports'              => array( 'title', 'editor', 'excerpt', 'thumbnail' ),
+		'supports'              => array( 'title', 'thumbnail' ),
 		'hierarchical'          => false,
 		'public'                => true,
 		'show_ui'               => true,

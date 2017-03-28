@@ -5,6 +5,9 @@
  * @package RED_Starter_Theme
  */
 
+$the_post = get_post();
+$post_slug = $the_post->post_name;
+
 get_header(); ?>
 
 	<div id="primary" class="content-area">
@@ -14,25 +17,52 @@ get_header(); ?>
 					<h1>Explore Tekera Resource Centre</h1>
 				</div>
 				<div class="map">
-					<img class="trc yellow-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
-					<img class="medical yellow-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
-					<img class="primary yellow-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/left-unselected.svg" alt="crafting-icon">
-					<img class="farm yellow-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
-					<img class="sustainability yellow-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
-					<img class="empowerment yellow-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
-					<img class="communitywork yellow-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
-					<img class="vocational yellow-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
-					<img class="water yellow-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
+					<div class="<?php echo $post_slug; ?> trc yellow-pin">
+						<img src="<?php echo get_template_directory_uri();?>/images/svg/map/geotag-yellow.svg" alt="crafting-icon">
+						<h2>1</h2>
+					</div>
+					<div class="medical yellow-pin">
+						<img src="<?php echo get_template_directory_uri();?>/images/svg/map/geotag-yellow.svg" alt="crafting-icon">
+						<h2>2</h2>
+					</div>
+					<div class="primary yellow-pin">
+						<img src="<?php echo get_template_directory_uri();?>/images/svg/map/geotag-yellow.svg" alt="crafting-icon">
+						<h2>3</h2>
+					</div>
+					<div class="farm yellow-pin">
+						<img src="<?php echo get_template_directory_uri();?>/images/svg/map/geotag-yellow.svg" alt="crafting-icon">
+						<h2>4</h2>
+					</div>
+					<div class="sustainability yellow-pin">
+						<img src="<?php echo get_template_directory_uri();?>/images/svg/map/geotag-yellow.svg" alt="crafting-icon">
+						<h2>5</h2>
+					</div>
+					<div class="empowerment yellow-pin">
+						<img src="<?php echo get_template_directory_uri();?>/images/svg/map/geotag-yellow.svg" alt="crafting-icon">
+						<h2>6</h2>
+					</div>
+					<div class="communitywork yellow-pin">
+						<img src="<?php echo get_template_directory_uri();?>/images/svg/map/geotag-yellow.svg" alt="crafting-icon">
+						<h2>7</h2>
+					</div>
+					<div class="vocational yellow-pin">
+						<img src="<?php echo get_template_directory_uri();?>/images/svg/map/geotag-yellow.svg" alt="crafting-icon">
+						<h2>8</h2>
+					</div>
+					<div class="water yellow-pin">
+						<img src="<?php echo get_template_directory_uri();?>/images/svg/map/geotag-yellow.svg" alt="crafting-icon">
+						<h2>9</h2>
+					</div>
 					<span class="our-work-wrapper">
-						<img class="trc purple-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/one-selected.svg" alt="crafting-icon">
-						<img class="primary purple-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/two-selected.svg" alt="crafting-icon">
-						<img class="farm purple-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/three-selected.svg" alt="crafting-icon">
-						<img class="sustainability purple-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/four-selected.svg" alt="crafting-icon">
-						<img class="medical purple-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/five-selected.svg" alt="crafting-icon">
-						<img class="empowerment purple-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/six-selected.svg" alt="crafting-icon">
-						<img class="communitywork purple-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/seven-selected.svg" alt="crafting-icon">
-						<img class="vocational purple-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/eight-selected.svg" alt="crafting-icon">
-						<img class="water purple-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/nine-selected.svg" alt="crafting-icon">
+						<img class="trc purple-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/geotag.svg" alt="crafting-icon">
+						<img class="primary purple-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/geotag.svg" alt="crafting-icon">
+						<img class="farm purple-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/geotag.svg" alt="crafting-icon">
+						<img class="sustainability purple-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/geotag.svg" alt="crafting-icon">
+						<img class="medical purple-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/geotag.svg" alt="crafting-icon">
+						<img class="empowerment purple-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/geotag.svg" alt="crafting-icon">
+						<img class="communitywork purple-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/geotag.svg" alt="crafting-icon">
+						<img class="vocational purple-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/geotag.svg" alt="crafting-icon">
+						<img class="water purple-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/geotag.svg" alt="crafting-icon">
 					</span>
 				</div>
 				<div class="openMap">
