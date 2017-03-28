@@ -18,8 +18,10 @@ get_header(); ?>
 				</div>
 				<div class="donate-wrapper">
 					<div class="donate-trc-wrapper">
-						<h2><?php echo esc_html(CFS()->get('donate_to_trc_title'));?></h2>
-						<p class="donate-trc-desc"><?php echo esc_html(CFS()->get('donate_to_trc_description'));?></p>						
+						<?php $content = CFS()->get('donate_to_trc_description') ?>
+						<?php $allowed_html = array('br' => array()); ?>
+						<h2><?php echo esc_html(CFS()->get('donate_to_trc_title'));?></h2>				
+						<p class="donate-trc-desc"><?php echo wp_kses($content, $allowed_html); ?></p>						
 						<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 							<input name="cmd" type="hidden" value="_s-xclick"> 
 							<input name="hosted_button_id" type="hidden" value="YF3LX86L5U8YJ"> 
