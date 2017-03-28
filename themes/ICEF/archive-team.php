@@ -10,7 +10,7 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-			<h2 class='our-team'>Our Team</h2>
+			<h1 class='our-team'>Our Team</h1>
 			<div class='team-type-archive'>
 				<div class=' canada-team'>
 					<h2>Canada</h2>

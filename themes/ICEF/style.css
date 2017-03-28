@@ -1277,6 +1277,7 @@ html {
       margin-top: 10rem;
       width: 100%;
       border-bottom: solid 2px #852762;
+      font-family: "Oswald", sans-serif;
       font-weight: bold; }
       .page-template-approach .approach-title h1 {
         margin: 0; } }
@@ -1389,9 +1390,10 @@ html {
 
 .page-template-approach .quote-background {
   background: #FFEABA;
-  padding: 1.5rem;
-  width: 60%;
-  margin: 0 auto; }
+  padding: 1rem;
+  width: 70%;
+  margin: 0 auto;
+  font-size: .8rem; }
 
 .page-template-approach .mobile-approach-table {
   display: -ms-flexbox;
@@ -1435,7 +1437,8 @@ html {
       border-bottom: solid 2px #852762;
       margin-bottom: 2rem; }
       .page-template-internship .page-header h1 {
-        margin: 0; } }
+        margin: 0;
+        font-family: "Oswald", sans-serif; } }
 
 .page-template-internship p {
   color: #433E3E; }
@@ -1469,11 +1472,14 @@ html {
 .page-template-internship .below-second-image-title {
   font-size: 2.25rem;
   font-family: "Fira", sans-serif;
-  width: 80%;
+  width: 90%;
   line-height: 1.2;
   font-weight: bold; }
   .page-template-internship .below-second-image-title p {
     color: #F2CA6E; }
+  @media (min-width: 720px) {
+    .page-template-internship .below-second-image-title {
+      font-size: 3rem; } }
 
 .page-template-internship .position-text {
   text-align: center;
@@ -2113,13 +2119,14 @@ html {
 
 .our-team {
   display: none;
-  width: 80%;
-  margin: 25vh auto 0 auto;
-  border-bottom: 2px solid #433E3E; }
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 10rem;
+  border-bottom: 2px solid #631747;
+  font-family: "Oswald", sans-serif; }
   @media (min-width: 720px) {
     .our-team {
-      display: block;
-      font-size: 1.1rem; } }
+      display: block; } }
 
 .team-type-archive {
   width: 85%;
@@ -2961,14 +2968,13 @@ html {
       .updates .update-article:first-child .read {
         -ms-flex-preferred-size: 10%;
             flex-basis: 10%; } }
-  .updates h2 {
+  .updates h1 {
     font-family: "Oswald", sans-serif;
-    font-weight: 500;
     width: 100%;
-    border-bottom: 1px solid #852762;
+    border-bottom: 2px solid #852762;
     display: none; }
     @media (min-width: 720px) {
-      .updates h2 {
+      .updates h1 {
         display: inline-block; } }
 
 .single-update {

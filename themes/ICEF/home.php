@@ -9,7 +9,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main updates" role="main">
-			<h2>Updates</h2>
+			<h1>Updates</h1>
 			<div class='updates-flex'>
 				<?php while ( have_posts() ) : the_post(); ?>
 

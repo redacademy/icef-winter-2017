@@ -195,11 +195,11 @@
         }
     }
     
-    h2{
+    h1{
         font-family: $font__accent;
-        font-weight: 500;
+        // font-weight: 500;
         width: 100%;
-        border-bottom: 1px solid $brand_colour_lightpurple;
+        border-bottom: 2px solid $brand_colour_lightpurple;
         display: none;
 
         @include desktop {

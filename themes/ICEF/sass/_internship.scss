@@ -22,6 +22,7 @@
       display: block;
       h1{
         margin:0 ;
+        font-family: $font__accent;
       }
       border-bottom: solid 2px $brand_colour_lightpurple;
       margin-bottom: 2rem;
@@ -62,9 +63,12 @@
   .below-second-image-title{
     font-size:2.25rem;
     font-family: $font__main;
-    width:80%;
+    width:90%;
     p{
       color:$brand_colour_mediumgold;
+    }
+    @include desktop{
+      font-size:3rem;
     }
     line-height:1.2;
     font-weight:bold;
