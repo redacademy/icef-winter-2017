@@ -20,13 +20,19 @@
     }
 
     .page-title-wrapper {
+        @include desktop {
         border-bottom: 1px solid purple;
         margin-bottom: 42px;
         margin-top: 170px;
+        }
     }
 
     .page-title {
-        margin-bottom: 0;
+        display: none;
+        @include desktop {
+            display: block;
+            margin-bottom: 0;
+        }
     }
 
     h2 {
