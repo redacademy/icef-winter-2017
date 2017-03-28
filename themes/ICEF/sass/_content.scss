@@ -3,6 +3,11 @@
 --------------------------------------------------------------*/
 
 /* Posts and pages */
+html {
+  -webkit-font-variant-ligatures: none;
+  -moz-font-variant-ligatures: none;
+  font-variant-ligatures: none;
+}
 
 .sticky {
 	display: block;

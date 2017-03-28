@@ -1210,6 +1210,9 @@ a {
 # Content
 --------------------------------------------------------------*/
 /* Posts and pages */
+html {
+  font-variant-ligatures: none; }
+
 .sticky {
   display: block; }
 
@@ -1407,9 +1410,6 @@ a {
       color: black; }
     .page-template-approach .mobile-approach-table li .table-numbers {
       color: #B5852F; }
-
-.page-template-internship html {
-  font-variant-ligatures: none; }
 
 .page-template-internship .content-area p {
   margin: 1rem 1.5rem; }
