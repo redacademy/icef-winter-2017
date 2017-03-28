@@ -129,9 +129,13 @@ get_header(); ?>
 						<div class="work-flex">
 							<div class="why-flex">
 								<div class="why-text">
-									<h2>Why</h2>
-									<?php echo $whyIntro ?>
-									<button class="why-read"> Read </button>
+									<div class="read-intro">
+										<h2>Why</h2>
+										<?php echo $whyIntro ?>
+									</div>
+									<div class="read-button">
+										<button class="why-read"> Read </button>
+									</div>
 								</div>
 								<div class="why-pic">
 										<img src="<?php echo $whyImage ?>">
@@ -142,15 +146,19 @@ get_header(); ?>
 									<?php echo $why ?>
 								</div>
 								<div class="close-why-button">
-									<img src="<?php echo get_template_directory_uri();?>/images/svg/yellow-cross.svg" 	alt="yellow cross">
 									<p> Close</p>
+									<img src="<?php echo get_template_directory_uri();?>/images/svg/yellow-cross.svg" 	alt="yellow cross">
 								</div>
 							</div>
 							<div class="story-flex">
 								<div class="story-text">
-									<h2>Story</h2>
-									<?php echo $storyIntro ?>
-									<button class="story-read"> Read </button>
+									<div class="read-intro">
+										<h2>Story</h2>
+										<?php echo $storyIntro ?>
+									</div>
+									<div class="read-button">
+										<button class="story-read"> Read </button>
+									</div>
 								</div>
 								<div class="story-pic">
 									<img src="<?php echo $storyImage ?>">
@@ -161,14 +169,19 @@ get_header(); ?>
 									<?php echo $story ?>
 								</div>
 								<div class="close-story-button">
+									<p> Close</p>
 									<img src="<?php echo get_template_directory_uri();?>/images/svg/yellow-cross.svg" 	alt="yellow cross">
 								</div>
 							</div>
 							<div class="impact-flex">
 								<div class="impact-text">
-									<h2>Impact</h2>
-									<?php echo $impactIntro ?>
-									<button class="impact-read"> Read </button>		
+									<div class="read-intro">
+										<h2>Impact</h2>
+										<?php echo $impactIntro ?>
+									</div>
+									<div class="read-button">
+										<button class="impact-read"> Read </button>		
+									</div>
 								</div>
 								<div class="impact-pic">
 									<img src="<?php echo $impactImage?>">
@@ -179,9 +192,9 @@ get_header(); ?>
 									<?php echo $impact ?>
 								</div>
 								<div class="close-impact-button">
+									<p> Close</p>
 									<img src="<?php echo get_template_directory_uri();?>/images/svg/yellow-cross.svg" 	alt="yellow cross">
 								</div>
-								<?php echo $impact ?>
 							</div>
 						</div>
 					</section>
