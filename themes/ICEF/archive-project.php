@@ -13,34 +13,34 @@ get_header(); ?>
 				<div class="yellowBackground">
 					<h1>Explore Tekera Resource Centre</h1>
 				</div>
-				<div class='map'>
-					<img class='trc yellow-pin' src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
-					<img class='medical yellow-pin' src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
-					<img class='primary yellow-pin' src="<?php echo get_template_directory_uri();?>/images/svg/map/left-unselected.svg" alt="crafting-icon">
-					<img class='farm yellow-pin' src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
-					<img class='sustainability yellow-pin' src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
-					<img class='empowerment yellow-pin' src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
-					<img class='communitywork yellow-pin' src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
-					<img class='vocational yellow-pin' src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
-					<img class='water yellow-pin' src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
-					<span class='our-work-wrapper'>
-						<img class='trc purple-pin' src="<?php echo get_template_directory_uri();?>/images/svg/map/one-selected.svg" alt="crafting-icon">
-						<img class='primary purple-pin' src="<?php echo get_template_directory_uri();?>/images/svg/map/two-selected.svg" alt="crafting-icon">
-						<img class='farm purple-pin' src="<?php echo get_template_directory_uri();?>/images/svg/map/three-selected.svg" alt="crafting-icon">
-						<img class='sustainability purple-pin' src="<?php echo get_template_directory_uri();?>/images/svg/map/four-selected.svg" alt="crafting-icon">
-						<img class='medical purple-pin' src="<?php echo get_template_directory_uri();?>/images/svg/map/five-selected.svg" alt="crafting-icon">
-						<img class='empowerment purple-pin' src="<?php echo get_template_directory_uri();?>/images/svg/map/six-selected.svg" alt="crafting-icon">
-						<img class='communitywork purple-pin' src="<?php echo get_template_directory_uri();?>/images/svg/map/seven-selected.svg" alt="crafting-icon">
-						<img class='vocational purple-pin' src="<?php echo get_template_directory_uri();?>/images/svg/map/eight-selected.svg" alt="crafting-icon">
-						<img class='water purple-pin' src="<?php echo get_template_directory_uri();?>/images/svg/map/nine-selected.svg" alt="crafting-icon">
+				<div class="map">
+					<img class="trc yellow-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
+					<img class="medical yellow-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
+					<img class="primary yellow-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/left-unselected.svg" alt="crafting-icon">
+					<img class="farm yellow-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
+					<img class="sustainability yellow-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
+					<img class="empowerment yellow-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
+					<img class="communitywork yellow-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
+					<img class="vocational yellow-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
+					<img class="water yellow-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/right-unselected.svg" alt="crafting-icon">
+					<span class="our-work-wrapper">
+						<img class="trc purple-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/one-selected.svg" alt="crafting-icon">
+						<img class="primary purple-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/two-selected.svg" alt="crafting-icon">
+						<img class="farm purple-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/three-selected.svg" alt="crafting-icon">
+						<img class="sustainability purple-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/four-selected.svg" alt="crafting-icon">
+						<img class="medical purple-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/five-selected.svg" alt="crafting-icon">
+						<img class="empowerment purple-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/six-selected.svg" alt="crafting-icon">
+						<img class="communitywork purple-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/seven-selected.svg" alt="crafting-icon">
+						<img class="vocational purple-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/eight-selected.svg" alt="crafting-icon">
+						<img class="water purple-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/nine-selected.svg" alt="crafting-icon">
 					</span>
 				</div>
-				<div class = "openMap">
+				<div class="openMap">
 					<p>open map</p>
-					<img class='map-arrow' src="<?php echo get_template_directory_uri();?>/images/svg/arrow-icon.svg" alt="crafting-icon">
+					<img class="map-arrow" src="<?php echo get_template_directory_uri();?>/images/svg/arrow-icon.svg" alt="crafting-icon">
 				</div>
 			</section>
-			<span class='our-work-wrapper'>
+			<span class="our-work-wrapper">
 	
 				<?php while ( have_posts() ) : the_post(); 
 					$class       = CFS()->get( 'project_class_creator' );
@@ -61,10 +61,10 @@ get_header(); ?>
 					$impact      = CFS()->get( 'project_impact' );
 					$impactImage = CFS()->get( 'project_impact_image' );
 					?>
-					<section class='our-work-content <?php echo $class; ?>'>
+					<section class="our-work-content <?php echo $class; ?>">
 						<div class="section-category">
 							<div class="yellow-background-category">
-								<div class='yellow-number'>
+								<div class="yellow-number">
 									<?php echo $number ?>
 								</div>
 								<div class="yellow-description">
@@ -77,8 +77,8 @@ get_header(); ?>
 								</div>
 							</div>
 						</div>
-						<div class = "fact">
-							<div class = "fact-number">
+						<div class="fact">
+							<div class="fact-number">
 								<div class="number">
 								<p>01</p>
 								</div>
@@ -122,66 +122,79 @@ get_header(); ?>
 							</div>
 						</div>
 						<div class="quote-background">
-							<div class='quote-block'>
+							<div class="quote-block">
 								<?php echo $quote;?>
 							</div>
 						</div>
-						<div class='work-flex'>
-							<div class='why-flex'>
-								<div class='why-text'>
-									<h2>Why</h2>
-									<?php echo $whyIntro ?>
-									<button class="why-read"> Read </button>
+						<div class="work-flex">
+							<div class="why-flex">
+								<div class="why-text">
+									<div class="read-intro">
+										<h2>Why</h2>
+										<?php echo $whyIntro ?>
+									</div>
+									<div class="read-button">
+										<button class="why-read"> Read </button>
+									</div>
 								</div>
-								<div class='why-pic'>
-										<img src='<?php echo $whyImage ?>'>
+								<div class="why-pic">
+										<img src="<?php echo $whyImage ?>">
 								</div>
 							</div> 
-							<div class='read-why'>
+							<div class="read-why">
 								<div class="read-more-why">
 									<?php echo $why ?>
 								</div>
 								<div class="close-why-button">
-									<img src="<?php echo get_template_directory_uri();?>/images/svg/yellow-cross.svg" 	alt="yellow cross">
 									<p> Close</p>
+									<img src="<?php echo get_template_directory_uri();?>/images/svg/yellow-cross.svg" 	alt="yellow cross">
 								</div>
 							</div>
-							<div class='story-flex'>
-								<div class='story-text'>
-									<h2>Story</h2>
-									<?php echo $storyIntro ?>
-									<button class="story-read"> Read </button>
+							<div class="story-flex">
+								<div class="story-text">
+									<div class="read-intro">
+										<h2>Story</h2>
+										<?php echo $storyIntro ?>
+									</div>
+									<div class="read-button">
+										<button class="story-read"> Read </button>
+									</div>
 								</div>
-								<div class='story-pic'>
-									<img src='<?php echo $storyImage ?>'>
+								<div class="story-pic">
+									<img src="<?php echo $storyImage ?>">
 								</div>
 							</div>
-							<div class='read-story'>
+							<div class="read-story">
 								<div class="read-more-story">
 									<?php echo $story ?>
 								</div>
 								<div class="close-story-button">
+									<p> Close</p>
 									<img src="<?php echo get_template_directory_uri();?>/images/svg/yellow-cross.svg" 	alt="yellow cross">
 								</div>
 							</div>
-							<div class='impact-flex'>
-								<div class='impact-text'>
-									<h2>Impact</h2>
-									<?php echo $impactIntro ?>
-									<button class="impact-read"> Read </button>		
+							<div class="impact-flex">
+								<div class="impact-text">
+									<div class="read-intro">
+										<h2>Impact</h2>
+										<?php echo $impactIntro ?>
+									</div>
+									<div class="read-button">
+										<button class="impact-read"> Read </button>		
+									</div>
 								</div>
-								<div class='impact-pic'>
-									<img src='<?php echo $impactImage?>'>
+								<div class="impact-pic">
+									<img src="<?php echo $impactImage?>">
 								</div>
 							</div>
-							<div class='read-impact'>
+							<div class="read-impact">
 								<div class="read-more-impact">
 									<?php echo $impact ?>
 								</div>
 								<div class="close-impact-button">
+									<p> Close</p>
 									<img src="<?php echo get_template_directory_uri();?>/images/svg/yellow-cross.svg" 	alt="yellow cross">
 								</div>
-								<?php echo $impact ?>
 							</div>
 						</div>
 					</section>
