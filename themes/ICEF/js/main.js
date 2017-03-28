@@ -31,7 +31,7 @@
         }
     })
 
-    //WHEN SUB MENU OR DROP PINS ARE CLICKED --
+    // WHEN SUB MENU OR DROP PINS ARE CLICKED --
     $('.water, .vocational, .communitywork, .empowerment, .medical, .sustainability, .farm, .primary, .trc').on('click', function(){
         var $pathname = window.location.pathname; 
         console.log($pathname);
@@ -45,31 +45,42 @@
         $('.our-work-content').css('display', 'none');
         $('.map .' + $clickedThing).css('display', 'none');
         $('.our-work-wrapper .' + $clickedThing).css('display', 'inline-block');
-        
     })
 
     $('.why-read').on('click',function(event){
         event.preventDefault();
-        $('.read-why').css('display','flex');
+        // $('.read-why').css('display','block');
+         $('.read-why').slideToggle("slow", function(){
+         })
     })
     $('.story-read').on('click',function(event){
         event.preventDefault();
-        $('.read-story').css('display','flex');
+        // $('.read-story').css('display','flex');
+        $('.read-story').slideToggle("slow", function(){
+         })
     })
     $('.impact-read').on('click', function(event){
         event.preventDefault();
-        $('.read-impact').css('display','flex');
+        // $('.read-impact').css('display','flex');
+        $('.read-impact').slideToggle("slow", function(){
+         })
     })
     $('.close-why-button').on('click', function(event){
         event.preventDefault();
-        $('.read-why').css('display','none');
+        // $('.read-why').css('display','none');
+        $('.read-why').slideToggle("slow", function(){
+         })
     })
     $('.close-story-button').on('click', function(event){
         event.preventDefault();
-        $('.read-story').css('display','none');
+        // $('.read-story').css('display','none');
+        $('.read-story').slideToggle("slow", function(){
+         })
     })
     $('.close-impact-button').on('click', function(event){
         event.preventDefault();
-        $('.read-impact').css('display','none');
+        // $('.read-impact').css('display','none');
+        $('.read-impact').slideToggle("slow", function(){
+         })
     })
 })(jQuery);
