@@ -1522,12 +1522,17 @@ a {
   position: relative;
   height: 0px;
   overflow: hidden;
-  background: url(../../images/svg/map/map-shadow.png) center;
+  background: url(../../images/svg/map/map.png) center;
   background-size: cover, cover; }
   @media (min-width: 720px) {
     .workHero .map {
-      background: url(../../images/svg/map/map-shadow.png) center;
+      background: url(../../images/svg/map/map.png) center;
       background-size: cover, cover; } }
+  .workHero .map h2 {
+    position: relative;
+    bottom: 75px;
+    left: 30px;
+    margin: 0; }
   .workHero .map span img {
     display: none; }
   .workHero .map .trc {
@@ -1566,10 +1571,13 @@ a {
     position: absolute;
     right: 500px;
     top: 65px; }
+  .workHero .map span .purple-pin {
+    height: 120px;
+    width: 120px; }
   .workHero .map span .trc {
     position: absolute;
     right: 325px;
-    top: 100px; }
+    bottom: 550px; }
   .workHero .map span .medical {
     position: absolute;
     right: 155px;

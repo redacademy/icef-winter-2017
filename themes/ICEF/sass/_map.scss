@@ -5,12 +5,19 @@
         position: relative;
         height: 0px;
         overflow: hidden;
-        background: url(../../images/svg/map/map-shadow.png) center;
+        background: url(../../images/svg/map/map.png) center;
         background-size: cover, cover;
 
         @include desktop {
-            background: url(../../images/svg/map/map-shadow.png) center;
+            background: url(../../images/svg/map/map.png) center;
             background-size: cover, cover;
+        }
+
+        h2 {
+            position: relative;
+            bottom: 75px;
+            left: 30px;
+            margin: 0;
         }
 
         span img{
@@ -72,11 +79,15 @@
         }
 
         span {
+            .purple-pin {
+                height: 120px;
+                width: 120px;
+            }
 
             .trc {
                 position: absolute;
                 right: 325px;
-                top: 100px;
+                bottom: 550px;
             }
 
             .medical {
