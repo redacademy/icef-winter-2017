@@ -1539,39 +1539,39 @@ a {
     margin: 0; }
   .workHero .map span img {
     display: none; }
-  .workHero .map .trc {
+  .workHero .map .our-work {
     position: absolute;
     right: 370px;
     top: 125px; }
-  .workHero .map .medical {
+  .workHero .map .tekera-medical-clinic {
     position: absolute;
     right: 200px;
     top: 185px; }
-  .workHero .map .primary {
+  .workHero .map .tekera-primary-school {
     position: absolute;
     right: 130px;
     top: 200px; }
-  .workHero .map .farm {
+  .workHero .map .co-operative-and-demonstration-farm {
     position: absolute;
     right: 320px;
     top: 180px; }
-  .workHero .map .sustainability {
+  .workHero .map .sustainability-projects {
     position: absolute;
     right: 220px;
     top: 255px; }
-  .workHero .map .empowerment {
+  .workHero .map .womens-socio-economic-empowerment-group {
     position: absolute;
     right: 300px;
     top: 115px; }
-  .workHero .map .communitywork {
+  .workHero .map .community-work-program {
     position: absolute;
     right: 450px;
     top: 165px; }
-  .workHero .map .vocational {
+  .workHero .map .trades-school {
     position: absolute;
     right: 420px;
     top: 265px; }
-  .workHero .map .water {
+  .workHero .map .drinking-water {
     position: absolute;
     right: 500px;
     top: 65px; }

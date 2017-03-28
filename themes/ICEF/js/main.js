@@ -34,19 +34,12 @@
     })
 
     //WHEN SUB MENU OR DROP PINS ARE CLICKED --
-    $('.sub-menu .water, .map .water, .map .vocational, .map .communitywork, .map .empowerment, .map .medical, .map .sustainability, .map .farm, .map .primary, .map .trc').on('click', function(event){
-        var $pathname = window.location.pathname; 
-        if($pathname === '/project' ){
-            event.preventDefault();
-        }
+    $('.our-work, .tekera-primary-school, .co-operative-and-demonstration-farm, .sustainability-projects, .tekera-medical-clinic, .womens-socio-economic-empowerment-group, .community-work-program, .trades-school, .drinking-water').on('click', function(){
+
         var $clickedThingClasses = $(this).attr('class').split(' ');
         var $clickedThing = $clickedThingClasses[0];
-        console.log($clickedThing)
-        $('.map .yellow-pin').css('display', 'inline-block');
-        $('.our-work-wrapper .purple-pin').css('display', 'none');
-        $('.our-work-content').css('display', 'none');
-        $('.map .' + $clickedThing).css('display', 'none');
-        $('.our-work-wrapper .' + $clickedThing).css('display', 'inline-block');
+        window.location.href=  $clickedThing;
+
     })
 
     $('.why-read').on('click',function(event){
