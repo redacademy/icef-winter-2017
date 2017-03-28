@@ -724,14 +724,6 @@ a {
         border-top: 1px solid white;
         text-align: left;
         padding: 10px 30px 10px 10px; } }
-  .front-page-container .hero-text h2 {
-    font-weight: normal;
-    background-color: #852762;
-    margin: 0;
-    padding: 10px;
-    font-size: 1.25rem;
-    color: white;
-    text-transform: uppercase; }
 
 .front-page-container .who-we-are {
   text-align: center; }
