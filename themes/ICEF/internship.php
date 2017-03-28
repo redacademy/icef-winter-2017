@@ -57,7 +57,12 @@ get_header(); ?>
 					<p> Requirements </p>
 				</div>
 				<div class="right-column">
-					<p><?php echo esc_html(CFS()->get('internship_position_requirements'));?></p>
+					<ul>
+						<?php $requirements_list = CFS()->get('internship_position_requirements_loop');?>
+						<?php foreach( $requirements_list as $item ): ?>
+							<li> <?php echo esc_html( $item['internship_position_requirements']); ?> </li>
+						<?php endforeach; ?>
+					</ul>
 				</div>
 			</div>
 			<div class="applyButton">

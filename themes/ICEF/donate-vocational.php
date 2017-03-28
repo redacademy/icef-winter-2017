@@ -26,7 +26,9 @@ get_header(); ?>
 				<div class="content-wrapper">
 					<div class="process-wrapper">
 						<h2 class="vocational-school-process-title"><?php echo esc_html(CFS()->get('vocational_school_process_title'));?></h2>
-						<p class="vocational-school-process-desc"><?php echo esc_html(CFS()->get('vocational_school_process_description'));?></p>
+						<?php $content = CFS()->get('vocational_school_process_description') ?>
+						<?php $allowed_html = array('br' => array()); ?>
+						<p class="vocational-school-process-desc"><?php echo wp_kses($content, $allowed_html);?></p>
 						<img src="<?php echo get_template_directory_uri();?>/images/svg/line.svg" alt="Image of a line">
 					</div> <!-- .process-wrapper -->
 				

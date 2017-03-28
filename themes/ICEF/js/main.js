@@ -1,4 +1,12 @@
 (function($){
+
+    var $slug = window.location.pathname;
+    $slug = $slug.slice(14);
+    console.log($slug);
+
+    $('.' + $slug).css('display', 'none');
+    $('span .' + $slug).css('display', 'inline-block');
+
     $('.fa-bars').on('click', function(event){
         event.preventDefault();
         $('.menu, .yellow-dot-filler').toggleClass('show-menu');
@@ -22,31 +30,26 @@
 
         $('.map').toggleClass('showMap');
 
-        // $('.map-arrow').css('transform', 'rotate(180deg)');
-
         if($('.openMap p').text() === 'open map'){
             $('.map-arrow').css('transform', 'rotate(180deg)');
-            $('.openMap p').text('close map');
+            $('.openMap p').text('open map');
         } else {
             $('.map-arrow').css('transform', 'rotate(0deg)');            
-            $('.openMap p').text('open map');
+            $('.openMap p').text('close map');
         }
     })
 
     //WHEN SUB MENU OR DROP PINS ARE CLICKED --
-    $('.sub-menu .water, .map .water, .map .vocational, .map .communitywork, .map .empowerment, .map .medical, .map .sustainability, .map .farm, .map .primary, .map .trc').on('click', function(event){
-        var $pathname = window.location.pathname; 
-        if($pathname === '/project' ){
-            event.preventDefault();
-        }
+    $('.our-work, .tekera-primary-school, .co-operative-and-demonstration-farm, .sustainability-projects, .tekera-medical-clinic, .womens-socio-economic-empowerment-group, .community-work-program, .trades-school, .drinking-water').on('click', function(){
+
         var $clickedThingClasses = $(this).attr('class').split(' ');
-        var $clickedThing = $clickedThingClasses[0];
-        console.log($clickedThing)
-        $('.map .yellow-pin').css('display', 'inline-block');
-        $('.our-work-wrapper .purple-pin').css('display', 'none');
-        $('.our-work-content').css('display', 'none');
-        $('.map .' + $clickedThing).css('display', 'none');
-        $('.our-work-wrapper .' + $clickedThing).css('display', 'inline-block');
+        var $clickedSlug = $clickedThingClasses[0];
+        window.location.href=  $clickedSlug;
+
+        $(window).load(function(){
+            $('.' + $clickedSlug).css('display', 'none');
+            $('span .' + $clickedSlug).css('display', 'inline-block');
+        });
     })
 
     $('.why-read').on('click',function(event){

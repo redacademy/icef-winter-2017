@@ -25,7 +25,7 @@ get_header(); ?>
 
 		<?php endwhile; // End of the loop. ?>
 		
-			<?php $loop = new WP_Query( array( 
+			<?php $loop = new get_posts( array( 
 			'post_type' => 'post',
 			'posts_per_page' => 4 ) ); ?>
 
