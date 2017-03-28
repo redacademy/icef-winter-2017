@@ -21,13 +21,16 @@ footer .icef-footer {
     justify-content: center;
     padding-right: 30px;
     text-align: center;
+    img {
+        padding-top: 26px;
+    }
 }
 
 .footer-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px 0;
+    // padding: 10px 0;
     @include desktop {
         flex-direction: row;
     }
@@ -59,7 +62,8 @@ footer .icef-footer {
 
 .footer-text {
     font-weight: bold;
-    text-transform: uppercase; 
+    text-transform: uppercase;
+    padding-top: 4px; 
 }
 
 .fa {

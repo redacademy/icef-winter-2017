@@ -3198,6 +3198,8 @@ footer .icef-footer {
       justify-content: center;
   padding-right: 30px;
   text-align: center; }
+  .canada-image img {
+    padding-top: 26px; }
 
 .footer-wrapper {
   display: -ms-flexbox;
@@ -3205,8 +3207,7 @@ footer .icef-footer {
   -ms-flex-direction: column;
       flex-direction: column;
   -ms-flex-align: center;
-      align-items: center;
-  padding: 10px 0; }
+      align-items: center; }
   @media (min-width: 720px) {
     .footer-wrapper {
       -ms-flex-direction: row;
@@ -3237,7 +3238,8 @@ footer .icef-footer {
 
 .footer-text {
   font-weight: bold;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  padding-top: 4px; }
 
 .fa {
   padding-right: 12px; }
