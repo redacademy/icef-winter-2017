@@ -9,14 +9,14 @@
       margin-top:10rem;
     }
   }
-  .desktopFlex{
+  .desktop-flex{
     @include desktop{
       display:inline-flex;
       width:100%;
       // flex-direction:column;
     }
   }
-  .pageHeader{
+  .page-header{
     display:none;
     @include desktop{
       display: block;
@@ -30,12 +30,12 @@
   p{
       color:$brand_colour_darkgrey;
   }
-  .yellowBackgroundContent{
+  .yellow-background-content{
     @include desktop{
       width:40%;
     }
   }
-  .yellowBackground{
+  .yellow-background{
     background:$brand_colour_lightgold;
     // padding: 1rem 0 ;
     // height:100%;
@@ -43,7 +43,7 @@
     padding-bottom:.25rem;
     padding-top:.75rem;
   }
-  .secondImage{
+  .second-image{
     height:204px;
     @include desktop{
       height:auto;
@@ -53,7 +53,7 @@
       object-fit: cover;
     }
   }
-  .belowSecondImageTitle{
+  .below-second-image-title{
     font-size:2.25rem;
     font-family: $font__main;
     width:80%;
@@ -63,7 +63,7 @@
     line-height:1.2;
     font-weight:bold;
   }
-  .positionText{
+  .position-text{
     text-align: center;
     font-family:$font__accent;
     font-weight:bold;
@@ -71,18 +71,18 @@
     // padding: 4rem 0rem;
     text-transform:uppercase;
   }
-  .positionAvailability{
+  .position-availability{
     margin-top:1.75rem;
     margin-bottom:1.25rem;
   }
-  .positionTerm, .positionDescription, .positionRequirement{
+  .position-term, .position-description, .position-requirement{
     display: flex;
     padding: 1rem 0rem;
   }
-  .positionTerm, .positionDescription{
+  .position-term, .position-description{
      border-bottom:solid 1px grey;
   }
-  .positionName{
+  .position-name{
       font-family:$font__accent;
       text-transform:uppercase;
       font-size:1.25rem;
@@ -91,14 +91,14 @@
         margin: 0 0;
       }
   }
-  .leftColumn{
+  .left-column{
     width:35%;
     font-family:$font__accent;
     text-transform: uppercase;
     font-weight: bold;
     // color:black;
   }
-  .rightColumn{
+  .right-column{
     width:70%;
     display: flex;
     align-items: center;

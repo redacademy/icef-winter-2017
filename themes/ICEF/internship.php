@@ -9,53 +9,53 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			<section class="pageHeader">
-				<div class="pageTitle">
+			<section class="page-header">
+				<div class="page-title">
 					<h1>Skilled Internships</h1>
 				</div>
 			</section>
 			<img src="<?php echo esc_html(CFS()->get('internship_first_image'));?>" alt="top image">
 			<?php echo esc_html(CFS()->get('internship_below_top_image'));?>
-			<div class="desktopFlex">
-				<div class="secondImage">
+			<div class="desktop-flex">
+				<div class="second-image">
 					<img src="<?php echo esc_html(CFS()->get('internship_second_image'));?>" alt="top image">
 				</div>
-				<div class="yellowBackground yellowBackgroundContent">
-					<div class="belowSecondImageTitle">
+				<div class="yellow-background yellow-background-content">
+					<div class="below-second-image-title">
 						<?php echo esc_html(CFS()->get('internship_below_second_image_title_text'));?>
 					</div>
 					<?php echo esc_html(CFS()->get('internship_below_second_image_text'));?>
 				</div>
 			</div>
-			<div class="positionText">
-				<div class="positionAvailability">
+			<div class="position-text">
+				<div class="position-availability">
 					<?php echo esc_html(CFS()->get('internship_position_availability'));?>
 				</div>
-				<div class="positionName yellowBackground">
+				<div class="position-name yellow-background">
 					<?php echo esc_html(CFS()->get('internship_position_name'));?>
 				</div>
 			</div>
-			<div class="positionTerm">
-				<div class="leftColumn">
+			<div class="position-term">
+				<div class="left-column">
 					<p> Term </p>
 				</div>
-				<div class="rightColumn">
+				<div class="right-column">
 					<?php echo esc_html(CFS()->get('internship_position_term'));?>
 				</div>
 			</div>
-			<div class="positionDescription">
-				<div class="leftColumn">
+			<div class="position-description">
+				<div class="left-column">
 					<p> Description </p>
 				</div>
-				<div class="rightColumn">
+				<div class="right-column">
 					<?php echo esc_html(CFS()->get('internship_position_description'));?>
 				</div>
 			</div>
-			<div class="positionRequirement">
-				<div class="leftColumn">
+			<div class="position-requirement">
+				<div class="left-column">
 					<p> Requirements </p>
 				</div>
-				<div class="rightColumn">
+				<div class="right-column">
 					<?php echo esc_html(CFS()->get('internship_position_requirements'));?>
 				</div>
 			</div>
