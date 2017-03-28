@@ -2576,9 +2576,11 @@ a {
         flex-direction: column;
     -ms-flex-align: center;
         align-items: center; }
-  @media (min-width: 720px) {
-    .page-template-donate-vocational .container {
-      width: 82%; } }
+  .page-template-donate-vocational .container {
+    width: 100%; }
+    @media (min-width: 720px) {
+      .page-template-donate-vocational .container {
+        width: 1024px; } }
   .page-template-donate-vocational h2 {
     font-size: 2rem;
     line-height: 1;
@@ -2601,12 +2603,14 @@ a {
     background-color: #433E3E;
     padding: 10px 50px 40px 50px; }
     @media (min-width: 720px) {
-      .page-template-donate-vocational .vocational-wrapper img {
-        margin-top: 33px; } }
+      .page-template-donate-vocational .vocational-wrapper {
+        padding: 35px 18px; }
+        .page-template-donate-vocational .vocational-wrapper img {
+          margin-top: 33px; } }
   @media (min-width: 720px) {
     .page-template-donate-vocational .vocational-content {
-      width: 67%;
-      padding: 0 100px; } }
+      width: 63%;
+      padding: 0px 50px; } }
   .page-template-donate-vocational .vocational-school-title {
     color: #fff; }
   .page-template-donate-vocational .vocational-school-desc {
@@ -2616,7 +2620,7 @@ a {
     display: flex;
     -ms-flex-pack: center;
         justify-content: center;
-    margin-top: 25%; }
+    padding: 10px 0px 38px 0px; }
   .page-template-donate-vocational .align-right {
     display: -ms-flexbox;
     display: flex;
@@ -2679,9 +2683,14 @@ a {
     color: #F2CA6E; }
   .page-template-donate-vocational .sponsor-wrapper {
     margin-bottom: 60px; }
+    @media (min-width: 720px) {
+      .page-template-donate-vocational .sponsor-wrapper {
+        padding-top: 20px; } }
   .page-template-donate-vocational .vocational-content-wrapper {
     display: -ms-flexbox;
-    display: flex; }
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
   .page-template-donate-vocational .sponsor-section {
     text-align: left;
     color: #fff;
@@ -2689,8 +2698,12 @@ a {
     padding: 10px 30px 40px 86px; }
     .page-template-donate-vocational .sponsor-section ul {
       margin: 0;
-      padding: 0 15px;
-      width: 75%; }
+      padding: 0 15px 29px 15px;
+      width: 100%; }
+      @media (min-width: 720px) {
+        .page-template-donate-vocational .sponsor-section ul {
+          padding: 0 15px;
+          width: 75%; } }
 
 .updates {
   margin: 10% auto;

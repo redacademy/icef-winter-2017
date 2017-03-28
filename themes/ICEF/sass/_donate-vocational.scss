@@ -8,8 +8,9 @@
     }
 
     .container {
+        width: 100%;
         @include desktop {
-        width: 82%;
+        width: 1024px;
         }
     }
 
@@ -39,6 +40,7 @@
         background-color: $brand_colour_darkgrey; 
         padding: 10px 50px 40px 50px;
         @include desktop {
+            padding: 35px 18px;
             img {
                 margin-top: 33px;
             }
@@ -47,8 +49,8 @@
 
     .vocational-content {
         @include desktop {
-            width: 67%;
-            padding: 0 100px;
+            width: 63%;
+            padding: 0px 50px;
         }
     }
 
@@ -63,7 +65,7 @@
     .align-center {
         display: flex;
         justify-content: center;
-        margin-top: 25%;
+        padding: 10px 0px 38px 0px;
     }
 
     .align-right {
@@ -72,7 +74,7 @@
         justify-content: flex-end;
         padding-left: 31px;
     }
-    
+
     .sponsor-button {
         @include purple-button;
         
@@ -139,10 +141,14 @@
 
     .sponsor-wrapper {
         margin-bottom: 60px;
+        @include desktop {
+            padding-top: 20px;
+        }
     }
 
     .vocational-content-wrapper {
         display: flex;
+        flex-wrap: wrap;
     }
 
     .sponsor-section {
@@ -152,8 +158,12 @@
         padding: 10px 30px 40px 86px;
         ul {
             margin: 0;
-            padding: 0 15px;
-            width: 75%;
+            padding: 0 15px 29px 15px;
+            width: 100%;
+            @include desktop {
+                padding: 0 15px;
+                width: 75%;
+            }
         }
     }
 }
