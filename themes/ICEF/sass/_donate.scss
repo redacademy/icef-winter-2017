@@ -2,10 +2,6 @@
 .page-template-donate {
     margin: 0 auto;
 
-    .menu a {
-        color: white;
-    }
-
     .site-main {
         display:flex;
         flex-direction: column;
@@ -21,14 +17,15 @@
 
     .page-title-wrapper {
         @include desktop {
-        border-bottom: 1px solid purple;
-        margin-bottom: 42px;
-        margin-top: 170px;
+        border-bottom: 2px solid purple;
+        margin-bottom: 2rem;
+        margin-top: 10rem;
         }
     }
 
     .page-title {
         display: none;
+        font-family:$font__accent;
         @include desktop {
             display: block;
             margin-bottom: 0;

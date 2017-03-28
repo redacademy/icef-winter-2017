@@ -2318,8 +2318,6 @@ html {
 
 .page-template-donate {
   margin: 0 auto; }
-  .page-template-donate .menu a {
-    color: white; }
   .page-template-donate .site-main {
     display: -ms-flexbox;
     display: flex;
@@ -2334,11 +2332,12 @@ html {
         width: 1024px; } }
   @media (min-width: 720px) {
     .page-template-donate .page-title-wrapper {
-      border-bottom: 1px solid purple;
-      margin-bottom: 42px;
-      margin-top: 170px; } }
+      border-bottom: 2px solid purple;
+      margin-bottom: 2rem;
+      margin-top: 10rem; } }
   .page-template-donate .page-title {
-    display: none; }
+    display: none;
+    font-family: "Oswald", sans-serif; }
     @media (min-width: 720px) {
       .page-template-donate .page-title {
         display: block;
