@@ -28,7 +28,9 @@ get_header(); ?>
 				<div class="content-wrapper">
 					<div class="process-wrapper">
 						<h2 class="process-title"><?php echo esc_html(CFS()->get('primary_school_process_title'));?></h2>
-						<p class="primary_school_process_desc"><?php echo esc_html(CFS()->get('primary_school_process_description'));?></p>
+						<?php $content = CFS()->get('primary_school_process_description') ?>
+						<?php $allowed_html = array('br' => array()); ?>
+						<p class="primary_school_process_desc"><?php echo wp_kses($content, $allowed_html);?></p>
 						<img src="<?php echo get_template_directory_uri();?>/images/svg/line.svg" alt="Image of a line">
 					</div> <!-- .process-wrapper -->		
 					<div class="primary-scholarship-wrapper">

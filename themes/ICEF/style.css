@@ -1210,6 +1210,9 @@ a {
 # Content
 --------------------------------------------------------------*/
 /* Posts and pages */
+html {
+  font-variant-ligatures: none; }
+
 .sticky {
   display: block; }
 
@@ -1502,6 +1505,9 @@ a {
   display: flex;
   -ms-flex-align: center;
       align-items: center; }
+  .page-template-internship .right-column ul {
+    margin: 0;
+    padding: 0px 0 0 14px; }
 
 .page-template-internship .applyButton {
   text-align: center; }
