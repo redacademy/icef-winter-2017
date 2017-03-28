@@ -3,7 +3,7 @@
     .map {
         flex-basis: 100%;
         position: relative;
-        height: 0px;
+        height: 400px;
         overflow: hidden;
         background: url(../../images/svg/map/map.png) center;
         background-size: cover, cover;
@@ -14,130 +14,136 @@
         }
 
         h2 {
+            display: inline;
             position: relative;
-            bottom: 75px;
-            left: 30px;
+            bottom: 55px;
+            right: 50px;
             margin: 0;
+            color: $brand_colour_darkgrey;
         }
 
         span img{
             display: none;
         }
 
-        .our-work {
-            position: absolute;
-            right: 370px;
-            top: 125px;
-        }
+        @include desktop {
 
-        .tekera-medical-clinic {
-            position: absolute;
-            right: 200px;
-            top: 185px;
-        }
-
-        .tekera-primary-school {
-            position: absolute;
-            right: 130px;
-            top: 200px;
-        }
-
-        .co-operative-and-demonstration-farm {
-            position: absolute;
-            right: 320px;
-            top: 180px;
-        }
-
-        .sustainability-projects {
-            position: absolute;
-            right: 220px;
-            top: 255px;
-        }
-
-        .womens-socio-economic-empowerment-group {
-            position: absolute;
-            right: 300px;
-            top: 115px;
-        }
-
-        .community-work-program {
-            position: absolute;
-            right: 450px;
-            top: 165px;
-        }
-
-        .trades-school {
-            position: absolute;
-            right: 420px;
-            top: 265px;
-        }
-
-        .drinking-water {
-            position: absolute;
-            right: 500px;
-            top: 65px;
-        }
-
-        span {
-            .purple-pin {
-                height: 120px;
-                width: 120px;
-            }
-
-            .trc {
+            .our-work {
                 position: absolute;
-                right: 325px;
-                bottom: 550px;
+                right: 370px;
+                top: 125px;
             }
 
-            .medical {
+            .tekera-medical-clinic {
                 position: absolute;
-                right: 155px;
-                top: 150px;
+                right: 200px;
+                top: 185px;
             }
 
-            .primary {
+            .tekera-primary-school {
                 position: absolute;
-                right: 85px;
-                top: 175px;
+                right: 130px;
+                top: 200px;
             }
 
-            .farm {
+            .co-operative-and-demonstration-farm {
                 position: absolute;
-                right: 275px;
-                top: 145px;
+                right: 320px;
+                top: 180px;
             }
 
-            .sustainability {
+            .sustainability-projects {
                 position: absolute;
-                right: 180px;
-                top: 230px;
+                right: 220px;
+                top: 255px;
             }
 
-            .empowerment {
+            .womens-socio-economic-empowerment-group {
                 position: absolute;
-                right: 255px;
-                top: 90px;
+                right: 300px;
+                top: 115px;
             }
 
-            .communitywork {
+            .community-work-program {
                 position: absolute;
-                right: 405px;
-                top: 140px;
+                right: 450px;
+                top: 165px;
             }
 
-            .vocational {
+            .trades-school {
                 position: absolute;
-                right: 380px;
-                top: 240px;
+                right: 420px;
+                top: 265px;
             }
 
-            .water {
+            .drinking-water {
                 position: absolute;
-                right: 435px;
-                top: 45px;
+                right: 500px;
+                top: 65px;
+            }
+
+            span {
+                .purple-pin {
+                    height: 120px;
+                    width: 120px;
+                }
+
+                .our-work {
+                    position: absolute;
+                    right: 340px;
+                    bottom: 550px;
+                }
+
+                .tekera-medical-clinic {
+                    position: absolute;
+                    right: 170px;
+                    top: 150px;
+                }
+
+                .tekera-primary-school {
+                    position: absolute;
+                    right: 100px;
+                    top: 175px;
+                }
+
+                .co-operative-and-demonstration-farm {
+                    position: absolute;
+                    right: 300px;
+                    top: 145px;
+                }
+
+                .sustainability-projects {
+                    position: absolute;
+                    right: 195px;
+                    top: 230px;
+                }
+
+                .womens-socio-economic-empowerment-group {
+                    position: absolute;
+                    right: 270px;
+                    top: 90px;
+                }
+
+                .community-work-program {
+                    position: absolute;
+                    right: 420px;
+                    top: 140px;
+                }
+
+                .trades-school {
+                    position: absolute;
+                    right: 395px;
+                    top: 240px;
+                }
+
+                .drinking-water {
+                    position: absolute;
+                    right: 450px;
+                    top: 45px;
+                }
             }
         }
+
     }
 
     .openMap{
@@ -148,5 +154,5 @@
 }
 
 .showMap{
-    height: 400px!important;
+    height: 0px!important;
 }

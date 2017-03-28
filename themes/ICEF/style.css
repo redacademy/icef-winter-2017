@@ -1526,7 +1526,7 @@ a {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
   position: relative;
-  height: 0px;
+  height: 400px;
   overflow: hidden;
   background: url(../../images/svg/map/map.png) center;
   background-size: cover, cover; }
@@ -1535,87 +1535,90 @@ a {
       background: url(../../images/svg/map/map.png) center;
       background-size: cover, cover; } }
   .workHero .map h2 {
+    display: inline;
     position: relative;
-    bottom: 75px;
-    left: 30px;
-    margin: 0; }
+    bottom: 55px;
+    right: 50px;
+    margin: 0;
+    color: #433E3E; }
   .workHero .map span img {
     display: none; }
-  .workHero .map .our-work {
-    position: absolute;
-    right: 370px;
-    top: 125px; }
-  .workHero .map .tekera-medical-clinic {
-    position: absolute;
-    right: 200px;
-    top: 185px; }
-  .workHero .map .tekera-primary-school {
-    position: absolute;
-    right: 130px;
-    top: 200px; }
-  .workHero .map .co-operative-and-demonstration-farm {
-    position: absolute;
-    right: 320px;
-    top: 180px; }
-  .workHero .map .sustainability-projects {
-    position: absolute;
-    right: 220px;
-    top: 255px; }
-  .workHero .map .womens-socio-economic-empowerment-group {
-    position: absolute;
-    right: 300px;
-    top: 115px; }
-  .workHero .map .community-work-program {
-    position: absolute;
-    right: 450px;
-    top: 165px; }
-  .workHero .map .trades-school {
-    position: absolute;
-    right: 420px;
-    top: 265px; }
-  .workHero .map .drinking-water {
-    position: absolute;
-    right: 500px;
-    top: 65px; }
-  .workHero .map span .purple-pin {
-    height: 120px;
-    width: 120px; }
-  .workHero .map span .trc {
-    position: absolute;
-    right: 325px;
-    bottom: 550px; }
-  .workHero .map span .medical {
-    position: absolute;
-    right: 155px;
-    top: 150px; }
-  .workHero .map span .primary {
-    position: absolute;
-    right: 85px;
-    top: 175px; }
-  .workHero .map span .farm {
-    position: absolute;
-    right: 275px;
-    top: 145px; }
-  .workHero .map span .sustainability {
-    position: absolute;
-    right: 180px;
-    top: 230px; }
-  .workHero .map span .empowerment {
-    position: absolute;
-    right: 255px;
-    top: 90px; }
-  .workHero .map span .communitywork {
-    position: absolute;
-    right: 405px;
-    top: 140px; }
-  .workHero .map span .vocational {
-    position: absolute;
-    right: 380px;
-    top: 240px; }
-  .workHero .map span .water {
-    position: absolute;
-    right: 435px;
-    top: 45px; }
+  @media (min-width: 720px) {
+    .workHero .map .our-work {
+      position: absolute;
+      right: 370px;
+      top: 125px; }
+    .workHero .map .tekera-medical-clinic {
+      position: absolute;
+      right: 200px;
+      top: 185px; }
+    .workHero .map .tekera-primary-school {
+      position: absolute;
+      right: 130px;
+      top: 200px; }
+    .workHero .map .co-operative-and-demonstration-farm {
+      position: absolute;
+      right: 320px;
+      top: 180px; }
+    .workHero .map .sustainability-projects {
+      position: absolute;
+      right: 220px;
+      top: 255px; }
+    .workHero .map .womens-socio-economic-empowerment-group {
+      position: absolute;
+      right: 300px;
+      top: 115px; }
+    .workHero .map .community-work-program {
+      position: absolute;
+      right: 450px;
+      top: 165px; }
+    .workHero .map .trades-school {
+      position: absolute;
+      right: 420px;
+      top: 265px; }
+    .workHero .map .drinking-water {
+      position: absolute;
+      right: 500px;
+      top: 65px; }
+    .workHero .map span .purple-pin {
+      height: 120px;
+      width: 120px; }
+    .workHero .map span .our-work {
+      position: absolute;
+      right: 340px;
+      bottom: 550px; }
+    .workHero .map span .tekera-medical-clinic {
+      position: absolute;
+      right: 170px;
+      top: 150px; }
+    .workHero .map span .tekera-primary-school {
+      position: absolute;
+      right: 100px;
+      top: 175px; }
+    .workHero .map span .co-operative-and-demonstration-farm {
+      position: absolute;
+      right: 300px;
+      top: 145px; }
+    .workHero .map span .sustainability-projects {
+      position: absolute;
+      right: 195px;
+      top: 230px; }
+    .workHero .map span .womens-socio-economic-empowerment-group {
+      position: absolute;
+      right: 270px;
+      top: 90px; }
+    .workHero .map span .community-work-program {
+      position: absolute;
+      right: 420px;
+      top: 140px; }
+    .workHero .map span .trades-school {
+      position: absolute;
+      right: 395px;
+      top: 240px; }
+    .workHero .map span .drinking-water {
+      position: absolute;
+      right: 450px;
+      top: 45px; } }
 
 .workHero .openMap {
   -ms-flex-preferred-size: 100%;
@@ -1623,7 +1626,7 @@ a {
   height: 100px; }
 
 .showMap {
-  height: 400px !important; }
+  height: 0px !important; }
 
 @media (min-width: 720px) {
   .single-project .content-area {
