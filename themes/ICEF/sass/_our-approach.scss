@@ -11,7 +11,7 @@
       margin: 0 auto;
     }
   }
-  .approachTitle{
+  .approach-title{
     display:none;
     @include desktop{
       display: block;
@@ -20,9 +20,12 @@
       border-bottom:solid 2px $brand_colour_lightpurple;
       color:black;
       font-weight:bold;
+      h1{
+        margin:0;
+      }
     }
   }
-  .desktopSwirl{
+  .desktop-swirl{
     display:none;
     position:relative;
     margin-top:8rem;
@@ -30,14 +33,14 @@
     @include desktop{
       display:block;
     }
-    .wheelIcons{
+    .wheel-icons{
       position:absolute;
       top:0;
       left:0;
       height:708px;
       width:625px;
     }
-    .wheelText{
+    .wheel-text{
       position:absolute;
       top:50%;
       left:30%;
@@ -49,7 +52,7 @@
       text-align: center;
       text-transform: uppercase;
     }
-    .swirlIcons {
+    .swirl-icons {
       list-style: none;
       position:relative;
       height:100%;
@@ -98,7 +101,7 @@
       
     }
   }
-  .swirlAndText{
+  .swirl-and-text{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -106,17 +109,17 @@
       display:none;
     }
   }
-  .desktopSwirl{
+  .desktop-swirl{
     display:none;
     @include desktop{
       display:block;
     }
   }
-  .lastPictureMobile{
+  .last-picture-mobile{
     @include desktop{
       display:none;
     }
-  }.lastPictureDesktop{
+  }.last-picture-desktop{
     display:none;
     @include desktop{
       display:block;
@@ -124,14 +127,15 @@
   }
   .hero{
     @include desktop{
-      display:none;
+      // display:none;
+      margin-top:2rem;
     }
   }
-  .mobileSwirl{
+  .mobile-swirl-wrapper{
     position:relative;
     padding-bottom:2.5rem;
     
-    .swirlText{
+    .swirl-text{
       font-size: 1.5rem;
       text-transform: uppercase;
       position:absolute;
@@ -143,7 +147,7 @@
       }
     }
   }
-   .quoteBackground{
+   .quote-background{
     background:$brand_colour_lightgold;
     padding-bottom:.25rem;
     padding-top:.75rem;
@@ -163,7 +167,7 @@
       p{
         color:black;
       }
-      .tableNumbers{
+      .table-numbers{
         color:$brand_colour_darkgold;
       }
     }

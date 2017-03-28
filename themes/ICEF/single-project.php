@@ -5,6 +5,9 @@
  * @package RED_Starter_Theme
  */
 
+$the_post = get_post();
+$post_slug = $the_post->post_name;
+
 get_header(); ?>
 
 	<div id="primary" class="content-area">
@@ -14,7 +17,7 @@ get_header(); ?>
 					<h1>Explore Tekera Resource Centre</h1>
 				</div>
 				<div class="map">
-					<div class="trc yellow-pin">
+					<div class="<?php echo $post_slug; ?> trc yellow-pin">
 						<img src="<?php echo get_template_directory_uri();?>/images/svg/map/geotag-yellow.svg" alt="crafting-icon">
 						<h2>1</h2>
 					</div>

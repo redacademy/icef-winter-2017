@@ -9,7 +9,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			<section class="approachTitle">
+			<section class="approach-title">
 				<h1><?php esc_html(the_title());?></h1>
 			</section>
 			<section class="hero">
@@ -17,17 +17,17 @@ get_header(); ?>
 			</section>
 			<?php echo esc_html(CFS()->get('below_hero_text'));?>
 
-			<!--<div class = "desktopSwirl">
+			<!--<div class = "desktop-swirl">
 				<img class ="desktop-swirl" src="<?php echo get_template_directory_uri();?>/images/svg/our-approach-wheel.svg" alt="our-approach-wheel">
 			</div>-->
 
-			<section class ="desktopSwirl">
-				<img class ="desktopKoruSwirl" src="<?php echo get_template_directory_uri();?>/images/svg/our-approach-desktop/koru-swirl-des.svg" alt="our-approach-wheel">
-				<div class="wheelText">
+			<section class ="desktop-swirl">
+				<img class ="desktop-koru-swirl" src="<?php echo get_template_directory_uri();?>/images/svg/our-approach-desktop/koru-swirl-des.svg" alt="our-approach-wheel">
+				<div class="wheel-text">
 					<p>Self-Sustainability</p>
 				</div>
-				<div class="wheelIcons">
-					<ul class = "swirlIcons">
+				<div class="wheel-icons">
+					<ul class = "swirl-icons">
 						<li> <img src="<?php echo get_template_directory_uri();?>/images/svg/our-approach-desktop/hand-heart-des.svg" alt="Hand-Heart-Icon"><p>Support</p>
 						</li>
 						<li> <img src="<?php echo get_template_directory_uri();?>/images/svg/our-approach-desktop/tractor-des.svg" alt="Tractor-Icon"><p>Economic</p>
@@ -45,40 +45,40 @@ get_header(); ?>
 					</ul>
 				</div>
 			</section>
-			<section class ="swirlAndText">
-				<div class = "mobileSwirl">
+			<section class ="swirl-and-text">
+				<div class = "mobile-swirl-wrapper">
 					<img class ="mobile-swirl" src="<?php echo get_template_directory_uri();?>/images/svg/koru-swirl.svg" alt="swirly-image">
-					<div class = "swirlText">
+					<div class = "swirl-text">
 						<p> Self-Sustainability</p>
 					</div>
 				</div>
 				<ul class = "mobile-approach-table">
-					<li> <img src="<?php echo get_template_directory_uri();?>/images/svg/our-approach-icons/hand-heart.svg" alt="Hand-Heart-Icon"><p><span class = "tableNumbers">01.</span> Support</p>
+					<li> <img src="<?php echo get_template_directory_uri();?>/images/svg/our-approach-icons/hand-heart.svg" alt="Hand-Heart-Icon"><p><span class = "table-numbers">01.</span> Support</p>
 					</li>
-					<li> <img src="<?php echo get_template_directory_uri();?>/images/svg/our-approach-icons/tractor.svg" alt="Tractor-Icon"><p><span class = "tableNumbers">02.</span> Economic</p>
+					<li> <img src="<?php echo get_template_directory_uri();?>/images/svg/our-approach-icons/tractor.svg" alt="Tractor-Icon"><p><span class = "table-numbers">02.</span> Economic</p>
 					</li>
-					<li> <img src="<?php echo get_template_directory_uri();?>/images/svg/our-approach-icons/cap-mob.svg" alt="Cap-mob-Icon"><p><span class = "tableNumbers">03.</span> Education</p>
+					<li> <img src="<?php echo get_template_directory_uri();?>/images/svg/our-approach-icons/cap-mob.svg" alt="Cap-mob-Icon"><p><span class = "table-numbers">03.</span> Education</p>
 					</li>
-					<li> <img src="<?php echo get_template_directory_uri();?>/images/svg/our-approach-icons/infrastructure.svg" alt="Infrastructure-Icon"><p><span class = "tableNumbers">04.</span> Infrastructure</p>
+					<li> <img src="<?php echo get_template_directory_uri();?>/images/svg/our-approach-icons/infrastructure.svg" alt="Infrastructure-Icon"><p><span class = "table-numbers">04.</span> Infrastructure</p>
 					</li>
-					<li> <img src="<?php echo get_template_directory_uri();?>/images/svg/our-approach-icons/social-mob.svg" alt="Social-mob-Icon"><p><span class = "tableNumbers">05.</span> Social</p>
+					<li> <img src="<?php echo get_template_directory_uri();?>/images/svg/our-approach-icons/social-mob.svg" alt="Social-mob-Icon"><p><span class = "table-numbers">05.</span> Social</p>
 					</li>
-					<li> <img src="<?php echo get_template_directory_uri();?>/images/svg/our-approach-icons/health-mob.svg" alt="Health-mob-Icon"><p><span class = "tableNumbers">06.</span> Health</p>
+					<li> <img src="<?php echo get_template_directory_uri();?>/images/svg/our-approach-icons/health-mob.svg" alt="Health-mob-Icon"><p><span class = "table-numbers">06.</span> Health</p>
 					</li>
-					<li> <img src="<?php echo get_template_directory_uri();?>/images/svg/our-approach-icons/well-being.svg" alt="Well-being-Icon"><p><span class = "tableNumbers">07.</span> Well-being</p>
+					<li> <img src="<?php echo get_template_directory_uri();?>/images/svg/our-approach-icons/well-being.svg" alt="Well-being-Icon"><p><span class = "table-numbers">07.</span> Well-being</p>
 					</li>
 				</ul>
 			</section>
 			<div>
 			<?php echo esc_html(CFS()->get('below_self_sustainability'));?>
-			<div class = "quoteBackground">
+			<div class = "quote-background">
 				<?php echo esc_html(CFS()->get('approach_quote'));?>
 			</div>
 			<?php echo esc_html(CFS()->get('below_quote'));?>
-			<div class="lastPictureMobile">
+			<div class="last-picture-mobile">
 				<img src="<?php echo esc_html(CFS()->get('last_picture'));?>" alt="last picture">
 			</div>
-			<div class="lastPictureDesktop">
+			<div class="last-picture-desktop">
 				<img src="<?php echo esc_html(CFS()->get('last_picture_desktop'));?>" alt="last-picture-desktop">
 			</div>
 			<?php echo esc_html(CFS()->get('below_last_picture_text'));?> 
