@@ -12,7 +12,7 @@ get_header(); ?>
 		<h2>Updates > <span><?php the_title(); ?></span></h2>
 		<?php while ( have_posts() ) : the_post(); ?>
 
-			<div>
+			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 				<div class='update-box'>
 					<div class='update-image'><?php the_post_thumbnail('large'); ?></div>
 					<p class='update-date main-date'><?php echo get_the_date(); ?></p>
@@ -21,7 +21,7 @@ get_header(); ?>
 				<div class='update-content'>	
 					<?php echo get_the_content(); ?>
 				</div>
-			</div>
+			</article>
 
 		<?php endwhile; // End of the loop. ?>
 		
