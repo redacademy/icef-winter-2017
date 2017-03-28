@@ -65,8 +65,8 @@ get_header(); ?>
 					</ul>
 				</div>
 			</div>
-			<div class="applyButton">
-				<a  href="">Apply Now</a>
+			<div class="download-button">
+				<a href="<?php echo esc_html(CFS()->get('internship_application_form'));?>">Download Form</a>
 			</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->

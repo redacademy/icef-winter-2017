@@ -113,12 +113,13 @@
       padding: 0px 0 0 45px;
     }
   }
-  .applyButton{
+  .download-button{
     @include purple-button;
     text-align: center;
     a{
       font-family: $font__accent;
       margin: 4rem;
+      width: 190px;
     }
   }
 }
