@@ -1254,7 +1254,8 @@ html {
       margin-top: 0; } }
 
 .page-template-approach p {
-  margin: 1rem 1.5rem; }
+  margin: 1rem 1.5rem;
+  color: #433E3E; }
 
 .page-template-approach .site-main {
   display: -ms-flexbox;
@@ -1388,8 +1389,9 @@ html {
 
 .page-template-approach .quote-background {
   background: #FFEABA;
-  padding-bottom: .25rem;
-  padding-top: .75rem; }
+  padding: 1.5rem;
+  width: 60%;
+  margin: 0 auto; }
 
 .page-template-approach .mobile-approach-table {
   display: -ms-flexbox;
