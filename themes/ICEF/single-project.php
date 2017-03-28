@@ -17,39 +17,39 @@ get_header(); ?>
 					<h1>Explore Tekera Resource Centre</h1>
 				</div>
 				<div class="map">
-					<div class="<?php echo $post_slug; ?> trc yellow-pin">
+					<div class="our-work yellow-pin">
 						<img src="<?php echo get_template_directory_uri();?>/images/svg/map/geotag-yellow.svg" alt="crafting-icon">
 						<h2>1</h2>
 					</div>
-					<div class="medical yellow-pin">
-						<img src="<?php echo get_template_directory_uri();?>/images/svg/map/geotag-yellow.svg" alt="crafting-icon">
-						<h2>2</h2>
-					</div>
-					<div class="primary yellow-pin">
+					<div class="tekera-primary-school yellow-pin">
 						<img src="<?php echo get_template_directory_uri();?>/images/svg/map/geotag-yellow.svg" alt="crafting-icon">
 						<h2>3</h2>
 					</div>
-					<div class="farm yellow-pin">
+					<div class="co-operative-and-demonstration-farm yellow-pin">
 						<img src="<?php echo get_template_directory_uri();?>/images/svg/map/geotag-yellow.svg" alt="crafting-icon">
 						<h2>4</h2>
 					</div>
-					<div class="sustainability yellow-pin">
+					<div class="sustainability-projects yellow-pin">
 						<img src="<?php echo get_template_directory_uri();?>/images/svg/map/geotag-yellow.svg" alt="crafting-icon">
 						<h2>5</h2>
 					</div>
-					<div class="empowerment yellow-pin">
+					<div class="tekera-medical-clinic yellow-pin">
+						<img src="<?php echo get_template_directory_uri();?>/images/svg/map/geotag-yellow.svg" alt="crafting-icon">
+						<h2>2</h2>
+					</div>
+					<div class="womens-socio-economic-empowerment-group yellow-pin">
 						<img src="<?php echo get_template_directory_uri();?>/images/svg/map/geotag-yellow.svg" alt="crafting-icon">
 						<h2>6</h2>
 					</div>
-					<div class="communitywork yellow-pin">
+					<div class="community-work-program yellow-pin">
 						<img src="<?php echo get_template_directory_uri();?>/images/svg/map/geotag-yellow.svg" alt="crafting-icon">
 						<h2>7</h2>
 					</div>
-					<div class="vocational yellow-pin">
+					<div class="trades-school yellow-pin">
 						<img src="<?php echo get_template_directory_uri();?>/images/svg/map/geotag-yellow.svg" alt="crafting-icon">
 						<h2>8</h2>
 					</div>
-					<div class="water yellow-pin">
+					<div class="drinking-water yellow-pin">
 						<img src="<?php echo get_template_directory_uri();?>/images/svg/map/geotag-yellow.svg" alt="crafting-icon">
 						<h2>9</h2>
 					</div>
