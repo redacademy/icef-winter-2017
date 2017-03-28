@@ -19,7 +19,7 @@ get_header();
 
 					<?php 
 					wp_reset_postdata();
-					$projectNumber = 1;
+					$projectNumber = 9;
 					$next = get_permalink(get_adjacent_post(false,'',true));
 					$prev = get_permalink(get_adjacent_post(false,'',false));
 
@@ -37,7 +37,7 @@ get_header();
 						</a>
 
 					<?php 
-					$projectNumber++;
+					$projectNumber--;
 					endwhile;	
 					endif;
 					wp_reset_postdata();

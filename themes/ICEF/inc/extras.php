@@ -94,7 +94,7 @@ add_action( 'pre_get_posts', 'our_work_archive_posts' );
 
 function projectRedirect(){
     if(is_post_type_archive('project')){
-        wp_redirect(get_page_link(200, 301));
+        wp_redirect(get_page_link(184), 301);
     exit;
     };
 };
