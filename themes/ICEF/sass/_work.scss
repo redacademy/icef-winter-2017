@@ -1,5 +1,5 @@
 
-.post-type-archive-project{
+.single-project{
   .content-area{
 		@include desktop{
 			width:1000px;
@@ -42,14 +42,12 @@
 		@include desktop{
 			width:40%;
 			flex-direction: column;
-			// text-align: right;
 		}
 		font-family:$font__accent;
 		justify-content: center;
 		padding:1.5rem;
 		padding-bottom: 1rem;
 		justify-content: center;
-		// text-align:center;
 		.yellow-number{
 			display:flex;
 			justify-content: center;
@@ -57,15 +55,14 @@
 			font-weight:bold;
 			padding-right:2rem;
 			font-size:4rem;
-				margin:0 auto;
-				// height: 70px;	
-				color:$brand_colour_darkgold;
+			margin:0 auto;
+			// height: 70px;	
+			color:$brand_colour_darkgold;
 			@include desktop{
 				font-size:8rem;
 				padding:0;
 				padding-left:9rem;
 				height: 100px;
-				// float:right;
 				color:$brand_colour_darkgold;
 			}
 		}
@@ -76,12 +73,12 @@
 			display:flex;
 			justify-content: center;
 			align-items: center;
-				// margin:0;
-				color:white;
-				line-height: 1.2;
-				text-transform: uppercase;
+			color:white;
+			line-height: 1.2;
+			text-transform: uppercase;
 			@include desktop{
 				width:100%;
+				text-align: right;
 			}
 		}
 	}
@@ -94,12 +91,6 @@
 				margin:0;
 			}
 		}
-	.our-work-content.trc{
-		display:block;
-	}
-	.our-work-content{
-		display:none;
-	}
 	.fact-text{
 		@include desktop{
 			display:flex;
@@ -124,14 +115,21 @@
 			font-family: $font__accent;
 			height:25px;
 			@include desktop{
-				height: auto;
-				font-size:2rem;
+				height: 25px;
+				font-size:1.5rem;
 			}
 		}
 		.mobile-arrow img{
 			max-width: 50px;
 			height: 50px;
 			height: 100%;
+		}
+		.desktop-arrow{
+			height: 100%;
+			img{
+				height: 100%;
+				width: 40px;
+			}
 		}
 		margin-right:1rem;
 		@include desktop{
@@ -141,7 +139,7 @@
 			font-size:2rem;
 			margin-right:2rem;
 			img{
-				margin-left:1.5rem;
+				margin-left:1rem;
 			}
 			// margin-bottom:2rem;
 			p{
@@ -183,7 +181,6 @@
 				align-items: flex-end;
 			}
 		}
-		
 		h2{
 			font-size:2.5rem;
 			margin: 0;
@@ -214,10 +211,9 @@
 		}
 	}
 	.read-more-why, .read-more-story, .read-more-impact{
-		p{
-			@include desktop{
-				width:60%;
-			}
+		padding: 1rem;
+		@include desktop{
+			width:60%;
 		}
 	}
 	.why-pic, .story-pic, .impact-pic{

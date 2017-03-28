@@ -44,38 +44,32 @@
 
     $('.why-read').on('click',function(event){
         event.preventDefault();
-        // $('.read-why').css('display','block');
-         $('.read-why').slideToggle('slow', function(){
-         })
+         $('.read-why').slideToggle("slow", function(){
+        })
     })
     $('.story-read').on('click',function(event){
         event.preventDefault();
-        // $('.read-story').css('display','flex');
-        $('.read-story').slideToggle('slow', function(){
-         })
+        $('.read-story').slideToggle("slow", function(){
+        })
     })
     $('.impact-read').on('click', function(event){
         event.preventDefault();
-        // $('.read-impact').css('display','flex');
-        $('.read-impact').slideToggle('slow', function(){
-         })
+        $('.read-impact').slideToggle("slow", function(){
+        })
     })
     $('.close-why-button').on('click', function(event){
         event.preventDefault();
-        // $('.read-why').css('display','none');
-        $('.read-why').slideToggle('slow', function(){
-         })
+        $('.read-why').slideToggle("slow", function(){
+        })
     })
     $('.close-story-button').on('click', function(event){
         event.preventDefault();
-        // $('.read-story').css('display','none');
-        $('.read-story').slideToggle('slow', function(){
-         })
+        $('.read-story').slideToggle("slow", function(){
+        })
     })
     $('.close-impact-button').on('click', function(event){
         event.preventDefault();
-        // $('.read-impact').css('display','none');
-        $('.read-impact').slideToggle('slow', function(){
-         })
+        $('.read-impact').slideToggle("slow", function(){
+        })
     })
 })(jQuery);
