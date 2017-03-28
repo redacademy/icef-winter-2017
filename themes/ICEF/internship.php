@@ -14,25 +14,26 @@ get_header(); ?>
 					<h1>Skilled Internships</h1>
 				</div>
 			</section>
+			<?php $allowed_html = array('br' => array()); ?> 
 			<img src="<?php echo esc_html(CFS()->get('internship_first_image'));?>" alt="top image">
-			<?php echo esc_html(CFS()->get('internship_below_top_image'));?>
+			<p><?php echo wp_kses(CFS()->get('internship_below_top_image'), $allowed_html); ?></p>
 			<div class="desktop-flex">
 				<div class="second-image">
-					<img src="<?php echo esc_html(CFS()->get('internship_second_image'));?>" alt="top image">
+					<img src="<?php echo esc_html(CFS()->get('internship_second_image'));?>" alt="second image">
 				</div>
 				<div class="yellow-background yellow-background-content">
 					<div class="below-second-image-title">
-						<?php echo esc_html(CFS()->get('internship_below_second_image_title_text'));?>
+						<p><?php echo wp_kses(CFS()->get('internship_below_second_image_title_text'), $allowed_html); ?></p>
 					</div>
-					<?php echo esc_html(CFS()->get('internship_below_second_image_text'));?>
+					<p><?php echo wp_kses(CFS()->get('internship_below_second_image_text'), $allowed_html); ?></p>
 				</div>
 			</div>
 			<div class="position-text">
 				<div class="position-availability">
-					<?php echo esc_html(CFS()->get('internship_position_availability'));?>
+					<p><?php echo esc_html(CFS()->get('internship_position_availability'));?></p>
 				</div>
 				<div class="position-name yellow-background">
-					<?php echo esc_html(CFS()->get('internship_position_name'));?>
+					<p><?php echo esc_html(CFS()->get('internship_position_name'));?></p>
 				</div>
 			</div>
 			<div class="position-term">
@@ -40,7 +41,7 @@ get_header(); ?>
 					<p> Term </p>
 				</div>
 				<div class="right-column">
-					<?php echo esc_html(CFS()->get('internship_position_term'));?>
+					<p><?php echo esc_html(CFS()->get('internship_position_term'));?></p>
 				</div>
 			</div>
 			<div class="position-description">
@@ -48,7 +49,7 @@ get_header(); ?>
 					<p> Description </p>
 				</div>
 				<div class="right-column">
-					<?php echo esc_html(CFS()->get('internship_position_description'));?>
+					<p><?php echo esc_html(CFS()->get('internship_position_description'));?></p>
 				</div>
 			</div>
 			<div class="position-requirement">
@@ -56,7 +57,7 @@ get_header(); ?>
 					<p> Requirements </p>
 				</div>
 				<div class="right-column">
-					<?php echo esc_html(CFS()->get('internship_position_requirements'));?>
+					<p><?php echo esc_html(CFS()->get('internship_position_requirements'));?></p>
 				</div>
 			</div>
 			<div class="applyButton">

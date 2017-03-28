@@ -15,12 +15,9 @@ get_header(); ?>
 			<section class="hero">
 				<img src="<?php echo esc_html(CFS()->get('approach_hero'));?>" alt=:"top image">
 			</section>
-			<?php echo esc_html(CFS()->get('below_hero_text'));?>
-
-			<!--<div class = "desktop-swirl">
-				<img class ="desktop-swirl" src="<?php echo get_template_directory_uri();?>/images/svg/our-approach-wheel.svg" alt="our-approach-wheel">
-			</div>-->
-
+			<!--for the wp_kses stuff below-->
+			<?php $allowed_html = array('br' => array()); ?>    
+			<p><?php echo wp_kses(CFS()->get('below_hero_text'), $allowed_html); ?></p>  
 			<section class ="desktop-swirl">
 				<img class ="desktop-koru-swirl" src="<?php echo get_template_directory_uri();?>/images/svg/our-approach-desktop/koru-swirl-des.svg" alt="our-approach-wheel">
 				<div class="wheel-text">
@@ -70,18 +67,18 @@ get_header(); ?>
 				</ul>
 			</section>
 			<div>
-			<?php echo esc_html(CFS()->get('below_self_sustainability'));?>
+				<p><?php echo wp_kses(CFS()->get('below_self_sustainability'), $allowed_html); ?></p>
 			<div class = "quote-background">
-				<?php echo esc_html(CFS()->get('approach_quote'));?>
-			</div>
-			<?php echo esc_html(CFS()->get('below_quote'));?>
+				<p><?php echo wp_kses(CFS()->get('approach_quote'), $allowed_html); ?></p>
+			</div>                                 
+				<p><?php echo wp_kses(CFS()->get('below_quote'), $allowed_html); ?></p>
 			<div class="last-picture-mobile">
 				<img src="<?php echo esc_html(CFS()->get('last_picture'));?>" alt="last picture">
 			</div>
 			<div class="last-picture-desktop">
 				<img src="<?php echo esc_html(CFS()->get('last_picture_desktop'));?>" alt="last-picture-desktop">
-			</div>
-			<?php echo esc_html(CFS()->get('below_last_picture_text'));?> 
+			</div>                            
+			<p><?php echo wp_kses(CFS()->get('below_last_picture_text'), $allowed_html); ?></p>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
