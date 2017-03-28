@@ -68,6 +68,24 @@
         color: #fff;
     }
 
+    .align-center {
+        display: flex;
+        justify-content: center;
+        padding: 10px 0px 38px 0px;
+    }
+
+    .align-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding-left: 31px;
+    }
+
+    .sponsor-button {
+        @include purple-button;
+        text-align: center;
+    }
+
     .primary-school-img {
         margin: 0 auto;
         @include desktop {
@@ -130,6 +148,15 @@
 
     .sponsor-wrapper {
         margin-bottom: 60px;
+    }
+
+    .sponsor-content-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        @include desktop {
+            
+        }
     }
 
     .sponsor-section {
