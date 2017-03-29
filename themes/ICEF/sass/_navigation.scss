@@ -278,6 +278,13 @@ a {
 	}
 
 	.menu-item-58{
+
+		a:hover {
+			color: white;
+			border: none;
+			box-shadow: 5px 5px 10px black;
+		}
+
 		@include desktop {
 			padding-top: 40px;
 		}

@@ -609,6 +609,10 @@ a {
         width: 100%;
         height: 100%;
         color: transparent !important; } }
+  .menu .menu-item-58 a:hover {
+    color: white;
+    border: none;
+    box-shadow: 5px 5px 10px black; }
   @media (min-width: 720px) {
     .menu .menu-item-58 {
       padding-top: 40px; } }
