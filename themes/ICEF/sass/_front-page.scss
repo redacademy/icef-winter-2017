@@ -301,7 +301,7 @@
 
                     .front-numbers{
                         line-height: 1.5;
-
+                        height: 50px;
                         @include desktop {
                             font-size: 3rem;
                             padding-left: 40px;

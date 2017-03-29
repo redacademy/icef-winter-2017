@@ -230,17 +230,17 @@ get_header();
 			</span>
 
 
-			<section class="purpleCircles">
-				<div class = "purpleCircleTitle">
+			<section>
+				<div class = "purple-circle-title">
 					<h2>Explore More of The TRC's Programs:</h2>
 				</div>
-				<ul class="purpleCircleGrid">
+				<ul class="purple-circle-grid">
 					<li>
 						<div class="ch-item">				
 							<div class="ch-info-wrap">
 								<div class="ch-info">
 									<div class="ch-info-front">
-										<div class="handMade">
+										<div class="trc-circle">
 											<p>TRC</p>
 										</div>
 									</div>
@@ -273,7 +273,7 @@ get_header();
 										<img src="<?php echo get_template_directory_uri();?>/images/svg/our-work-mobile/farm.svg" 	alt="farm-icon">
 									</div>
 									<div class="ch-info-back">
-										<p>Farm</br>& Agriculture</p>
+										<p>Farm &</br>Agriculture</p>
 									</div>	
 								</div>
 							</div>

@@ -44,9 +44,6 @@
 		display:flex;
 		background:$brand_colour_mediumgold;
 		width:100%;
-		//     display: flex;
-    // /* align-items: flex-end; */
-    
 		@include desktop{
 			width:40%;
 			justify-content: flex-end;
@@ -65,7 +62,6 @@
 			padding-right:2rem;
 			font-size:4rem;
 			margin:0 auto;
-			// height: 70px;	
 			color:$brand_colour_darkgold;
 			@include desktop{
 				font-size:8rem;
@@ -96,6 +92,7 @@
 	.quote-background{
 			background:$brand_colour_lightgold;
 			margin: 1rem;
+			font-style: italic;
 			// margin-bottom:2rem;
 			padding:1rem;
 			font-size:.8rem;
@@ -105,18 +102,13 @@
 			@include desktop{
 				width: 60%;
     		margin: 2rem auto;
-				padding:2rem;
+				padding: 2rem;
 			}
 		}
 	.fact-text{
 		@include desktop{
 			display:flex;
 			align-items: center;
-		}
-	}
-	.fact-text{
-		p{
-			margin:0;
 		}
 	}
 	.fact-number{
@@ -261,7 +253,7 @@
 			height:100%;
 		}
 	}
-  .handMade{
+  .trc-circle{
     display:flex;
     justify-content: center;
     align-items: center;
@@ -330,11 +322,11 @@
 			}
 		}
 	}
-	.purpleCircleTitle{
+	.purple-circle-title{
 		text-align: center;
 		font-size:1.5rem;
 	}
-  .purpleCircleGrid{
+  .purple-circle-grid{
     display:flex;
 		justify-content:center;
     list-style:none;
