@@ -6,11 +6,11 @@
         position: relative;
         height: 400px;
         overflow: hidden;
-        background: url(../../images/svg/map/map.png) center;
+        background: url(../../images/svg/map/map-main.png) center;
         background-size: cover, cover;
 
         @include desktop {
-            background: url(../../images/svg/map/map.png) center;
+            background: url(../../images/svg/map/map-main.png) center;
             background-size: cover, cover;
         }
 
@@ -185,6 +185,10 @@
             @include desktop {
                 display: none;
             }
+        }
+
+        .map-arrow {
+            transform: rotate(180deg);
         }
     }
     

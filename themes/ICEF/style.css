@@ -1559,11 +1559,11 @@ html {
   position: relative;
   height: 400px;
   overflow: hidden;
-  background: url(../../images/svg/map/map.png) center;
+  background: url(../../images/svg/map/map-main.png) center;
   background-size: cover, cover; }
   @media (min-width: 720px) {
     .workHero .map {
-      background: url(../../images/svg/map/map.png) center;
+      background: url(../../images/svg/map/map-main.png) center;
       background-size: cover, cover; } }
   .workHero .map h2 {
     display: inline;
@@ -1677,6 +1677,8 @@ html {
     @media (min-width: 720px) {
       .workHero .openMap .next-arrow {
         display: none; } }
+  .workHero .openMap .map-arrow {
+    transform: rotate(180deg); }
 
 .showMap {
   height: 0px !important; }
@@ -2551,6 +2553,144 @@ html {
         font-size: 12rem;
         line-height: 1; } }
 
+.page-template-donate-child {
+  margin: 0 auto; }
+  .page-template-donate-child .site-main {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center; }
+  .page-template-donate-child .container {
+    width: 100%; }
+    @media (min-width: 720px) {
+      .page-template-donate-child .container {
+        width: 1024px; } }
+  .page-template-donate-child h2 {
+    font-size: 2rem;
+    line-height: 1;
+    text-transform: none; }
+  .page-template-donate-child .yellow-dots-banner {
+    width: 100%;
+    height: 80px;
+    background: url(../../images/svg/yellow-dots.svg) no-repeat;
+    background-position: center; }
+    @media (min-width: 720px) {
+      .page-template-donate-child .yellow-dots-banner {
+        background-size: cover;
+        margin-top: 140px; } }
+  .page-template-donate-child .donate-child-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    color: #fff;
+    background-color: #433E3E;
+    padding: 10px 50px 40px 50px; }
+    @media (min-width: 720px) {
+      .page-template-donate-child .donate-child-wrapper {
+        padding: 35px 18px; }
+        .page-template-donate-child .donate-child-wrapper img {
+          margin-top: 33px; } }
+  @media (min-width: 720px) {
+    .page-template-donate-child .donate-child-content {
+      width: 63%;
+      padding: 0px 50px; } }
+  .page-template-donate-child .donate-child-title {
+    color: #fff; }
+  .page-template-donate-child .donate-child-desc {
+    color: #fff; }
+  .page-template-donate-child .align-center {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    padding: 10px 0px 38px 0px; }
+  .page-template-donate-child .align-right {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: end;
+        justify-content: flex-end;
+    padding-left: 31px; }
+  .page-template-donate-child .sponsor-button a {
+    padding-top: 10px;
+    text-align: center;
+    height: 50px;
+    width: 150px;
+    border-radius: 8px;
+    display: inline-block;
+    background-color: #852762;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    border: none; }
+  @media (min-width: 720px) {
+    .page-template-donate-child .content-wrapper {
+      display: -ms-flexbox;
+      display: flex;
+      width: 78%;
+      margin: 0 auto; } }
+  .page-template-donate-child .process-wrapper {
+    padding: 10px 50px 40px 50px; }
+    @media (min-width: 720px) {
+      .page-template-donate-child .process-wrapper {
+        padding: 10px 10px 0;
+        width: 100%; } }
+  .page-template-donate-child .donate-child-process-title {
+    color: #F2CA6E; }
+  .page-template-donate-child .donate-child-process-desc {
+    color: #433E3E; }
+  .page-template-donate-child .donate-child-scholarship-wrapper {
+    padding: 10px 20px 40px 30px; }
+  .page-template-donate-child .donate-child-scholarship-heading {
+    display: -ms-flexbox;
+    display: flex;
+    height: 80px; }
+    @media (min-width: 720px) {
+      .page-template-donate-child .donate-child-scholarship-heading {
+        margin-top: 30px; } }
+  @media (min-width: 720px) {
+    .page-template-donate-child .scholarship-content {
+      padding-left: 64px; } }
+  .page-template-donate-child .scholarship-title {
+    color: #F2CA6E;
+    padding-left: 12px;
+    margin-top: 7px; }
+    @media (min-width: 720px) {
+      .page-template-donate-child .scholarship-title {
+        padding-left: 10px; } }
+  .page-template-donate-child .scholarship-amount {
+    color: #898989; }
+  .page-template-donate-child .donation-amount {
+    color: #F2CA6E; }
+  .page-template-donate-child .sponsor-wrapper {
+    margin-bottom: 60px; }
+    @media (min-width: 720px) {
+      .page-template-donate-child .sponsor-wrapper {
+        padding-top: 20px; } }
+  .page-template-donate-child .donate-child-content-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .page-template-donate-child .sponsor-section {
+    text-align: left;
+    color: #fff;
+    background-color: #F2CA6E;
+    padding: 10px 30px 40px 86px; }
+    .page-template-donate-child .sponsor-section ul {
+      margin: 0;
+      padding: 0 15px 29px 15px;
+      width: 100%; }
+      @media (min-width: 720px) {
+        .page-template-donate-child .sponsor-section ul {
+          padding: 0 15px;
+          width: 75%; } }
+
 .page-template-donate-primary {
   margin: 0 auto; }
   .page-template-donate-primary .site-main {
@@ -2692,144 +2832,6 @@ html {
       padding: 0 15px; }
       @media (min-width: 720px) {
         .page-template-donate-primary .sponsor-section ul {
-          padding: 0 15px;
-          width: 75%; } }
-
-.page-template-donate-vocational {
-  margin: 0 auto; }
-  .page-template-donate-vocational .site-main {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-        flex-direction: column;
-    -ms-flex-align: center;
-        align-items: center; }
-  .page-template-donate-vocational .container {
-    width: 100%; }
-    @media (min-width: 720px) {
-      .page-template-donate-vocational .container {
-        width: 1024px; } }
-  .page-template-donate-vocational h2 {
-    font-size: 2rem;
-    line-height: 1;
-    text-transform: none; }
-  .page-template-donate-vocational .yellow-dots-banner {
-    width: 100%;
-    height: 80px;
-    background: url(../../images/svg/yellow-dots.svg) no-repeat;
-    background-position: center; }
-    @media (min-width: 720px) {
-      .page-template-donate-vocational .yellow-dots-banner {
-        background-size: cover;
-        margin-top: 140px; } }
-  .page-template-donate-vocational .vocational-wrapper {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-flow: row wrap;
-        flex-flow: row wrap;
-    color: #fff;
-    background-color: #433E3E;
-    padding: 10px 50px 40px 50px; }
-    @media (min-width: 720px) {
-      .page-template-donate-vocational .vocational-wrapper {
-        padding: 35px 18px; }
-        .page-template-donate-vocational .vocational-wrapper img {
-          margin-top: 33px; } }
-  @media (min-width: 720px) {
-    .page-template-donate-vocational .vocational-content {
-      width: 63%;
-      padding: 0px 50px; } }
-  .page-template-donate-vocational .vocational-school-title {
-    color: #fff; }
-  .page-template-donate-vocational .vocational-school-desc {
-    color: #fff; }
-  .page-template-donate-vocational .align-center {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: center;
-        justify-content: center;
-    padding: 10px 0px 38px 0px; }
-  .page-template-donate-vocational .align-right {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-        flex-direction: column;
-    -ms-flex-pack: end;
-        justify-content: flex-end;
-    padding-left: 31px; }
-  .page-template-donate-vocational .sponsor-button a {
-    padding-top: 10px;
-    text-align: center;
-    height: 50px;
-    width: 150px;
-    border-radius: 8px;
-    display: inline-block;
-    background-color: #852762;
-    color: white;
-    font-family: "Oswald", sans-serif;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    border: none; }
-  @media (min-width: 720px) {
-    .page-template-donate-vocational .content-wrapper {
-      display: -ms-flexbox;
-      display: flex;
-      width: 78%;
-      margin: 0 auto; } }
-  .page-template-donate-vocational .process-wrapper {
-    padding: 10px 50px 40px 50px; }
-    @media (min-width: 720px) {
-      .page-template-donate-vocational .process-wrapper {
-        padding: 10px 10px 0;
-        width: 100%; } }
-  .page-template-donate-vocational .vocational-school-process-title {
-    color: #F2CA6E; }
-  .page-template-donate-vocational .vocational-school-process-desc {
-    color: #433E3E; }
-  .page-template-donate-vocational .vocational-scholarship-wrapper {
-    padding: 10px 20px 40px 30px; }
-  .page-template-donate-vocational .vocational-scholarship-heading {
-    display: -ms-flexbox;
-    display: flex;
-    height: 80px; }
-    @media (min-width: 720px) {
-      .page-template-donate-vocational .vocational-scholarship-heading {
-        margin-top: 30px; } }
-  @media (min-width: 720px) {
-    .page-template-donate-vocational .scholarship-content {
-      padding-left: 64px; } }
-  .page-template-donate-vocational .scholarship-title {
-    color: #F2CA6E;
-    padding-left: 12px;
-    margin-top: 7px; }
-    @media (min-width: 720px) {
-      .page-template-donate-vocational .scholarship-title {
-        padding-left: 10px; } }
-  .page-template-donate-vocational .scholarship-amount {
-    color: #898989; }
-  .page-template-donate-vocational .donation-amount {
-    color: #F2CA6E; }
-  .page-template-donate-vocational .sponsor-wrapper {
-    margin-bottom: 60px; }
-    @media (min-width: 720px) {
-      .page-template-donate-vocational .sponsor-wrapper {
-        padding-top: 20px; } }
-  .page-template-donate-vocational .vocational-content-wrapper {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
-  .page-template-donate-vocational .sponsor-section {
-    text-align: left;
-    color: #fff;
-    background-color: #F2CA6E;
-    padding: 10px 30px 40px 86px; }
-    .page-template-donate-vocational .sponsor-section ul {
-      margin: 0;
-      padding: 0 15px 29px 15px;
-      width: 100%; }
-      @media (min-width: 720px) {
-        .page-template-donate-vocational .sponsor-section ul {
           padding: 0 15px;
           width: 75%; } }
 

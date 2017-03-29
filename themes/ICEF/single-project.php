@@ -57,7 +57,7 @@ get_header();
 				</div>
 
 				<div class="openMap">
-					<p>open map</p>
+					<p>close map</p>
 					<a href="<?php echo $prev; ?>" class="previous-arrow">
 						<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-left.svg" alt="left-arrow" >
 					</a>
