@@ -65,9 +65,22 @@
 
     .hero-text{
         height: 30%;
+
+        h2 {
+            margin: 0;
+            padding: 10px;
+            font-weight: 400;
+            background-color: $brand_colour_lightpurple;
+            color: white;
+        }
             
         @include desktop {
             display: none;
+
+            h2 {
+                background-color: white;
+                color: $brand_colour_darkgrey;
+            }
 
             p{
                 color: $brand_colour_darkgrey;

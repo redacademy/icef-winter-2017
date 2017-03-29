@@ -715,9 +715,18 @@ a {
 
 .front-page-container .hero-text {
   height: 30%; }
+  .front-page-container .hero-text h2 {
+    margin: 0;
+    padding: 10px;
+    font-weight: 400;
+    background-color: #852762;
+    color: white; }
   @media (min-width: 720px) {
     .front-page-container .hero-text {
       display: none; }
+      .front-page-container .hero-text h2 {
+        background-color: white;
+        color: #433E3E; }
       .front-page-container .hero-text p {
         color: #433E3E;
         width: 55%;
