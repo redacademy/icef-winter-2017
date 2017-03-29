@@ -43,6 +43,12 @@
 		border: none;
 		
 	}
+
+	a:hover {
+			color: white;
+			border: none;
+			box-shadow: 5px 5px 10px black;
+	}
 }
 
 @mixin darkgold-button {
