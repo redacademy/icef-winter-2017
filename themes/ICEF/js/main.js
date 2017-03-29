@@ -23,7 +23,7 @@
 
         $('.map').toggleClass('showMap');
 
-        if($('.openMap p').text() === 'open map'){
+        if($('.openMap p').text() === 'close map'){
             $('.map-arrow').css('transform', 'rotate(180deg)');
             $('.openMap p').text('open map');
         } else {
@@ -47,32 +47,32 @@
 
     $('.why-read').on('click',function(event){
         event.preventDefault();
-         $('.read-why').slideToggle("slow", function(){
+         $('.read-why').slideToggle('slow', function(){
         })
     })
     $('.story-read').on('click',function(event){
         event.preventDefault();
-        $('.read-story').slideToggle("slow", function(){
+        $('.read-story').slideToggle('slow', function(){
         })
     })
     $('.impact-read').on('click', function(event){
         event.preventDefault();
-        $('.read-impact').slideToggle("slow", function(){
+        $('.read-impact').slideToggle('slow', function(){
         })
     })
     $('.close-why-button').on('click', function(event){
         event.preventDefault();
-        $('.read-why').slideToggle("slow", function(){
+        $('.read-why').slideToggle('slow', function(){
         })
     })
     $('.close-story-button').on('click', function(event){
         event.preventDefault();
-        $('.read-story').slideToggle("slow", function(){
+        $('.read-story').slideToggle('slow', function(){
         })
     })
     $('.close-impact-button').on('click', function(event){
         event.preventDefault();
-        $('.read-impact').slideToggle("slow", function(){
+        $('.read-impact').slideToggle('slow', function(){
         })
     })
 

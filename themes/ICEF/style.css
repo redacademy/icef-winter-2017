@@ -1558,11 +1558,11 @@ html {
   position: relative;
   height: 400px;
   overflow: hidden;
-  background: url(../../images/svg/map/map.png) center;
+  background: url(../../images/svg/map/map-main.png) center;
   background-size: cover, cover; }
   @media (min-width: 720px) {
     .workHero .map {
-      background: url(../../images/svg/map/map.png) center;
+      background: url(../../images/svg/map/map-main.png) center;
       background-size: cover, cover; } }
   .workHero .map h2 {
     display: inline;
@@ -1676,6 +1676,8 @@ html {
     @media (min-width: 720px) {
       .workHero .openMap .next-arrow {
         display: none; } }
+  .workHero .openMap .map-arrow {
+    transform: rotate(180deg); }
 
 .showMap {
   height: 0px !important; }
