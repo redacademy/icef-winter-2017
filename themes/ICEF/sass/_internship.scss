@@ -113,12 +113,16 @@
       padding: 0px 0 0 45px;
     }
   }
+  .apply-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+  }
   .download-button{
     @include purple-button;
     text-align: center;
     a{
       font-family: $font__accent;
-      margin: 4rem;
+      margin: 0; 
       width: 190px;
     }
   }
