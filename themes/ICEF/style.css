@@ -2346,52 +2346,52 @@ html {
       font-size: 1.5rem;
       font-family: "Oswald", sans-serif; }
 
-.page-template-donate {
+.page-id-17 {
   margin: 0 auto; }
-  .page-template-donate .site-main {
+  .page-id-17 .site-main {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
         flex-direction: column;
     -ms-flex-align: center;
         align-items: center; }
-  .page-template-donate .container {
+  .page-id-17 .container {
     width: 100%; }
     @media (min-width: 720px) {
-      .page-template-donate .container {
+      .page-id-17 .container {
         width: 1024px; } }
   @media (min-width: 720px) {
-    .page-template-donate .page-title-wrapper {
+    .page-id-17 .page-title-wrapper {
       border-bottom: 2px solid purple;
       margin-bottom: 2rem;
       margin-top: 10rem; } }
-  .page-template-donate .page-title {
+  .page-id-17 .page-title {
     display: none;
     font-family: "Oswald", sans-serif; }
     @media (min-width: 720px) {
-      .page-template-donate .page-title {
+      .page-id-17 .page-title {
         display: block;
         margin-bottom: 0; } }
-  .page-template-donate h2 {
+  .page-id-17 h2 {
     font-size: 2rem;
     line-height: 1;
     margin-bottom: 0;
     text-transform: none; }
-  .page-template-donate .img-wrapper {
+  .page-id-17 .img-wrapper {
     height: 183px; }
     @media (min-width: 720px) {
-      .page-template-donate .img-wrapper {
+      .page-id-17 .img-wrapper {
         height: 465px; } }
-  .page-template-donate .donate-wrapper {
+  .page-id-17 .donate-wrapper {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-flow: row wrap;
         flex-flow: row wrap; }
     @media (min-width: 720px) {
-      .page-template-donate .donate-wrapper {
+      .page-id-17 .donate-wrapper {
         -ms-flex-flow: row;
             flex-flow: row; } }
-  .page-template-donate .donate-trc-wrapper {
+  .page-id-17 .donate-trc-wrapper {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -2399,11 +2399,11 @@ html {
     color: #fff;
     background-color: #433E3E;
     padding: 10px 50px 40px 50px; }
-    .page-template-donate .donate-trc-wrapper .donate-trc-desc {
+    .page-id-17 .donate-trc-wrapper .donate-trc-desc {
       color: #fff; }
-  .page-template-donate form {
+  .page-id-17 form {
     padding-top: 70px; }
-  .page-template-donate .donate-button {
+  .page-id-17 .donate-button {
     display: inline-block;
     font-family: "Oswald", sans-serif;
     font-size: 1.5rem;
@@ -2419,28 +2419,28 @@ html {
     border: 0;
     cursor: pointer;
     outline: none; }
-    .page-template-donate .donate-button:hover {
+    .page-id-17 .donate-button:hover {
       text-decoration: underline; }
-  .page-template-donate .sponsor-wrapper {
+  .page-id-17 .sponsor-wrapper {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
         flex-direction: column;
     background-color: #F2CA6E;
     padding: 10px 50px 40px 50px; }
-    .page-template-donate .sponsor-wrapper .sponsor-title {
+    .page-id-17 .sponsor-wrapper .sponsor-title {
       color: #B5852F; }
-  .page-template-donate .sponsor-desc {
+  .page-id-17 .sponsor-desc {
     color: #fff; }
-  .page-template-donate .sponsor-button-wrapper {
+  .page-id-17 .sponsor-button-wrapper {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: center;
         justify-content: center; }
-  .page-template-donate .primary-school-button {
+  .page-id-17 .primary-school-button {
     padding: 30px 10px;
     text-align: center; }
-    .page-template-donate .primary-school-button a {
+    .page-id-17 .primary-school-button a {
       padding-top: 10px;
       text-align: center;
       height: 50px;
@@ -2453,13 +2453,13 @@ html {
       text-transform: uppercase;
       font-size: 1.5rem;
       border: none; }
-    .page-template-donate .primary-school-button a {
+    .page-id-17 .primary-school-button a {
       height: 88px;
       width: 130px; }
-  .page-template-donate .vocational-school-button {
+  .page-id-17 .vocational-school-button {
     padding: 30px 10px;
     text-align: center; }
-    .page-template-donate .vocational-school-button a {
+    .page-id-17 .vocational-school-button a {
       padding-top: 10px;
       text-align: center;
       height: 50px;
@@ -2472,55 +2472,55 @@ html {
       text-transform: uppercase;
       font-size: 1.5rem;
       border: none; }
-    .page-template-donate .vocational-school-button a {
+    .page-id-17 .vocational-school-button a {
       height: 88px;
       width: 130px; }
-  .page-template-donate .project-wrapper {
+  .page-id-17 .project-wrapper {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-flow: row wrap;
         flex-flow: row wrap; }
     @media (min-width: 720px) {
-      .page-template-donate .project-wrapper {
+      .page-id-17 .project-wrapper {
         -ms-flex-flow: row;
             flex-flow: row; } }
-  .page-template-donate .project-wrapper img {
+  .page-id-17 .project-wrapper img {
     width: 100%;
     height: 60%; }
     @media (min-width: 720px) {
-      .page-template-donate .project-wrapper img {
+      .page-id-17 .project-wrapper img {
         width: 69%; } }
-  .page-template-donate .fund-project-wrapper {
+  .page-id-17 .fund-project-wrapper {
     background-color: #FFEABA;
     padding: 10px 50px 20px 50px; }
     @media (min-width: 720px) {
-      .page-template-donate .fund-project-wrapper {
+      .page-id-17 .fund-project-wrapper {
         width: 31%; }
-        .page-template-donate .fund-project-wrapper a {
+        .page-id-17 .fund-project-wrapper a {
           color: #000; }
-          .page-template-donate .fund-project-wrapper a:hover {
+          .page-id-17 .fund-project-wrapper a:hover {
             color: #000; } }
-  .page-template-donate .project-title {
+  .page-id-17 .project-title {
     color: #852762; }
-  .page-template-donate .yellow-dots-banner {
+  .page-id-17 .yellow-dots-banner {
     width: 100%;
     height: 80px;
     background: url(../../images/svg/yellow-dots.svg) no-repeat;
     background-position: center;
     border-bottom: 2px solid #852762; }
     @media (min-width: 720px) {
-      .page-template-donate .yellow-dots-banner {
+      .page-id-17 .yellow-dots-banner {
         background-size: cover; } }
-  .page-template-donate .recycling-wrapper {
+  .page-id-17 .recycling-wrapper {
     padding: 10px 50px 20px 50px; }
     @media (min-width: 720px) {
-      .page-template-donate .recycling-wrapper {
+      .page-id-17 .recycling-wrapper {
         display: -ms-flexbox;
         display: flex;
         -ms-flex-pack: justify;
             justify-content: space-between; } }
   @media (min-width: 720px) {
-    .page-template-donate .recycling-info, .page-template-donate .icef-info {
+    .page-id-17 .recycling-info, .page-id-17 .icef-info {
       display: -ms-flexbox;
       display: flex;
       -ms-flex-direction: column;
@@ -2530,25 +2530,25 @@ html {
       -ms-flex-align: center;
           align-items: center;
       width: 40%; }
-      .page-template-donate .recycling-info .icef-info, .page-template-donate .icef-info .icef-info {
+      .page-id-17 .recycling-info .icef-info, .page-id-17 .icef-info .icef-info {
         display: -ms-flexbox;
         display: flex;
         -ms-flex-align: center;
             align-items: center; } }
-  .page-template-donate .icef-donor {
+  .page-id-17 .icef-donor {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.5rem;
     color: #000;
     margin-bottom: 0; }
-  .page-template-donate .donor-number {
+  .page-id-17 .donor-number {
     font-size: 5rem;
     font-weight: bold;
     color: #631747;
     text-align: center;
     margin-top: 0; }
     @media (min-width: 720px) {
-      .page-template-donate .donor-number {
+      .page-id-17 .donor-number {
         font-size: 12rem;
         line-height: 1; } }
 
