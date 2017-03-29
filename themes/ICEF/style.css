@@ -1254,11 +1254,11 @@ html {
     .site-content {
       margin-top: 0; } }
 
-.page-template-approach p {
+.page-id-6 p {
   margin: 1rem 1.5rem;
   color: #433E3E; }
 
-.page-template-approach .site-main {
+.page-id-6 .site-main {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -1266,38 +1266,38 @@ html {
   -ms-flex-align: center;
       align-items: center; }
   @media (min-width: 720px) {
-    .page-template-approach .site-main {
+    .page-id-6 .site-main {
       width: 1000px;
       margin: 0 auto; } }
 
-.page-template-approach .approach-title {
+.page-id-6 .approach-title {
   display: none; }
   @media (min-width: 720px) {
-    .page-template-approach .approach-title {
+    .page-id-6 .approach-title {
       display: block;
       margin-top: 10rem;
       width: 100%;
       border-bottom: solid 2px #852762;
       font-family: "Oswald", sans-serif;
       font-weight: bold; }
-      .page-template-approach .approach-title h1 {
+      .page-id-6 .approach-title h1 {
         margin: 0; } }
 
-.page-template-approach .desktop-swirl {
+.page-id-6 .desktop-swirl {
   display: none;
   position: relative;
   margin-top: 8rem;
   margin-bottom: 11rem; }
   @media (min-width: 720px) {
-    .page-template-approach .desktop-swirl {
+    .page-id-6 .desktop-swirl {
       display: block; } }
-  .page-template-approach .desktop-swirl .wheel-icons {
+  .page-id-6 .desktop-swirl .wheel-icons {
     position: absolute;
     top: 0;
     left: 0;
     height: 708px;
     width: 625px; }
-  .page-template-approach .desktop-swirl .wheel-text {
+  .page-id-6 .desktop-swirl .wheel-text {
     position: absolute;
     top: 50%;
     left: 30%;
@@ -1305,47 +1305,47 @@ html {
     width: 40%;
     text-align: center;
     text-transform: uppercase; }
-    .page-template-approach .desktop-swirl .wheel-text p {
+    .page-id-6 .desktop-swirl .wheel-text p {
       color: #B5852F; }
-  .page-template-approach .desktop-swirl .swirl-icons {
+  .page-id-6 .desktop-swirl .swirl-icons {
     list-style: none;
     position: relative;
     height: 100%;
     top: 0%;
     left: 0%; }
-    .page-template-approach .desktop-swirl .swirl-icons li {
+    .page-id-6 .desktop-swirl .swirl-icons li {
       position: absolute;
       text-align: center;
       text-transform: uppercase; }
-      .page-template-approach .desktop-swirl .swirl-icons li p {
+      .page-id-6 .desktop-swirl .swirl-icons li p {
         font-size: 1.5rem;
         margin: 0;
         margin-top: .5rem;
         font-family: "Oswald", sans-serif;
         color: #852762; }
-    .page-template-approach .desktop-swirl .swirl-icons li:nth-child(1) {
+    .page-id-6 .desktop-swirl .swirl-icons li:nth-child(1) {
       top: 22%;
       left: -33%; }
-    .page-template-approach .desktop-swirl .swirl-icons li:nth-child(2) {
+    .page-id-6 .desktop-swirl .swirl-icons li:nth-child(2) {
       top: -13%;
       left: 20%; }
-    .page-template-approach .desktop-swirl .swirl-icons li:nth-child(3) {
+    .page-id-6 .desktop-swirl .swirl-icons li:nth-child(3) {
       top: 2%;
       left: 75%; }
-    .page-template-approach .desktop-swirl .swirl-icons li:nth-child(4) {
+    .page-id-6 .desktop-swirl .swirl-icons li:nth-child(4) {
       top: 41%;
       left: 102%; }
-    .page-template-approach .desktop-swirl .swirl-icons li:nth-child(5) {
+    .page-id-6 .desktop-swirl .swirl-icons li:nth-child(5) {
       top: 82%;
       left: 76%; }
-    .page-template-approach .desktop-swirl .swirl-icons li:nth-child(6) {
+    .page-id-6 .desktop-swirl .swirl-icons li:nth-child(6) {
       top: 102%;
       left: 20%; }
-    .page-template-approach .desktop-swirl .swirl-icons li:nth-child(7) {
+    .page-id-6 .desktop-swirl .swirl-icons li:nth-child(7) {
       top: 63%;
       left: -24%; }
 
-.page-template-approach .swirl-and-text {
+.page-id-6 .swirl-and-text {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -1353,99 +1353,99 @@ html {
   -ms-flex-align: center;
       align-items: center; }
   @media (min-width: 720px) {
-    .page-template-approach .swirl-and-text {
+    .page-id-6 .swirl-and-text {
       display: none; } }
 
-.page-template-approach .desktop-swirl {
+.page-id-6 .desktop-swirl {
   display: none; }
   @media (min-width: 720px) {
-    .page-template-approach .desktop-swirl {
+    .page-id-6 .desktop-swirl {
       display: block; } }
 
 @media (min-width: 720px) {
-  .page-template-approach .last-picture-mobile {
+  .page-id-6 .last-picture-mobile {
     display: none; } }
 
-.page-template-approach .last-picture-desktop {
+.page-id-6 .last-picture-desktop {
   display: none; }
   @media (min-width: 720px) {
-    .page-template-approach .last-picture-desktop {
+    .page-id-6 .last-picture-desktop {
       display: block; } }
 
 @media (min-width: 720px) {
-  .page-template-approach .hero {
+  .page-id-6 .hero {
     margin-top: 2rem; } }
 
-.page-template-approach .mobile-swirl-wrapper {
+.page-id-6 .mobile-swirl-wrapper {
   position: relative;
   padding-bottom: 2.5rem; }
-  .page-template-approach .mobile-swirl-wrapper .swirl-text {
+  .page-id-6 .mobile-swirl-wrapper .swirl-text {
     font-size: 1.5rem;
     text-transform: uppercase;
     position: absolute;
     top: 34%;
     left: 16%;
     width: 40%; }
-    .page-template-approach .mobile-swirl-wrapper .swirl-text p {
+    .page-id-6 .mobile-swirl-wrapper .swirl-text p {
       color: black; }
 
-.page-template-approach .quote-background {
+.page-id-6 .quote-background {
   background: #FFEABA;
   padding: 1rem;
   width: 70%;
   margin: 0 auto;
   font-size: .8rem; }
 
-.page-template-approach .mobile-approach-table {
+.page-id-6 .mobile-approach-table {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column; }
-  .page-template-approach .mobile-approach-table li {
+  .page-id-6 .mobile-approach-table li {
     display: -ms-inline-flexbox;
     display: inline-flex;
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
     font-size: 1.25rem; }
-    .page-template-approach .mobile-approach-table li img {
+    .page-id-6 .mobile-approach-table li img {
       width: 50px;
       margin-right: .5rem; }
-    .page-template-approach .mobile-approach-table li p {
+    .page-id-6 .mobile-approach-table li p {
       color: black; }
-    .page-template-approach .mobile-approach-table li .table-numbers {
+    .page-id-6 .mobile-approach-table li .table-numbers {
       color: #B5852F; }
 
-.page-template-internship .content-area p {
+.page-id-15 .content-area p {
   margin: 1rem 1.5rem; }
 
 @media (min-width: 720px) {
-  .page-template-internship .content-area {
+  .page-id-15 .content-area {
     width: 1000px;
     margin: 0 auto;
     margin-top: 10rem; } }
 
 @media (min-width: 720px) {
-  .page-template-internship .desktop-flex {
+  .page-id-15 .desktop-flex {
     display: -ms-inline-flexbox;
     display: inline-flex;
     width: 100%; } }
 
-.page-template-internship .page-header {
+.page-id-15 .page-header {
   display: none; }
   @media (min-width: 720px) {
-    .page-template-internship .page-header {
+    .page-id-15 .page-header {
       display: block;
       border-bottom: solid 2px #852762;
       margin-bottom: 2rem; }
-      .page-template-internship .page-header h1 {
+      .page-id-15 .page-header h1 {
         margin: 0;
         font-family: "Oswald", sans-serif; } }
 
-.page-template-internship p {
+.page-id-15 p {
   color: #433E3E; }
 
 @media (min-width: 720px) {
-  .page-template-internship .yellow-background-content {
+  .page-id-15 .yellow-background-content {
     width: 60%;
     display: -ms-flexbox;
     display: flex;
@@ -1453,87 +1453,87 @@ html {
         flex-direction: column;
     -ms-flex-pack: center;
         justify-content: center; }
-    .page-template-internship .yellow-background-content p {
+    .page-id-15 .yellow-background-content p {
       margin-bottom: 0; } }
 
-.page-template-internship .yellow-background {
+.page-id-15 .yellow-background {
   background: #FFEABA;
   padding-bottom: .25rem;
   padding-top: .75rem; }
 
-.page-template-internship .second-image {
+.page-id-15 .second-image {
   height: 204px; }
   @media (min-width: 720px) {
-    .page-template-internship .second-image {
+    .page-id-15 .second-image {
       height: auto; } }
-  .page-template-internship .second-image img {
+  .page-id-15 .second-image img {
     height: 100%;
     object-fit: cover; }
 
-.page-template-internship .below-second-image-title {
+.page-id-15 .below-second-image-title {
   font-size: 2.25rem;
   font-family: "Fira", sans-serif;
   width: 90%;
   line-height: 1.2;
   font-weight: bold; }
-  .page-template-internship .below-second-image-title p {
+  .page-id-15 .below-second-image-title p {
     color: #F2CA6E; }
   @media (min-width: 720px) {
-    .page-template-internship .below-second-image-title {
+    .page-id-15 .below-second-image-title {
       font-size: 3rem; } }
 
-.page-template-internship .position-text {
+.page-id-15 .position-text {
   text-align: center;
   font-family: "Oswald", sans-serif;
   font-weight: bold;
   font-size: 1.25rem;
   text-transform: uppercase; }
 
-.page-template-internship .position-availability {
+.page-id-15 .position-availability {
   margin-top: 1.75rem;
   margin-bottom: 1.25rem; }
 
-.page-template-internship .position-term, .page-template-internship .position-description, .page-template-internship .position-requirement {
+.page-id-15 .position-term, .page-id-15 .position-description, .page-id-15 .position-requirement {
   display: -ms-flexbox;
   display: flex;
   padding: 1rem 0rem; }
 
-.page-template-internship .position-term, .page-template-internship .position-description {
+.page-id-15 .position-term, .page-id-15 .position-description {
   border-bottom: solid 1px grey; }
 
-.page-template-internship .position-name {
+.page-id-15 .position-name {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-size: 1.25rem; }
-  .page-template-internship .position-name p {
+  .page-id-15 .position-name p {
     color: #B5852F;
     margin: 0 0; }
 
-.page-template-internship .left-column {
+.page-id-15 .left-column {
   width: 35%;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-weight: bold; }
 
-.page-template-internship .right-column {
+.page-id-15 .right-column {
   width: 70%;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
       align-items: center; }
-  .page-template-internship .right-column ul {
+  .page-id-15 .right-column ul {
     margin: 0;
     padding: 0px 0 0 45px; }
 
-.page-template-internship .apply-wrapper {
+.page-id-15 .apply-wrapper {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
 
-.page-template-internship .download-button {
+.page-id-15 .download-button {
   text-align: center; }
-  .page-template-internship .download-button a {
+  .page-id-15 .download-button a {
     padding-top: 10px;
     text-align: center;
     height: 50px;
@@ -1546,7 +1546,7 @@ html {
     text-transform: uppercase;
     font-size: 1.5rem;
     border: none; }
-  .page-template-internship .download-button a {
+  .page-id-15 .download-button a {
     font-family: "Oswald", sans-serif;
     margin: 0;
     width: 190px; }

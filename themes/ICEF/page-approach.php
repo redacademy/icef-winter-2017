@@ -1,6 +1,5 @@
 <?php
 /**
- * Template Name: Our Approach Page
  *
  * @package RED_Starter_Theme
  */

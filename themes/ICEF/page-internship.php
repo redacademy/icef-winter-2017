@@ -1,6 +1,5 @@
 <?php
 /**
- * Template Name: Internship Page
  *
  * @package RED_Starter_Theme
  */
