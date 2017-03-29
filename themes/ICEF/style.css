@@ -1501,6 +1501,9 @@ html {
 .page-id-15 .position-term, .page-id-15 .position-description {
   border-bottom: solid 1px grey; }
 
+.page-id-15 .position-requirement {
+  margin-bottom: 1rem; }
+
 .page-id-15 .position-name {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
@@ -1532,6 +1535,7 @@ html {
       flex-wrap: wrap; }
 
 .page-id-15 .download-button {
+  width: 100%;
   text-align: center; }
   .page-id-15 .download-button a {
     padding-top: 10px;
