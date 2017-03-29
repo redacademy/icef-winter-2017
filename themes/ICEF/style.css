@@ -2937,7 +2937,8 @@ html {
             justify-content: flex-end; }
         .updates .updates-flex .update-article .read a {
           display: -ms-flexbox;
-          display: flex; }
+          display: flex;
+          padding-right: 1rem; }
           .updates .updates-flex .update-article .read a p {
             margin: 0;
             -ms-flex-item-align: center;
