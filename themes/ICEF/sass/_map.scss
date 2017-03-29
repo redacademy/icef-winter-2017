@@ -25,7 +25,7 @@
             color: $brand_colour_darkgrey;
         }
 
-        span img{
+        span .purple-pin{
             display: none;
         }
 
@@ -36,6 +36,7 @@
         .purple-pin {
             width: 100px;
             height: 100px;
+            display: none;
         }
 
         @include desktop {

@@ -32,6 +32,8 @@
         }
     })
 
+    var $windowsize = $(window).width();
+
     //WHEN SUB MENU OR DROP PINS ARE CLICKED --
     $('.our-work, .tekera-primary-school, .co-operative-and-demonstration-farm, .sustainability-projects, .tekera-medical-clinic, .womens-socio-economic-empowerment-group, .community-work-program, .trades-school, .drinking-water').on('click', function(){
 
@@ -82,7 +84,11 @@
         var $slug = window.location.pathname;
         $slug = $slug.slice(14);
         $('.' + $slug).css('display', 'none');
-        $('span .' + $slug).css('display', 'inline-block');
+
+        //shows purple pin only on desktop
+        if($windowsize > 720){
+            $('span .' + $slug).css('display', 'inline-block');
+        }
     }
 
 })(jQuery);

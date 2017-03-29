@@ -1585,13 +1585,14 @@ html {
     right: 50px;
     margin: 0;
     color: #433E3E; }
-  .workHero .map span img {
+  .workHero .map span .purple-pin {
     display: none; }
   .workHero .map .yellow-pin {
     display: none; }
   .workHero .map .purple-pin {
     width: 100px;
-    height: 100px; }
+    height: 100px;
+    display: none; }
   @media (min-width: 720px) {
     .workHero .map .yellow-pin {
       display: inline-block; }
@@ -2329,6 +2330,8 @@ html {
         font-size: 1.3rem; }
       .team-type-archive .popup .team-member .profile-pic {
         height: 250px; }
+      .team-type-archive .popup .team-member .job-border {
+        top: -10px; }
     .team-type-archive .popup .description {
       color: white;
       margin: 0 5%; }
@@ -3125,7 +3128,7 @@ html {
         padding-left: 0;
         width: 70%; } }
   .single-update .more {
-    border-bottom: 3px solid #852762;
+    border-bottom: 3px solid #433E3E;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: end;
@@ -3137,6 +3140,7 @@ html {
       padding: 10px 30px;
       background-color: #433E3E;
       border-radius: 10px;
+      border-bottom-right-radius: 0;
       text-transform: uppercase;
       color: white;
       font-size: 2.25rem;
