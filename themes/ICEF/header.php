@@ -33,6 +33,5 @@
 					<i class="fa fa-bars" aria-hidden="true"></i>
 				</nav><!-- #site-navigation -->
 				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-				<div class="yellow-dot-filler"></div>
 			</header><!-- #masthead -->
 			<div id="content" class="site-content">

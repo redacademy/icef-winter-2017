@@ -90,3 +90,12 @@ function our_work_archive_posts( $query ) {
     }
 }
 add_action( 'pre_get_posts', 'our_work_archive_posts' );
+
+
+function projectRedirect(){
+    if(is_post_type_archive('project')){
+        wp_redirect(get_page_link(200), 301);
+    exit;
+    };
+};
+add_action('template_redirect', 'projectRedirect');
