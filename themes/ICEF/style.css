@@ -1524,9 +1524,15 @@ html {
     margin: 0;
     padding: 0px 0 0 45px; }
 
-.page-template-internship .applyButton {
+.page-template-internship .apply-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.page-template-internship .download-button {
   text-align: center; }
-  .page-template-internship .applyButton a {
+  .page-template-internship .download-button a {
     padding-top: 10px;
     text-align: center;
     height: 50px;
@@ -1539,9 +1545,10 @@ html {
     text-transform: uppercase;
     font-size: 1.5rem;
     border: none; }
-  .page-template-internship .applyButton a {
+  .page-template-internship .download-button a {
     font-family: "Oswald", sans-serif;
-    margin: 4rem; }
+    margin: 0;
+    width: 190px; }
 
 .workHero .map {
   display: -ms-flexbox;
