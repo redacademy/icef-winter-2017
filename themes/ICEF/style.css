@@ -592,8 +592,11 @@ a {
           color: #433E3E; } }
     .menu li a:hover {
       text-decoration: none;
-      color: #433E3E;
+      color: #FFEABA;
       border-bottom: 4px solid #F2CA6E; }
+      @media (min-width: 720px) {
+        .menu li a:hover {
+          color: #433E3E; } }
   @media (min-width: 720px) {
     .menu .menu-item-57 {
       background: url(../../images/svg/banner.svg) no-repeat;
@@ -649,7 +652,8 @@ a {
   padding: 10px;
   z-index: 2;
   list-style-type: none;
-  text-align: center; }
+  text-align: center;
+  display: none; }
   .sub-menu li {
     height: auto;
     padding: 10px;
@@ -664,9 +668,10 @@ a {
       text-transform: uppercase;
       text-decoration: none; }
 
-.menu-item-261:hover .sub-menu {
-  position: absolute;
-  display: inline-block; }
+@media (min-width: 720px) {
+  .menu-item-261:hover .sub-menu {
+    position: absolute;
+    display: inline-block; } }
 
 .home .menu a {
   color: white; }
