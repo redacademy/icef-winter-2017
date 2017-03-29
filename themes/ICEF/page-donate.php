@@ -1,6 +1,5 @@
 <?php
 /**
- * Template Name: Donate Page
  *
  * @package RED_Starter_Theme
  */
