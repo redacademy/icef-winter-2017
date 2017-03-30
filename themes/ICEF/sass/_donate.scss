@@ -104,31 +104,21 @@
         color: #fff;
     }
 
-    .sponsor-button-wrapper {
+    .sponsor-link-wrapper {
         display: flex;
         justify-content: center;
     }
 
-    .primary-school-button {
+    .primary-school-link {
         padding: 30px 10px;
-        @include purple-button;   
-        text-align: center;
-        
-        a {
-            height: 88px;
-            width: 130px;
-        }    
+        @include purple-link;   
+        text-align: center;    
     }
 
-    .vocational-school-button {
+    .vocational-school-link {
         padding: 30px 10px;
-        @include purple-button;   
+        @include purple-link;   
         text-align: center;
-        
-        a {
-            height: 88px;
-            width: 130px;
-        }
     }
 
     .project-wrapper {

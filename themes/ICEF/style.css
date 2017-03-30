@@ -2471,57 +2471,41 @@ html {
       color: #B5852F; }
   .page-id-17 .sponsor-desc {
     color: #fff; }
-  .page-id-17 .sponsor-button-wrapper {
+  .page-id-17 .sponsor-link-wrapper {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: center;
         justify-content: center; }
-  .page-id-17 .primary-school-button {
+  .page-id-17 .primary-school-link {
     padding: 30px 10px;
     text-align: center; }
-    .page-id-17 .primary-school-button a {
+    .page-id-17 .primary-school-link a {
       padding-top: 10px;
       text-align: center;
       height: 50px;
-      width: 150px;
-      border-radius: 8px;
       display: inline-block;
-      background-color: #852762;
-      color: white;
+      background-color: #F2CA6E;
+      color: #852762;
       font-family: "Oswald", sans-serif;
       text-transform: uppercase;
-      font-size: 1.5rem;
-      border: none; }
-    .page-id-17 .primary-school-button a:hover {
-      color: white;
-      border: none;
-      box-shadow: 5px 5px 10px black; }
-    .page-id-17 .primary-school-button a {
-      height: 88px;
-      width: 130px; }
-  .page-id-17 .vocational-school-button {
+      font-size: 1.5rem; }
+    .page-id-17 .primary-school-link a:hover {
+      color: #852762; }
+  .page-id-17 .vocational-school-link {
     padding: 30px 10px;
     text-align: center; }
-    .page-id-17 .vocational-school-button a {
+    .page-id-17 .vocational-school-link a {
       padding-top: 10px;
       text-align: center;
       height: 50px;
-      width: 150px;
-      border-radius: 8px;
       display: inline-block;
-      background-color: #852762;
-      color: white;
+      background-color: #F2CA6E;
+      color: #852762;
       font-family: "Oswald", sans-serif;
       text-transform: uppercase;
-      font-size: 1.5rem;
-      border: none; }
-    .page-id-17 .vocational-school-button a:hover {
-      color: white;
-      border: none;
-      box-shadow: 5px 5px 10px black; }
-    .page-id-17 .vocational-school-button a {
-      height: 88px;
-      width: 130px; }
+      font-size: 1.5rem; }
+    .page-id-17 .vocational-school-link a:hover {
+      color: #852762; }
   .page-id-17 .project-wrapper {
     display: -ms-flexbox;
     display: flex;
