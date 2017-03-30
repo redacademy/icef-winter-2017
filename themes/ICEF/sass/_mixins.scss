@@ -69,3 +69,28 @@
 		
 	}
 }
+
+@mixin purple-link {
+	a {
+		padding-top: 10px;
+		text-align: center;
+		height: 50px;
+		// width: 150px;
+		// border-radius: 8px;
+		display: inline-block;
+		background-color:$brand_colour_mediumgold;
+		color: $brand_colour_lightpurple;
+		font-family: $font__accent;
+		text-transform: uppercase;
+		font-size: 1.5rem;
+		// border: none;
+		
+	}
+
+	a:hover {
+			color: $brand_colour_lightpurple;
+
+			// border: none;
+			// box-shadow: 5px 5px 10px black;
+	}
+}
