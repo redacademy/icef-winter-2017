@@ -78,17 +78,23 @@
         })
     })
 
-    ourWorkPageCheck();
-
     function ourWorkPageCheck(){
         var $slug = window.location.pathname;
-        $slug = $slug.slice(14);
-        $('.' + $slug).css('display', 'none');
 
-        //shows purple pin only on desktop
-        if($windowsize > 720){
-            $('span .' + $slug).css('display', 'inline-block');
+        if($slug.includes('/icef/project/')){
+
+            console.log($slug);
+            $slug = $slug.slice(14);
+            console.log($slug);
+            $('.' + $slug).css('display', 'none');
+
+            //shows purple pin only on desktop
+            if($windowsize > 720){
+                $('span .' + $slug).css('display', 'inline-block');
+            }
         }
     }
+
+    ourWorkPageCheck();
 
 })(jQuery);
