@@ -23,9 +23,10 @@ get_header(); ?>
 				</div>
 			</article>
 
-		<?php endwhile; // End of the loop. ?>
+		<?php endwhile; // End of the loop. 
 		
-			<?php $loop = new get_posts( array( 
+			wp_reset_postdata();
+			$loop = new wp_query( array( 
 			'post_type' => 'post',
 			'posts_per_page' => 4 ) ); ?>
 

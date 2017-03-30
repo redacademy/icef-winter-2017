@@ -147,7 +147,7 @@
         left: 0;
         background-color: $brand_colour_darkgrey;
         z-index: 2;
-        overflow: scroll; 
+        overflow: scroll;
 
         @include desktop {
             padding: 10% 23% 0 23%;
@@ -194,6 +194,10 @@
 
             .profile-pic {
                 height: 250px;
+            }
+
+            .job-border{
+                top: -10px;
             }
         }
 

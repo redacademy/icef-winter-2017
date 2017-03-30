@@ -92,6 +92,9 @@
   .position-term, .position-description{
      border-bottom:solid 1px grey;
   }
+  .position-requirement{
+    margin-bottom: 1rem;
+  }
   .position-name{
       font-family:$font__accent;
       text-transform:uppercase;
@@ -123,6 +126,7 @@
   }
   .download-button{
     @include purple-button;
+    width:100%;
     text-align: center;
     a{
       font-family: $font__accent;

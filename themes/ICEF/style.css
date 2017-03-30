@@ -592,8 +592,11 @@ a {
           color: #433E3E; } }
     .menu li a:hover {
       text-decoration: none;
-      color: #433E3E;
+      color: #FFEABA;
       border-bottom: 4px solid #F2CA6E; }
+      @media (min-width: 720px) {
+        .menu li a:hover {
+          color: #433E3E; } }
   @media (min-width: 720px) {
     .menu .menu-item-57 {
       background: url(../../images/svg/banner.svg) no-repeat;
@@ -622,6 +625,10 @@ a {
     text-transform: uppercase;
     font-size: 1.5rem;
     border: none; }
+  .menu .menu-item-58 a:hover {
+    color: white;
+    border: none;
+    box-shadow: 5px 5px 10px black; }
   .menu .menu-item-58 a {
     font-size: 1.25rem;
     margin: 0;
@@ -649,7 +656,8 @@ a {
   padding: 10px;
   z-index: 2;
   list-style-type: none;
-  text-align: center; }
+  text-align: center;
+  display: none; }
   .sub-menu li {
     height: auto;
     padding: 10px;
@@ -664,9 +672,10 @@ a {
       text-transform: uppercase;
       text-decoration: none; }
 
-.menu-item-261:hover .sub-menu {
-  position: absolute;
-  display: inline-block; }
+@media (min-width: 720px) {
+  .menu-item-261:hover .sub-menu {
+    position: absolute;
+    display: inline-block; } }
 
 .home .menu a {
   color: white; }
@@ -715,9 +724,18 @@ a {
 
 .front-page-container .hero-text {
   height: 30%; }
+  .front-page-container .hero-text h2 {
+    margin: 0;
+    padding: 10px;
+    font-weight: 400;
+    background-color: #852762;
+    color: white; }
   @media (min-width: 720px) {
     .front-page-container .hero-text {
       display: none; }
+      .front-page-container .hero-text h2 {
+        background-color: white;
+        color: #433E3E; }
       .front-page-container .hero-text p {
         color: #433E3E;
         width: 55%;
@@ -1023,6 +1041,11 @@ a {
   font-size: 1.5rem;
   border: none; }
 
+.front-page-container .our-values a:hover {
+  color: white;
+  border: none;
+  box-shadow: 5px 5px 10px black; }
+
 .front-page-container .our-values .purple-btn {
   display: none; }
   @media (min-width: 720px) {
@@ -1131,6 +1154,10 @@ a {
     text-transform: uppercase;
     font-size: 1.5rem;
     border: none; }
+  .front-page-container .front-bottom a:hover {
+    color: white;
+    border: none;
+    box-shadow: 5px 5px 10px black; }
   .front-page-container .front-bottom a {
     margin: 5px;
     font-weight: bold;
@@ -1501,6 +1528,9 @@ html {
 .page-id-15 .position-term, .page-id-15 .position-description {
   border-bottom: solid 1px grey; }
 
+.page-id-15 .position-requirement {
+  margin-bottom: 1rem; }
+
 .page-id-15 .position-name {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
@@ -1532,6 +1562,7 @@ html {
       flex-wrap: wrap; }
 
 .page-id-15 .download-button {
+  width: 100%;
   text-align: center; }
   .page-id-15 .download-button a {
     padding-top: 10px;
@@ -1546,6 +1577,10 @@ html {
     text-transform: uppercase;
     font-size: 1.5rem;
     border: none; }
+  .page-id-15 .download-button a:hover {
+    color: white;
+    border: none;
+    box-shadow: 5px 5px 10px black; }
   .page-id-15 .download-button a {
     font-family: "Oswald", sans-serif;
     margin: 0;
@@ -1572,13 +1607,14 @@ html {
     right: 50px;
     margin: 0;
     color: #433E3E; }
-  .workHero .map span img {
+  .workHero .map span .purple-pin {
     display: none; }
   .workHero .map .yellow-pin {
     display: none; }
   .workHero .map .purple-pin {
     width: 100px;
-    height: 100px; }
+    height: 100px;
+    display: none; }
   @media (min-width: 720px) {
     .workHero .map .yellow-pin {
       display: inline-block; }
@@ -2314,6 +2350,8 @@ html {
         font-size: 1.3rem; }
       .team-type-archive .popup .team-member .profile-pic {
         height: 250px; }
+      .team-type-archive .popup .team-member .job-border {
+        top: -10px; }
     .team-type-archive .popup .description {
       color: white;
       margin: 0 5%; }
@@ -2454,6 +2492,10 @@ html {
       text-transform: uppercase;
       font-size: 1.5rem;
       border: none; }
+    .page-id-17 .primary-school-button a:hover {
+      color: white;
+      border: none;
+      box-shadow: 5px 5px 10px black; }
     .page-id-17 .primary-school-button a {
       height: 88px;
       width: 130px; }
@@ -2473,6 +2515,10 @@ html {
       text-transform: uppercase;
       font-size: 1.5rem;
       border: none; }
+    .page-id-17 .vocational-school-button a:hover {
+      color: white;
+      border: none;
+      box-shadow: 5px 5px 10px black; }
     .page-id-17 .vocational-school-button a {
       height: 88px;
       width: 130px; }
@@ -2628,6 +2674,10 @@ html {
     text-transform: uppercase;
     font-size: 1.5rem;
     border: none; }
+  .page-template-donate-child .sponsor-button a:hover {
+    color: white;
+    border: none;
+    box-shadow: 5px 5px 10px black; }
   @media (min-width: 720px) {
     .page-template-donate-child .content-wrapper {
       display: -ms-flexbox;
@@ -2776,6 +2826,10 @@ html {
       text-transform: uppercase;
       font-size: 1.5rem;
       border: none; }
+    .page-template-donate-primary .sponsor-button a:hover {
+      color: white;
+      border: none;
+      box-shadow: 5px 5px 10px black; }
   .page-template-donate-primary .primary-school-img {
     margin: 0 auto; }
     @media (min-width: 720px) {
@@ -3111,7 +3165,7 @@ html {
         padding-left: 0;
         width: 70%; } }
   .single-update .more {
-    border-bottom: 3px solid #852762;
+    border-bottom: 3px solid #433E3E;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: end;
@@ -3123,6 +3177,7 @@ html {
       padding: 10px 30px;
       background-color: #433E3E;
       border-radius: 10px;
+      border-bottom-right-radius: 0;
       text-transform: uppercase;
       color: white;
       font-size: 2.25rem;

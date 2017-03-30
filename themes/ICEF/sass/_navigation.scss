@@ -251,8 +251,12 @@ a {
 
 		a:hover {
 			text-decoration: none;
-			color: $brand_colour_darkgrey;
+			color: $brand_colour_lightgold;
 		 	border-bottom: 4px solid $brand_colour_mediumgold;
+
+			 @include desktop {
+				 color: $brand_colour_darkgrey;
+			 }
 		}
 	}
 
@@ -274,6 +278,7 @@ a {
 	}
 
 	.menu-item-58{
+
 		@include desktop {
 			padding-top: 40px;
 		}
@@ -317,6 +322,8 @@ a {
 	z-index: 2;
 	list-style-type: none;
 	text-align: center;
+	display: none;
+
 	
 	li {
 		height: auto;
@@ -336,14 +343,13 @@ a {
 	}
 }
 
-.menu-item-261{
-	
-}
-
 .menu-item-261:hover{
 	.sub-menu{
-		position: absolute;
-		display: inline-block;
+
+		@include desktop {
+			position: absolute;
+			display: inline-block;
+		}
 	}
 }
 
