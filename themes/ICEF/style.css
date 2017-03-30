@@ -3271,7 +3271,10 @@ footer .icef-footer {
   display: flex; }
 
 .canada-wrapper {
-  padding: 10px 50px 30px 50px; }
+  padding: 10px 0px; }
+  @media (min-width: 720px) {
+    .canada-wrapper {
+      padding: 10px 50px 30px 50px; } }
 
 .canada-image {
   display: -ms-flexbox;

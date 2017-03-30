@@ -12,7 +12,10 @@ footer .icef-footer {
 }
 
 .canada-wrapper {
-    padding: 10px 50px 30px 50px;
+    padding: 10px 0px;
+    @include desktop {
+        padding: 10px 50px 30px 50px;
+    }
 }
 
 .canada-image {
