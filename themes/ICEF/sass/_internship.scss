@@ -127,6 +127,9 @@
   .download-button{
     @include purple-button;
     width:100%;
+    @include desktop{
+      width: 30%;
+    }
     text-align: center;
     a{
       font-family: $font__accent;

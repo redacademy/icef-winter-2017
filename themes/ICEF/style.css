@@ -1528,12 +1528,9 @@ html {
 .page-id-15 .position-term, .page-id-15 .position-description {
   border-bottom: solid 1px grey; }
 
-<<<<<<< HEAD
-=======
 .page-id-15 .position-requirement {
   margin-bottom: 1rem; }
 
->>>>>>> 23da9cf6afc21940f681d8c5ff8e12571a4ad273
 .page-id-15 .position-name {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
@@ -1565,10 +1562,7 @@ html {
       flex-wrap: wrap; }
 
 .page-id-15 .download-button {
-<<<<<<< HEAD
-=======
   width: 100%;
->>>>>>> 23da9cf6afc21940f681d8c5ff8e12571a4ad273
   text-align: center; }
   .page-id-15 .download-button a {
     padding-top: 10px;
@@ -1583,13 +1577,13 @@ html {
     text-transform: uppercase;
     font-size: 1.5rem;
     border: none; }
-<<<<<<< HEAD
   .page-id-15 .download-button a:hover {
     color: white;
     border: none;
     box-shadow: 5px 5px 10px black; }
-=======
->>>>>>> 23da9cf6afc21940f681d8c5ff8e12571a4ad273
+  @media (min-width: 720px) {
+    .page-id-15 .download-button {
+      width: 30%; } }
   .page-id-15 .download-button a {
     font-family: "Oswald", sans-serif;
     margin: 0;
@@ -2501,15 +2495,11 @@ html {
       text-transform: uppercase;
       font-size: 1.5rem;
       border: none; }
-<<<<<<< HEAD
-    .page-template-donate .primary-school-button a:hover {
+    .page-id-17 .primary-school-button a:hover {
       color: white;
       border: none;
       box-shadow: 5px 5px 10px black; }
-    .page-template-donate .primary-school-button a {
-=======
     .page-id-17 .primary-school-button a {
->>>>>>> 23da9cf6afc21940f681d8c5ff8e12571a4ad273
       height: 88px;
       width: 130px; }
   .page-id-17 .vocational-school-button {
@@ -2528,15 +2518,11 @@ html {
       text-transform: uppercase;
       font-size: 1.5rem;
       border: none; }
-<<<<<<< HEAD
-    .page-template-donate .vocational-school-button a:hover {
+    .page-id-17 .vocational-school-button a:hover {
       color: white;
       border: none;
       box-shadow: 5px 5px 10px black; }
-    .page-template-donate .vocational-school-button a {
-=======
     .page-id-17 .vocational-school-button a {
->>>>>>> 23da9cf6afc21940f681d8c5ff8e12571a4ad273
       height: 88px;
       width: 130px; }
   .page-id-17 .project-wrapper {
@@ -2691,13 +2677,10 @@ html {
     text-transform: uppercase;
     font-size: 1.5rem;
     border: none; }
-<<<<<<< HEAD
   .page-template-donate-child .sponsor-button a:hover {
     color: white;
     border: none;
     box-shadow: 5px 5px 10px black; }
-=======
->>>>>>> 23da9cf6afc21940f681d8c5ff8e12571a4ad273
   @media (min-width: 720px) {
     .page-template-donate-child .content-wrapper {
       display: -ms-flexbox;
