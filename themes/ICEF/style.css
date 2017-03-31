@@ -2354,7 +2354,7 @@ html {
       .team-type-archive .popup .team-member .profile-pic {
         height: 250px; }
       .team-type-archive .popup .team-member .job-border {
-        top: -10px; }
+        top: 9px; }
     .team-type-archive .popup .description {
       color: white;
       margin: 0 5%; }
