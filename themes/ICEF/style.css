@@ -2477,7 +2477,7 @@ html {
     -ms-flex-pack: center;
         justify-content: center; }
   .page-id-17 .primary-school-link {
-    padding: 30px 10px;
+    padding: 30px 0px;
     text-align: center; }
     .page-id-17 .primary-school-link a {
       padding-top: 10px;
@@ -2492,7 +2492,7 @@ html {
     .page-id-17 .primary-school-link a:hover {
       color: #852762; }
   .page-id-17 .vocational-school-link {
-    padding: 30px 10px;
+    padding: 30px 0px;
     text-align: center; }
     .page-id-17 .vocational-school-link a {
       padding-top: 10px;
@@ -2506,6 +2506,12 @@ html {
       font-size: 1.5rem; }
     .page-id-17 .vocational-school-link a:hover {
       color: #852762; }
+  .page-id-17 .separate-link {
+    font-family: "Fira", sans-serif;
+    padding: 60px 10px 0 10px; }
+    @media (min-width: 720px) {
+      .page-id-17 .separate-link {
+        padding: 45px 10px 0 10px; } }
   .page-id-17 .project-wrapper {
     display: -ms-flexbox;
     display: flex;
