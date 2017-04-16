@@ -2,8 +2,8 @@ footer .icef-footer {
     display: flex;
     width: 100%;
     font-family: $font__main;
-    color: $color__text-main;
-    background-color: $brand_colour_lightgrey;
+    color: #fff;
+    background-color: $brand_colour_darkgrey;
     justify-content: center;
 }
 
@@ -49,7 +49,7 @@ footer .icef-footer {
 
 .canada-info p, .uganda-info p {
     line-height: 0;
-    color: $color__text-main;
+    color: #fff;
     margin-bottom: 0;
     margin-top: 0.25;
 }
@@ -91,10 +91,10 @@ footer .icef-footer {
 }
 
 a {
-    color: $color__text-main;
+    color: #fff;
     text-decoration: none;
     &:hover, &:active, &:visited {
-        color: $color__text-main;
+        color: #fff;
         text-decoration: underline;
     }
 }
