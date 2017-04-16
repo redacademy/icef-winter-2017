@@ -1529,7 +1529,7 @@ html {
   border-bottom: solid 1px grey; }
 
 .page-id-15 .position-requirement {
-  margin-bottom: 1rem; }
+  margin-bottom: 3rem; }
 
 .page-id-15 .position-name {
   font-family: "Oswald", sans-serif;
@@ -1555,14 +1555,10 @@ html {
     margin: 0;
     padding: 0px 0 0 45px; }
 
-.page-id-15 .apply-wrapper {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+.page-id-15 .apply-wrapper p {
+  display: inline-block; }
 
 .page-id-15 .download-button {
-  width: 100%;
   text-align: center; }
   .page-id-15 .download-button a {
     padding-top: 10px;
@@ -1583,7 +1579,8 @@ html {
     box-shadow: 5px 5px 10px black; }
   @media (min-width: 720px) {
     .page-id-15 .download-button {
-      width: 30%; } }
+      display: inline-block;
+      margin-left: 13rem; } }
   .page-id-15 .download-button a {
     font-family: "Oswald", sans-serif;
     margin: 0;
