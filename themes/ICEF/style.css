@@ -3303,8 +3303,8 @@ footer .icef-footer {
   display: flex;
   width: 100%;
   font-family: "Fira", sans-serif;
-  color: #FFFFFF;
-  background-color: #333030;
+  color: #433E3E;
+  background-color: #898989;
   -ms-flex-pack: center;
       justify-content: center; }
 
@@ -3350,7 +3350,7 @@ footer .icef-footer {
 
 .canada-info p, .uganda-info p {
   line-height: 0;
-  color: #fff;
+  color: #433E3E;
   margin-bottom: 0;
   margin-top: 0.25; }
 
@@ -3388,9 +3388,9 @@ footer .icef-footer {
 .address-line2 {
   padding-left: 23px; }
 
-a:link {
-  color: #fff;
+a {
+  color: #433E3E;
   text-decoration: none; }
-  a:link:hover, a:link:active, a:link:visited {
-    color: #fff;
+  a:hover, a:active, a:visited {
+    color: #433E3E;
     text-decoration: underline; }
