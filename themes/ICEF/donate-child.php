@@ -17,9 +17,6 @@ get_header(); ?>
 					<div class="donate-child-content">
 						<h2 class="donate-child-title"><?php echo esc_html(CFS()->get('donate_child_title'));?></h2>
 						<p class="donate-child-desc"><?php echo esc_html(CFS()->get('donate_child_description'));?></p>
-						<div class="sponsor-button align-center">
-							<a href="mailto:info@icefcanada.org">Sponsor</a>
-						</div>
 					</div>
 					<img src="<?php echo esc_html(CFS()->get('donate_child_image'));?>">					
 				</div>
