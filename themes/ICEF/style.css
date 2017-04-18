@@ -2621,18 +2621,19 @@ html {
     display: flex;
     -ms-flex-flow: row wrap;
         flex-flow: row wrap;
+    -ms-flex-pack: center;
+        justify-content: center;
     color: #fff;
-    background-color: #433E3E;
-    padding: 10px 50px 40px 50px; }
+    background-color: #433E3E; }
     @media (min-width: 720px) {
       .page-template-donate-child .donate-child-wrapper {
-        padding: 35px 18px; }
-        .page-template-donate-child .donate-child-wrapper img {
-          margin-top: 33px; } }
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+        padding: 0; } }
   @media (min-width: 720px) {
     .page-template-donate-child .donate-child-content {
-      width: 63%;
-      padding: 0px 50px; } }
+      width: 68%;
+      padding: 0px 25px; } }
   .page-template-donate-child .donate-child-title {
     color: #fff; }
   .page-template-donate-child .donate-child-desc {
