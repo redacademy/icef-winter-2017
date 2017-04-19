@@ -34,7 +34,9 @@ get_header(); ?>
 						<div class="sponsor-link-wrapper">
 							<div class="primary-school-link">
 								<a href="./primary-school">Primary School</a>
+								
 							</div>
+							<div class="separate-link">or</div>
 							<div class="vocational-school-link">
 								<a href="./vocational-school">Vocational School</a>
 							</div>

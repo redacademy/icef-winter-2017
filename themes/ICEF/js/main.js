@@ -24,11 +24,13 @@
         $('.map').toggleClass('showMap');
 
         if($('.openMap p').text() === 'close map'){
-            $('.map-arrow').css('transform', 'rotate(180deg)');
             $('.openMap p').text('open map');
-        } else {
             $('.map-arrow').css('transform', 'rotate(0deg)');            
+            
+        } else {
             $('.openMap p').text('close map');
+            $('.map-arrow').css('transform', 'rotate(180deg)');
+            
         }
     })
 
