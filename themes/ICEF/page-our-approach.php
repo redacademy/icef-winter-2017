@@ -65,19 +65,21 @@ get_header(); ?>
 					</li>
 				</ul>
 			</section>
-			<div>
-				<p><?php echo wp_kses(CFS()->get('below_self_sustainability'), $allowed_html); ?></p>
-			<div class = "quote-background">
-				<p><?php echo wp_kses(CFS()->get('approach_quote'), $allowed_html); ?></p>
-			</div>                                 
-				<p><?php echo wp_kses(CFS()->get('below_quote'), $allowed_html); ?></p>
-			<div class="last-picture-mobile">
-				<img src="<?php echo esc_html(CFS()->get('last_picture'));?>" alt="last picture">
-			</div>
-			<div class="last-picture-desktop">
-				<img src="<?php echo esc_html(CFS()->get('last_picture_desktop'));?>" alt="last-picture-desktop">
-			</div>                            
-			<p><?php echo wp_kses(CFS()->get('below_last_picture_text'), $allowed_html); ?></p>
+			<section class="last-block">
+				<div>
+					<p><?php echo wp_kses(CFS()->get('below_self_sustainability'), $allowed_html); ?></p>
+				<div class = "quote-background">
+					<p><span class="quote"><?php echo wp_kses(CFS()->get('approach_quote'), $allowed_html); ?></span> - <?php echo wp_kses(CFS()->get('quote_author'), $allowed_html); ?></p>
+				</div>                                 
+					<p><?php echo wp_kses(CFS()->get('below_quote'), $allowed_html); ?></p>
+				<div class="last-picture-mobile">
+					<img src="<?php echo esc_html(CFS()->get('last_picture'));?>" alt="last picture">
+				</div>
+				<div class="last-picture-desktop">
+					<img src="<?php echo esc_html(CFS()->get('last_picture_desktop'));?>" alt="last-picture-desktop">
+				</div>                            
+				<p><?php echo wp_kses(CFS()->get('below_last_picture_text'), $allowed_html); ?></p>
+			</section>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

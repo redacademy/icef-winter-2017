@@ -78,6 +78,7 @@ get_header();
 					$fact2       = CFS()->get( 'project_fact_2' );
 					$fact3       = CFS()->get( 'project_fact_3' );
 					$quote       = CFS()->get( 'project_quote' );
+					$author      = CFS()->get( 'project_quote_author');
 					$whyIntro    = CFS()->get( 'project_why_intro' );
 					$why         = CFS()->get( 'project_why' );
 					$whyImage    = CFS()->get( 'project_why_image' );
@@ -117,7 +118,7 @@ get_header();
 								</div>
 							</div>
 							<div class="fact-text">
-								<?php echo $fact1;?>
+								<p class="facts"><?php echo $fact1;?></p>
 							</div>
 						</div>
 						<div class="fact">
@@ -131,7 +132,7 @@ get_header();
 								</div>
 							</div>
 							<div class="fact-text">
-								<?php echo $fact2;?>
+								<p class="facts"><?php echo $fact2;?></p>
 							</div>
 						</div>
 						<div class="fact">
@@ -145,12 +146,13 @@ get_header();
 								</div>
 							</div>
 							<div class="fact-text">
-								<?php echo $fact3;?>
+								<p class="facts"><?php echo $fact3;?></p>
 							</div>
 						</div>
 						<div class="quote-background">
 							<div class="quote-block">
-								<?php echo $quote;?>
+								<p class="work-quote"><?php echo $quote;?></p>
+								<p class="quote-author"> - <?php echo $author; ?> </p>
 							</div>
 						</div>
 						<div class="work-flex">
