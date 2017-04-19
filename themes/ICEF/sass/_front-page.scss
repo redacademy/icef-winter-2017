@@ -55,7 +55,7 @@
         height: 60%;
         background: url(../../images/jpegs/home-hero.jpg) no-repeat;
         background-size: cover;
-        background-position: -100px;
+        margin: 0 auto;
 
         @include desktop {
             height: 100%;
@@ -157,9 +157,7 @@
                 padding-top: 0px;
                 margin-top: 0;
                 background-color: $brand_colour_lightgold;
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                display: block;
                 flex-wrap: wrap;
                 margin: 0;
                 width: 100%;
@@ -490,7 +488,6 @@
             .education, .health, .local-business {
                 display: flex;
                 flex-direction: column;
-                flex-wrap: wrap;
                 justify-content: center;
 
                 img{

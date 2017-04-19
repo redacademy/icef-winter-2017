@@ -344,6 +344,10 @@ a {
 			text-transform: uppercase;
 			text-decoration: none;
 		}
+
+		a:hover {
+			color: $brand_colour_lightgold;
+		}
 	}
 }
 
