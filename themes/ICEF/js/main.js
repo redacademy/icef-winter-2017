@@ -93,6 +93,7 @@
             //shows purple pin only on desktop
             if($windowsize > 720){
                 $('span .' + $slug).css('display', 'inline-block');
+
             }
         }
     }
