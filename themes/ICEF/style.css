@@ -1741,6 +1741,9 @@ html {
 .single-project .content-area p {
   margin: 1.5rem; }
 
+.single-project .facts {
+  color: #433E3E; }
+
 .single-project .fact {
   display: -ms-flexbox;
   display: flex;
@@ -1834,6 +1837,7 @@ html {
   .single-project .quote-background p {
     margin: 0;
     color: #433E3E;
+    font-family: "Oswald", sans-serif;
     font-size: 1rem; }
   .single-project .quote-background .quote-author {
     text-align: right;
@@ -1841,11 +1845,11 @@ html {
   .single-project .quote-background .work-quote::first-letter {
     color: #433E3E;
     float: left;
-    font-weight: bold;
-    font-size: 120px;
-    line-height: 1;
-    padding-top: 4px;
-    padding-right: 8px; }
+    font-weight: 700;
+    font-size: 100px;
+    line-height: .5;
+    padding-right: 8px;
+    padding-top: 37px; }
   @media (min-width: 720px) {
     .single-project .quote-background {
       width: 60%;

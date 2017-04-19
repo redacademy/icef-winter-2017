@@ -10,6 +10,9 @@
 			margin:1.5rem;
 		}
   }
+	.facts{
+		color:$brand_colour_darkgrey;
+	}
 	.fact{
 		display:flex;
 		margin:2rem;
@@ -98,6 +101,7 @@
 			p{
 				margin:0;
 				color: $brand_colour_darkgrey;
+				font-family:$font__accent;
 				font-size:1rem;
 			}
 			.quote-author{
@@ -107,13 +111,12 @@
 			.work-quote::first-letter{
 				color: $brand_colour_darkgrey;
 				float: left;
-				font-weight: bold;
-				font-size: 120px;
-				line-height: 1;
-				padding-top: 4px;
+				font-weight: 700;
+				font-size: 100px;
+				line-height: .5;
 				padding-right: 8px;
-				//  text-shadow: $brand_colour_lightgrey .05em .05em;
-				// padding-left: 3px;
+				padding-top: 37px;
+
 			}
 			@include desktop{
 				width: 60%;
