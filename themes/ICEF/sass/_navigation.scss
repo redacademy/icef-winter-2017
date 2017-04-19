@@ -274,6 +274,10 @@ a {
 				height: 100%;
 				color: transparent !important;
 			}
+
+			a:hover{
+				text-decoration: none;
+			}
 		}
 	}
 
@@ -314,7 +318,7 @@ a {
 }
 
 .sub-menu{
-	background-color: $brand_colour_lightgrey;
+	background-color: $brand_colour_darkgrey;
 	display: none;
 	width: 200px;
 	margin: 0;
@@ -349,6 +353,7 @@ a {
 		@include desktop {
 			position: absolute;
 			display: inline-block;
+			opacity: .9;
 		}
 	}
 }

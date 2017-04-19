@@ -608,7 +608,9 @@ a {
         display: inline-block;
         width: 100%;
         height: 100%;
-        color: transparent !important; } }
+        color: transparent !important; }
+      .menu .menu-item-57 a:hover {
+        text-decoration: none; } }
   @media (min-width: 720px) {
     .menu .menu-item-58 {
       padding-top: 40px; } }
@@ -649,7 +651,7 @@ a {
   display: none; }
 
 .sub-menu {
-  background-color: #898989;
+  background-color: #433E3E;
   display: none;
   width: 200px;
   margin: 0;
@@ -675,7 +677,8 @@ a {
 @media (min-width: 720px) {
   .menu-item-261:hover .sub-menu {
     position: absolute;
-    display: inline-block; } }
+    display: inline-block;
+    opacity: .9; } }
 
 .home .menu a {
   color: white; }
@@ -686,7 +689,8 @@ a {
 @media (min-width: 720px) {
   .front-page-container .front-content-container {
     width: 80%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    max-width: 1400px; }
   .front-page-container h3 {
     font-size: 1.5rem; } }
 
@@ -785,13 +789,23 @@ a {
     .front-page-container .who-we-are .key-words p {
       font-weight: bold;
       margin: 0;
-      padding: 6px; }
+      padding: 8px; }
     .front-page-container .who-we-are .key-words span {
       padding-top: 0px;
+      margin-top: 0;
       background-color: #FFEABA;
-      display: block;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: center;
+          justify-content: center;
+      -ms-flex-align: center;
+          align-items: center;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
       margin: 0;
       width: 100%; }
+    .front-page-container .who-we-are .key-words #community {
+      padding-top: 20px; }
   .front-page-container .who-we-are .who-we-are-text {
     text-align: left;
     padding: 0 15px; }
@@ -1022,7 +1036,8 @@ a {
   text-align: center; }
 
 .front-page-container .our-values p {
-  padding: 10px; }
+  padding: 10px;
+  color: #433E3E; }
   @media (min-width: 720px) {
     .front-page-container .our-values p {
       padding: 0 15%; } }
@@ -2954,7 +2969,7 @@ html {
           @media (min-width: 720px) {
             .updates .updates-flex .update-article .update-box .update-title {
               text-align: left;
-              padding: 5px 55px 1px 5px;
+              padding: 5px 70px 1px 5px;
               background-color: #F2CA6E; } }
         .updates .updates-flex .update-article .update-box .update-title :hover {
           text-decoration: none; }
@@ -3158,7 +3173,7 @@ html {
     width: 80%; }
     .single-update .more a {
       margin: 0;
-      padding: 10px 30px;
+      padding: 10px 10px 0px 10px;
       background-color: #433E3E;
       border-radius: 10px;
       border-bottom-right-radius: 0;

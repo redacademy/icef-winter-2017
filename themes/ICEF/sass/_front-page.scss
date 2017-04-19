@@ -15,6 +15,7 @@
         .front-content-container {
             width: 80%;
             margin: 0 auto;
+            max-width: 1400px;
         }
 
         h3 {
@@ -149,15 +150,23 @@
             p {
                 font-weight: bold;
                 margin: 0;
-                padding: 6px;
+                padding: 8px;
             }
             
             span{
                 padding-top: 0px;
+                margin-top: 0;
                 background-color: $brand_colour_lightgold;
-                display: block;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
                 margin: 0;
                 width: 100%;
+            }
+
+            #community {
+                padding-top: 20px;
             }   
         }
 
@@ -435,6 +444,7 @@
         
         p{
             padding: 10px;
+            color: $brand_colour_darkgrey;
 
             @include desktop {
                 padding: 0 15%;
