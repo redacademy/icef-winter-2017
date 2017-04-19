@@ -10,6 +10,7 @@
 ehthumbs.db
 *[Tt]humbs.db
 *.Trashes
+.vscode
 
 # Ignore logs and databases #
 # ========================= #

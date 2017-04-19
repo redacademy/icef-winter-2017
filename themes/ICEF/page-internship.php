@@ -65,17 +65,17 @@ get_header(); ?>
 				</div>				
 			</div>
 			<div class="apply-wrapper">
-				<p>Click on the 'Download Form' button to download the Internship Application form.</p>
-				<div class="download-button">
-					<a href="<?php echo esc_html(CFS()->get('internship_application_form'));?>">Download Form</a>
-				</div>
 				<div>
 					<p>To apply, attach the following files to your email: </p>
 					<ul>
 						<li>cover letter</li>
 						<li>resume</li>
-						<li>filled out Internship Application form</li>
+						<li>filled out application form</li>
 					</ul>
+				</div>
+				<p>Click on the 'Download Form' button to download the application form.</p>
+				<div class="download-button">
+					<a href="<?php echo esc_html(CFS()->get('internship_application_form'));?>">Download Form</a>
 				</div>
 			</div>
 		</main><!-- #main -->

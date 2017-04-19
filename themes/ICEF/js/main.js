@@ -85,9 +85,7 @@
 
         if($slug.includes('/icef/project/')){
 
-            console.log($slug);
             $slug = $slug.slice(14);
-            console.log($slug);
             $('.' + $slug).css('display', 'none');
 
             //shows purple pin only on desktop

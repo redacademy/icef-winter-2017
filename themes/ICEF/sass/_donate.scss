@@ -110,15 +110,23 @@
     }
 
     .primary-school-link {
-        padding: 30px 10px;
+        padding: 30px 0px;
         @include purple-link;   
         text-align: center;    
     }
 
     .vocational-school-link {
-        padding: 30px 10px;
+        padding: 30px 0px;
         @include purple-link;   
         text-align: center;
+    }
+
+    .separate-link {
+        font-family: $font__main;
+        padding: 60px 10px 0 10px;
+        @include desktop {
+            padding: 45px 10px 0 10px;
+        }
     }
 
     .project-wrapper {

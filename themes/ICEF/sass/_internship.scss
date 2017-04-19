@@ -93,7 +93,7 @@
      border-bottom:solid 1px grey;
   }
   .position-requirement{
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
   }
   .position-name{
       font-family:$font__accent;
@@ -120,15 +120,18 @@
       padding: 0px 0 0 45px;
     }
   }
-  .apply-wrapper{
-    display: flex;
-    flex-wrap: wrap;
+  .apply-wrapper p{
+    // display: flex;
+    // flex-wrap: wrap;
+    display: inline-block;
   }
   .download-button{
     @include purple-button;
-    width:100%;
+    // width:100%;
     @include desktop{
-      width: 30%;
+      // width: 30%;
+      display: inline-block;
+      margin-left: 13rem;
     }
     text-align: center;
     a{

@@ -36,21 +36,24 @@
     .donate-child-wrapper {
         display: flex;
         flex-flow: row wrap;
+        justify-content: center;
         color: #fff;
         background-color: $brand_colour_darkgrey; 
-        padding: 10px 50px 40px 50px;
+        // padding: 10px 50px 40px 50px;
         @include desktop {
-            padding: 35px 18px;
+            justify-content: space-between;
+            padding: 0;
+            // padding: 35px 18px;
             img {
-                margin-top: 33px;
+                // margin-top: 33px;
             }
         }
     }
 
     .donate-child-content {
         @include desktop {
-            width: 63%;
-            padding: 0px 50px;
+            width: 68%;
+            padding: 0px 25px;
         }
     }
 
