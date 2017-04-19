@@ -152,8 +152,19 @@
     background:$brand_colour_lightgold;
     padding:1rem;
     width:70%;
+    font-family: $font__accent;
     margin: 0 auto;
-    font-size:.8rem;
+    font-size:1rem;
+    p:first-child:first-letter {
+      color: $brand_colour_darkgrey;
+      float: left;
+      font-weight: bold;
+      font-size: 100px;
+      line-height: 120px;
+      padding-top: 4px;
+      padding-right: 8px;
+      padding-left: 3px;
+    }
   }
   .mobile-approach-table{
     display:flex;
@@ -174,5 +185,8 @@
         color:$brand_colour_darkgold;
       }
     }
+  }
+  .last-block{
+    margin-bottom:2rem;
   }
 }

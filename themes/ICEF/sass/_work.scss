@@ -92,12 +92,28 @@
 	.quote-background{
 			background:$brand_colour_lightgold;
 			margin: 1rem;
-			font-style: italic;
+			// font-style: italic;
 			// margin-bottom:2rem;
 			padding:1rem;
-			font-size:.8rem;
 			p{
 				margin:0;
+				color: $brand_colour_darkgrey;
+				font-size:1rem;
+			}
+			.quote-author{
+				text-align: right;
+				font-size: 1rem;
+			}
+			.work-quote::first-letter{
+				color: $brand_colour_darkgrey;
+				float: left;
+				font-weight: bold;
+				font-size: 120px;
+				line-height: 1;
+				padding-top: 4px;
+				padding-right: 8px;
+				//  text-shadow: $brand_colour_lightgrey .05em .05em;
+				// padding-left: 3px;
 			}
 			@include desktop{
 				width: 60%;

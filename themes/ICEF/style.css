@@ -1420,8 +1420,18 @@ html {
   background: #FFEABA;
   padding: 1rem;
   width: 70%;
+  font-family: "Oswald", sans-serif;
   margin: 0 auto;
-  font-size: .8rem; }
+  font-size: 1rem; }
+  .page-id-6 .quote-background p:first-child:first-letter {
+    color: #433E3E;
+    float: left;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 120px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px; }
 
 .page-id-6 .mobile-approach-table {
   display: -ms-flexbox;
@@ -1441,6 +1451,9 @@ html {
       color: black; }
     .page-id-6 .mobile-approach-table li .table-numbers {
       color: #B5852F; }
+
+.page-id-6 .last-block {
+  margin-bottom: 2rem; }
 
 .page-id-15 .content-area p {
   margin: 1rem 1.5rem; }
@@ -1817,11 +1830,22 @@ html {
 .single-project .quote-background {
   background: #FFEABA;
   margin: 1rem;
-  font-style: italic;
-  padding: 1rem;
-  font-size: .8rem; }
+  padding: 1rem; }
   .single-project .quote-background p {
-    margin: 0; }
+    margin: 0;
+    color: #433E3E;
+    font-size: 1rem; }
+  .single-project .quote-background .quote-author {
+    text-align: right;
+    font-size: 1rem; }
+  .single-project .quote-background .work-quote::first-letter {
+    color: #433E3E;
+    float: left;
+    font-weight: bold;
+    font-size: 120px;
+    line-height: 1;
+    padding-top: 4px;
+    padding-right: 8px; }
   @media (min-width: 720px) {
     .single-project .quote-background {
       width: 60%;
