@@ -157,10 +157,11 @@
     margin: 0 auto;
     margin-top:4rem;
     margin-bottom:4rem;
-    font-size:1rem;
+    font-size:1.25rem;
     .top-left-quote, .bottom-right-quote {
       p{
         font-size:11rem;
+        color: $brand_colour_mediumgold;        
       }
       position:absolute;
     }
@@ -172,15 +173,19 @@
       bottom: -106px;
       right: -37px;
     }
-    p:first-letter {
+    p.quote:first-letter {
       color: $brand_colour_darkgrey;
       float: left;
-      font-weight: bold;
-      font-size: 100px;
-      line-height: 120px;
-      padding-top: 4px;
+      font-weight: 700;
+      font-size: 95px;
+      line-height: .5;
+      padding-top: 34px;
       padding-right: 8px;
       padding-left: 3px;
+    }
+    .author{
+      text-align: right;
+      font-size: 1.25rem;
     }
   }
   .mobile-approach-table{

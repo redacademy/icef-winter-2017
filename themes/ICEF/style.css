@@ -1435,26 +1435,30 @@ html {
   margin: 0 auto;
   margin-top: 4rem;
   margin-bottom: 4rem;
-  font-size: 1rem; }
+  font-size: 1.25rem; }
   .page-id-6 .quote-background .top-left-quote, .page-id-6 .quote-background .bottom-right-quote {
     position: absolute; }
     .page-id-6 .quote-background .top-left-quote p, .page-id-6 .quote-background .bottom-right-quote p {
-      font-size: 11rem; }
+      font-size: 11rem;
+      color: #F2CA6E; }
   .page-id-6 .quote-background .top-left-quote {
     top: -45px;
     left: -49px; }
   .page-id-6 .quote-background .bottom-right-quote {
     bottom: -106px;
     right: -37px; }
-  .page-id-6 .quote-background p:first-letter {
+  .page-id-6 .quote-background p.quote:first-letter {
     color: #433E3E;
     float: left;
-    font-weight: bold;
-    font-size: 100px;
-    line-height: 120px;
-    padding-top: 4px;
+    font-weight: 700;
+    font-size: 95px;
+    line-height: .5;
+    padding-top: 34px;
     padding-right: 8px;
     padding-left: 3px; }
+  .page-id-6 .quote-background .author {
+    text-align: right;
+    font-size: 1.25rem; }
 
 .page-id-6 .mobile-approach-table {
   display: -ms-flexbox;
@@ -1885,9 +1889,9 @@ html {
     color: #433E3E;
     float: left;
     font-weight: 700;
-    font-size: 100px;
-    line-height: .5;
-    padding-right: 8px;
+    font-size: 95px;
+    line-height: .45;
+    padding-right: 5px;
     padding-top: 37px; }
   @media (min-width: 1160px) {
     .single-project .quote-background {

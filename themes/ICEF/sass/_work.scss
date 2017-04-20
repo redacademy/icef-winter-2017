@@ -132,16 +132,10 @@
 				color: $brand_colour_darkgrey;
 				float: left;
 				font-weight: 700;
-				font-size: 100px;
-				line-height: .5;
-				padding-right: 8px;
+				font-size: 95px;
+				line-height: .45;
+				padding-right: 5px;
 				padding-top: 37px;
-				// float: left;
-				// font-weight: 700;
-				// font-size: 45px;
-				// line-height: .5;
-				// padding-right: 7px;
-				// padding-top: 17px;
 			}
 			@include desktop{
 				width: 60%;

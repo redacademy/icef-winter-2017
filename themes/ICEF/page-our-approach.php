@@ -72,7 +72,7 @@ get_header(); ?>
 					<div class="top-left-quote">
 						<p>&ldquo;</p>
 					</div>
-					<p><span class="quote"><?php echo wp_kses(CFS()->get('approach_quote'), $allowed_html); ?></span> - <?php echo wp_kses(CFS()->get('quote_author'), $allowed_html); ?></p>
+					<p class="quote"><span><?php echo wp_kses(CFS()->get('approach_quote'), $allowed_html); ?></span><p class="author"> - <?php echo wp_kses(CFS()->get('quote_author'), $allowed_html); ?></p></p>
 					<div class="bottom-right-quote">
 						<p>&bdquo;</p>
 					</div>
