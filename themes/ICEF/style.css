@@ -1877,10 +1877,10 @@ html {
     margin: 0;
     color: #433E3E;
     font-family: "Oswald", sans-serif;
-    font-size: 1rem; }
+    font-size: 1.25rem; }
   .single-project .quote-background .quote-author {
     text-align: right;
-    font-size: 1rem; }
+    font-size: 1.25rem; }
   .single-project .quote-background .work-quote::first-letter {
     color: #433E3E;
     float: left;
