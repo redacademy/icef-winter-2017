@@ -323,7 +323,7 @@ a {
 .sub-menu{
 	background-color: $brand_colour_darkgrey;
 	display: none;
-	width: 200px;
+	width: 238px;
 	margin: 0;
 	padding: 10px;
 	z-index: 2;
@@ -332,7 +332,8 @@ a {
 	display: none;
 	//John Stuff, Menu positioning fix
 	position: absolute;
-  left: -29px;
+  // left: -29px;
+	left: -45px;
 
 	
 	li {
@@ -341,6 +342,7 @@ a {
 		line-height: 30px;
 		font-family: $font__accent;
 		text-align: center;
+		width: 218px;
 		border-bottom: 2px solid $brand_colour_mediumgold;
 
 		a {
