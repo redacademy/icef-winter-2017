@@ -316,7 +316,10 @@ a {
 		display: none;
 	}
 }
-
+.menu-item-261{
+	//John Stuff, Menu Positioning Fix
+	position:relative;
+}
 .sub-menu{
 	background-color: $brand_colour_darkgrey;
 	display: none;
@@ -327,6 +330,9 @@ a {
 	list-style-type: none;
 	text-align: center;
 	display: none;
+	//John Stuff, Menu positioning fix
+	position: absolute;
+  left: -29px;
 
 	
 	li {

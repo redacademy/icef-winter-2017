@@ -650,6 +650,9 @@ a {
 .single .nav-title {
   display: none; }
 
+.menu-item-261 {
+  position: relative; }
+
 .sub-menu {
   background-color: #433E3E;
   display: none;
@@ -659,7 +662,9 @@ a {
   z-index: 2;
   list-style-type: none;
   text-align: center;
-  display: none; }
+  display: none;
+  position: absolute;
+  left: -29px; }
   .sub-menu li {
     height: auto;
     padding: 10px;
@@ -1495,7 +1500,8 @@ html {
   .page-id-15 .desktop-flex {
     display: -ms-inline-flexbox;
     display: inline-flex;
-    width: 100%; } }
+    width: 100%;
+    height: 370px; } }
 
 .page-id-15 .page-header {
   display: none; }
@@ -1596,6 +1602,7 @@ html {
     padding: 0px 0 0 45px; }
 
 .page-id-15 .apply-wrapper p {
+  margin-bottom: 3rem;
   display: inline-block; }
 
 .page-id-15 .download-button {
@@ -1768,8 +1775,12 @@ html {
 .single-project .content-area p {
   margin: 1.5rem; }
 
-.single-project .facts {
-  color: #433E3E; }
+.single-project p.facts {
+  color: #433E3E;
+  margin: 0; }
+
+.single-project .fact-container {
+  margin-top: 2rem; }
 
 .single-project .fact {
   display: -ms-flexbox;
@@ -1865,7 +1876,9 @@ html {
   @media (min-width: 1160px) {
     .single-project .quote-background {
       padding: 1rem;
-      margin: 1rem; } }
+      width: 60%;
+      margin: 3.5rem auto;
+      padding: 2.5rem; } }
   .single-project .quote-background .top-left-quote, .single-project .quote-background .bottom-right-quote {
     position: absolute; }
     .single-project .quote-background .top-left-quote p, .single-project .quote-background .bottom-right-quote p {
@@ -1893,11 +1906,6 @@ html {
     line-height: .45;
     padding-right: 5px;
     padding-top: 37px; }
-  @media (min-width: 1160px) {
-    .single-project .quote-background {
-      width: 60%;
-      margin: 2rem auto;
-      padding: 2.5rem; } }
 
 @media (min-width: 1160px) {
   .single-project .fact-text {
@@ -1915,6 +1923,8 @@ html {
   -ms-flex-pack: center;
       justify-content: center;
   margin-right: 1rem; }
+  .single-project .fact-number :nth-child(3) {
+    width: 100px; }
   .single-project .fact-number p {
     margin: 0;
     font-weight: bold;
@@ -2125,6 +2135,9 @@ html {
       @media (min-width: 1160px) {
         .single-project .workHero .openMap img {
           width: 60px; } }
+
+.single-project .purple-nav-circles {
+  margin-top: 3rem; }
 
 .single-project .purple-circle-title {
   text-align: center;

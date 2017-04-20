@@ -105,48 +105,50 @@ get_header();
 								</div>
 							</div>
 						</div>
-						<div class="fact">
-							<div class="fact-number">
-								<div class="number">
-								<p>01</p>
+						<div class="fact-container">
+							<div class="fact">
+								<div class="fact-number">
+									<div class="number">
+									<p>01</p>
+									</div>
+									<div class="mobile-arrow">
+										<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-icon.svg" 	alt="right-arrow">
+									</div>
+									<div class="desktop-arrow">
+										<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-right.svg" 	alt="right-arrow">
+									</div>
 								</div>
-								<div class="mobile-arrow">
-									<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-icon.svg" 	alt="right-arrow">
-								</div>
-								<div class="desktop-arrow">
-									<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-right.svg" 	alt="right-arrow">
-								</div>
-							</div>
-							<div class="fact-text">
-								<p class="facts"><?php echo $fact1;?></p>
-							</div>
-						</div>
-						<div class="fact">
-							<div class = "fact-number">
-								<p>02</p>
-								<div class="mobile-arrow">
-									<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-icon.svg" 	alt="right-arrow">
-								</div>
-								<div class="desktop-arrow">
-									<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-right.svg" 	alt="right-arrow">
+								<div class="fact-text">
+									<p class="facts"><?php echo $fact1;?></p>
 								</div>
 							</div>
-							<div class="fact-text">
-								<p class="facts"><?php echo $fact2;?></p>
-							</div>
-						</div>
-						<div class="fact">
-							<div class="fact-number">
-								<p>03</p>
-								<div class="mobile-arrow">
-									<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-icon.svg" 	alt="right-arrow">
+							<div class="fact">
+								<div class = "fact-number">
+									<p>02</p>
+									<div class="mobile-arrow">
+										<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-icon.svg" 	alt="right-arrow">
+									</div>
+									<div class="desktop-arrow">
+										<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-right.svg" 	alt="right-arrow">
+									</div>
 								</div>
-								<div class="desktop-arrow">
-									<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-right.svg" 	alt="right-arrow">
+								<div class="fact-text">
+									<p class="facts"><?php echo $fact2;?></p>
 								</div>
 							</div>
-							<div class="fact-text">
-								<p class="facts"><?php echo $fact3;?></p>
+							<div class="fact">
+								<div class="fact-number">
+									<p>03</p>
+									<div class="mobile-arrow">
+										<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-icon.svg" 	alt="right-arrow">
+									</div>
+									<div class="desktop-arrow">
+										<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-right.svg" 	alt="right-arrow">
+									</div>
+								</div>
+								<div class="fact-text">
+									<p class="facts"><?php echo $fact3;?></p>
+								</div>
 							</div>
 						</div>
 						<div class="quote-background">
@@ -238,7 +240,7 @@ get_header();
 			</span>
 
 
-			<section>
+			<section class="purple-nav-circles">
 				<div class = "purple-circle-title">
 					<h2>Explore More of The TRC's Programs:</h2>
 				</div>
