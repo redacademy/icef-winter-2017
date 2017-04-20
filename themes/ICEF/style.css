@@ -1348,7 +1348,8 @@ html {
     text-align: center;
     text-transform: uppercase; }
     .page-id-6 .desktop-swirl .wheel-text p {
-      color: #B5852F; }
+      color: #B5852F;
+      font-family: "Oswald", sans-serif; }
   .page-id-6 .desktop-swirl .swirl-icons {
     list-style: none;
     position: relative;
