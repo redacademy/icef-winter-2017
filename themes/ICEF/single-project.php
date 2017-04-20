@@ -20,8 +20,8 @@ get_header();
 					<?php 
 					wp_reset_postdata();
 					$projectNumber = 9;
-					$next = get_permalink(get_adjacent_post(false,'',true));
-					$prev = get_permalink(get_adjacent_post(false,'',false));
+					$prev = get_permalink(get_adjacent_post(false,'',true));
+					$next = get_permalink(get_adjacent_post(false,'',false));
 
 					$args = array( 
 							'posts_per_page' => 9,
@@ -61,7 +61,7 @@ get_header();
 					<a href="<?php echo $prev; ?>" class="previous-arrow">
 						<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-left.svg" alt="left-arrow" >
 					</a>
-					<a href="<?php echo $prev; ?>" class="next-arrow">
+					<a href="<?php echo $next; ?>" class="next-arrow">
 						<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-right.svg" alt="right-arrow" >
 					</a>
 					<img class="map-arrow" src="<?php echo get_template_directory_uri();?>/images/svg/arrow-icon.svg" alt="crafting-icon">
@@ -78,6 +78,7 @@ get_header();
 					$fact2       = CFS()->get( 'project_fact_2' );
 					$fact3       = CFS()->get( 'project_fact_3' );
 					$quote       = CFS()->get( 'project_quote' );
+					$author      = CFS()->get( 'project_quote_author');
 					$whyIntro    = CFS()->get( 'project_why_intro' );
 					$why         = CFS()->get( 'project_why' );
 					$whyImage    = CFS()->get( 'project_why_image' );
@@ -104,53 +105,62 @@ get_header();
 								</div>
 							</div>
 						</div>
-						<div class="fact">
-							<div class="fact-number">
-								<div class="number">
-								<p>01</p>
+						<div class="fact-container">
+							<div class="fact">
+								<div class="fact-number">
+									<div class="number">
+									<p>01</p>
+									</div>
+									<div class="mobile-arrow">
+										<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-icon.svg" 	alt="right-arrow">
+									</div>
+									<div class="desktop-arrow">
+										<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-right.svg" 	alt="right-arrow">
+									</div>
 								</div>
-								<div class="mobile-arrow">
-									<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-icon.svg" 	alt="right-arrow">
-								</div>
-								<div class="desktop-arrow">
-									<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-right.svg" 	alt="right-arrow">
-								</div>
-							</div>
-							<div class="fact-text">
-								<?php echo $fact1;?>
-							</div>
-						</div>
-						<div class="fact">
-							<div class = "fact-number">
-								<p>02</p>
-								<div class="mobile-arrow">
-									<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-icon.svg" 	alt="right-arrow">
-								</div>
-								<div class="desktop-arrow">
-									<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-right.svg" 	alt="right-arrow">
+								<div class="fact-text">
+									<p class="facts"><?php echo $fact1;?></p>
 								</div>
 							</div>
-							<div class="fact-text">
-								<?php echo $fact2;?>
-							</div>
-						</div>
-						<div class="fact">
-							<div class="fact-number">
-								<p>03</p>
-								<div class="mobile-arrow">
-									<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-icon.svg" 	alt="right-arrow">
+							<div class="fact">
+								<div class = "fact-number">
+									<p>02</p>
+									<div class="mobile-arrow">
+										<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-icon.svg" 	alt="right-arrow">
+									</div>
+									<div class="desktop-arrow">
+										<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-right.svg" 	alt="right-arrow">
+									</div>
 								</div>
-								<div class="desktop-arrow">
-									<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-right.svg" 	alt="right-arrow">
+								<div class="fact-text">
+									<p class="facts"><?php echo $fact2;?></p>
 								</div>
 							</div>
-							<div class="fact-text">
-								<?php echo $fact3;?>
+							<div class="fact">
+								<div class="fact-number">
+									<p>03</p>
+									<div class="mobile-arrow">
+										<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-icon.svg" 	alt="right-arrow">
+									</div>
+									<div class="desktop-arrow">
+										<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-right.svg" 	alt="right-arrow">
+									</div>
+								</div>
+								<div class="fact-text">
+									<p class="facts"><?php echo $fact3;?></p>
+								</div>
 							</div>
 						</div>
 						<div class="quote-background">
+							<div class="top-left-quote">
+								<p>&ldquo;</p>
+							</div>
 							<div class="quote-block">
-								<?php echo $quote;?>
+								<p class="work-quote"><?php echo $quote;?></p>
+								<p class="quote-author"> - <?php echo $author; ?> </p>
+							</div>
+							<div class="bottom-right-quote">
+								<p>&bdquo;</p>
 							</div>
 						</div>
 						<div class="work-flex">
@@ -230,7 +240,7 @@ get_header();
 			</span>
 
 
-			<section>
+			<section class="purple-nav-circles">
 				<div class = "purple-circle-title">
 					<h2>Explore More of The TRC's Programs:</h2>
 				</div>

@@ -49,6 +49,7 @@
       width:40%;
       p{
         color:$brand_colour_darkgold;
+        font-family:$font__accent;
       }
       text-align: center;
       text-transform: uppercase;
@@ -152,8 +153,41 @@
     background:$brand_colour_lightgold;
     padding:1rem;
     width:70%;
+    font-family: $font__accent;
+    position:relative;
     margin: 0 auto;
-    font-size:.8rem;
+    margin-top:4rem;
+    margin-bottom:4rem;
+    font-size:1.25rem;
+    .top-left-quote, .bottom-right-quote {
+      p{
+        font-size:11rem;
+        color: $brand_colour_mediumgold;        
+      }
+      position:absolute;
+    }
+    .top-left-quote{
+      top: -45px;
+      left: -49px;
+    }
+    .bottom-right-quote{
+      bottom: -106px;
+      right: -37px;
+    }
+    p.quote:first-letter {
+      color: $brand_colour_darkgrey;
+      float: left;
+      font-weight: 700;
+      font-size: 95px;
+      line-height: .5;
+      padding-top: 34px;
+      padding-right: 8px;
+      padding-left: 3px;
+    }
+    .author{
+      text-align: right;
+      font-size: 1.25rem;
+    }
   }
   .mobile-approach-table{
     display:flex;
@@ -174,5 +208,8 @@
         color:$brand_colour_darkgold;
       }
     }
+  }
+  .last-block{
+    margin-bottom:2rem;
   }
 }

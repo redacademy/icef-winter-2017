@@ -274,6 +274,10 @@ a {
 				height: 100%;
 				color: transparent !important;
 			}
+
+			a:hover{
+				text-decoration: none;
+			}
 		}
 	}
 
@@ -312,9 +316,12 @@ a {
 		display: none;
 	}
 }
-
+.menu-item-261{
+	//John Stuff, Menu Positioning Fix
+	position:relative;
+}
 .sub-menu{
-	background-color: $brand_colour_lightgrey;
+	background-color: $brand_colour_darkgrey;
 	display: none;
 	width: 200px;
 	margin: 0;
@@ -323,6 +330,9 @@ a {
 	list-style-type: none;
 	text-align: center;
 	display: none;
+	//John Stuff, Menu positioning fix
+	position: absolute;
+  left: -29px;
 
 	
 	li {
@@ -340,6 +350,10 @@ a {
 			text-transform: uppercase;
 			text-decoration: none;
 		}
+
+		a:hover {
+			color: $brand_colour_lightgold;
+		}
 	}
 }
 
@@ -349,6 +363,7 @@ a {
 		@include desktop {
 			position: absolute;
 			display: inline-block;
+			opacity: .9;
 		}
 	}
 }

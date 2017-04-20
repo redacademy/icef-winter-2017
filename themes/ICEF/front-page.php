@@ -23,7 +23,7 @@ get_header(); ?>
             <h3>Who We Are</h3>
             <div class='who-purple-border'>
                 <img class='cow-farmer' src='<?php echo get_template_directory_uri();?>/images/jpegs/home-who-we-are.jpg' alt='cow-farmer' />
-                <div class="key-words"><p>International</p><span><p>Community</p><p>Empowerment</p></span><p>Foundation</p></div>
+                <div class="key-words"><p>International</p><span><p id='community'>Community</p><p>Empowerment</p></span><p>Foundation</p></div>
             </div>
             <div class='who-no-border'>
                 <p class="who-we-are-text">We work with communities in Uganda to support their well being and sustainable growth. Our focus is on holistic development,
@@ -43,7 +43,7 @@ get_header(); ?>
 
 
         <section class='front-tekera-research'>
-            <h3>Tekera research Centre</h3>
+            <h2  style="text-align: center">Tekera research Centre</h2>
 
             <div class="research-flex">
                 <img src="<?php echo get_template_directory_uri();?>/images/jpegs/home-tekera.jpg" alt="smiling girl">

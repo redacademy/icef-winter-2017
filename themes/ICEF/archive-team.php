@@ -106,12 +106,12 @@ get_header(); ?>
 						<?php } 
 					
 					endwhile; // End of the loop. ?>
+					<div class='ugandan-staff'>
+						<p><span>100%</span> of their 30 staff is Ugandan.
+					</div>
 				</div>
 			</div>
 
-			<div class='ugandan-staff'>
-				<p><span>100%</span> of their 30 staff is Ugandan.
-			</div>
 			
 		</main><!-- #main -->
 	</div><!-- #primary -->

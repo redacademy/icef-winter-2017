@@ -2,7 +2,7 @@
 .single-project{
   .content-area{
 		@include desktop{
-			width:1000px;
+			width:1011px;
 			margin: 0 auto;
 			margin-top:10rem;
 		}
@@ -10,6 +10,14 @@
 			margin:1.5rem;
 		}
   }
+	p.facts{
+		color:$brand_colour_darkgrey;
+		margin:0;
+		
+	}
+	.fact-container{
+		margin-top:2rem;
+	}
 	.fact{
 		display:flex;
 		margin:2rem;
@@ -91,18 +99,52 @@
 	}
 	.quote-background{
 			background:$brand_colour_lightgold;
-			margin: 1rem;
-			font-style: italic;
+			// font-style: italic;
 			// margin-bottom:2rem;
-			padding:1rem;
-			font-size:.8rem;
+			margin:2rem;
+			padding:2rem;
+			@include desktop{
+				padding:1rem;
+				width: 60%;
+    		margin: 3.5rem auto;
+				padding: 2.5rem;
+			}
+			position:relative;
+			.top-left-quote, .bottom-right-quote{
+				position:absolute;
+				p{
+					font-size: 11rem;
+					color:$brand_colour_mediumgold;
+				}
+			}
+			.top-left-quote{
+				top:-30px;
+				left:-25px;
+    	}
+    	.bottom-right-quote{
+				bottom: -90px;
+				right: -15px;
+    	}
 			p{
 				margin:0;
+				color: $brand_colour_darkgrey;
+				font-family:$font__accent;
+				font-size:1.25rem;
 			}
-			@include desktop{
-				width: 60%;
-    		margin: 2rem auto;
-				padding: 2rem;
+			.quote-author{
+				text-align: right;
+				font-size: 1.25rem;
+				margin-top: 1rem;
+
+			}
+			.work-quote::first-letter{
+				color: $brand_colour_darkgrey;
+				float: left;
+				font-weight: 700;
+				font-size: 95px;
+				line-height: .45;
+				padding-right: 5px;
+				padding-top: 37px;
 			}
 		}
 	.fact-text{
@@ -116,6 +158,9 @@
 		display: flex;
     flex-direction: column;
     justify-content: center;
+		:nth-child(3){
+			width: 100px;
+		}
 		p{
 			margin:0;
 			font-weight:bold;
@@ -321,6 +366,9 @@
 				}
 			}
 		}
+	}
+	.purple-nav-circles{
+		margin-top: 3rem;
 	}
 	.purple-circle-title{
 		text-align: center;
