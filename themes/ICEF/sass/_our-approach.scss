@@ -153,9 +153,26 @@
     padding:1rem;
     width:70%;
     font-family: $font__accent;
+    position:relative;
     margin: 0 auto;
+    margin-top:4rem;
+    margin-bottom:4rem;
     font-size:1rem;
-    p:first-child:first-letter {
+    .top-left-quote, .bottom-right-quote {
+      p{
+        font-size:11rem;
+      }
+      position:absolute;
+    }
+    .top-left-quote{
+      top: -45px;
+      left: -49px;
+    }
+    .bottom-right-quote{
+      bottom: -106px;
+      right: -37px;
+    }
+    p:first-letter {
       color: $brand_colour_darkgrey;
       float: left;
       font-weight: bold;

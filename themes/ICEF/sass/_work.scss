@@ -94,10 +94,30 @@
 	}
 	.quote-background{
 			background:$brand_colour_lightgold;
-			margin: 1rem;
 			// font-style: italic;
 			// margin-bottom:2rem;
-			padding:1rem;
+			margin:2rem;
+			padding:2rem;
+			@include desktop{
+				padding:1rem;
+				margin: 1rem;		
+			}
+			position:relative;
+			.top-left-quote, .bottom-right-quote{
+				position:absolute;
+				p{
+					font-size: 11rem;
+					color:$brand_colour_mediumgold;
+				}
+			}
+			.top-left-quote{
+				top:-30px;
+				left:-25px;
+    	}
+    	.bottom-right-quote{
+				bottom: -90px;
+				right: -15px;
+    	}
 			p{
 				margin:0;
 				color: $brand_colour_darkgrey;
@@ -126,7 +146,7 @@
 			@include desktop{
 				width: 60%;
     		margin: 2rem auto;
-				padding: 2rem;
+				padding: 2.5rem;
 			}
 		}
 	.fact-text{

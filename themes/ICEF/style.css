@@ -1431,9 +1431,22 @@ html {
   padding: 1rem;
   width: 70%;
   font-family: "Oswald", sans-serif;
+  position: relative;
   margin: 0 auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
   font-size: 1rem; }
-  .page-id-6 .quote-background p:first-child:first-letter {
+  .page-id-6 .quote-background .top-left-quote, .page-id-6 .quote-background .bottom-right-quote {
+    position: absolute; }
+    .page-id-6 .quote-background .top-left-quote p, .page-id-6 .quote-background .bottom-right-quote p {
+      font-size: 11rem; }
+  .page-id-6 .quote-background .top-left-quote {
+    top: -45px;
+    left: -49px; }
+  .page-id-6 .quote-background .bottom-right-quote {
+    bottom: -106px;
+    right: -37px; }
+  .page-id-6 .quote-background p:first-letter {
     color: #433E3E;
     float: left;
     font-weight: bold;
@@ -1842,8 +1855,24 @@ html {
 
 .single-project .quote-background {
   background: #FFEABA;
-  margin: 1rem;
-  padding: 1rem; }
+  margin: 2rem;
+  padding: 2rem;
+  position: relative; }
+  @media (min-width: 1160px) {
+    .single-project .quote-background {
+      padding: 1rem;
+      margin: 1rem; } }
+  .single-project .quote-background .top-left-quote, .single-project .quote-background .bottom-right-quote {
+    position: absolute; }
+    .single-project .quote-background .top-left-quote p, .single-project .quote-background .bottom-right-quote p {
+      font-size: 11rem;
+      color: #F2CA6E; }
+  .single-project .quote-background .top-left-quote {
+    top: -30px;
+    left: -25px; }
+  .single-project .quote-background .bottom-right-quote {
+    bottom: -90px;
+    right: -15px; }
   .single-project .quote-background p {
     margin: 0;
     color: #433E3E;
@@ -1864,7 +1893,7 @@ html {
     .single-project .quote-background {
       width: 60%;
       margin: 2rem auto;
-      padding: 2rem; } }
+      padding: 2.5rem; } }
 
 @media (min-width: 1160px) {
   .single-project .fact-text {

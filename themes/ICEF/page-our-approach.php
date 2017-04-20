@@ -69,8 +69,15 @@ get_header(); ?>
 				<div>
 					<p><?php echo wp_kses(CFS()->get('below_self_sustainability'), $allowed_html); ?></p>
 				<div class = "quote-background">
+					<div class="top-left-quote">
+						<p>&ldquo;</p>
+					</div>
 					<p><span class="quote"><?php echo wp_kses(CFS()->get('approach_quote'), $allowed_html); ?></span> - <?php echo wp_kses(CFS()->get('quote_author'), $allowed_html); ?></p>
-				</div>                                 
+					<div class="bottom-right-quote">
+						<p>&bdquo;</p>
+					</div>
+				</div>  
+				                               
 					<p><?php echo wp_kses(CFS()->get('below_quote'), $allowed_html); ?></p>
 				<div class="last-picture-mobile">
 					<img src="<?php echo esc_html(CFS()->get('last_picture'));?>" alt="last picture">

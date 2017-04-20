@@ -150,9 +150,15 @@ get_header();
 							</div>
 						</div>
 						<div class="quote-background">
+							<div class="top-left-quote">
+								<p>&ldquo;</p>
+							</div>
 							<div class="quote-block">
 								<p class="work-quote"><?php echo $quote;?></p>
 								<p class="quote-author"> - <?php echo $author; ?> </p>
+							</div>
+							<div class="bottom-right-quote">
+								<p>&bdquo;</p>
 							</div>
 						</div>
 						<div class="work-flex">
