@@ -101,7 +101,7 @@
 			background:$brand_colour_lightgold;
 			// font-style: italic;
 			// margin-bottom:2rem;
-			margin:2rem;
+			margin:3rem;
 			padding:2rem;
 			@include desktop{
 				padding:1rem;
@@ -135,7 +135,6 @@
 				text-align: right;
 				font-size: 1.25rem;
 				margin-top: 1rem;
-
 			}
 			.work-quote::first-letter{
 				color: $brand_colour_darkgrey;
