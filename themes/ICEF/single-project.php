@@ -20,8 +20,8 @@ get_header();
 					<?php 
 					wp_reset_postdata();
 					$projectNumber = 9;
-					$next = get_permalink(get_adjacent_post(false,'',true));
-					$prev = get_permalink(get_adjacent_post(false,'',false));
+					$prev = get_permalink(get_adjacent_post(false,'',true));
+					$next = get_permalink(get_adjacent_post(false,'',false));
 
 					$args = array( 
 							'posts_per_page' => 9,
@@ -61,7 +61,7 @@ get_header();
 					<a href="<?php echo $prev; ?>" class="previous-arrow">
 						<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-left.svg" alt="left-arrow" >
 					</a>
-					<a href="<?php echo $prev; ?>" class="next-arrow">
+					<a href="<?php echo $next; ?>" class="next-arrow">
 						<img src="<?php echo get_template_directory_uri();?>/images/svg/arrow-right.svg" alt="right-arrow" >
 					</a>
 					<img class="map-arrow" src="<?php echo get_template_directory_uri();?>/images/svg/arrow-icon.svg" alt="crafting-icon">
