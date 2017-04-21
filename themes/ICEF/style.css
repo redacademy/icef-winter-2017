@@ -591,7 +591,6 @@ a {
         .menu li a {
           color: #433E3E; } }
     .menu li a:hover {
-      text-decoration: none;
       color: #FFEABA;
       border-bottom: 4px solid #F2CA6E; }
       @media (min-width: 1160px) {
@@ -1863,7 +1862,7 @@ html {
     text-transform: uppercase; }
     @media (min-width: 1160px) {
       .single-project .yellow-background-category .yellow-description {
-        width: 100%;
+        width: 98%;
         display: -ms-flexbox;
         display: flex;
         -ms-flex-pack: end;
