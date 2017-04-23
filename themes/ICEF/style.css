@@ -1309,15 +1309,15 @@ html {
       align-items: center; }
   @media (min-width: 1160px) {
     .page-id-6 .site-main {
-      width: 1000px;
-      margin: 0 auto; } }
+      width: 1011px;
+      margin: 0 auto;
+      margin-top: 10rem; } }
 
 .page-id-6 .approach-title {
   display: none; }
   @media (min-width: 1160px) {
     .page-id-6 .approach-title {
       display: block;
-      margin-top: 10rem;
       width: 100%;
       border-bottom: solid 2px #852762;
       font-family: "Oswald", sans-serif;
@@ -1493,7 +1493,7 @@ html {
 
 @media (min-width: 1160px) {
   .page-id-15 .content-area {
-    width: 1000px;
+    width: 1011px;
     margin: 0 auto;
     margin-top: 10rem; } }
 
@@ -1607,7 +1607,8 @@ html {
   display: inline-block; }
 
 .page-id-15 .download-button {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 2rem; }
   .page-id-15 .download-button a {
     padding-top: 10px;
     text-align: center;
@@ -2255,14 +2256,14 @@ html {
 
 .our-team {
   display: none;
-  width: 1000px;
-  margin: 0 auto;
-  margin-top: 10rem;
   border-bottom: 2px solid #631747;
   font-family: "Oswald", sans-serif; }
   @media (min-width: 1160px) {
     .our-team {
-      display: block; } }
+      display: block;
+      width: 1011px;
+      margin: 0 auto;
+      margin-top: 10rem; } }
 
 .team-type-archive {
   width: 85%;
@@ -2466,7 +2467,7 @@ html {
     width: 100%; }
     @media (min-width: 1160px) {
       .page-id-17 .container {
-        width: 1024px; } }
+        width: 1011px; } }
   @media (min-width: 1160px) {
     .page-id-17 .page-title-wrapper {
       border-bottom: 2px solid purple;
@@ -2488,7 +2489,7 @@ html {
     height: 183px; }
     @media (min-width: 1160px) {
       .page-id-17 .img-wrapper {
-        height: 465px; } }
+        height: 460px; } }
   .page-id-17 .donate-wrapper {
     display: -ms-flexbox;
     display: flex;
@@ -2801,11 +2802,12 @@ html {
           width: 75%; } }
 
 .updates {
-  margin: 10% auto;
   width: 100%; }
   @media (min-width: 1160px) {
     .updates {
-      width: 1000px; } }
+      width: 1011px;
+      margin: 0 auto;
+      margin-top: 9rem; } }
   .updates a:hover {
     text-decoration: none !important; }
   .updates .updates-flex {
