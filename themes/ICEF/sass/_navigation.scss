@@ -327,15 +327,16 @@ a {
 	width: 238px;
 	margin: 0;
 	padding: 10px;
+	// padding-top: 2px;
 	z-index: 2;
 	list-style-type: none;
 	text-align: center;
 	display: none;
-	//John Stuff, Menu positioning fix
 	position: absolute;
-  // left: -29px;
 	left: -45px;
-
+	li:first-child{
+		border-top: 2px solid $brand_colour_mediumgold;
+	}
 	
 	li {
 		height: 45px;

@@ -664,6 +664,8 @@ a {
   display: none;
   position: absolute;
   left: -45px; }
+  .sub-menu li:first-child {
+    border-top: 2px solid #F2CA6E; }
   .sub-menu li {
     height: 45px;
     padding: 10px;
