@@ -669,6 +669,8 @@ a {
   .sub-menu li {
     height: 45px;
     padding: 10px;
+    padding-bottom: 40px;
+    padding-top: 15px;
     line-height: 30px;
     font-family: "Oswald", sans-serif;
     text-align: center;
