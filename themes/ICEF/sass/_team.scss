@@ -1,13 +1,13 @@
 .our-team {
     display: none;
-    width: 1000px;
-    margin: 0 auto;
-    margin-top:10rem;
     border-bottom: 2px solid $brand_colour_darkpurple;
     font-family:$font__accent;
     @include desktop {
         display: block;
         // font-size: 1.1rem;
+        width:1011px;
+        margin: 0 auto; 
+        margin-top:10rem;
     }
 }
 

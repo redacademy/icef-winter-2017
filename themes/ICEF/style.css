@@ -591,7 +591,6 @@ a {
         .menu li a {
           color: #433E3E; } }
     .menu li a:hover {
-      text-decoration: none;
       color: #FFEABA;
       border-bottom: 4px solid #F2CA6E; }
       @media (min-width: 1160px) {
@@ -656,7 +655,7 @@ a {
 .sub-menu {
   background-color: #433E3E;
   display: none;
-  width: 200px;
+  width: 238px;
   margin: 0;
   padding: 10px;
   z-index: 2;
@@ -664,13 +663,18 @@ a {
   text-align: center;
   display: none;
   position: absolute;
-  left: -29px; }
+  left: -45px; }
+  .sub-menu li:first-child {
+    border-top: 2px solid #F2CA6E; }
   .sub-menu li {
-    height: auto;
+    height: 45px;
     padding: 10px;
+    padding-bottom: 40px;
+    padding-top: 15px;
     line-height: 30px;
     font-family: "Oswald", sans-serif;
     text-align: center;
+    width: 218px;
     border-bottom: 2px solid #F2CA6E; }
     .sub-menu li a {
       font-size: 1rem;
@@ -1309,15 +1313,15 @@ html {
       align-items: center; }
   @media (min-width: 1160px) {
     .page-id-6 .site-main {
-      width: 1000px;
-      margin: 0 auto; } }
+      width: 1011px;
+      margin: 0 auto;
+      margin-top: 10rem; } }
 
 .page-id-6 .approach-title {
   display: none; }
   @media (min-width: 1160px) {
     .page-id-6 .approach-title {
       display: block;
-      margin-top: 10rem;
       width: 100%;
       border-bottom: solid 2px #852762;
       font-family: "Oswald", sans-serif;
@@ -1493,7 +1497,7 @@ html {
 
 @media (min-width: 1160px) {
   .page-id-15 .content-area {
-    width: 1000px;
+    width: 1011px;
     margin: 0 auto;
     margin-top: 10rem; } }
 
@@ -1607,7 +1611,8 @@ html {
   display: inline-block; }
 
 .page-id-15 .download-button {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 2rem; }
   .page-id-15 .download-button a {
     padding-top: 10px;
     text-align: center;
@@ -1862,7 +1867,7 @@ html {
     text-transform: uppercase; }
     @media (min-width: 1160px) {
       .single-project .yellow-background-category .yellow-description {
-        width: 100%;
+        width: 98%;
         display: -ms-flexbox;
         display: flex;
         -ms-flex-pack: end;
@@ -2092,7 +2097,9 @@ html {
     margin-top: 2.5rem; }
     @media (min-width: 1160px) {
       .single-project .trc-circle p {
-        font-size: 3rem; } }
+        font-size: 3rem;
+        line-height: 0;
+        padding-top: .5rem; } }
 
 .single-project .workHero {
   display: -ms-flexbox;
@@ -2213,7 +2220,7 @@ html {
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    transition: all 0.4s ease-in-out;
+    transition: all .4s ease-out;
     transform-style: preserve-3d; }
     @media (min-width: 1160px) {
       .single-project .purple-circle-grid .ch-info {
@@ -2237,33 +2244,13 @@ html {
         justify-content: center;
     -ms-flex-align: center;
         align-items: center; }
-  .single-project .purple-circle-grid .ch-info h4 {
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 14px;
-    margin: 0 15px;
-    padding: 40px 0 0 0;
-    height: 90px;
-    font-family: 'Open Sans', Arial, sans-serif;
-    text-shadow: 0 0 1px #fff, 0 1px 2px rgba(0, 0, 0, 0.3); }
   .single-project .purple-circle-grid .ch-info-back p {
     color: #fff;
     text-align: center;
     margin-top: 2rem;
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
-    font-size: 12px; }
-  .single-project .purple-circle-grid .ch-info p a {
-    display: block;
-    color: rgba(255, 255, 255, 0.7);
-    font-style: normal;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 9px;
-    letter-spacing: 1px;
-    padding-top: 4px;
-    font-family: 'Open Sans', Arial, sans-serif; }
+    font-size: 1rem; }
   .single-project .purple-circle-grid .ch-info p a:hover {
     color: rgba(255, 242, 34, 0.8); }
   .single-project .purple-circle-grid .ch-item:hover .ch-info-wrap {
@@ -2273,14 +2260,14 @@ html {
 
 .our-team {
   display: none;
-  width: 1000px;
-  margin: 0 auto;
-  margin-top: 10rem;
   border-bottom: 2px solid #631747;
   font-family: "Oswald", sans-serif; }
   @media (min-width: 1160px) {
     .our-team {
-      display: block; } }
+      display: block;
+      width: 1011px;
+      margin: 0 auto;
+      margin-top: 10rem; } }
 
 .team-type-archive {
   width: 85%;
@@ -2484,7 +2471,7 @@ html {
     width: 100%; }
     @media (min-width: 1160px) {
       .page-id-17 .container {
-        width: 1024px; } }
+        width: 1011px; } }
   @media (min-width: 1160px) {
     .page-id-17 .page-title-wrapper {
       border-bottom: 2px solid purple;
@@ -2509,7 +2496,7 @@ html {
     height: 183px; }
     @media (min-width: 1160px) {
       .page-id-17 .img-wrapper {
-        height: 465px; } }
+        height: 460px; } }
   .page-id-17 .donate-wrapper {
     display: -ms-flexbox;
     display: flex;
@@ -2841,11 +2828,12 @@ html {
           width: 75%; } }
 
 .updates {
-  margin: 10% auto;
   width: 100%; }
   @media (min-width: 1160px) {
     .updates {
-      width: 1000px; } }
+      width: 1011px;
+      margin: 0 auto;
+      margin-top: 9rem; } }
   .updates a:hover {
     text-decoration: none !important; }
   .updates .updates-flex {
