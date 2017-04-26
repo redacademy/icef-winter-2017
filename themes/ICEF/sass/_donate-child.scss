@@ -38,6 +38,7 @@
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
+        // flex-direction: column;
         color: #fff;
         background-color: $brand_colour_darkgrey; 
         // padding: 10px 50px 40px 50px;
@@ -52,6 +53,7 @@
     }
 
     .donate-child-content {
+        padding: 0 35px;
         @include desktop {
             width: 60%;
             padding: 0px 25px;
@@ -87,6 +89,9 @@
     }
 
     .sponsor-button {
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: center;
         @include purple-button;
         
     }
@@ -100,8 +105,9 @@
     }
 
     .process-wrapper {
-        padding: 10px 50px 40px 50px;
-         @include desktop {
+        padding: 10px 35px;
+        // padding: 10px 50px 40px 50px;
+            @include desktop {
             padding: 10px 10px 0;
             width: 100%;
         }
@@ -159,14 +165,16 @@
 
     .donate-child-content-wrapper {
         display: flex;
-        flex-wrap: wrap;
+        // flex-wrap: wrap;
+        flex-direction: column;
     }
 
     .sponsor-section {
         text-align: left;
         color: #fff;
         background-color: $brand_colour_mediumgold;
-        padding: 10px 30px 40px 86px;
+        // padding: 10px 30px 40px 86px;
+        padding: 10px 30px 40px 30px;
         ul {
             margin: 0;
             padding: 0 15px 29px 15px;

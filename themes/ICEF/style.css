@@ -2726,10 +2726,12 @@ html {
         -ms-flex-pack: justify;
             justify-content: space-between;
         padding: 0; } }
-  @media (min-width: 1160px) {
-    .page-template-donate-child .donate-child-content {
-      width: 60%;
-      padding: 0px 25px; } }
+  .page-template-donate-child .donate-child-content {
+    padding: 0 35px; }
+    @media (min-width: 1160px) {
+      .page-template-donate-child .donate-child-content {
+        width: 60%;
+        padding: 0px 25px; } }
   .page-template-donate-child .donate-child-title {
     color: #fff; }
   .page-template-donate-child .donate-child-desc {
@@ -2777,7 +2779,7 @@ html {
       width: 78%;
       margin: 0 auto; } }
   .page-template-donate-child .process-wrapper {
-    padding: 10px 50px 40px 50px; }
+    padding: 10px 35px; }
     @media (min-width: 1160px) {
       .page-template-donate-child .process-wrapper {
         padding: 10px 10px 0;
@@ -2817,13 +2819,13 @@ html {
   .page-template-donate-child .donate-child-content-wrapper {
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
+    -ms-flex-direction: column;
+        flex-direction: column; }
   .page-template-donate-child .sponsor-section {
     text-align: left;
     color: #fff;
     background-color: #F2CA6E;
-    padding: 10px 30px 40px 86px; }
+    padding: 10px 30px 40px 30px; }
     .page-template-donate-child .sponsor-section ul {
       margin: 0;
       padding: 0 15px 29px 15px;

@@ -74,7 +74,7 @@ get_header(); ?>
 									<li> <?php echo esc_html($item['sponsor_item']); ?> </li>
 								<?php endforeach; ?>
 							</ul>
-							<div class="sponsor-button align-right">
+							<div class="sponsor-button align-center">
 								<a href="mailto:info@icefcanada.org">Sponsor</a>
 							</div> <!-- .sponsor-button align-center -->
 						</div> <!-- .content-wrapper -->
