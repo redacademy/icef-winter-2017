@@ -53,7 +53,7 @@
 
     .donate-child-content {
         @include desktop {
-            width: 68%;
+            width: 60%;
             padding: 0px 25px;
         }
     }
@@ -64,6 +64,13 @@
 
     .donate-child-desc {
         color: #fff;
+    }
+
+    .donate-child-img {
+        font-size: 0; //removes space below image
+        @include desktop {
+        width: 40%;
+        }
     }
 
     .align-center {

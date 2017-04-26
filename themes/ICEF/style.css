@@ -2728,12 +2728,17 @@ html {
         padding: 0; } }
   @media (min-width: 1160px) {
     .page-template-donate-child .donate-child-content {
-      width: 68%;
+      width: 60%;
       padding: 0px 25px; } }
   .page-template-donate-child .donate-child-title {
     color: #fff; }
   .page-template-donate-child .donate-child-desc {
     color: #fff; }
+  .page-template-donate-child .donate-child-img {
+    font-size: 0; }
+    @media (min-width: 1160px) {
+      .page-template-donate-child .donate-child-img {
+        width: 40%; } }
   .page-template-donate-child .align-center {
     display: -ms-flexbox;
     display: flex;
