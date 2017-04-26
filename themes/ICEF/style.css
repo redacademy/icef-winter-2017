@@ -2704,13 +2704,14 @@ html {
     text-transform: none; }
   .page-template-donate-child .yellow-dots-banner {
     width: 100%;
-    height: 177px;
+    height: 130px;
     background: url(../../images/svg/yellow-dots.svg) no-repeat;
     background-position: center; }
     @media (min-width: 1160px) {
       .page-template-donate-child .yellow-dots-banner {
         background-size: cover;
-        margin-top: 140px; } }
+        margin-top: 140px;
+        height: 177px; } }
   .page-template-donate-child .donate-child-wrapper {
     display: -ms-flexbox;
     display: flex;

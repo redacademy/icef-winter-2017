@@ -24,12 +24,13 @@
 
     .yellow-dots-banner {
         width: 100%;
-        height: 177px;
+        height: 130px;
         background: url(../../images/svg/yellow-dots.svg) no-repeat;
         background-position: center;
         @include desktop {
         background-size: cover;
         margin-top: 140px;
+        height: 177px;
         }
     }
 
