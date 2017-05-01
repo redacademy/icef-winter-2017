@@ -2773,6 +2773,15 @@ html {
     border: none;
     box-shadow: 5px 5px 10px black; }
   @media (min-width: 1160px) {
+    .page-template-donate-child .sponsor-button {
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+      padding: 0; } }
+  @media (min-width: 1160px) {
     .page-template-donate-child .content-wrapper {
       display: -ms-flexbox;
       display: flex;
@@ -2782,14 +2791,18 @@ html {
     padding: 10px 35px; }
     @media (min-width: 1160px) {
       .page-template-donate-child .process-wrapper {
-        padding: 10px 10px 0;
-        width: 100%; } }
+        padding: 10px 0;
+        width: 70%; } }
   .page-template-donate-child .donate-child-process-title {
     color: #F2CA6E; }
   .page-template-donate-child .donate-child-process-desc {
     color: #433E3E; }
   .page-template-donate-child .donate-child-scholarship-wrapper {
     padding: 10px 20px 40px 30px; }
+    @media (min-width: 1160px) {
+      .page-template-donate-child .donate-child-scholarship-wrapper {
+        padding: 10px 0px 40px 100px;
+        width: 100%; } }
   .page-template-donate-child .donate-child-scholarship-heading {
     display: -ms-flexbox;
     display: flex;
@@ -2821,6 +2834,12 @@ html {
     display: flex;
     -ms-flex-direction: column;
         flex-direction: column; }
+    @media (min-width: 1160px) {
+      .page-template-donate-child .donate-child-content-wrapper {
+        -ms-flex-direction: row;
+            flex-direction: row;
+        -ms-flex-pack: justify;
+            justify-content: space-between; } }
   .page-template-donate-child .sponsor-section {
     text-align: left;
     color: #fff;
