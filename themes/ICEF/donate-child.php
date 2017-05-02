@@ -18,7 +18,9 @@ get_header(); ?>
 						<h2 class="donate-child-title"><?php echo esc_html(CFS()->get('donate_child_title'));?></h2>
 						<p class="donate-child-desc"><?php echo esc_html(CFS()->get('donate_child_description'));?></p>
 					</div>
-					<img src="<?php echo esc_html(CFS()->get('donate_child_image'));?>">					
+					<div class="donate-child-img">
+						<img src="<?php echo esc_html(CFS()->get('donate_child_image'));?>">
+					</div>
 				</div>
 				<div class="content-wrapper">
 					<div class="process-wrapper">
@@ -72,7 +74,7 @@ get_header(); ?>
 									<li> <?php echo esc_html($item['sponsor_item']); ?> </li>
 								<?php endforeach; ?>
 							</ul>
-							<div class="sponsor-button align-right">
+							<div class="sponsor-button align-center">
 								<a href="mailto:info@icefcanada.org">Sponsor</a>
 							</div> <!-- .sponsor-button align-center -->
 						</div> <!-- .content-wrapper -->

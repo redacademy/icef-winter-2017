@@ -591,7 +591,6 @@ a {
         .menu li a {
           color: #433E3E; } }
     .menu li a:hover {
-      text-decoration: none;
       color: #FFEABA;
       border-bottom: 4px solid #F2CA6E; }
       @media (min-width: 1160px) {
@@ -656,7 +655,7 @@ a {
 .sub-menu {
   background-color: #433E3E;
   display: none;
-  width: 200px;
+  width: 238px;
   margin: 0;
   padding: 10px;
   z-index: 2;
@@ -664,13 +663,18 @@ a {
   text-align: center;
   display: none;
   position: absolute;
-  left: -29px; }
+  left: -45px; }
+  .sub-menu li:first-child {
+    border-top: 2px solid #F2CA6E; }
   .sub-menu li {
-    height: auto;
+    height: 45px;
     padding: 10px;
+    padding-bottom: 40px;
+    padding-top: 15px;
     line-height: 30px;
     font-family: "Oswald", sans-serif;
     text-align: center;
+    width: 218px;
     border-bottom: 2px solid #F2CA6E; }
     .sub-menu li a {
       font-size: 1rem;
@@ -1309,15 +1313,15 @@ html {
       align-items: center; }
   @media (min-width: 1160px) {
     .page-id-6 .site-main {
-      width: 1000px;
-      margin: 0 auto; } }
+      width: 1011px;
+      margin: 0 auto;
+      margin-top: 10rem; } }
 
 .page-id-6 .approach-title {
   display: none; }
   @media (min-width: 1160px) {
     .page-id-6 .approach-title {
       display: block;
-      margin-top: 10rem;
       width: 100%;
       border-bottom: solid 2px #852762;
       font-family: "Oswald", sans-serif;
@@ -1493,7 +1497,7 @@ html {
 
 @media (min-width: 1160px) {
   .page-id-15 .content-area {
-    width: 1000px;
+    width: 1011px;
     margin: 0 auto;
     margin-top: 10rem; } }
 
@@ -1607,7 +1611,8 @@ html {
   display: inline-block; }
 
 .page-id-15 .download-button {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 2rem; }
   .page-id-15 .download-button a {
     padding-top: 10px;
     text-align: center;
@@ -1862,7 +1867,7 @@ html {
     text-transform: uppercase; }
     @media (min-width: 1160px) {
       .single-project .yellow-background-category .yellow-description {
-        width: 100%;
+        width: 98%;
         display: -ms-flexbox;
         display: flex;
         -ms-flex-pack: end;
@@ -1871,7 +1876,7 @@ html {
 
 .single-project .quote-background {
   background: #FFEABA;
-  margin: 2rem;
+  margin: 3rem;
   padding: 2rem;
   position: relative; }
   @media (min-width: 1160px) {
@@ -2092,7 +2097,9 @@ html {
     margin-top: 2.5rem; }
     @media (min-width: 1160px) {
       .single-project .trc-circle p {
-        font-size: 3rem; } }
+        font-size: 3rem;
+        line-height: 0;
+        padding-top: .5rem; } }
 
 .single-project .workHero {
   display: -ms-flexbox;
@@ -2213,7 +2220,7 @@ html {
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    transition: all 0.4s ease-in-out;
+    transition: all .4s ease-out;
     transform-style: preserve-3d; }
     @media (min-width: 1160px) {
       .single-project .purple-circle-grid .ch-info {
@@ -2237,33 +2244,13 @@ html {
         justify-content: center;
     -ms-flex-align: center;
         align-items: center; }
-  .single-project .purple-circle-grid .ch-info h4 {
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 14px;
-    margin: 0 15px;
-    padding: 40px 0 0 0;
-    height: 90px;
-    font-family: 'Open Sans', Arial, sans-serif;
-    text-shadow: 0 0 1px #fff, 0 1px 2px rgba(0, 0, 0, 0.3); }
   .single-project .purple-circle-grid .ch-info-back p {
     color: #fff;
     text-align: center;
     margin-top: 2rem;
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
-    font-size: 12px; }
-  .single-project .purple-circle-grid .ch-info p a {
-    display: block;
-    color: rgba(255, 255, 255, 0.7);
-    font-style: normal;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 9px;
-    letter-spacing: 1px;
-    padding-top: 4px;
-    font-family: 'Open Sans', Arial, sans-serif; }
+    font-size: 1rem; }
   .single-project .purple-circle-grid .ch-info p a:hover {
     color: rgba(255, 242, 34, 0.8); }
   .single-project .purple-circle-grid .ch-item:hover .ch-info-wrap {
@@ -2273,14 +2260,14 @@ html {
 
 .our-team {
   display: none;
-  width: 1000px;
-  margin: 0 auto;
-  margin-top: 10rem;
   border-bottom: 2px solid #631747;
   font-family: "Oswald", sans-serif; }
   @media (min-width: 1160px) {
     .our-team {
-      display: block; } }
+      display: block;
+      width: 1011px;
+      margin: 0 auto;
+      margin-top: 10rem; } }
 
 .team-type-archive {
   width: 85%;
@@ -2484,7 +2471,7 @@ html {
     width: 100%; }
     @media (min-width: 1160px) {
       .page-id-17 .container {
-        width: 1024px; } }
+        width: 1011px; } }
   @media (min-width: 1160px) {
     .page-id-17 .page-title-wrapper {
       border-bottom: 2px solid purple;
@@ -2502,11 +2489,14 @@ html {
     line-height: 1;
     margin-bottom: 0;
     text-transform: none; }
+    @media (min-width: 1160px) {
+      .page-id-17 h2 {
+        font-size: 2.25rem; } }
   .page-id-17 .img-wrapper {
     height: 183px; }
     @media (min-width: 1160px) {
       .page-id-17 .img-wrapper {
-        height: 465px; } }
+        height: 460px; } }
   .page-id-17 .donate-wrapper {
     display: -ms-flexbox;
     display: flex;
@@ -2526,6 +2516,11 @@ html {
     padding: 10px 50px 40px 50px; }
     .page-id-17 .donate-trc-wrapper .donate-trc-desc {
       color: #fff; }
+  .page-id-17 .donate-trc-desc {
+    font-size: 1rem; }
+    @media (min-width: 1160px) {
+      .page-id-17 .donate-trc-desc {
+        font-size: 1.125rem; } }
   .page-id-17 form {
     padding-top: 70px; }
   .page-id-17 .donate-button {
@@ -2556,7 +2551,11 @@ html {
     .page-id-17 .sponsor-wrapper .sponsor-title {
       color: #B5852F; }
   .page-id-17 .sponsor-desc {
-    color: #fff; }
+    color: #fff;
+    font-size: 1rem; }
+    @media (min-width: 1160px) {
+      .page-id-17 .sponsor-desc {
+        font-size: 1.125rem; } }
   .page-id-17 .sponsor-link-wrapper {
     display: -ms-flexbox;
     display: flex;
@@ -2625,6 +2624,11 @@ html {
             color: #000; } }
   .page-id-17 .project-title {
     color: #852762; }
+  .page-id-17 .project-desc {
+    font-size: 1rem; }
+    @media (min-width: 1160px) {
+      .page-id-17 .project-desc {
+        font-size: 1.125rem; } }
   .page-id-17 .yellow-dots-banner {
     width: 100%;
     height: 80px;
@@ -2658,6 +2662,11 @@ html {
         display: flex;
         -ms-flex-align: center;
             align-items: center; } }
+  .page-id-17 .recycling-prog-desc {
+    font-size: 1rem; }
+    @media (min-width: 1160px) {
+      .page-id-17 .recycling-prog-desc {
+        font-size: 1.125rem; } }
   .page-id-17 .icef-donor {
     text-transform: uppercase;
     font-weight: bold;
@@ -2695,13 +2704,14 @@ html {
     text-transform: none; }
   .page-template-donate-child .yellow-dots-banner {
     width: 100%;
-    height: 80px;
+    height: 130px;
     background: url(../../images/svg/yellow-dots.svg) no-repeat;
     background-position: center; }
     @media (min-width: 1160px) {
       .page-template-donate-child .yellow-dots-banner {
         background-size: cover;
-        margin-top: 140px; } }
+        margin-top: 140px;
+        height: 177px; } }
   .page-template-donate-child .donate-child-wrapper {
     display: -ms-flexbox;
     display: flex;
@@ -2716,14 +2726,21 @@ html {
         -ms-flex-pack: justify;
             justify-content: space-between;
         padding: 0; } }
-  @media (min-width: 1160px) {
-    .page-template-donate-child .donate-child-content {
-      width: 68%;
-      padding: 0px 25px; } }
+  .page-template-donate-child .donate-child-content {
+    padding: 0 35px; }
+    @media (min-width: 1160px) {
+      .page-template-donate-child .donate-child-content {
+        width: 60%;
+        padding: 0px 25px; } }
   .page-template-donate-child .donate-child-title {
     color: #fff; }
   .page-template-donate-child .donate-child-desc {
     color: #fff; }
+  .page-template-donate-child .donate-child-img {
+    font-size: 0; }
+    @media (min-width: 1160px) {
+      .page-template-donate-child .donate-child-img {
+        width: 40%; } }
   .page-template-donate-child .align-center {
     display: -ms-flexbox;
     display: flex;
@@ -2756,23 +2773,36 @@ html {
     border: none;
     box-shadow: 5px 5px 10px black; }
   @media (min-width: 1160px) {
+    .page-template-donate-child .sponsor-button {
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+      padding: 0; } }
+  @media (min-width: 1160px) {
     .page-template-donate-child .content-wrapper {
       display: -ms-flexbox;
       display: flex;
       width: 78%;
       margin: 0 auto; } }
   .page-template-donate-child .process-wrapper {
-    padding: 10px 50px 40px 50px; }
+    padding: 10px 35px; }
     @media (min-width: 1160px) {
       .page-template-donate-child .process-wrapper {
-        padding: 10px 10px 0;
-        width: 100%; } }
+        padding: 10px 0;
+        width: 70%; } }
   .page-template-donate-child .donate-child-process-title {
     color: #F2CA6E; }
   .page-template-donate-child .donate-child-process-desc {
     color: #433E3E; }
   .page-template-donate-child .donate-child-scholarship-wrapper {
     padding: 10px 20px 40px 30px; }
+    @media (min-width: 1160px) {
+      .page-template-donate-child .donate-child-scholarship-wrapper {
+        padding: 10px 0px 40px 100px;
+        width: 100%; } }
   .page-template-donate-child .donate-child-scholarship-heading {
     display: -ms-flexbox;
     display: flex;
@@ -2802,13 +2832,19 @@ html {
   .page-template-donate-child .donate-child-content-wrapper {
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
+    -ms-flex-direction: column;
+        flex-direction: column; }
+    @media (min-width: 1160px) {
+      .page-template-donate-child .donate-child-content-wrapper {
+        -ms-flex-direction: row;
+            flex-direction: row;
+        -ms-flex-pack: justify;
+            justify-content: space-between; } }
   .page-template-donate-child .sponsor-section {
     text-align: left;
     color: #fff;
     background-color: #F2CA6E;
-    padding: 10px 30px 40px 86px; }
+    padding: 10px 30px 40px 30px; }
     .page-template-donate-child .sponsor-section ul {
       margin: 0;
       padding: 0 15px 29px 15px;
@@ -2819,11 +2855,12 @@ html {
           width: 75%; } }
 
 .updates {
-  margin: 10% auto;
   width: 100%; }
   @media (min-width: 1160px) {
     .updates {
-      width: 1000px; } }
+      width: 1011px;
+      margin: 0 auto;
+      margin-top: 9rem; } }
   .updates a:hover {
     text-decoration: none !important; }
   .updates .updates-flex {

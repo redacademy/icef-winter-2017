@@ -248,11 +248,12 @@ a {
 				color: #433E3E;
 			}
 		}
-
+		
 		a:hover {
-			text-decoration: none;
+			// text-decoration: underline $brand_colour_mediumgold;
 			color: $brand_colour_lightgold;
 		 	border-bottom: 4px solid $brand_colour_mediumgold;
+			
 
 			 @include desktop {
 				 color: $brand_colour_darkgrey;
@@ -323,24 +324,29 @@ a {
 .sub-menu{
 	background-color: $brand_colour_darkgrey;
 	display: none;
-	width: 200px;
+	width: 238px;
 	margin: 0;
 	padding: 10px;
+	// padding-top: 2px;
 	z-index: 2;
 	list-style-type: none;
 	text-align: center;
 	display: none;
-	//John Stuff, Menu positioning fix
 	position: absolute;
-  left: -29px;
-
+	left: -45px;
+	li:first-child{
+		border-top: 2px solid $brand_colour_mediumgold;
+	}
 	
 	li {
-		height: auto;
+		height: 45px;
 		padding: 10px;
+		padding-bottom: 40px;
+    padding-top: 15px;
 		line-height: 30px;
 		font-family: $font__accent;
 		text-align: center;
+		width: 218px;
 		border-bottom: 2px solid $brand_colour_mediumgold;
 
 		a {

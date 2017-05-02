@@ -24,12 +24,13 @@
 
     .yellow-dots-banner {
         width: 100%;
-        height: 80px;
+        height: 130px;
         background: url(../../images/svg/yellow-dots.svg) no-repeat;
         background-position: center;
         @include desktop {
         background-size: cover;
         margin-top: 140px;
+        height: 177px;
         }
     }
 
@@ -37,6 +38,7 @@
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
+        // flex-direction: column;
         color: #fff;
         background-color: $brand_colour_darkgrey; 
         // padding: 10px 50px 40px 50px;
@@ -51,8 +53,9 @@
     }
 
     .donate-child-content {
+        padding: 0 35px;
         @include desktop {
-            width: 68%;
+            width: 60%;
             padding: 0px 25px;
         }
     }
@@ -63,6 +66,13 @@
 
     .donate-child-desc {
         color: #fff;
+    }
+
+    .donate-child-img {
+        font-size: 0; //removes space below image
+        @include desktop {
+        width: 40%;
+        }
     }
 
     .align-center {
@@ -79,7 +89,16 @@
     }
 
     .sponsor-button {
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: center;
         @include purple-button;
+        @include desktop {
+            display: inline-flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 0;
+        }
         
     }
 
@@ -92,10 +111,15 @@
     }
 
     .process-wrapper {
-        padding: 10px 50px 40px 50px;
-         @include desktop {
-            padding: 10px 10px 0;
-            width: 100%;
+        padding: 10px 35px;
+        // padding: 10px 50px 40px 50px;
+            @include desktop {
+            // padding: 10px 10px 0;
+            // width: 100%;
+            // padding: 10px 60px 30px;
+            // width: 50%;
+            padding: 10px 0;
+            width: 70%;
         }
     }
 
@@ -109,6 +133,12 @@
 
     .donate-child-scholarship-wrapper {
         padding: 10px 20px 40px 30px;
+        @include desktop {
+            // padding: 10px 20px 40px 30px;
+            // width: 50%;
+            padding: 10px 0px 40px 100px;
+            width: 100%;
+        }
     }
 
     .donate-child-scholarship-heading {
@@ -151,14 +181,20 @@
 
     .donate-child-content-wrapper {
         display: flex;
-        flex-wrap: wrap;
+        // flex-wrap: wrap;
+        flex-direction: column;
+        @include desktop {
+            flex-direction: row;
+            justify-content: space-between;
+        }
     }
 
     .sponsor-section {
         text-align: left;
         color: #fff;
         background-color: $brand_colour_mediumgold;
-        padding: 10px 30px 40px 86px;
+        // padding: 10px 30px 40px 86px;
+        padding: 10px 30px 40px 30px;
         ul {
             margin: 0;
             padding: 0 15px 29px 15px;
