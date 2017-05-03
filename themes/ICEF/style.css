@@ -3037,7 +3037,8 @@ html {
     display: none; }
     @media (min-width: 1160px) {
       .updates h1 {
-        display: inline-block; } }
+        display: inline-block;
+        margin-bottom: 2rem; } }
 
 .single-update {
   width: 100%;

@@ -9,7 +9,7 @@
     align-items: center;
     @include desktop{
       width:1011px;
-      margin: 0 auto; 
+      margin: 0 auto;
       margin-top:10rem;
     }
   }
@@ -100,7 +100,7 @@
         top:63%;
         left:-24%;
       }
-      
+
     }
   }
   .swirl-and-text{
@@ -136,7 +136,7 @@
   .mobile-swirl-wrapper{
     position:relative;
     padding-bottom:2.5rem;
-    
+
     .swirl-text{
       font-size: 1.5rem;
       text-transform: uppercase;
@@ -162,7 +162,7 @@
     .top-left-quote, .bottom-right-quote {
       p{
         font-size:11rem;
-        color: $brand_colour_mediumgold;        
+        color: $brand_colour_mediumgold;
       }
       position:absolute;
     }
