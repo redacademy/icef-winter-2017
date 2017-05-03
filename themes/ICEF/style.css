@@ -596,6 +596,8 @@ a {
       @media (min-width: 1160px) {
         .menu li a:hover {
           color: #433E3E; } }
+  .menu li:first-child:hover a {
+    border-bottom: 0px; }
   @media (min-width: 1160px) {
     .menu .menu-item-57 {
       background: url(../../images/svg/banner.svg) no-repeat;
@@ -1029,7 +1031,7 @@ a {
 
 @media (min-width: 1160px) {
   .front-page-container .our-values {
-    padding: 0 3% 5% 2%; }
+    padding: 0 3% 3% 2%; }
     .front-page-container .our-values img {
       width: 100%;
       margin: 0 auto;
@@ -1106,7 +1108,8 @@ a {
           justify-content: center; }
       .front-page-container .key-cornerstones .cornerstone-flex .education img, .front-page-container .key-cornerstones .cornerstone-flex .health img, .front-page-container .key-cornerstones .cornerstone-flex .local-business img {
         -ms-flex-preferred-size: 100%;
-            flex-basis: 100%; }
+            flex-basis: 100%;
+        object-fit: cover; }
       .front-page-container .key-cornerstones .cornerstone-flex .education .cornerstone-text, .front-page-container .key-cornerstones .cornerstone-flex .health .cornerstone-text, .front-page-container .key-cornerstones .cornerstone-flex .local-business .cornerstone-text {
         -ms-flex-preferred-size: 100%;
             flex-basis: 100%; }
@@ -1133,7 +1136,10 @@ a {
       @media (min-width: 1160px) {
         .front-page-container .key-cornerstones .cornerstone-flex .cornerstone-text {
           -ms-flex-preferred-size: 40%;
-              flex-basis: 40%; } }
+              flex-basis: 40%; }
+          .front-page-container .key-cornerstones .cornerstone-flex .cornerstone-text p {
+            margin-top: .5rem;
+            margin-bottom: .5rem; } }
       .front-page-container .key-cornerstones .cornerstone-flex .cornerstone-text h3 {
         font-size: 2.25rem;
         margin: 0; }
@@ -3189,6 +3195,39 @@ html {
           line-height: 21px; }
         .single-update .updates-flex .updates-article .update-box .update-date {
           bottom: 15px; }
+
+.post-template-default.single.single-post .updates-title {
+  width: 1011px; }
+
+.post-template-default.single.single-post .updates-container {
+  width: 870px;
+  margin-left: .8rem; }
+
+.post-template-default.single.single-post .update-content {
+  width: 80%; }
+
+.post-template-default.single.single-post .more {
+  width: 1011px; }
+
+.post-template-default.single.single-post .updates-flex {
+  width: 1080px; }
+
+.post-template-default.single.single-post .update-box {
+  background-color: #f2ca6e; }
+
+.post-template-default.single.single-post .single-update-title {
+  width: 80%; }
+  .post-template-default.single.single-post .single-update-title p {
+    line-height: 1.1;
+    padding-top: 25px !important;
+    padding-left: 1.5rem; }
+
+.post-template-default.single.single-post .update-title {
+  padding: 14px 45px 0px 10px; }
+
+.blog .updates-flex .update-title {
+  padding-top: 1rem !important;
+  padding-left: 1rem !important; }
 
 /*--------------------------------------------------------------
 # Media

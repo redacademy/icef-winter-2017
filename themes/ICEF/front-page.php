@@ -12,7 +12,7 @@ get_header(); ?>
         <div class='home-hero'></div>
         <div class="hero-text">
             <h2>One Community At a Time</h2>
-            <p>Our vision is a community that can survive holistically 
+            <p>Our vision is a community that can survive holistically
                 and self-sustainably.</p>
         </div>
         <img class="scroll-down" src='<?php echo get_template_directory_uri();?>/images/svg/scroll-down.svg' alt='scroll-down' />
@@ -27,11 +27,11 @@ get_header(); ?>
             </div>
             <div class='who-no-border'>
                 <p class="who-we-are-text">We work with communities in Uganda to support their well being and sustainable growth. Our focus is on holistic development,
-                    knowing that the only way to truly support a community is through offering 
-                    multiple interconnected programs. We stay with the community for as long as 
+                    knowing that the only way to truly support a community is through offering
+                    multiple interconnected programs. We stay with the community for as long as
                     it takes for them to achieve self-sustainability.<br> The community drives this
-                    progressive change, as key stakeholders in all planning, implementation, monitoring and evaluation of our work. 
-                    No decisions are made without the input of our community. 
+                    progressive change, as key stakeholders in all planning, implementation, monitoring and evaluation of our work.
+                    No decisions are made without the input of our community.
                 </p>
             </div>
         </section>
@@ -51,11 +51,11 @@ get_header(); ?>
                 <div class='color-block-flex'>
 
                     <div class='purple-block'>
-                        <p>Our efforts are currently focused on the Tekera Resource Centre. The TRC was 
-                        founded in January 2006 near Tekera Village, Masaka District, in Southwestern Uganda. 
+                        <p>Our efforts are currently focused on the Tekera Resource Centre. The TRC was
+                        founded in January 2006 near Tekera Village, Masaka District, in Southwestern Uganda.
                         </p>
                     </div>
-                
+
                     <div class="gold-block">
                         <p class="front-numbers">100%</p>
                         <p>of the Tekera Resource Centre staff are from Masaka district.</p>
@@ -68,7 +68,7 @@ get_header(); ?>
                         </span>
                         <p>Some of the services and infrastructures available at the TRC:</p>
                     </div>
-                
+
                 </div>
 
                 <div class="icon-block">
@@ -76,15 +76,15 @@ get_header(); ?>
                         <img src='<?php echo get_template_directory_uri();?>/images/svg/health-care-icon.svg' alt='' >
                         <p>Health Care</p>
                     </div>
-                    <div>                    
+                    <div>
                         <img src='<?php echo get_template_directory_uri();?>/images/svg/coop-farming-icon.svg' alt='' >
                         <p>Coop Farming</p>
                     </div>
-                    <div>                    
+                    <div>
                         <img src='<?php echo get_template_directory_uri();?>/images/svg/schooling-icon.svg' alt='' >
                         <p>Schooling</p>
                     </div>
-                    <div>            
+                    <div>
                         <img src='<?php echo get_template_directory_uri();?>/images/svg/local-business-icon.svg' alt='' >
                         <p>Local Business</p>
                     </div>
@@ -96,18 +96,17 @@ get_header(); ?>
             <img src='<?php echo get_template_directory_uri();?>/images/jpegs/home-our-values.jpg' alt='building-values' >
             <h3>Our Values</h3>
             <p>ICEF Canada is entirely volunteer driven. Since 2008 our administration
-                fees have amounted to less than 1% annually and every dollar donated 
-                goes to the Tekera Resource Centre. We believe that big chances come 
+                fees have amounted to less than 1% annually and every dollar donated
+                goes to the Tekera Resource Centre. We believe that big chances come
                 when money is spent efficiently and towards the projects that need it the most.
-                As a small but impactful organization we pride ourselves on 100% transparency and direct impact. 
+                As a small but impactful organization we pride ourselves on 100% transparency and direct impact.
             </p>
-            <a href='<?php get_template_directory_uri() ?>/icef/donate' class='purple-btn'>Donate</a>
         </section>
 
         <div class="yellow-dot-filler">
             <img class="front-heart" src='<?php echo get_template_directory_uri();?>/images/svg/heart.svg' alt='heart' />
         </div>
-        
+
 
         <section class="key-cornerstones">
             <h2>Our Key Cornerstones</h2>
@@ -118,7 +117,7 @@ get_header(); ?>
                     <div class='cornerstone-text'>
                         <h3>Education</h3>
                         <p><b>Tekera Primary School</b></p>
-                        <p>Is one of the top schools in Masaka.
+                        <p>Is one of the top performing schools in the Masaka.
                         <p><b>Vocational School</b></p>
                         <p>Allows students the opportunity to learn skills and contribute to the local community</p>
                     </div>
@@ -128,10 +127,10 @@ get_header(); ?>
                 <div class="local-business">
                     <div class='cornerstone-text'>
                         <h3>Local Business</h3>
-                        <p> A community is only as healthy as its citizens, 
-                            which is why ICEF Canada and Tekera Resource Centre 
-                            put such value on public health. The Tekera Health Clinc 
-                            Level II has been open for 8 years providing accessible healthcare 
+                        <p> A community is only as healthy as its citizens,
+                            which is why ICEF Canada and Tekera Resource Centre
+                            put such value on public health. The Tekera Health Clinc
+                            Level II has been open for 8 years providing accessible healthcare
                             to Tekera Village and an out reach program to the nearby communities.
                         </p>
                     </div>
@@ -142,9 +141,9 @@ get_header(); ?>
                     <div class='cornerstone-text'>
                         <h3>Health</h3>
                         <p> A community is only as healthy as its citizens, which is why ICEF Canada
-                            and Tekera Resource Centre put such value on public health. 
-                            The Tekera Health Clinc Level II has been open for 8 years 
-                            providing accessible healthcare to Tekera Village and an out 
+                            and Tekera Resource Centre put such value on public health.
+                            The Tekera Health Clinc Level II has been open for 8 years
+                            providing accessible healthcare to Tekera Village and an out
                             reach program to the nearby communities.
                         </p>
                     </div>

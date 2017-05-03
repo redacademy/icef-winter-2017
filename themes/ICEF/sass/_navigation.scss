@@ -147,7 +147,7 @@ a {
 .site-header {
 	z-index: 2;
 	position: fixed;
-	top: 0; 
+	top: 0;
 	width: 100%;
 
 	@include desktop {
@@ -185,7 +185,7 @@ a {
 		margin: 0 20px;
 
 		@include desktop {
-			display: none;	
+			display: none;
 		}
 	}
 
@@ -200,10 +200,10 @@ a {
 		font-size: 34px;
 
 		@include desktop {
-			display: none;	
+			display: none;
 		}
 	}
-}	
+}
 
 .menu {
 	display: none;
@@ -248,16 +248,20 @@ a {
 				color: #433E3E;
 			}
 		}
-		
+
 		a:hover {
 			// text-decoration: underline $brand_colour_mediumgold;
 			color: $brand_colour_lightgold;
 		 	border-bottom: 4px solid $brand_colour_mediumgold;
-			
 
 			 @include desktop {
 				 color: $brand_colour_darkgrey;
 			 }
+		}
+	}
+	li:first-child:hover{
+		a{
+			border-bottom:0px;
 		}
 	}
 
@@ -337,7 +341,7 @@ a {
 	li:first-child{
 		border-top: 2px solid $brand_colour_mediumgold;
 	}
-	
+
 	li {
 		height: 45px;
 		padding: 10px;
