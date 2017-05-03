@@ -248,7 +248,7 @@ get_header();
 					<li>
 						<div class="ch-item">
 							<div class="ch-info-wrap">
-								<a href='<? get_template_directory_uri() ?>our-work'>
+								<a href='our-work'>
 									<div class="ch-info">
 										<div class="ch-info-front">
 											<div class="trc-circle">
@@ -266,7 +266,7 @@ get_header();
 					<li>
 						<div class="ch-item">
 							<div class="ch-info-wrap">
-								<a href='<? get_template_directory_uri() ?>tekera-primary-school'>
+								<a href='tekera-primary-school'>
 									<div class="ch-info">
 										<div class="ch-info-front">
 											<img src="<?php echo get_template_directory_uri();?>/images/svg/our-work-mobile/apple.svg" 	alt="apple-icon">
@@ -282,7 +282,7 @@ get_header();
 					<li>
 						<div class="ch-item">
 							<div class="ch-info-wrap">
-								<a href='<? get_template_directory_uri() ?>sustainability-projects'>
+								<a href='sustainability-projects'>
 									<div class="ch-info">
 										<div class="ch-info-front">
 											<img src="<?php echo get_template_directory_uri();?>/images/svg/our-work-mobile/farm.svg" 	alt="farm-icon">
@@ -298,7 +298,7 @@ get_header();
 					<li>
 						<div class="ch-item">
 							<div class="ch-info-wrap">
-								<a href='<? get_template_directory_uri() ?>sustainability-projects'>
+								<a href='sustainability-projects'>
 								<div class="ch-info">
 									<div class="ch-info-front">
 										<img src="<?php echo get_template_directory_uri();?>/images/svg/our-work-mobile/adult-education.svg" 	alt="crafting-icon">
@@ -313,7 +313,7 @@ get_header();
 					<li>
 						<div class="ch-item">
 							<div class="ch-info-wrap">
-								<a href='<? get_template_directory_uri() ?>tekera-medical-clinic'>
+								<a href='tekera-medical-clinic'>
 									<div class="ch-info">
 										<div class="ch-info-front">
 											<img src="<?php echo get_template_directory_uri();?>/images/svg/our-work-mobile/medical.svg" 	alt="crafting-icon">
@@ -329,7 +329,7 @@ get_header();
 					<li>
 						<div class="ch-item">
 							<div class="ch-info-wrap">
-								<a href='<? get_template_directory_uri() ?>womens-socio-economic-empowerment-group'>
+								<a href='womens-socio-economic-empowerment-group'>
 									<div class="ch-info">
 										<div class="ch-info-front">
 											<img src="<?php echo get_template_directory_uri();?>/images/svg/our-work-mobile/crafting.svg" 	alt="crafting-icon">
@@ -345,7 +345,7 @@ get_header();
 					<li>
 						<div class="ch-item">
 							<div class="ch-info-wrap">
-								<a href='<? get_template_directory_uri() ?>trades-school'>
+								<a href='community-work-program'>
 									<div class="ch-info">
 										<div class="ch-info-front">
 											<img src="<?php echo get_template_directory_uri();?>/images/svg/our-work-mobile/rectangle.svg" alt="rectangle-icon">
@@ -361,7 +361,7 @@ get_header();
 					<li>
 						<div class="ch-item">
 							<div class="ch-info-wrap">
-								<a href='<? get_template_directory_uri() ?>community-work-program'>
+								<a href='trades-school'>
 									<div class="ch-info">
 										<div class="ch-info-front">
 											<img src="<?php echo get_template_directory_uri();?>/images/svg/our-work-mobile/people.svg" alt="people-icon">
@@ -377,7 +377,7 @@ get_header();
 					<li>
 						<div class="ch-item">
 							<div class="ch-info-wrap">
-								<a href='<? get_template_directory_uri() ?>drinking-water'>
+								<a href='drinking-water'>
 									<div class="ch-info">
 										<div class="ch-info-front">
 											<img src="<?php echo get_template_directory_uri();?>/images/svg/our-work-mobile/water.svg" alt="water-icon">
