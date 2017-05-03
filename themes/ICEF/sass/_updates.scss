@@ -87,7 +87,8 @@
                     text-align: center;
                     color: $brand_colour_darkgrey;
                     font-weight: 600;
-                    padding: 30px 10%;
+                    // padding: 30px 10%;
+                    padding: 35px 10%;
 
                     @include desktop {
                         text-align: left;
@@ -274,7 +275,8 @@
             text-align: center;
             font-family: $font__accent;
             padding-top: 15px;
-            bottom: 80px;
+            // bottom: 80px;
+            bottom: 70px;
             right: 42%;
             width: 60px;
             height: 60px;
@@ -419,43 +421,82 @@
 
 .post-template-default.single.single-post{
     .updates-title{
+        @include desktop{
         width: 1011px;
+        }
+    }
+    .update-title.main-title{
+        padding-left: 60px;
+        @include desktop{
+            padding-left: 30px;
+        }
     }
     .updates-container{
-        width: 870px;
-        margin-left:.8rem;
+        @include desktop{
+            // width: 870px;
+            width: 850px;
+         margin-left:.8rem;
+        }
+
     }
     .update-content{
+        @include desktop{
         width: 80%;
+        }
     }
     .more{
-        width: 1011px;
+        @include desktop{
+         width: 1011px;
+        }
     }
     .updates-flex{
+        @include desktop{
         width: 1080px;
+
+        }
     }
     .update-box{
         background-color: #f2ca6e;
+            display: flex;
+    justify-content: center;
+    align-items: center;
+    @include desktop{
+        justify-content: flex-start;
+    }
+        .update-title{
+            padding-top: 45px;
+            @include desktop{
+                padding-top: 1rem;
+            }
+        }
     }
     .single-update-title{
-        width: 80%;
-        p{
-            line-height: 1.1;
-            padding-top: 25px !important;
-            padding-left: 1.5rem;
+        @include desktop{
+            width: 80%;
+            p{
+                line-height: 1.1;
+                padding-top: 25px !important;
+                padding-left: 1.5rem;
+            }
         }
     }
     .update-title{
+        background-color: #f2ca6e;
+
+        @include desktop{
         padding: 14px 45px 0px 10px;
+        }
     }
 }
 
 .blog .updates-flex{
     .update-title{
-        padding-top:1rem !important;
-        padding-left: 1rem !important;
-    }
-    .update-box .update-title{
+        background-color: #f2ca6e;
+
+        @include desktop{
+            padding-top:1rem !important;
+            padding-left: 1rem !important;
+        }
 
     }
 }

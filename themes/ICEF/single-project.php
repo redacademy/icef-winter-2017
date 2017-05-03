@@ -5,7 +5,7 @@
  * @package RED_Starter_Theme
  */
 
-get_header(); 
+get_header();
 
 ?>
 
@@ -17,13 +17,13 @@ get_header();
 				</div>
 				<div class="map">
 
-					<?php 
+					<?php
 					wp_reset_postdata();
 					$projectNumber = 9;
 					$prev = get_permalink(get_adjacent_post(false,'',true));
 					$next = get_permalink(get_adjacent_post(false,'',false));
 
-					$args = array( 
+					$args = array(
 							'posts_per_page' => 9,
 							'post_type' => 'project');
 
@@ -36,13 +36,13 @@ get_header();
 							<h2><?php echo $projectNumber ?></h2>
 						</a>
 
-					<?php 
+					<?php
 					$projectNumber--;
-					endwhile;	
+					endwhile;
 					endif;
 					wp_reset_postdata();
 					?>
-					
+
 					<span class="our-work-wrapper">
 						<img class="our-work purple-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/geotag.svg" alt="crafting-icon">
 						<img class="tekera-primary-school purple-pin" src="<?php echo get_template_directory_uri();?>/images/svg/map/geotag.svg" alt="crafting-icon">
@@ -68,8 +68,8 @@ get_header();
 				</div>
 			</section>
 			<span class="our-work-wrapper">
-	
-				<?php while ( have_posts() ) : the_post(); 
+
+				<?php while ( have_posts() ) : the_post();
 					$class       = CFS()->get( 'project_class_creator' );
 					$number      = CFS()->get( 'project_number' );
 					$projectName = CFS()->get( 'project_name' );
@@ -177,7 +177,7 @@ get_header();
 								<div class="why-pic">
 										<img src="<?php echo $whyImage ?>">
 								</div>
-							</div> 
+							</div>
 							<div class="read-why">
 								<div class="read-more-why">
 									<?php echo $why ?>
@@ -217,7 +217,7 @@ get_header();
 										<?php echo $impactIntro ?>
 									</div>
 									<div class="read-button">
-										<button class="impact-read"> Read </button>		
+										<button class="impact-read"> Read </button>
 									</div>
 								</div>
 								<div class="impact-pic">
@@ -246,7 +246,7 @@ get_header();
 				</div>
 				<ul class="purple-circle-grid">
 					<li>
-						<div class="ch-item">				
+						<div class="ch-item">
 							<div class="ch-info-wrap">
 								<a href='<? get_template_directory_uri() ?>our-work'>
 									<div class="ch-info">
@@ -257,14 +257,14 @@ get_header();
 										</div>
 										<div class="ch-info-back">
 											<p>Tekera <br>Resource<br> Centre</p>
-										</div>	
+										</div>
 									</div>
 								</a>
 							</div>
 						</div>
 					</li>
 					<li>
-						<div class="ch-item">				
+						<div class="ch-item">
 							<div class="ch-info-wrap">
 								<a href='<? get_template_directory_uri() ?>tekera-primary-school'>
 									<div class="ch-info">
@@ -273,14 +273,14 @@ get_header();
 										</div>
 										<div class="ch-info-back">
 											<p>Primary<br> School</p>
-										</div>	
+										</div>
 									</div>
 								</a>
 							</div>
 						</div>
 					</li>
 					<li>
-						<div class="ch-item">				
+						<div class="ch-item">
 							<div class="ch-info-wrap">
 								<a href='<? get_template_directory_uri() ?>sustainability-projects'>
 									<div class="ch-info">
@@ -289,14 +289,14 @@ get_header();
 										</div>
 										<div class="ch-info-back">
 											<p>Farm &</br>Agriculture</p>
-										</div>	
+										</div>
 									</div>
 								</a>
 							</div>
 						</div>
 					</li>
 					<li>
-						<div class="ch-item">				
+						<div class="ch-item">
 							<div class="ch-info-wrap">
 								<a href='<? get_template_directory_uri() ?>sustainability-projects'>
 								<div class="ch-info">
@@ -304,14 +304,14 @@ get_header();
 										<img src="<?php echo get_template_directory_uri();?>/images/svg/our-work-mobile/adult-education.svg" 	alt="crafting-icon">
 									</div>
 									<div class="ch-info-back">
-										<p>Adult<br>Education</p>
-									</div>	
+										<p>Sustainability<br>Projects</p>
+									</div>
 								</div>
 							</div>
 						</div>
 					</li>
 					<li>
-						<div class="ch-item">				
+						<div class="ch-item">
 							<div class="ch-info-wrap">
 								<a href='<? get_template_directory_uri() ?>tekera-medical-clinic'>
 									<div class="ch-info">
@@ -320,14 +320,14 @@ get_header();
 										</div>
 										<div class="ch-info-back">
 											<p>Medical<br>Clinic</p>
-										</div>	
+										</div>
 									</div>
 								</a>
 							</div>
 						</div>
 					</li>
 					<li>
-						<div class="ch-item">				
+						<div class="ch-item">
 							<div class="ch-info-wrap">
 								<a href='<? get_template_directory_uri() ?>womens-socio-economic-empowerment-group'>
 									<div class="ch-info">
@@ -335,31 +335,15 @@ get_header();
 											<img src="<?php echo get_template_directory_uri();?>/images/svg/our-work-mobile/crafting.svg" 	alt="crafting-icon">
 										</div>
 										<div class="ch-info-back">
-											<p>Women's<br>Craft Club</p>
-										</div>	
-									</div>
-								</a>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="ch-item">				
-							<div class="ch-info-wrap">
-								<a href='<? get_template_directory_uri() ?>community-work-program'>
-									<div class="ch-info">
-										<div class="ch-info-front">
-											<img src="<?php echo get_template_directory_uri();?>/images/svg/our-work-mobile/people.svg" alt="people-icon">
+											<p>Women's<br>Empowerment<br>Group</p>
 										</div>
-										<div class="ch-info-back">
-											<p>Community<br> Work Program</p>
-										</div>	
 									</div>
 								</a>
 							</div>
 						</div>
 					</li>
 					<li>
-						<div class="ch-item">				
+						<div class="ch-item">
 							<div class="ch-info-wrap">
 								<a href='<? get_template_directory_uri() ?>trades-school'>
 									<div class="ch-info">
@@ -367,15 +351,31 @@ get_header();
 											<img src="<?php echo get_template_directory_uri();?>/images/svg/our-work-mobile/rectangle.svg" alt="rectangle-icon">
 										</div>
 										<div class="ch-info-back">
-											<p>Vocational<br> School</p>
-										</div>	
+											<p>Vocational<br> Trades School</p>
+										</div>
 									</div>
 								</a>
 							</div>
 						</div>
 					</li>
 					<li>
-						<div class="ch-item">				
+						<div class="ch-item">
+							<div class="ch-info-wrap">
+								<a href='<? get_template_directory_uri() ?>community-work-program'>
+									<div class="ch-info">
+										<div class="ch-info-front">
+											<img src="<?php echo get_template_directory_uri();?>/images/svg/our-work-mobile/people.svg" alt="people-icon">
+										</div>
+										<div class="ch-info-back">
+											<p>Community<br>Work Program</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item">
 							<div class="ch-info-wrap">
 								<a href='<? get_template_directory_uri() ?>drinking-water'>
 									<div class="ch-info">
@@ -383,8 +383,8 @@ get_header();
 											<img src="<?php echo get_template_directory_uri();?>/images/svg/our-work-mobile/water.svg" alt="water-icon">
 										</div>
 										<div class="ch-info-back">
-											<p>Portable<br>Drinking Water</p>
-										</div>	
+											<p>Drinking<br>Water</p>
+										</div>
 									</div>
 								</a>
 							</div>

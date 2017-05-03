@@ -2256,7 +2256,10 @@ html {
     margin-top: 2rem;
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
-    font-size: 1rem; }
+    font-size: .7rem; }
+    @media (min-width: 1160px) {
+      .single-project .purple-circle-grid .ch-info-back p {
+        font-size: 1rem; } }
   .single-project .purple-circle-grid .ch-info p a:hover {
     color: rgba(255, 242, 34, 0.8); }
   .single-project .purple-circle-grid .ch-item:hover .ch-info-wrap {
@@ -2938,7 +2941,7 @@ html {
           text-align: center;
           color: #433E3E;
           font-weight: 600;
-          padding: 30px 10%; }
+          padding: 35px 10%; }
           @media (min-width: 1160px) {
             .updates .updates-flex .update-article .update-box .update-title {
               text-align: left;
@@ -3085,7 +3088,7 @@ html {
       text-align: center;
       font-family: "Oswald", sans-serif;
       padding-top: 15px;
-      bottom: 80px;
+      bottom: 70px;
       right: 42%;
       width: 60px;
       height: 60px;
@@ -3196,38 +3199,71 @@ html {
         .single-update .updates-flex .updates-article .update-box .update-date {
           bottom: 15px; }
 
-.post-template-default.single.single-post .updates-title {
-  width: 1011px; }
+@media (min-width: 1160px) {
+  .post-template-default.single.single-post .updates-title {
+    width: 1011px; } }
 
-.post-template-default.single.single-post .updates-container {
-  width: 870px;
-  margin-left: .8rem; }
+.post-template-default.single.single-post .update-title.main-title {
+  padding-left: 60px; }
+  @media (min-width: 1160px) {
+    .post-template-default.single.single-post .update-title.main-title {
+      padding-left: 30px; } }
 
-.post-template-default.single.single-post .update-content {
-  width: 80%; }
+@media (min-width: 1160px) {
+  .post-template-default.single.single-post .updates-container {
+    width: 850px;
+    margin-left: .8rem; } }
 
-.post-template-default.single.single-post .more {
-  width: 1011px; }
+@media (min-width: 1160px) {
+  .post-template-default.single.single-post .update-content {
+    width: 80%; } }
 
-.post-template-default.single.single-post .updates-flex {
-  width: 1080px; }
+@media (min-width: 1160px) {
+  .post-template-default.single.single-post .more {
+    width: 1011px; } }
+
+@media (min-width: 1160px) {
+  .post-template-default.single.single-post .updates-flex {
+    width: 1080px; } }
 
 .post-template-default.single.single-post .update-box {
-  background-color: #f2ca6e; }
+  background-color: #f2ca6e;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
+  @media (min-width: 1160px) {
+    .post-template-default.single.single-post .update-box {
+      -ms-flex-pack: start;
+          justify-content: flex-start; } }
+  .post-template-default.single.single-post .update-box .update-title {
+    padding-top: 45px; }
+    @media (min-width: 1160px) {
+      .post-template-default.single.single-post .update-box .update-title {
+        padding-top: 1rem; } }
 
-.post-template-default.single.single-post .single-update-title {
-  width: 80%; }
-  .post-template-default.single.single-post .single-update-title p {
-    line-height: 1.1;
-    padding-top: 25px !important;
-    padding-left: 1.5rem; }
+@media (min-width: 1160px) {
+  .post-template-default.single.single-post .single-update-title {
+    width: 80%; }
+    .post-template-default.single.single-post .single-update-title p {
+      line-height: 1.1;
+      padding-top: 25px !important;
+      padding-left: 1.5rem; } }
 
 .post-template-default.single.single-post .update-title {
-  padding: 14px 45px 0px 10px; }
+  background-color: #f2ca6e; }
+  @media (min-width: 1160px) {
+    .post-template-default.single.single-post .update-title {
+      padding: 14px 45px 0px 10px; } }
 
 .blog .updates-flex .update-title {
-  padding-top: 1rem !important;
-  padding-left: 1rem !important; }
+  background-color: #f2ca6e; }
+  @media (min-width: 1160px) {
+    .blog .updates-flex .update-title {
+      padding-top: 1rem !important;
+      padding-left: 1rem !important; } }
 
 /*--------------------------------------------------------------
 # Media
@@ -3359,6 +3395,9 @@ footer .icef-footer {
     .footer-wrapper {
       -ms-flex-direction: row;
           flex-direction: row; } }
+
+.canada-info {
+  padding-top: 1rem; }
 
 .canada-info, .uganda-info {
   font-size: 14px; }
