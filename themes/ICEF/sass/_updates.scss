@@ -220,7 +220,7 @@
     margin: 0 auto;
 
     @include desktop {
-        width: 80%;
+        // width: 80%;
         margin: 10% auto;
     }
 
@@ -375,7 +375,7 @@
         justify-content: center;
         flex-wrap: wrap;
         height: 1500px;
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
         margin-top: 30px;
         padding-top: 30px;
@@ -387,7 +387,7 @@
         .updates-article {
             flex-basis: 100%;
             height: 300px;
-            margin: 10px 10px;
+            // margin: 10px 10px;
 
             @include desktop {
                 flex-basis: 22%;
@@ -437,7 +437,8 @@
         @include desktop{
             // width: 870px;
             width: 850px;
-         margin-left:.8rem;
+            // margin-left:.8rem;
+            margin-left:10.4rem;
         }
 
     }

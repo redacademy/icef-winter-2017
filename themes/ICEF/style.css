@@ -3045,7 +3045,6 @@ html {
   margin: 0 auto; }
   @media (min-width: 1160px) {
     .single-update {
-      width: 80%;
       margin: 10% auto; } }
   .single-update h2 {
     display: none;
@@ -3169,7 +3168,7 @@ html {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     height: 1500px;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     margin-top: 30px;
     padding-top: 30px; }
@@ -3179,8 +3178,7 @@ html {
     .single-update .updates-flex .updates-article {
       -ms-flex-preferred-size: 100%;
           flex-basis: 100%;
-      height: 300px;
-      margin: 10px 10px; }
+      height: 300px; }
       @media (min-width: 1160px) {
         .single-update .updates-flex .updates-article {
           -ms-flex-preferred-size: 22%;
@@ -3215,7 +3213,7 @@ html {
 @media (min-width: 1160px) {
   .post-template-default.single.single-post .updates-container {
     width: 850px;
-    margin-left: .8rem; } }
+    margin-left: 10.4rem; } }
 
 @media (min-width: 1160px) {
   .post-template-default.single.single-post .update-content {
