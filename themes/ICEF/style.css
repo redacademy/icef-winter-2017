@@ -3045,7 +3045,7 @@ html {
   margin: 0 auto; }
   @media (min-width: 1160px) {
     .single-update {
-      margin: 10% auto; } }
+      margin: 10rem auto; } }
   .single-update h2 {
     display: none;
     border-bottom: 3px solid #852762;
