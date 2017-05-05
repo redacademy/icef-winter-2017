@@ -3045,7 +3045,7 @@ html {
   margin: 0 auto; }
   @media (min-width: 1160px) {
     .single-update {
-      margin: 10rem auto; } }
+      margin: 10% auto; } }
   .single-update h2 {
     display: none;
     border-bottom: 3px solid #852762;
@@ -3069,7 +3069,7 @@ html {
     position: relative; }
     @media (min-width: 1160px) {
       .single-update .update-box {
-        width: 80%; } }
+        width: 100%; } }
     .single-update .update-box .update-image {
       -ms-flex-preferred-size: 100%;
           flex-basis: 100%;
@@ -3163,8 +3163,6 @@ html {
   .single-update .updates-flex {
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: center;
-        justify-content: center;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     height: 1500px;
@@ -3201,6 +3199,11 @@ html {
           bottom: 15px; }
 
 @media (min-width: 1160px) {
+  .post-template-default.single.single-post .site-content {
+    width: 1011px;
+    margin: 10rem auto; } }
+
+@media (min-width: 1160px) {
   .post-template-default.single.single-post .updates-title {
     width: 1011px; } }
 
@@ -3212,12 +3215,11 @@ html {
 
 @media (min-width: 1160px) {
   .post-template-default.single.single-post .updates-container {
-    width: 850px;
-    margin-left: 15.2rem; } }
+    width: 680px; } }
 
 @media (min-width: 1160px) {
   .post-template-default.single.single-post .update-content {
-    width: 80%; } }
+    width: 100%; } }
 
 @media (min-width: 1160px) {
   .post-template-default.single.single-post .more {
@@ -3226,6 +3228,14 @@ html {
 @media (min-width: 1160px) {
   .post-template-default.single.single-post .updates-flex {
     width: 1080px; } }
+
+@media (min-width: 1160px) {
+  .post-template-default.single.single-post .updates-flex .updates-article:nth-child(1) {
+    margin-left: 0; } }
+
+@media (min-width: 1160px) {
+  .post-template-default.single.single-post .updates-flex .updates-article:nth-child(4) {
+    margin-right: 0; } }
 
 .post-template-default.single.single-post .update-box {
   background-color: #f2ca6e;
@@ -3240,7 +3250,7 @@ html {
       -ms-flex-pack: start;
           justify-content: flex-start; } }
   .post-template-default.single.single-post .update-box .update-title {
-    padding-top: 45px; }
+    padding-top: 40px; }
     @media (min-width: 1160px) {
       .post-template-default.single.single-post .update-box .update-title {
         padding-top: 1rem; } }

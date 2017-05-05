@@ -221,7 +221,7 @@
 
     @include desktop {
         // width: 80%;
-        margin: 10rem auto;
+        margin: 10% auto;
     }
 
     h2 {
@@ -249,7 +249,7 @@
         position: relative;
 
         @include desktop {
-            width: 80%;
+            width: 100%;
         }
 
         .update-image {
@@ -372,7 +372,7 @@
 
     .updates-flex {
         display: flex;
-        justify-content: center;
+        // justify-content: center;
         flex-wrap: wrap;
         height: 1500px;
         width: 100%;
@@ -422,6 +422,14 @@
 }
 
 .post-template-default.single.single-post{
+    .site-content{
+        @include desktop{
+            width: 1011px;
+            margin: 10rem auto;
+        }
+    //         width: 1011px;
+    // margin: 10rem auto;
+    }
     .updates-title{
         @include desktop{
         width: 1011px;
@@ -436,15 +444,15 @@
     .updates-container{
         @include desktop{
             // width: 870px;
-            width: 850px;
+            width: 680px;
             // margin-left:.8rem;
-            margin-left:15.2rem;
+            // margin-left:15.2rem;
         }
 
     }
     .update-content{
         @include desktop{
-        width: 80%;
+        width: 100%;
         }
     }
     .more{
@@ -455,19 +463,28 @@
     .updates-flex{
         @include desktop{
         width: 1080px;
-
+        }
+        .updates-article:nth-child(1){
+            @include desktop{
+                margin-left: 0;
+            }
+        }
+        .updates-article:nth-child(4){
+            @include desktop{
+                margin-right: 0;
+            }
         }
     }
     .update-box{
         background-color: #f2ca6e;
-            display: flex;
-    justify-content: center;
-    align-items: center;
-    @include desktop{
-        justify-content: flex-start;
-    }
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @include desktop{
+            justify-content: flex-start;
+        }
         .update-title{
-            padding-top: 45px;
+            padding-top: 40px;
             @include desktop{
                 padding-top: 1rem;
             }
