@@ -278,7 +278,7 @@
             font-family: $font__accent;
             padding-top: 15px;
             // bottom: 80px;
-            bottom: 50px;
+            bottom: 40px;
             right: 42%;
             width: 60px;
             height: 60px;
@@ -400,7 +400,7 @@
             }
 
             .update-box {
-                height: 350px;
+                height: 370px;
                 @include desktop{
                     height:260px;
                 }
@@ -421,7 +421,7 @@
                 }
 
                 .update-date {
-                    bottom: 50px;
+                    bottom: 60px;
                     @include desktop{
                     bottom: 15px;
 
@@ -496,7 +496,7 @@
             justify-content: flex-start;
         }
         .update-title{
-            padding-top: 50px;
+            padding-top: 40px;
             height: 30%;
             @include desktop{
                 padding-top: 1rem;
@@ -506,6 +506,7 @@
         .update-title.main-title{
             @include desktop{
               height: 100px;
+
             }
         }
     }
@@ -536,6 +537,5 @@
             padding-top:1rem !important;
             padding-left: 1rem !important;
         }
-
     }
 }

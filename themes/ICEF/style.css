@@ -3090,7 +3090,7 @@ html {
       text-align: center;
       font-family: "Oswald", sans-serif;
       padding-top: 15px;
-      bottom: 50px;
+      bottom: 40px;
       right: 42%;
       width: 60px;
       height: 60px;
@@ -3187,7 +3187,7 @@ html {
           margin: 0 10px;
           height: 100%; } }
       .single-update .updates-flex .updates-article .update-box {
-        height: 350px;
+        height: 370px;
         width: 100%; }
         @media (min-width: 1160px) {
           .single-update .updates-flex .updates-article .update-box {
@@ -3202,7 +3202,7 @@ html {
           font-size: .8rem;
           line-height: 21px; }
         .single-update .updates-flex .updates-article .update-box .update-date {
-          bottom: 50px; }
+          bottom: 60px; }
           @media (min-width: 1160px) {
             .single-update .updates-flex .updates-article .update-box .update-date {
               bottom: 15px; } }
@@ -3257,7 +3257,7 @@ html {
       -ms-flex-pack: start;
           justify-content: flex-start; } }
   .post-template-default.single.single-post .update-box .update-title {
-    padding-top: 50px;
+    padding-top: 40px;
     height: 30%; }
     @media (min-width: 1160px) {
       .post-template-default.single.single-post .update-box .update-title {
