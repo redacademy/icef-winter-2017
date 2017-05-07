@@ -2749,9 +2749,6 @@ html {
     color: #fff; }
   .page-template-donate-child .donate-child-img {
     font-size: 0; }
-    @media (min-width: 1160px) {
-      .page-template-donate-child .donate-child-img {
-        width: 40%; } }
   .page-template-donate-child .align-center {
     display: -ms-flexbox;
     display: flex;
