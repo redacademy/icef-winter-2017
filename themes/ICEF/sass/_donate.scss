@@ -179,6 +179,7 @@
     }
 
     .project-desc {
+        color: $brand_colour_darkgrey;
         font-size: 1rem;
         @include desktop {
             font-size: 1.125rem;
