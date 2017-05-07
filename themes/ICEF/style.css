@@ -2794,14 +2794,14 @@ html {
     .page-template-donate-child .content-wrapper {
       display: -ms-flexbox;
       display: flex;
-      width: 78%;
+      width: 90%;
       margin: 0 auto; } }
   .page-template-donate-child .process-wrapper {
     padding: 10px 35px; }
     @media (min-width: 1160px) {
       .page-template-donate-child .process-wrapper {
-        padding: 10px 0;
-        width: 70%; } }
+        padding: 10px 100px 10px 0px;
+        width: 100%; } }
   .page-template-donate-child .donate-child-process-title {
     color: #F2CA6E; }
   .page-template-donate-child .donate-child-process-desc {
@@ -2810,7 +2810,6 @@ html {
     padding: 10px 20px 40px 30px; }
     @media (min-width: 1160px) {
       .page-template-donate-child .donate-child-scholarship-wrapper {
-        padding: 10px 0px 40px 100px;
         width: 100%; } }
   .page-template-donate-child .donate-child-scholarship-heading {
     display: -ms-flexbox;

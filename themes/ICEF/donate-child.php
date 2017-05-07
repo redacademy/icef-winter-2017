@@ -35,7 +35,9 @@ get_header(); ?>
 				
 					<div class="donate-child-scholarship-wrapper">
 						<div class="donate-child-scholarship-heading">
-							<img src="<?php echo get_template_directory_uri();?>/images/svg/craft.svg" alt="Image of a spool of thread">
+							<?php $content = CFS()->get('donate_child_scholarship_title_image') ?>
+							<img src="<?php echo wp_kses($content, $allowed_html); ?>">
+							<!--<img src="<?php echo get_template_directory_uri();?>/images/svg/craft.svg" alt="Image of a spool of thread">-->
 							<h2 class="scholarship-title"><?php echo esc_html(CFS()->get('donate_child_scholarship_title'));?><h2>
 						</div> <!-- .vocational-scholarship-heading -->
 						<div class="scholarship-content">
