@@ -73,7 +73,6 @@ get_header(); ?>
 						<li>filled out application form</li>
 					</ul>
 				</div>
-				<p>Click on the 'Download Form' button to download the application form.</p>
 				<div class="download-button">
 					<a href="<?php echo esc_html(CFS()->get('internship_application_form'));?>">Download Form</a>
 				</div>

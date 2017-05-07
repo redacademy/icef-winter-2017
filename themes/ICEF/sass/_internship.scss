@@ -121,18 +121,23 @@
       padding: 0px 0 0 45px;
     }
   }
+
+  .apply-wrapper {
+    display: flex;
+  }
+
   .apply-wrapper p{
     // display: flex;
     // flex-wrap: wrap;
-    margin-bottom:3rem;
-    display: inline-block;
+    // margin-bottom:3rem;
+    // display: inline-block;
   }
   .download-button{
     @include purple-button;
     // width:100%;
     @include desktop{
-      // width: 30%;
-      display: inline-block;
+      display: inline-flex;
+      flex-direction: column-reverse;
       margin-left: 13rem;
     }
     text-align: center;
