@@ -278,7 +278,7 @@
             font-family: $font__accent;
             padding-top: 15px;
             // bottom: 80px;
-            bottom: 70px;
+            bottom: 40px;
             right: 42%;
             width: 60px;
             height: 60px;
@@ -320,7 +320,11 @@
             text-align: center;
             color: $brand_colour_darkgrey;
             font-weight: 600;
+            padding: 2rem;
+            @include desktop{
             padding: 50px 10%;
+
+            }
             // border-bottom: 2px solid $brand_colour_lightpurple;
 
             @include desktop {
@@ -396,7 +400,10 @@
             }
 
             .update-box {
-                height: 250px;
+                height: 370px;
+                @include desktop{
+                    height:260px;
+                }
 
                 width: 100%;
 
@@ -414,7 +421,11 @@
                 }
 
                 .update-date {
+                    bottom: 60px;
+                    @include desktop{
                     bottom: 15px;
+
+                    }
                 }
             }
         }
@@ -436,7 +447,7 @@
         }
     }
     .update-title.main-title{
-        padding-left: 60px;
+        // padding-left: 60px;
         @include desktop{
             padding-left: 30px;
         }
@@ -461,6 +472,7 @@
         }
     }
     .updates-flex{
+        margin-bottom:3rem;
         @include desktop{
         width: 1080px;
         }
@@ -485,8 +497,16 @@
         }
         .update-title{
             padding-top: 40px;
+            height: 30%;
             @include desktop{
                 padding-top: 1rem;
+                height: 65px;
+            }
+        }
+        .update-title.main-title{
+            @include desktop{
+              height: 100px;
+
             }
         }
     }
@@ -517,6 +537,5 @@
             padding-top:1rem !important;
             padding-left: 1rem !important;
         }
-
     }
 }

@@ -3087,7 +3087,7 @@ html {
       text-align: center;
       font-family: "Oswald", sans-serif;
       padding-top: 15px;
-      bottom: 70px;
+      bottom: 40px;
       right: 42%;
       width: 60px;
       height: 60px;
@@ -3120,7 +3120,10 @@ html {
       text-align: center;
       color: #433E3E;
       font-weight: 600;
-      padding: 50px 10%; }
+      padding: 2rem; }
+      @media (min-width: 1160px) {
+        .single-update .update-box .update-title {
+          padding: 50px 10%; } }
       @media (min-width: 1160px) {
         .single-update .update-box .update-title {
           font-size: 1.75rem;
@@ -3181,8 +3184,11 @@ html {
           margin: 0 10px;
           height: 100%; } }
       .single-update .updates-flex .updates-article .update-box {
-        height: 250px;
+        height: 370px;
         width: 100%; }
+        @media (min-width: 1160px) {
+          .single-update .updates-flex .updates-article .update-box {
+            height: 260px; } }
         @media (min-width: 1160px) {
           .single-update .updates-flex .updates-article .update-box .update-image {
             -ms-flex-preferred-size: 100%;
@@ -3193,7 +3199,10 @@ html {
           font-size: .8rem;
           line-height: 21px; }
         .single-update .updates-flex .updates-article .update-box .update-date {
-          bottom: 15px; }
+          bottom: 60px; }
+          @media (min-width: 1160px) {
+            .single-update .updates-flex .updates-article .update-box .update-date {
+              bottom: 15px; } }
 
 @media (min-width: 1160px) {
   .post-template-default.single.single-post .site-content {
@@ -3204,11 +3213,9 @@ html {
   .post-template-default.single.single-post .updates-title {
     width: 1011px; } }
 
-.post-template-default.single.single-post .update-title.main-title {
-  padding-left: 60px; }
-  @media (min-width: 1160px) {
-    .post-template-default.single.single-post .update-title.main-title {
-      padding-left: 30px; } }
+@media (min-width: 1160px) {
+  .post-template-default.single.single-post .update-title.main-title {
+    padding-left: 30px; } }
 
 @media (min-width: 1160px) {
   .post-template-default.single.single-post .updates-container {
@@ -3222,17 +3229,17 @@ html {
   .post-template-default.single.single-post .more {
     width: 1011px; } }
 
-@media (min-width: 1160px) {
-  .post-template-default.single.single-post .updates-flex {
-    width: 1080px; } }
-
-@media (min-width: 1160px) {
-  .post-template-default.single.single-post .updates-flex .updates-article:nth-child(1) {
-    margin-left: 0; } }
-
-@media (min-width: 1160px) {
-  .post-template-default.single.single-post .updates-flex .updates-article:nth-child(4) {
-    margin-right: 0; } }
+.post-template-default.single.single-post .updates-flex {
+  margin-bottom: 3rem; }
+  @media (min-width: 1160px) {
+    .post-template-default.single.single-post .updates-flex {
+      width: 1080px; } }
+  @media (min-width: 1160px) {
+    .post-template-default.single.single-post .updates-flex .updates-article:nth-child(1) {
+      margin-left: 0; } }
+  @media (min-width: 1160px) {
+    .post-template-default.single.single-post .updates-flex .updates-article:nth-child(4) {
+      margin-right: 0; } }
 
 .post-template-default.single.single-post .update-box {
   background-color: #f2ca6e;
@@ -3247,10 +3254,15 @@ html {
       -ms-flex-pack: start;
           justify-content: flex-start; } }
   .post-template-default.single.single-post .update-box .update-title {
-    padding-top: 40px; }
+    padding-top: 40px;
+    height: 30%; }
     @media (min-width: 1160px) {
       .post-template-default.single.single-post .update-box .update-title {
-        padding-top: 1rem; } }
+        padding-top: 1rem;
+        height: 65px; } }
+  @media (min-width: 1160px) {
+    .post-template-default.single.single-post .update-box .update-title.main-title {
+      height: 100px; } }
 
 @media (min-width: 1160px) {
   .post-template-default.single.single-post .single-update-title {

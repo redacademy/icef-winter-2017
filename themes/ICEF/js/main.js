@@ -25,12 +25,12 @@
 
         if($('.openMap p').text() === 'close map'){
             $('.openMap p').text('open map');
-            $('.map-arrow').css('transform', 'rotate(0deg)');            
-            
+            $('.map-arrow').css('transform', 'rotate(0deg)');
+
         } else {
             $('.openMap p').text('close map');
             $('.map-arrow').css('transform', 'rotate(180deg)');
-            
+
         }
     })
 
@@ -91,6 +91,9 @@
             //shows purple pin only on desktop
             if($windowsize > 720){
                 $('span .' + $slug).css('display', 'inline-block');
+                $('html, body').animate({
+                    scrollTop: $(".our-work-content").offset().top
+                }, 1500);
 
             }
         }
