@@ -15,8 +15,10 @@ get_header(); ?>
 				<div class="yellow-dots-banner"></div>
 				<div class="donate-child-wrapper">
 					<div class="donate-child-content">
-						<h2 class="donate-child-title"><?php echo esc_html(CFS()->get('donate_child_title'));?></h2>
-						<p class="donate-child-desc"><?php echo esc_html(CFS()->get('donate_child_description'));?></p>
+						<h2 class="donate-child-title"><?php echo esc_html(CFS()->get('donate_child_title')); ?></h2>
+						<?php $content = CFS()->get('donate_child_description') ?>
+						<?php $allowed_html = array('br' => array()); ?>
+						<p class="donate-child-desc"><?php echo wp_kses($content, $allowed_html); ?></p>
 					</div>
 					<div class="donate-child-img">
 						<img src="<?php echo esc_html(CFS()->get('donate_child_image'));?>">
@@ -26,8 +28,7 @@ get_header(); ?>
 					<div class="process-wrapper">
 						<h2 class="donate-child-process-title"><?php echo esc_html(CFS()->get('donate_child_process_title'));?></h2>
 						<?php $content = CFS()->get('donate_child_process_description') ?>
-						<?php $allowed_html = array('br' => array()); ?>
-						<p class="donate-child-process-desc"><?php echo wp_kses($content, $allowed_html);?></p>
+						<p class="donate-child-process-desc"><?php echo wp_kses($content, $allowed_html); ?></p>
 						<img src="<?php echo get_template_directory_uri();?>/images/svg/line.svg" alt="Image of a line">
 					</div> <!-- .process-wrapper -->
 				
@@ -38,7 +39,8 @@ get_header(); ?>
 							<h2 class="scholarship-title"><?php echo esc_html(CFS()->get('donate_child_scholarship_title'));?><h2>
 						</div> <!-- .vocational-scholarship-heading -->
 						<div class="scholarship-content">
-							<p><?php echo esc_html(CFS()->get('donate_child_scholarship_description'));?></p>
+							<?php $content = CFS()->get('donate_child_scholarship_description') ?>
+							<p><?php echo wp_kses($content, $allowed_html); ?></p>
 
 							<table>
 								<!--<thead>
@@ -60,7 +62,8 @@ get_header(); ?>
 								</tbody>				
 							</table>
 							<p>* Prices in yellow are in Canadian (CAD)</p>
-							<p><?php echo esc_html(CFS()->get('donate_child_student_fees'));?></p>
+							<?php $content = CFS()->get('donate_child_student_fees') ?>
+							<p><?php echo wp_kses($content, $allowed_html); ?></p>
 						</div> <!-- .scholarship-content -->
 					</div> <!-- vocational-scholarship-wrapper -->
 				</div> <!-- .content-wrapper -->
