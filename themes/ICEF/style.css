@@ -2168,7 +2168,6 @@ html {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: 0;
-  margin-bottom: 4rem;
   padding: 0; }
   @media (min-width: 1160px) {
     .single-project .purple-circle-grid {
