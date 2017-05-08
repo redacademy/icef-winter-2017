@@ -2655,7 +2655,8 @@ html {
         display: -ms-flexbox;
         display: flex;
         -ms-flex-pack: justify;
-            justify-content: space-between; } }
+            justify-content: space-between;
+        padding-bottom: 0; } }
   @media (min-width: 1160px) {
     .page-id-17 .recycling-info, .page-id-17 .icef-info {
       display: -ms-flexbox;
