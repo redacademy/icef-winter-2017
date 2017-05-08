@@ -3383,7 +3383,8 @@ footer .icef-footer {
   color: #fff;
   background-color: #676767;
   -ms-flex-pack: center;
-      justify-content: center; }
+      justify-content: center;
+  margin-top: 150px; }
 
 .canada-wrapper, .uganda-wrapper {
   display: -ms-flexbox;
