@@ -1162,8 +1162,7 @@ a {
 .front-page-container .front-bottom {
   text-align: center;
   padding: 0 15%;
-  line-height: 29px;
-  margin-bottom: 50px; }
+  line-height: 29px; }
   .front-page-container .front-bottom h4 {
     font-weight: 600;
     font-size: 1.25rem;
@@ -1496,9 +1495,6 @@ html {
       color: black; }
     .page-id-6 .mobile-approach-table li .table-numbers {
       color: #B5852F; }
-
-.page-id-6 .last-block {
-  margin-bottom: 2rem; }
 
 .page-id-15 .content-area p {
   margin: 1rem 1.5rem; }
@@ -2172,7 +2168,6 @@ html {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: 0;
-  margin-bottom: 4rem;
   padding: 0; }
   @media (min-width: 1160px) {
     .single-project .purple-circle-grid {
@@ -2654,7 +2649,7 @@ html {
       .page-id-17 .yellow-dots-banner {
         background-size: cover; } }
   .page-id-17 .recycling-wrapper {
-    padding: 10px 50px 20px 50px; }
+    padding: 10px 50px 0px 50px; }
     @media (min-width: 1160px) {
       .page-id-17 .recycling-wrapper {
         display: -ms-flexbox;
@@ -2681,7 +2676,8 @@ html {
     font-size: 1rem; }
     @media (min-width: 1160px) {
       .page-id-17 .recycling-prog-desc {
-        font-size: 1.125rem; } }
+        font-size: 1.125rem;
+        margin-bottom: 0; } }
   .page-id-17 .icef-donor {
     text-transform: uppercase;
     font-weight: bold;
@@ -2697,7 +2693,8 @@ html {
     @media (min-width: 1160px) {
       .page-id-17 .donor-number {
         font-size: 12rem;
-        line-height: 1; } }
+        line-height: 1;
+        margin-bottom: 0; } }
 
 .page-template-donate-child {
   margin: 0 auto; }
@@ -2839,7 +2836,8 @@ html {
     margin-bottom: 60px; }
     @media (min-width: 1160px) {
       .page-template-donate-child .sponsor-wrapper {
-        padding-top: 20px; } }
+        padding-top: 20px;
+        margin-bottom: 0; } }
   .page-template-donate-child .donate-child-content-wrapper {
     display: -ms-flexbox;
     display: flex;
