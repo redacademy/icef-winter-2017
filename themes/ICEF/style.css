@@ -1753,9 +1753,7 @@ html {
       top: 45px; } }
 
 .workHero .openMap {
-  -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
-  margin: 1rem auto !important;
+  margin: .75rem auto !important;
   position: relative; }
   .workHero .openMap .previous-arrow {
     display: inline-block;
@@ -2117,8 +2115,10 @@ html {
   .single-project .workHero .yellowBackground {
     background: #F2CA6E;
     -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-    height: 80px; }
+        flex-basis: 100%; }
+    @media (min-width: 1160px) {
+      .single-project .workHero .yellowBackground {
+        height: 80px; } }
     .single-project .workHero .yellowBackground h1 {
       font-size: 1.25rem;
       text-align: center;
