@@ -24,7 +24,7 @@ add_filter( 'body_class', 'red_starter_body_classes' );
 
 function post_list( $query ){
 	if ( is_post_type_archive( 'team' ) ){
-        $query->set( 'posts_per_page', 16);
+        $query->set( 'posts_per_page', 20);
         $query->set('order', 'ASC');
         return;
     }
